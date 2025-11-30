@@ -198,11 +198,18 @@ function deselectMatiere() {
  * @param {string} matiere - Le nom de la matière.
  */
 function afficherCours(matiere) {
-    const coursData = appData[matiere].notions;
+    const coursData = (appData[matiere] && appData[matiere].notions) || [];
     const coursContainer = document.getElementById('section-cours');
     coursContainer.innerHTML = ''; // Nettoie le contenu précédent
 
-    coursData.forEach(notion => {
+    // Créer une copie et la mélanger (Fisher-Yates) pour un affichage aléatoire
+    const shuffled = coursData.slice();
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+
+    shuffled.forEach(notion => {
         const notionCard = document.createElement('div');
         // Utilisation des classes Bulma 'box' et 'block' pour le style/marge
         notionCard.className = 'notion-card box block';
