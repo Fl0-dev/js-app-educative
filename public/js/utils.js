@@ -15,10 +15,14 @@ export function updateMascotteImage(filename) {
 export function getEmojiForMatiere(matiere) {
     const map = {
         'Maths': '🔢',
-        'Français': '🇫🇷',
-        'Anglais': '🇬🇧',
-        'Histoire-Géographie': '🌍',
-        'SVT': '🌱'
+        'Français': '🥖',
+        'Anglais': '💂',
+        'Histoire': '📜',
+        'Géographie': '🌍',
+        'SVT': '🌱',
+        'Physique-Chimie': '⚗️',
+        'Technologie': '🛠️',
+        'Espagnol': '🌮'
     };
     return map[matiere] || '';
 }
