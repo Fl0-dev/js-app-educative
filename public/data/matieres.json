@@ -1,0 +1,1917 @@
+{
+    "Maths": {
+        "notions": [
+            {
+                "titre": "Les Fractions Irréductibles",
+                "contenu": "Une **fraction irréductible** est une fraction que l'on ne peut plus simplifier. Pour la rendre irréductible, on divise le numérateur et le dénominateur par leur **Plus Grand Commun Diviseur (PGCD)**.\n\nExemple : $\\frac{12}{18}$. Le PGCD de 12 et 18 est 6. $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$. $\\frac{2}{3}$ est irréductible."
+            },
+            {
+                "titre": "Calculer des pourcentages",
+                "contenu": "Pour calculer $x$ % d'une quantité, on multiplie la quantité par $\\frac{x}{100}$.\n\nExemple : $10\\%$ de $80$ euros = $80 \\times \\frac{10}{100} = 8$ euros."
+            },
+            {
+                "titre": "Aires et Périmètres",
+                "contenu": "L'**aire** est la surface occupée ($m^2$). Le **périmètre** est la longueur du contour ($m$). \n\nAire Rectangle : L × l. Périmètre Rectangle : 2 × (L + l). \nAire Disque : $\\pi \\times R^2$. Périmètre (circonférence) Disque : $2 \\times \\pi \\times R$."
+            },
+            {
+                "titre": "Additionner des Nombres Relatifs",
+                "contenu": "Pour additionner deux nombres relatifs :\n- S'ils ont le **même signe**, on additionne les distances à zéro et on garde leur signe commun.\n- S'ils ont des **signes différents**, on soustrait les distances et on prend le signe du nombre qui a la plus grande distance à zéro.\nEx : $(-5) + (+2) = -3$."
+            },
+            {
+                "titre": "Soustraire des Nombres Relatifs",
+                "contenu": "Soustraire un nombre relatif revient à **ajouter son opposé**.\n\n$A - B = A + (-B)$.\n\nEx : $(+7) - (-3)$ devient $(+7) + (+3) = 10$. Et $(-4) - (+5)$ devient $(-4) + (-5) = -9$."
+            },
+            {
+                "titre": "Les nombres relatifs",
+                "contenu": "Les nombres relatifs permettent d'exprimer des quantités positives ou négatives. Exemple : -5 représente 5 en moins que 0."
+            },
+            {
+                "titre": "Comparer des nombres relatifs",
+                "contenu": "Sur une droite graduée, plus un nombre est à droite, plus il est grand. Exemple : -2 < 3 car -2 est à gauche de 3."
+            },
+            {
+                "titre": "Addition de nombres relatifs",
+                "contenu": "Si les signes sont identiques, on additionne les valeurs. Si les signes sont différents, on soustrait la plus petite valeur à la plus grande."
+            },
+            {
+                "titre": "Soustraction de nombres relatifs",
+                "contenu": "Soustraire un nombre revient à ajouter son opposé. Exemple : 4 - (-2) = 4 + 2 = 6."
+            },
+            {
+                "titre": "Multiplication de nombres relatifs",
+                "contenu": "Le produit de deux nombres de même signe est positif, de signes différents est négatif."
+            },
+            {
+                "titre": "Division de nombres relatifs",
+                "contenu": "Même règle que la multiplication : deux signes identiques donnent un résultat positif."
+            },
+            {
+                "titre": "Priorités de calcul",
+                "contenu": "Les priorités sont : 1. Parenthèses 2. Multiplications/divisions 3. Additions/soustractions."
+            },
+            {
+                "titre": "Les fractions",
+                "contenu": "Une fraction représente une division. Exemple : 3/4 = 3 ÷ 4."
+            },
+            {
+                "titre": "Simplifier une fraction",
+                "contenu": "On divise le numérateur et le dénominateur par un même nombre. Exemple : 6/8 = 3/4."
+            },
+            {
+                "titre": "Comparer deux fractions",
+                "contenu": "On les met au même dénominateur avant de comparer les numérateurs."
+            },
+            {
+                "titre": "Addition de fractions",
+                "contenu": "On met les fractions au même dénominateur avant d’additionner les numérateurs."
+            },
+            {
+                "titre": "Soustraction de fractions",
+                "contenu": "Même règle que pour l’addition : on met au même dénominateur avant de soustraire."
+            },
+            {
+                "titre": "Multiplier une fraction par un nombre",
+                "contenu": "On multiplie le numérateur par ce nombre. Exemple : 3 × 2/5 = 6/5."
+            },
+            {
+                "titre": "Diviser par une fraction",
+                "contenu": "Diviser par une fraction revient à multiplier par son inverse. Exemple : 2 ÷ (3/4) = 2 × (4/3)."
+            },
+            {
+                "titre": "Les puissances",
+                "contenu": "Une puissance représente une multiplication répétée. Exemple : 3² = 3 × 3 = 9."
+            },
+            {
+                "titre": "Le carré d’un nombre",
+                "contenu": "C’est le produit du nombre par lui-même. Exemple : 5² = 25."
+            },
+            {
+                "titre": "Le cube d’un nombre",
+                "contenu": "C’est le produit du nombre par lui-même trois fois. Exemple : 2³ = 8."
+            },
+            {
+                "titre": "Les expressions littérales",
+                "contenu": "Elles contiennent des lettres représentant des nombres. Exemple : A = 2x + 3."
+            },
+            {
+                "titre": "Remplacer une variable",
+                "contenu": "On remplace la lettre par une valeur donnée. Exemple : si x=4, alors 2x+3 = 11."
+            },
+            {
+                "titre": "Réduire une expression",
+                "contenu": "On regroupe les termes semblables. Exemple : 2x + 3x = 5x."
+            },
+            {
+                "titre": "Développer une expression",
+                "contenu": "On enlève les parenthèses en distribuant. Exemple : 3(x + 2) = 3x + 6."
+            },
+            {
+                "titre": "Factoriser une expression",
+                "contenu": "On met en évidence un facteur commun. Exemple : 4x + 8 = 4(x + 2)."
+            },
+            {
+                "titre": "Les égalités et équations",
+                "contenu": "Une équation est une égalité contenant une inconnue à trouver."
+            },
+            {
+                "titre": "Résoudre une équation simple",
+                "contenu": "On isole l’inconnue en effectuant les mêmes opérations de part et d’autre du signe =."
+            },
+            {
+                "titre": "Les pourcentages",
+                "contenu": "Un pourcentage est une proportion sur 100. Exemple : 20 % de 50 = 10."
+            },
+            {
+                "titre": "Calculer une proportion",
+                "contenu": "On multiplie la quantité par le pourcentage et on divise par 100."
+            },
+            {
+                "titre": "Les angles",
+                "contenu": "Un angle se mesure en degrés. Un angle droit vaut 90°, aigu < 90°, obtus > 90°."
+            },
+            {
+                "titre": "Le triangle",
+                "contenu": "Un triangle a trois côtés et trois angles. La somme de ses angles vaut 180°."
+            },
+            {
+                "titre": "Triangle isocèle",
+                "contenu": "Deux côtés égaux, deux angles égaux."
+            },
+            {
+                "titre": "Triangle équilatéral",
+                "contenu": "Trois côtés égaux, trois angles de 60°."
+            },
+            {
+                "titre": "Triangle rectangle",
+                "contenu": "Il possède un angle droit."
+            },
+            {
+                "titre": "Le théorème de Pythagore",
+                "contenu": "Dans un triangle rectangle, le carré de l’hypoténuse = somme des carrés des deux autres côtés."
+            },
+            {
+                "titre": "Les quadrilatères",
+                "contenu": "Polygones à quatre côtés : carré, rectangle, losange, parallélogramme, trapèze."
+            },
+            {
+                "titre": "Le carré",
+                "contenu": "Quatre côtés égaux et quatre angles droits."
+            },
+            {
+                "titre": "Le rectangle",
+                "contenu": "Côtés opposés égaux et quatre angles droits."
+            },
+            {
+                "titre": "Le parallélogramme",
+                "contenu": "Côtés opposés parallèles et égaux."
+            },
+            {
+                "titre": "Le losange",
+                "contenu": "Quatre côtés égaux, diagonales perpendiculaires."
+            },
+            {
+                "titre": "Le trapèze",
+                "contenu": "Une seule paire de côtés parallèles."
+            },
+            {
+                "titre": "Le cercle",
+                "contenu": "Ensemble des points situés à la même distance d’un centre."
+            },
+            {
+                "titre": "Le rayon et le diamètre",
+                "contenu": "Le rayon relie le centre à un point du cercle, le diamètre est le double du rayon."
+            },
+            {
+                "titre": "La proportionnalité",
+                "contenu": "Deux grandeurs sont proportionnelles si l’une est obtenue en multipliant l’autre par un même nombre."
+            },
+            {
+                "titre": "Utiliser un tableau de proportionnalité",
+                "contenu": "Les quotients des valeurs correspondantes sont égaux."
+            },
+            {
+                "titre": "Les échelles",
+                "contenu": "Une échelle indique le rapport entre la distance réelle et la distance sur le plan."
+            },
+            {
+                "titre": "Les pourcentages d’évolution",
+                "contenu": "Augmentation : (valeur finale - initiale) ÷ initiale × 100. Diminution : même formule."
+            },
+            {
+                "titre": "Les solides",
+                "contenu": "Cubes, pavés, cylindres, cônes, sphères : formes en trois dimensions avec volume."
+            },
+            {
+                "titre": "Le volume du cube",
+                "contenu": "Côté × côté × côté."
+            },
+            {
+                "titre": "Le volume du pavé droit",
+                "contenu": "Longueur × largeur × hauteur."
+            },
+            {
+                "titre": "Le périmètre d’un cercle",
+                "contenu": "P = 2 × π × rayon."
+            },
+            {
+                "titre": "L’aire du disque",
+                "contenu": "A = π × rayon²."
+            },
+            {
+                "titre": "Les symétries",
+                "contenu": "Une figure peut avoir une symétrie axiale ou centrale selon son axe ou son centre."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Quelle est la fraction irréductible de $\\frac{15}{20}$ ?",
+                "options": [
+                    "$\\frac{5}{10}$",
+                    "$\\frac{3}{4}$",
+                    "$\\frac{1}{2}$"
+                ],
+                "reponse": "$\\frac{3}{4}$",
+                "explication": "On divise numérateur et dénominateur par leur PGCD (5) : $15\\div5 = 3$ et $20\\div5 = 4$ → $\\frac{3}{4}$."
+            },
+            {
+                "question": "Combien font $50\\%$ de $60$ ?",
+                "options": [
+                    "10",
+                    "30",
+                    "50"
+                ],
+                "reponse": "30",
+                "explication": "$50%$ signifie la moitié : $60 \\times 0.5 = 30$."
+            },
+            {
+                "question": "Quelle est l'aire d'un carré de côté 4 cm ?",
+                "options": [
+                    "16 cm",
+                    "8 cm²",
+                    "16 cm²",
+                    "4 cm²"
+                ],
+                "reponse": "16 cm²",
+                "explication": "L'aire d'un carré est $côté \\times côté$. $4 \\times 4 = 16$."
+            },
+            {
+                "question": "Calculez : $(-8) + (+3)$",
+                "options": [
+                    "-11",
+                    "+5",
+                    "-5"
+                ],
+                "reponse": "-5",
+                "explication": "Les signes sont différents, on soustrait $(8-3=5)$ et on garde le signe de 8 (le plus grand) : $-5$."
+            },
+            {
+                "question": "Calculez : $(+4) - (-6)$",
+                "options": [
+                    "-2",
+                    "+2",
+                    "+10",
+                    "-10"
+                ],
+                "reponse": "+10",
+                "explication": "Soustraire $(-6)$ revient à ajouter $(+6)$. $4+6 = 10$."
+            },
+            {
+                "question": "Quel est l'opposé de $-12,5$ ?",
+                "options": [
+                    "$12,5$",
+                    "$12$",
+                    "$-12,5$"
+                ],
+                "reponse": "$12,5$",
+                "explication": "L'opposé d'un nombre est le même nombre avec le signe inversé."
+            },
+            {
+                "question": "Quel est le contraire de +7 ?",
+                "options": [
+                    "-7",
+                    "+7",
+                    "0"
+                ],
+                "reponse": "-7",
+                "explication": "L’opposé d’un nombre est celui qui a le signe contraire."
+            },
+            {
+                "question": "Quel est le résultat de -3 + 5 ?",
+                "options": [
+                    "8",
+                    "-2",
+                    "2",
+                    "-8"
+                ],
+                "reponse": "2",
+                "explication": "On soustrait 3 à 5, le résultat est 2."
+            },
+            {
+                "question": "Le produit de (-4) × (-3) est :",
+                "options": [
+                    "12",
+                    "-12",
+                    "7"
+                ],
+                "reponse": "12",
+                "explication": "Deux nombres négatifs donnent un produit positif."
+            },
+            {
+                "question": "Quel est le résultat de 5 - (-2) ?",
+                "options": [
+                    "3",
+                    "7",
+                    "-7"
+                ],
+                "reponse": "7",
+                "explication": "Soustraire un nombre négatif revient à ajouter son opposé."
+            },
+            {
+                "question": "Quelle opération effectue-t-on en premier dans 3 + 4 × 2 ?",
+                "options": [
+                    "3 + 4",
+                    "4 × 2",
+                    "2 + 3"
+                ],
+                "reponse": "4 × 2",
+                "explication": "Les multiplications se font avant les additions."
+            },
+            {
+                "question": "La fraction 4/8 est égale à :",
+                "options": [
+                    "2/4",
+                    "1/2",
+                    "3/4"
+                ],
+                "reponse": "1/2",
+                "explication": "On simplifie par 4 : 4 ÷ 4 / 8 ÷ 4 = 1/2."
+            },
+            {
+                "question": "Quelle fraction est égale à 0,25 ?",
+                "options": [
+                    "1/2",
+                    "1/4",
+                    "3/4"
+                ],
+                "reponse": "1/4",
+                "explication": "0,25 = 25/100 = 1/4."
+            },
+            {
+                "question": "3/5 + 1/5 =",
+                "options": [
+                    "4/10",
+                    "4/5",
+                    "3/6"
+                ],
+                "reponse": "4/5",
+                "explication": "Les dénominateurs sont égaux, on additionne les numérateurs : 3+1=4."
+            },
+            {
+                "question": "2 ÷ (3/4) =",
+                "options": [
+                    "8/3",
+                    "3/8",
+                    "1/6"
+                ],
+                "reponse": "8/3",
+                "explication": "Diviser par 3/4 revient à multiplier par 4/3 : 2 × 4/3 = 8/3."
+            },
+            {
+                "question": "3² =",
+                "options": [
+                    "6",
+                    "9",
+                    "12"
+                ],
+                "reponse": "9",
+                "explication": "3² = 3 × 3 = 9."
+            },
+            {
+                "question": "2³ =",
+                "options": [
+                    "6",
+                    "8",
+                    "4"
+                ],
+                "reponse": "8",
+                "explication": "2³ = 2 × 2 × 2 = 8."
+            },
+            {
+                "question": "Réduis : 2x + 3x =",
+                "options": [
+                    "6x",
+                    "5x",
+                    "x"
+                ],
+                "reponse": "5x",
+                "explication": "2x + 3x = 5x car on additionne les coefficients."
+            },
+            {
+                "question": "Développe : 4(x + 2) =",
+                "options": [
+                    "4x + 8",
+                    "x + 8",
+                    "4x + 2"
+                ],
+                "reponse": "4x + 8",
+                "explication": "On distribue 4 à chaque terme dans la parenthèse."
+            },
+            {
+                "question": "Factorise : 6x + 12 =",
+                "options": [
+                    "6(x + 2)",
+                    "3(x + 4)",
+                    "12(x + 0.5)"
+                ],
+                "reponse": "6(x + 2)",
+                "explication": "Le facteur commun est 6."
+            },
+            {
+                "question": "Si x = 2, calcule 3x + 1 :",
+                "options": [
+                    "7",
+                    "5",
+                    "6"
+                ],
+                "reponse": "7",
+                "explication": "3×2 + 1 = 6 + 1 = 7."
+            },
+            {
+                "question": "Résous : x + 5 = 9",
+                "options": [
+                    "x=14",
+                    "x=4",
+                    "x=5"
+                ],
+                "reponse": "x=4",
+                "explication": "On soustrait 5 des deux côtés : x=9−5=4."
+            },
+            {
+                "question": "Quel est 20 % de 50 ?",
+                "options": [
+                    "5",
+                    "10",
+                    "20"
+                ],
+                "reponse": "10",
+                "explication": "20 % = 20/100, donc 50×0,2=10."
+            },
+            {
+                "question": "Un angle droit mesure :",
+                "options": [
+                    "45°",
+                    "60°",
+                    "90°"
+                ],
+                "reponse": "90°",
+                "explication": "Un angle droit mesure toujours 90°."
+            },
+            {
+                "question": "La somme des angles d’un triangle est :",
+                "options": [
+                    "180°",
+                    "90°",
+                    "360°"
+                ],
+                "reponse": "180°",
+                "explication": "Tous les triangles ont une somme des angles égale à 180°."
+            },
+            {
+                "question": "Dans un triangle isocèle, deux côtés sont :",
+                "options": [
+                    "différents",
+                    "égaux",
+                    "parallèles"
+                ],
+                "reponse": "égaux",
+                "explication": "Un triangle isocèle a deux côtés égaux et deux angles égaux."
+            },
+            {
+                "question": "Un triangle équilatéral a :",
+                "options": [
+                    "3 côtés égaux",
+                    "2 côtés égaux",
+                    "aucun côté égal"
+                ],
+                "reponse": "3 côtés égaux",
+                "explication": "Équilatéral signifie que les trois côtés sont égaux."
+            },
+            {
+                "question": "Le carré de 6 est :",
+                "options": [
+                    "12",
+                    "36",
+                    "18"
+                ],
+                "reponse": "36",
+                "explication": "6² = 6 × 6 = 36."
+            },
+            {
+                "question": "Dans un triangle rectangle, le côté opposé à l’angle droit s’appelle :",
+                "options": [
+                    "côté adjacent",
+                    "hypoténuse",
+                    "base"
+                ],
+                "reponse": "hypoténuse",
+                "explication": "L’hypoténuse est le plus long côté du triangle rectangle."
+            },
+            {
+                "question": "Le théorème de Pythagore s’applique :",
+                "options": [
+                    "à tous les triangles",
+                    "aux triangles rectangles",
+                    "aux carrés"
+                ],
+                "reponse": "aux triangles rectangles",
+                "explication": "Le théorème de Pythagore ne s’applique que dans les triangles rectangles."
+            },
+            {
+                "question": "La somme des angles d’un quadrilatère est :",
+                "options": [
+                    "180°",
+                    "360°",
+                    "90°"
+                ],
+                "reponse": "360°",
+                "explication": "Un quadrilatère peut être décomposé en deux triangles : 2 × 180° = 360°."
+            },
+            {
+                "question": "Le périmètre d’un carré de côté 5 cm est :",
+                "options": [
+                    "20 cm",
+                    "25 cm",
+                    "10 cm"
+                ],
+                "reponse": "20 cm",
+                "explication": "P = 4 × côté = 4 × 5 = 20 cm."
+            },
+            {
+                "question": "Le volume d’un cube de côté 3 cm est :",
+                "options": [
+                    "9 cm³",
+                    "27 cm³",
+                    "18 cm³"
+                ],
+                "reponse": "27 cm³",
+                "explication": "V = côté³ = 3³ = 27 cm³."
+            },
+            {
+                "question": "Un rectangle de 4 cm sur 6 cm a une aire de :",
+                "options": [
+                    "10 cm²",
+                    "24 cm²",
+                    "20 cm²"
+                ],
+                "reponse": "24 cm²",
+                "explication": "A = longueur × largeur = 6 × 4 = 24 cm²."
+            },
+            {
+                "question": "L’aire d’un disque de rayon 3 cm est :",
+                "options": [
+                    "6π cm²",
+                    "9π cm²",
+                    "12π cm²"
+                ],
+                "reponse": "9π cm²",
+                "explication": "A = π × r² = π × 3² = 9π cm²."
+            },
+            {
+                "question": "Le périmètre d’un cercle de rayon 2 cm est :",
+                "options": [
+                    "2π cm",
+                    "4π cm",
+                    "8π cm"
+                ],
+                "reponse": "4π cm",
+                "explication": "P = 2πr = 2 × π × 2 = 4π cm."
+            },
+            {
+                "question": "Le parallélogramme a :",
+                "options": [
+                    "côtés opposés parallèles",
+                    "4 côtés égaux",
+                    "aucun angle droit"
+                ],
+                "reponse": "côtés opposés parallèles",
+                "explication": "Les côtés opposés d’un parallélogramme sont parallèles et égaux."
+            },
+            {
+                "question": "Un carré est :",
+                "options": [
+                    "un rectangle particulier",
+                    "un trapèze",
+                    "un losange"
+                ],
+                "reponse": "un rectangle particulier",
+                "explication": "Le carré est un rectangle dont les côtés sont égaux."
+            },
+            {
+                "question": "Le volume d’un pavé droit de 2×3×4 cm est :",
+                "options": [
+                    "24 cm³",
+                    "12 cm³",
+                    "18 cm³"
+                ],
+                "reponse": "24 cm³",
+                "explication": "V = L × l × h = 2×3×4=24 cm³."
+            },
+            {
+                "question": "Deux grandeurs sont proportionnelles si :",
+                "options": [
+                    "elles ont le même total",
+                    "leurs rapports sont égaux",
+                    "elles sont égales"
+                ],
+                "reponse": "leurs rapports sont égaux",
+                "explication": "Dans une situation de proportionnalité, le rapport entre les valeurs est constant."
+            },
+            {
+                "question": "Si 3 kg coûtent 9 €, combien coûtent 5 kg ?",
+                "options": [
+                    "12 €",
+                    "15 €",
+                    "18 €"
+                ],
+                "reponse": "15 €",
+                "explication": "9 ÷ 3 = 3 €, donc 5 × 3 = 15 €."
+            },
+            {
+                "question": "Une échelle de 1:100 signifie :",
+                "options": [
+                    "1 cm représente 100 cm",
+                    "1 m représente 1 cm",
+                    "1 cm représente 10 cm"
+                ],
+                "reponse": "1 cm représente 100 cm",
+                "explication": "L’échelle 1:100 veut dire que 1 cm sur le plan = 100 cm en réalité."
+            },
+            {
+                "question": "Un cube a combien de sommets ?",
+                "options": [
+                    "6",
+                    "8",
+                    "12"
+                ],
+                "reponse": "8",
+                "explication": "Un cube possède 8 sommets, 12 arêtes et 6 faces."
+            },
+            {
+                "question": "Le double de 7 est :",
+                "options": [
+                    "14",
+                    "21",
+                    "10"
+                ],
+                "reponse": "14",
+                "explication": "Le double d’un nombre est ce nombre multiplié par 2."
+            },
+            {
+                "question": "La moitié de 18 est :",
+                "options": [
+                    "9",
+                    "8",
+                    "6"
+                ],
+                "reponse": "9",
+                "explication": "La moitié correspond à diviser par 2 : 18 ÷ 2 = 9."
+            },
+            {
+                "question": "Quelle est la racine carrée de 49 ?",
+                "options": [
+                    "7",
+                    "6",
+                    "8"
+                ],
+                "reponse": "7",
+                "explication": "√49 = 7 car 7² = 49."
+            },
+            {
+                "question": "Le triple de 9 est :",
+                "options": [
+                    "18",
+                    "27",
+                    "30"
+                ],
+                "reponse": "27",
+                "explication": "9 × 3 = 27."
+            },
+            {
+                "question": "Quel nombre est pair ?",
+                "options": [
+                    "13",
+                    "17",
+                    "24"
+                ],
+                "reponse": "24",
+                "explication": "Les nombres pairs sont divisibles par 2."
+            },
+            {
+                "question": "Quelle est la valeur absolue de -8 ?",
+                "options": [
+                    "8",
+                    "-8",
+                    "0"
+                ],
+                "reponse": "8",
+                "explication": "La valeur absolue est toujours positive."
+            },
+            {
+                "question": "Quel angle mesure 180° ?",
+                "options": [
+                    "Droit",
+                    "Plat",
+                    "Aigu"
+                ],
+                "reponse": "Plat",
+                "explication": "Un angle plat mesure 180°."
+            },
+            {
+                "question": "Un cercle complet correspond à :",
+                "options": [
+                    "90°",
+                    "180°",
+                    "360°"
+                ],
+                "reponse": "360°",
+                "explication": "Un tour complet fait 360°."
+            },
+            {
+                "question": "Quelle unité mesure une aire ?",
+                "options": [
+                    "cm",
+                    "cm²",
+                    "cm³"
+                ],
+                "reponse": "cm²",
+                "explication": "Les aires s’expriment en unités au carré."
+            },
+            {
+                "question": "Quelle unité mesure un volume ?",
+                "options": [
+                    "cm",
+                    "cm²",
+                    "cm³"
+                ],
+                "reponse": "cm³",
+                "explication": "Les volumes s’expriment en unités au cube."
+            },
+            {
+                "question": "Un solide de révolution est :",
+                "options": [
+                    "un carré",
+                    "un cylindre",
+                    "un triangle"
+                ],
+                "reponse": "un cylindre",
+                "explication": "Les solides de révolution sont obtenus par rotation : cylindre, cône, sphère."
+            },
+            {
+                "question": "Dans un tableau de proportionnalité, le coefficient de proportionnalité est :",
+                "options": [
+                    "variable",
+                    "constant",
+                    "nul"
+                ],
+                "reponse": "constant",
+                "explication": "Le rapport entre les valeurs correspondantes est toujours le même."
+            }
+        ]
+    },
+    "Français": {
+        "notions": [
+            {
+                "titre": "Le Discours Direct et Indirect",
+                "contenu": "Le **Discours Direct** rapporte les paroles telles qu'elles ont été prononcées (utilisation de guillemets, tirets, deux points). Le **Discours Indirect** les intègre à la narration (utilisation de conjonctions comme 'que', 'si', et changement des temps verbaux).\n\nExemple Direct : Il dit : 'Je viendrai demain.'\nExemple Indirect : Il dit qu'il viendrait le lendemain."
+            },
+            {
+                "titre": "L'accord du participe passé avec 'avoir'",
+                "contenu": "Le participe passé conjugué avec l'auxiliaire **avoir** ne s'accorde jamais avec le sujet. Il s'accorde avec le **Complément d'Objet Direct (COD)** si et seulement si celui-ci est placé **avant** l'auxiliaire.\n\nExemple : *Les fleurs* qu'elle a **achetées** (Le COD 'que' mis pour 'les fleurs' est placé avant)."
+            },
+            {
+                "titre": "Le passé simple",
+                "contenu": "Le **Passé Simple** est le temps des actions achevées dans le passé, typiquement utilisé dans le récit littéraire (contes, romans). On le trouve souvent avec les pronoms 'il/elle/on' : il *mangea*, elle *prit*, on *alla*."
+            },
+            {
+                "titre": "Les types de phrases",
+                "contenu": "Il existe quatre types de phrases : déclarative (informe), interrogative (pose une question), injonctive (donne un ordre ou un conseil) et exclamative (exprime un sentiment)."
+            },
+            {
+                "titre": "Les formes de phrases",
+                "contenu": "Une phrase peut être affirmative ou négative. Ex : 'Je viens.' / 'Je ne viens pas.' La négation s'exprime avec 'ne... pas', 'ne... jamais', 'ne... plus', etc."
+            },
+            {
+                "titre": "Les classes grammaticales",
+                "contenu": "On distingue les mots variables (nom, adjectif, pronom, verbe, déterminant) et les mots invariables (adverbe, préposition, conjonction, interjection)."
+            },
+            {
+                "titre": "Les fonctions dans la phrase",
+                "contenu": "Les fonctions précisent le rôle des mots : sujet, verbe, complément, attribut, complément du nom, complément circonstanciel, etc."
+            },
+            {
+                "titre": "Le groupe nominal",
+                "contenu": "Le groupe nominal est formé d’un nom et de ses déterminants et adjectifs. Ex : 'le petit chat gris'. Le nom est le noyau du groupe."
+            },
+            {
+                "titre": "Le verbe et son sujet",
+                "contenu": "Le verbe s’accorde avec son sujet en personne et en nombre. Ex : 'Les enfants jouent.' ('enfants' → pluriel)."
+            },
+            {
+                "titre": "Les temps simples et composés",
+                "contenu": "Les temps simples comportent un seul mot (il mangeait), les temps composés se forment avec un auxiliaire et un participe passé (il a mangé)."
+            },
+            {
+                "titre": "Le présent de l’indicatif",
+                "contenu": "Il exprime une action actuelle ou une vérité générale. Ex : 'Je lis un livre.' / 'L’eau bout à 100°C.'"
+            },
+            {
+                "titre": "L’imparfait",
+                "contenu": "Temps du passé qui décrit une action longue, répétée ou inachevée. Ex : 'Il neigeait souvent en hiver.'"
+            },
+            {
+                "titre": "Le passé simple",
+                "contenu": "Temps littéraire du récit, exprimant une action brève et achevée. Ex : 'Il entra, s’assit et parla.'"
+            },
+            {
+                "titre": "Le futur simple",
+                "contenu": "Exprime une action à venir. Ex : 'Demain, je partirai tôt.'"
+            },
+            {
+                "titre": "Le passé composé",
+                "contenu": "Exprime une action passée terminée avec un lien au présent. Ex : 'J’ai mangé.'"
+            },
+            {
+                "titre": "Le plus-que-parfait",
+                "contenu": "Exprime une action antérieure à une autre action passée. Ex : 'J’avais fini avant son arrivée.'"
+            },
+            {
+                "titre": "Les compléments circonstanciels",
+                "contenu": "Ils précisent les circonstances de l’action (temps, lieu, manière, cause, but). Ex : 'Il travaille avec soin.'"
+            },
+            {
+                "titre": "Les propositions subordonnées relatives",
+                "contenu": "Introduites par un pronom relatif (qui, que, dont, où), elles complètent un nom. Ex : 'Le livre que j’ai lu.'"
+            },
+            {
+                "titre": "Les pronoms personnels",
+                "contenu": "Ils remplacent un nom pour éviter la répétition. Ex : 'Marie lit un livre.' → 'Elle le lit.'"
+            },
+            {
+                "titre": "Les adjectifs qualificatifs",
+                "contenu": "Ils précisent une qualité du nom et s’accordent en genre et en nombre. Ex : 'Une robe rouge', 'des fleurs rouges'."
+            },
+            {
+                "titre": "Les déterminants",
+                "contenu": "Ils accompagnent le nom et indiquent le genre et le nombre : articles, possessifs, démonstratifs. Ex : 'le', 'mon', 'ce'."
+            },
+            {
+                "titre": "Les adverbes",
+                "contenu": "Ils modifient le sens d’un verbe, adjectif ou autre adverbe. Ex : 'Il parle doucement.'"
+            },
+            {
+                "titre": "Les conjonctions de coordination",
+                "contenu": "Elles relient deux mots ou propositions : mais, ou, et, donc, or, ni, car."
+            },
+            {
+                "titre": "Les conjonctions de subordination",
+                "contenu": "Elles introduisent une subordonnée : que, quand, si, parce que, lorsque, puisque…"
+            },
+            {
+                "titre": "Les prépositions",
+                "contenu": "Elles introduisent un complément : à, de, pour, avec, sans, chez, vers, etc."
+            },
+            {
+                "titre": "Les valeurs du présent",
+                "contenu": "Le présent peut exprimer une action actuelle, une habitude, une vérité générale ou un futur proche."
+            },
+            {
+                "titre": "Le discours direct",
+                "contenu": "Rapporte les paroles telles qu’elles sont prononcées avec guillemets ou tirets. Ex : Il dit : 'Je pars demain.'"
+            },
+            {
+                "titre": "Le discours indirect",
+                "contenu": "Rapporte les paroles intégrées au récit. Ex : Il dit qu’il partait le lendemain."
+            },
+            {
+                "titre": "Les expansions du nom",
+                "contenu": "Elles précisent le nom : adjectif, complément du nom, proposition subordonnée relative."
+            },
+            {
+                "titre": "L’accord du participe passé avec être",
+                "contenu": "Avec l’auxiliaire être, le participe passé s’accorde avec le sujet. Ex : 'Elles sont parties.'"
+            },
+            {
+                "titre": "L’accord du participe passé avec avoir",
+                "contenu": "Avec avoir, il s’accorde avec le COD si celui-ci est placé avant. Ex : 'Les fleurs qu’elle a achetées.'"
+            },
+            {
+                "titre": "Les homophones grammaticaux",
+                "contenu": "À distinguer : a/à, et/est, son/sont, ce/se, ou/où, on/ont, leur/leurs."
+            },
+            {
+                "titre": "Le champ lexical",
+                "contenu": "Ensemble de mots liés à un même thème. Ex : 'mer' → vague, océan, sable, marin…"
+            },
+            {
+                "titre": "Le sens propre et figuré",
+                "contenu": "Le sens propre est le sens premier, le sens figuré est imagé. Ex : 'avoir du cœur' (être courageux)."
+            },
+            {
+                "titre": "Les synonymes et antonymes",
+                "contenu": "Les synonymes ont un sens proche, les antonymes un sens contraire. Ex : 'joie/tristesse'."
+            },
+            {
+                "titre": "Le nom et ses genres",
+                "contenu": "Les noms peuvent être masculins ou féminins. Certains changent de sens selon le genre : 'le livre / la livre'."
+            },
+            {
+                "titre": "Le pluriel des noms composés",
+                "contenu": "Il dépend de la nature des mots. Ex : 'des coffres-forts', 'des arcs-en-ciel'."
+            },
+            {
+                "titre": "Les connecteurs logiques",
+                "contenu": "Ils organisent le texte : cause (car), conséquence (donc), opposition (mais), addition (et)."
+            },
+            {
+                "titre": "Les types de narration",
+                "contenu": "On distingue narration à la 1ʳᵉ personne (je) et à la 3ᵉ personne (il)."
+            },
+            {
+                "titre": "Le point de vue",
+                "contenu": "Interne (on connaît les pensées), externe (on décrit sans juger), omniscient (on sait tout)."
+            },
+            {
+                "titre": "Le champ sémantique",
+                "contenu": "C’est l’ensemble des sens d’un mot selon le contexte. Ex : 'bouche' d’un fleuve ou d’un visage."
+            },
+            {
+                "titre": "Le rythme du vers",
+                "contenu": "En poésie, le rythme dépend du nombre de syllabes et des coupes dans le vers."
+            },
+            {
+                "titre": "La rime",
+                "contenu": "Répétition de sons en fin de vers : plates (AABB), croisées (ABAB), embrassées (ABBA)."
+            },
+            {
+                "titre": "Les figures de style",
+                "contenu": "Images ou effets de langage : comparaison, métaphore, hyperbole, personnification."
+            },
+            {
+                "titre": "La fable",
+                "contenu": "Court récit souvent en vers, avec une morale, mettant en scène des animaux symboliques."
+            },
+            {
+                "titre": "Le conte",
+                "contenu": "Récit merveilleux, souvent intemporel, avec une morale implicite et des personnages stéréotypés."
+            },
+            {
+                "titre": "Le théâtre",
+                "contenu": "Texte destiné à être joué. Il comporte des répliques et des didascalies."
+            },
+            {
+                "titre": "La poésie",
+                "contenu": "Genre jouant sur les sons, les rythmes et les images pour exprimer des émotions."
+            },
+            {
+                "titre": "Le roman d’aventures",
+                "contenu": "Récit mettant en scène des péripéties et des voyages, souvent un héros courageux."
+            },
+            {
+                "titre": "Les connecteurs temporels",
+                "contenu": "Ils situent l’action dans le temps : puis, ensuite, avant, après, pendant, lorsque."
+            },
+            {
+                "titre": "Les registres de langue",
+                "contenu": "Langue familière, courante, soutenue. Ex : 'bouffer' (familier), 'manger' (courant), 'se restaurer' (soutenu)."
+            },
+            {
+                "titre": "Le sujet implicite",
+                "contenu": "Dans les verbes à l’impératif, le sujet n’est pas exprimé. Ex : 'Ferme la porte !' → (tu)."
+            },
+            {
+                "titre": "Le champ lexical de l’émotion",
+                "contenu": "Il regroupe des mots exprimant un même sentiment : peur, joie, colère, tristesse."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Quelle ponctuation utilise-t-on dans le Discours Direct ?",
+                "options": [
+                    "Virgules et points-virgules",
+                    "Guillemets et tirets",
+                    "Parenthèses"
+                ],
+                "reponse": "Guillemets et tirets",
+                "explication": "Le discours direct rapporte les paroles telles qu'elles ont été prononcées : on utilise souvent des guillemets ou des tirets pour isoler la parole."
+            },
+            {
+                "question": "Dans 'La voiture qu'il a acheté', où est l'erreur ?",
+                "options": [
+                    "Il n'y a pas d'erreur",
+                    "Acheté doit prendre un 'e'",
+                    "La voiture doit être au pluriel"
+                ],
+                "reponse": "Acheté doit prendre un 'e'",
+                "explication": "Le COD 'la voiture' est placé avant l'auxiliaire (remplacé par 'que'), donc le participe passé s'accorde : 'achetée'."
+            },
+            {
+                "question": "Quelle est la terminaison du verbe 'lire' au Passé Simple pour 'ils' ?",
+                "options": [
+                    "irent",
+                    "urent",
+                    "aient"
+                ],
+                "reponse": "urent",
+                "explication": "Le Passé Simple de 'ils lirent' est 'ils lurent'."
+            },
+            {
+                "question": "Quelle phrase est de type interrogatif ?",
+                "options": [
+                    "Ferme la porte.",
+                    "Où vas-tu ?",
+                    "Il dort.",
+                    "C’est magnifique !"
+                ],
+                "reponse": "Où vas-tu ?",
+                "explication": "Une phrase interrogative pose une question et se termine par un point d’interrogation."
+            },
+            {
+                "question": "Quelle est la forme de la phrase : 'Je ne sais pas.' ?",
+                "options": [
+                    "Affirmative",
+                    "Exclamative",
+                    "Négative"
+                ],
+                "reponse": "Négative",
+                "explication": "La présence de 'ne... pas' indique la négation."
+            },
+            {
+                "question": "Quel mot est invariable ?",
+                "options": [
+                    "Beau",
+                    "Rapidement",
+                    "Chien"
+                ],
+                "reponse": "Rapidement",
+                "explication": "Les adverbes sont invariables."
+            },
+            {
+                "question": "Quel est le noyau du groupe nominal 'le petit garçon blond' ?",
+                "options": [
+                    "le",
+                    "petit",
+                    "garçon",
+                    "blond"
+                ],
+                "reponse": "garçon",
+                "explication": "Le nom est le noyau du groupe nominal."
+            },
+            {
+                "question": "Quel est le sujet dans 'Les oiseaux chantent' ?",
+                "options": [
+                    "chantent",
+                    "Les",
+                    "oiseaux"
+                ],
+                "reponse": "oiseaux",
+                "explication": "Le groupe nominal 'Les oiseaux' est le sujet."
+            },
+            {
+                "question": "Quelle phrase est au passé composé ?",
+                "options": [
+                    "Il chante.",
+                    "Il chantait.",
+                    "Il a chanté."
+                ],
+                "reponse": "Il a chanté.",
+                "explication": "Le passé composé = auxiliaire + participe passé."
+            },
+            {
+                "question": "Quel temps exprime une action habituelle dans le passé ?",
+                "options": [
+                    "Passé composé",
+                    "Imparfait",
+                    "Futur simple"
+                ],
+                "reponse": "Imparfait",
+                "explication": "L’imparfait exprime les habitudes."
+            },
+            {
+                "question": "Quelle est la nature du mot 'vite' dans 'Il court vite' ?",
+                "options": [
+                    "Nom",
+                    "Adverbe",
+                    "Adjectif",
+                    "Verbe"
+                ],
+                "reponse": "Adverbe",
+                "explication": "'Vite' précise le verbe 'court' : c’est un adverbe."
+            },
+            {
+                "question": "Quel mot est un déterminant ?",
+                "options": [
+                    "Belle",
+                    "Maison",
+                    "La",
+                    "Rapidement"
+                ],
+                "reponse": "La",
+                "explication": "Le déterminant 'la' accompagne le nom 'maison'."
+            },
+            {
+                "question": "Quel est le groupe verbal dans 'Les enfants jouent dans le parc' ?",
+                "options": [
+                    "Les enfants",
+                    "jouent",
+                    "dans le parc",
+                    "Les enfants jouent"
+                ],
+                "reponse": "jouent",
+                "explication": "Le groupe verbal contient le verbe conjugué : 'jouent'."
+            },
+            {
+                "question": "Quel est le complément circonstanciel dans 'Il travaille avec soin' ?",
+                "options": [
+                    "Il",
+                    "travaille",
+                    "avec soin",
+                    "soin"
+                ],
+                "reponse": "avec soin",
+                "explication": "'Avec soin' précise la manière de l’action : c’est un complément circonstanciel de manière."
+            },
+            {
+                "question": "Quel temps est employé dans 'Il chantait tous les jours' ?",
+                "options": [
+                    "Présent",
+                    "Imparfait",
+                    "Passé composé",
+                    "Futur simple"
+                ],
+                "reponse": "Imparfait",
+                "explication": "L’imparfait exprime une action habituelle dans le passé."
+            },
+            {
+                "question": "Quel auxiliaire utilise-t-on avec le verbe 'venir' au passé composé ?",
+                "options": [
+                    "Avoir",
+                    "Être",
+                    "Faire",
+                    "Venir"
+                ],
+                "reponse": "Être",
+                "explication": "Les verbes de mouvement comme 'venir' se conjuguent avec l’auxiliaire 'être'."
+            },
+            {
+                "question": "Dans 'Il a pris la clé que tu avais posée', avec quoi s’accorde 'posée' ?",
+                "options": [
+                    "le sujet",
+                    "le COD",
+                    "l’auxiliaire",
+                    "le complément circonstanciel"
+                ],
+                "reponse": "le COD",
+                "explication": "Le participe passé avec 'avoir' s’accorde avec le COD s’il est placé avant."
+            },
+            {
+                "question": "Quelle phrase est à la voix passive ?",
+                "options": [
+                    "Le chat mange la souris.",
+                    "La souris est mangée par le chat.",
+                    "Le chat a mangé.",
+                    "La souris mange."
+                ],
+                "reponse": "La souris est mangée par le chat.",
+                "explication": "La voix passive fait du complément d’objet le sujet de la phrase."
+            },
+            {
+                "question": "Quel mot introduit une proposition subordonnée relative ?",
+                "options": [
+                    "et",
+                    "mais",
+                    "qui",
+                    "donc"
+                ],
+                "reponse": "qui",
+                "explication": "Les pronoms relatifs comme 'qui', 'que', 'dont', 'où' introduisent les relatives."
+            },
+            {
+                "question": "Quel est le sujet dans 'Il pleut' ?",
+                "options": [
+                    "Il",
+                    "pleut",
+                    "aucun sujet",
+                    "le ciel"
+                ],
+                "reponse": "Il",
+                "explication": "Le 'il' est un sujet apparent, dit impersonnel."
+            },
+            {
+                "question": "Quel est le genre du nom 'travail' ?",
+                "options": [
+                    "Féminin",
+                    "Masculin",
+                    "Neutre",
+                    "Invariable"
+                ],
+                "reponse": "Masculin",
+                "explication": "'Travail' est un nom masculin : 'le travail'."
+            },
+            {
+                "question": "Quel mot est un adjectif qualificatif ?",
+                "options": [
+                    "Vite",
+                    "Beau",
+                    "Chien",
+                    "Demain"
+                ],
+                "reponse": "Beau",
+                "explication": "'Beau' qualifie un nom : c’est un adjectif qualificatif."
+            },
+            {
+                "question": "Quel est le verbe dans 'Paul regarde la télévision' ?",
+                "options": [
+                    "Paul",
+                    "regarde",
+                    "télévision",
+                    "la télévision"
+                ],
+                "reponse": "regarde",
+                "explication": "Le verbe indique l’action : 'regarde'."
+            },
+            {
+                "question": "Quelle phrase est une injonction ?",
+                "options": [
+                    "Il dort.",
+                    "Ne parle pas !",
+                    "Parle-t-il ?",
+                    "C’est beau !"
+                ],
+                "reponse": "Ne parle pas !",
+                "explication": "Une phrase injonctive donne un ordre ou un conseil."
+            },
+            {
+                "question": "Quelle phrase contient un complément du nom ?",
+                "options": [
+                    "Une tasse de café",
+                    "Il boit du café",
+                    "La tasse est pleine",
+                    "C’est une tasse"
+                ],
+                "reponse": "Une tasse de café",
+                "explication": "'de café' complète le nom 'tasse' : c’est un complément du nom."
+            },
+            {
+                "question": "Quel est le champ lexical du mot 'mer' ?",
+                "options": [
+                    "sable, vague, océan",
+                    "montagne, forêt, rivière",
+                    "livre, page, lecture",
+                    "ciel, étoile, nuage"
+                ],
+                "reponse": "sable, vague, océan",
+                "explication": "Les mots appartiennent au même domaine d’idées : celui de la mer."
+            },
+            {
+                "question": "Quel est l’antonyme de 'joie' ?",
+                "options": [
+                    "Peur",
+                    "Tristesse",
+                    "Bonheur",
+                    "Rire"
+                ],
+                "reponse": "Tristesse",
+                "explication": "Un antonyme a un sens contraire : 'joie' ↔ 'tristesse'."
+            },
+            {
+                "question": "Quelle est la fonction de 'à Paris' dans 'Il vit à Paris' ?",
+                "options": [
+                    "COD",
+                    "COI",
+                    "CC de lieu",
+                    "Attribut"
+                ],
+                "reponse": "CC de lieu",
+                "explication": "'à Paris' précise le lieu de l’action : complément circonstanciel de lieu."
+            },
+            {
+                "question": "Quel mot est un pronom personnel ?",
+                "options": [
+                    "Marie",
+                    "Elle",
+                    "Maison",
+                    "Belle"
+                ],
+                "reponse": "Elle",
+                "explication": "'Elle' remplace un nom : c’est un pronom personnel."
+            },
+            {
+                "question": "Quelle est la terminaison du verbe 'parler' au futur simple (il) ?",
+                "options": [
+                    "-a",
+                    "-ait",
+                    "-ait",
+                    "-er"
+                ],
+                "reponse": "-a",
+                "explication": "Au futur simple, 'il parlera' se termine par -a."
+            },
+            {
+                "question": "Quel est le contraire de 'ancien' ?",
+                "options": [
+                    "vieux",
+                    "jeune",
+                    "neuf",
+                    "grand"
+                ],
+                "reponse": "neuf",
+                "explication": "'Ancien' s’oppose à 'neuf'."
+            },
+            {
+                "question": "Quelle est la fonction de 'heureux' dans 'Il semble heureux' ?",
+                "options": [
+                    "Attribut du sujet",
+                    "COD",
+                    "COI",
+                    "CC de manière"
+                ],
+                "reponse": "Attribut du sujet",
+                "explication": "L’adjectif 'heureux' qualifie le sujet par l’intermédiaire du verbe 'sembler'."
+            },
+            {
+                "question": "Quel mot est un verbe d’état ?",
+                "options": [
+                    "Aller",
+                    "Être",
+                    "Manger",
+                    "Prendre"
+                ],
+                "reponse": "Être",
+                "explication": "Les verbes d’état (être, paraître, sembler...) décrivent un état, pas une action."
+            },
+            {
+                "question": "Quelle phrase contient un participe passé ?",
+                "options": [
+                    "Il mange une pomme.",
+                    "Il a mangé une pomme.",
+                    "Il mangeait une pomme.",
+                    "Il mangera une pomme."
+                ],
+                "reponse": "Il a mangé une pomme.",
+                "explication": "Le verbe 'mangé' est un participe passé utilisé avec 'avoir'."
+            },
+            {
+                "question": "Quelle est la terminaison du participe passé des verbes en -er ?",
+                "options": [
+                    "-é",
+                    "-u",
+                    "-i",
+                    "-ait"
+                ],
+                "reponse": "-é",
+                "explication": "Les verbes du premier groupe ont un participe passé en -é (ex : chanter → chanté)."
+            },
+            {
+                "question": "Quel mot est un synonyme de 'rapide' ?",
+                "options": [
+                    "Lent",
+                    "Vif",
+                    "Dur",
+                    "Fort"
+                ],
+                "reponse": "Vif",
+                "explication": "'Vif' est un synonyme de 'rapide'."
+            },
+            {
+                "question": "Quelle phrase contient une comparaison ?",
+                "options": [
+                    "Il est fort.",
+                    "Il est fort comme un lion.",
+                    "Il est un lion.",
+                    "Il est courageux."
+                ],
+                "reponse": "Il est fort comme un lion.",
+                "explication": "La comparaison est introduite par un outil comme 'comme'."
+            },
+            {
+                "question": "Quelle est la rime du poème : 'jour / amour' ?",
+                "options": [
+                    "Croisée",
+                    "Plate",
+                    "Embrassée",
+                    "Aucune"
+                ],
+                "reponse": "Plate",
+                "explication": "Rime plate : deux vers qui se suivent (AABB)."
+            },
+            {
+                "question": "Quel mot relie deux propositions dans 'Je pars parce qu’il pleut' ?",
+                "options": [
+                    "Je",
+                    "pars",
+                    "parce que",
+                    "pleut"
+                ],
+                "reponse": "parce que",
+                "explication": "C’est une conjonction de subordination qui exprime la cause."
+            },
+            {
+                "question": "Quelle figure de style rapproche deux éléments avec un mot-outil ?",
+                "options": [
+                    "Métaphore",
+                    "Comparaison",
+                    "Hyperbole",
+                    "Personnification"
+                ],
+                "reponse": "Comparaison",
+                "explication": "La comparaison utilise un mot-outil : comme, tel, pareil à."
+            },
+            {
+                "question": "Dans 'Il semble heureux', quel est le verbe d’état ?",
+                "options": [
+                    "Il",
+                    "semble",
+                    "heureux",
+                    "aucun"
+                ],
+                "reponse": "semble",
+                "explication": "'Semble' est un verbe d’état reliant le sujet à son attribut."
+            },
+            {
+                "question": "Quelle est la terminaison du verbe 'faire' au passé simple (il) ?",
+                "options": [
+                    "-it",
+                    "-a",
+                    "-it",
+                    "-ut"
+                ],
+                "reponse": "-it",
+                "explication": "Il fit → terminaison en -it."
+            },
+            {
+                "question": "Quel mot indique une opposition ?",
+                "options": [
+                    "car",
+                    "mais",
+                    "donc",
+                    "ainsi"
+                ],
+                "reponse": "mais",
+                "explication": "Le connecteur 'mais' introduit une opposition."
+            },
+            {
+                "question": "Quelle phrase est au discours direct ?",
+                "options": [
+                    "Il dit qu’il viendra.",
+                    "Il dit : 'Je viendrai.'",
+                    "Il viendra.",
+                    "Il viendrait."
+                ],
+                "reponse": "Il dit : 'Je viendrai.'",
+                "explication": "Le discours direct rapporte les paroles exactes, souvent avec des guillemets."
+            },
+            {
+                "question": "Quel est le contraire de 'faux' ?",
+                "options": [
+                    "mauvais",
+                    "vrai",
+                    "mensonge",
+                    "illogique"
+                ],
+                "reponse": "vrai",
+                "explication": "'Faux' s’oppose à 'vrai'."
+            },
+            {
+                "question": "Quelle phrase contient une hyperbole ?",
+                "options": [
+                    "Il est grand.",
+                    "Il est plus grand que toi.",
+                    "Il est immense !",
+                    "Il est de taille moyenne."
+                ],
+                "reponse": "Il est immense !",
+                "explication": "L’hyperbole exagère pour insister sur une idée."
+            },
+            {
+                "question": "Quelle est la bonne orthographe ?",
+                "options": [
+                    "Ils chantent",
+                    "Ils chantes",
+                    "Ils chant",
+                    "Ils chantons"
+                ],
+                "reponse": "Ils chantent",
+                "explication": "Les verbes au présent, 3ᵉ personne du pluriel, prennent -ent."
+            },
+            {
+                "question": "Quel mot est une interjection ?",
+                "options": [
+                    "Oh !",
+                    "Parler",
+                    "Rouge",
+                    "Lentement"
+                ],
+                "reponse": "Oh !",
+                "explication": "Les interjections expriment une émotion ou un sentiment."
+            },
+            {
+                "question": "Quelle est la terminaison du futur simple (nous) ?",
+                "options": [
+                    "-ons",
+                    "-ez",
+                    "-a",
+                    "-ai"
+                ],
+                "reponse": "-ons",
+                "explication": "Au futur simple, 'nous parlerons' → terminaison -ons."
+            },
+            {
+                "question": "Quel est le sujet dans 'L’enfant court vite' ?",
+                "options": [
+                    "court",
+                    "vite",
+                    "L’enfant",
+                    "aucun"
+                ],
+                "reponse": "L’enfant",
+                "explication": "Le sujet est 'L’enfant', celui qui fait l’action."
+            },
+            {
+                "question": "Quel est le complément d’objet direct dans 'Paul mange une pomme' ?",
+                "options": [
+                    "Paul",
+                    "mange",
+                    "une pomme",
+                    "aucun"
+                ],
+                "reponse": "une pomme",
+                "explication": "'Une pomme' reçoit directement l’action du verbe : COD."
+            },
+            {
+                "question": "Quel est le contraire de 'calme' ?",
+                "options": [
+                    "tranquille",
+                    "serein",
+                    "agité",
+                    "paisible"
+                ],
+                "reponse": "agité",
+                "explication": "'Calme' ↔ 'agité'."
+            },
+            {
+                "question": "Quel mot appartient au champ lexical de la peur ?",
+                "options": [
+                    "Courage",
+                    "Terreur",
+                    "Joie",
+                    "Sourire"
+                ],
+                "reponse": "Terreur",
+                "explication": "La 'terreur' exprime la peur."
+            },
+            {
+                "question": "Quelle est la fonction du mot 'professeur' dans 'C’est un professeur.' ?",
+                "options": [
+                    "Sujet",
+                    "Attribut du sujet",
+                    "COD",
+                    "CC de lieu"
+                ],
+                "reponse": "Attribut du sujet",
+                "explication": "'Professeur' qualifie le sujet 'C’' par le verbe 'être'."
+            },
+            {
+                "question": "Quel mot est une conjonction de coordination ?",
+                "options": [
+                    "mais",
+                    "comme",
+                    "lorsque",
+                    "puisque"
+                ],
+                "reponse": "mais",
+                "explication": "Les conjonctions de coordination : mais, ou, et, donc, or, ni, car."
+            },
+            {
+                "question": "Quelle est la valeur du présent dans 'Chaque matin, il court.' ?",
+                "options": [
+                    "présent de narration",
+                    "présent de vérité générale",
+                    "présent d’habitude",
+                    "présent de futur proche"
+                ],
+                "reponse": "présent d’habitude",
+                "explication": "L’action se répète régulièrement : présent d’habitude."
+            },
+            {
+                "question": "Quelle phrase contient une métaphore ?",
+                "options": [
+                    "Il est comme un lion.",
+                    "C’est un lion au combat.",
+                    "Il ressemble à un lion.",
+                    "Il a la force d’un lion."
+                ],
+                "reponse": "C’est un lion au combat.",
+                "explication": "La métaphore remplace directement un terme sans outil de comparaison."
+            },
+            {
+                "question": "Quel est le synonyme de 'regarder' ?",
+                "options": [
+                    "voir",
+                    "entendre",
+                    "écouter",
+                    "parler"
+                ],
+                "reponse": "voir",
+                "explication": "'Voir' est un synonyme de 'regarder'."
+            }
+        ]
+    },
+    "Anglais": {
+        "notions": [
+            {
+                "titre": "Le Présent Simple (Present Simple)",
+                "contenu": "On l'utilise pour les habitudes et les vérités générales. À la 3ème personne du singulier (he, she, it), on ajoute un **-s** au verbe.\n\nExemple : I **play**, you **play**, he **plays**, we **play**, they **play**."
+            },
+            {
+                "titre": "Le Génitif Saxon ('s)",
+                "contenu": "On utilise l'apostrophe **'s** pour indiquer l'appartenance. Si le nom est au pluriel et se termine déjà par 's', on ajoute seulement l'apostrophe (e.g., *the students' books*).\n\nExemple : **John's** car (La voiture de John)."
+            },
+            {
+                "titre": "Les Nombres Ordinaux",
+                "contenu": "Ils indiquent l'ordre (premier, deuxième, etc.). Ils se forment en ajoutant **-th** à la fin du nombre (ex : *fourth*). Exceptions : *first* (1st), *second* (2nd), *third* (3rd)."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Complétez la phrase : She ___ (to walk) to school every day.",
+                "options": [
+                    "walk",
+                    "walks",
+                    "walking"
+                ],
+                "reponse": "walks",
+                "explication": "À la 3ème personne du singulier en Present Simple, on ajoute -s : 'She walks'."
+            },
+            {
+                "question": "Comment traduit-on 'Le livre de mon père' ?",
+                "options": [
+                    "The book of my father",
+                    "My father's book",
+                    "My fathers book"
+                ],
+                "reponse": "My father's book",
+                "explication": "Le génitif saxon s'emploie pour indiquer l'appartenance : 'My father's book' == 'Le livre de mon père'."
+            },
+            {
+                "question": "Comment écrit-on 5th en toutes lettres ?",
+                "options": [
+                    "fiveth",
+                    "fifth",
+                    "fift"
+                ],
+                "reponse": "fifth",
+                "explication": "Les nombres ordinaux suivent des règles d'orthographe (5th devient 'fifth')."
+            }
+        ]
+    },
+    "Histoire-Géographie": {
+        "notions": [
+            {
+                "titre": "La Civilisation Grecque (Histoire)",
+                "contenu": "La Grèce antique a inventé la **démocratie** (le pouvoir au peuple) à Athènes. Les cités les plus puissantes étaient Athènes et Sparte. Période clé : VIIIe siècle av. J.-C. au Ier siècle av. J.-C."
+            },
+            {
+                "titre": "Les Dom-Tom (Géographie)",
+                "contenu": "Les DROM-COM (ex-DOM-TOM) sont les territoires ultra-marins français. Ils sont importants pour leur situation stratégique et leur biodiversité. Exemples : Guadeloupe, Martinique, La Réunion."
+            },
+            {
+                "titre": "Le Monachisme (Histoire)",
+                "contenu": "Le **monachisme** apparaît au IVe siècle en Occident. Les moines vivent dans des monastères (comme Cluny), suivant une règle stricte (ex: Saint Benoît) basée sur la prière et le travail (*Ora et Labora*)."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Quelle cité grecque est célèbre pour avoir inventé la démocratie ?",
+                "options": [
+                    "Sparte",
+                    "Mycènes",
+                    "Athènes"
+                ],
+                "reponse": "Athènes",
+                "explication": "Athènes est historiquement connue pour avoir développé les institutions démocratiques dans l'Antiquité."
+            },
+            {
+                "question": "Laquelle de ces îles est un DROM-COM français ?",
+                "options": [
+                    "Sardaigne",
+                    "Cuba",
+                    "La Réunion"
+                ],
+                "reponse": "La Réunion",
+                "explication": "La Réunion est un département et région d'outre-mer français (DROM)."
+            },
+            {
+                "question": "Quelle est la devise des moines de l'Ordre de Saint Benoît ?",
+                "options": [
+                    "Liberté, Égalité, Fraternité",
+                    "Ora et Labora",
+                    "Veni, Vidi, Vici"
+                ],
+                "reponse": "Ora et Labora",
+                "explication": "La devise de l'ordre bénédictin est 'Prie et travaille'."
+            }
+        ]
+    },
+    "SVT": {
+        "notions": [
+            {
+                "titre": "La Respiration chez l'Homme",
+                "contenu": "La respiration est un échange gazeux : nous **inspirons** du **dioxygène (O₂)** et nous **expirons** du **dioxyde de carbone (CO₂) et de la vapeur d'eau**. Les échanges se font au niveau des alvéoles pulmonaires."
+            },
+            {
+                "titre": "Les Aliments et les Nutriments",
+                "contenu": "Les **aliments** sont composés de **nutriments** (glucides, lipides, protéines, vitamines). La transformation des aliments en nutriments se fait par la **digestion**, principalement dans l'intestin grêle."
+            },
+            {
+                "titre": "La Volcanologie",
+                "contenu": "Un volcan est une structure géologique libérant du magma, des gaz et des cendres. On distingue les **volcans effusifs** (coulées de lave fluides, peu explosifs) des **volcans explosifs** (lave visqueuse, explosions violentes)."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Quel gaz inspirons-nous principalement lors de la respiration ?",
+                "options": [
+                    "Dioxyde de carbone (CO₂)",
+                    "Azote",
+                    "Dioxygène (O₂)"
+                ],
+                "reponse": "Dioxygène (O₂)",
+                "explication": "Nous inspirons principalement du dioxygène (O₂), nécessaire au métabolisme cellulaire."
+            },
+            {
+                "question": "Comment se nomme la transformation des aliments en nutriments ?",
+                "options": [
+                    "La photosynthèse",
+                    "La respiration",
+                    "La digestion"
+                ],
+                "reponse": "La digestion",
+                "explication": "La digestion est le processus qui transforme les aliments en nutriments assimilables par l'organisme."
+            },
+            {
+                "question": "Quel type de volcan est caractérisé par des coulées de lave fluides ?",
+                "options": [
+                    "Explosif",
+                    "Effusif",
+                    "Gris"
+                ],
+                "reponse": "Effusif",
+                "explication": "Les volcans effusifs ont des laves peu visqueuses, formant de grandes coulées."
+            }
+        ]
+    },
+    "Physique-Chimie": {
+        "notions": [
+            {
+                "titre": "Matière et États",
+                "contenu": "La **matière** peut exister sous trois états principaux : **solide** (forme et volume propres), **liquide** (volume propre, forme variable), et **gazeux** (forme et volume variables). Les changements d'état sont dus à la température."
+            },
+            {
+                "titre": "La Masse et le Volume",
+                "contenu": "La **masse** ($m$, en kg ou g) est la quantité de matière d'un corps. Le **volume** ($V$, en $m^3$ ou $L$) est l'espace qu'occupe ce corps. Ils sont mesurés par des instruments (balance, éprouvette graduée)."
+            },
+            {
+                "titre": "Le Courant Électrique",
+                "contenu": "Le **courant électrique** se mesure en **Ampères (A)**. Il circule dans un **circuit fermé**. Un circuit en série n'a qu'un seul chemin. Un circuit en dérivation offre plusieurs chemins."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Quelle unité utilise-t-on pour mesurer l'intensité du courant électrique ?",
+                "options": [
+                    "Volts (V)",
+                    "Ampères (A)",
+                    "Watts (W)"
+                ],
+                "reponse": "Ampères (A)",
+                "explication": "L'intensité du courant se mesure en Ampères (A) à l'aide d'un ampèremètre."
+            },
+            {
+                "question": "Quel état de la matière n'a ni forme propre ni volume propre ?",
+                "options": [
+                    "Liquide",
+                    "Solide",
+                    "Gazeux"
+                ],
+                "reponse": "Gazeux",
+                "explication": "Les gaz prennent la forme et le volume du récipient qui les contient."
+            },
+            {
+                "question": "Quel instrument sert à mesurer la masse ?",
+                "options": [
+                    "Éprouvette graduée",
+                    "Thermomètre",
+                    "Balance"
+                ],
+                "reponse": "Balance",
+                "explication": "La balance est l'instrument utilisé pour mesurer la masse (quantité de matière)."
+            }
+        ]
+    },
+    "Technologie": {
+        "notions": [
+            {
+                "titre": "Fonction d'un Objet Technique",
+                "contenu": "Un **objet technique** répond à un besoin. Sa **fonction d'usage** est ce à quoi il sert (ex: *téléphoner*). Sa **fonction d'estime** est ce qu'il apporte en termes de plaisir ou de design (ex: *être beau*). Le **cycle de vie** de l'objet est important."
+            },
+            {
+                "titre": "Matériaux et Recyclage",
+                "contenu": "Les matériaux sont classés par famille (métaux, polymères, bois, etc.). Le recyclage est essentiel. Le **tri sélectif** permet de récupérer et transformer les matériaux usagés pour réduire l'impact environnemental."
+            },
+            {
+                "titre": "Algorithmique et Programmation",
+                "contenu": "Un **algorithme** est une suite d'instructions précises pour résoudre un problème. La **programmation** consiste à traduire cet algorithme en un langage informatique (ex: Scratch, Python) pour être exécuté par un système."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Quelle fonction répond au design et à l'esthétique d'un objet ?",
+                "options": [
+                    "Fonction d'usage",
+                    "Fonction d'estime",
+                    "Fonction technique"
+                ],
+                "reponse": "Fonction d'estime",
+                "explication": "La fonction d'estime concerne l'appréciation subjective (esthétique, plaisir) de l'objet."
+            },
+            {
+                "question": "Qu'est-ce qu'un algorithme ?",
+                "options": [
+                    "Un logiciel de dessin",
+                    "Une série d'instructions ordonnées",
+                    "Un type de métal"
+                ],
+                "reponse": "Une série d'instructions ordonnées",
+                "explication": "Un algorithme est une séquence logique d'étapes pour atteindre un but."
+            },
+            {
+                "question": "À quelle famille appartient le PVC (Polychlorure de vinyle) ?",
+                "options": [
+                    "Métaux",
+                    "Polymères (Plastiques)",
+                    "Composites"
+                ],
+                "reponse": "Polymères (Plastiques)",
+                "explication": "Le PVC est un plastique, donc un polymère."
+            }
+        ]
+    },
+    "Espagnol": {
+        "notions": [
+            {
+                "titre": "Salutations et Présentations",
+                "contenu": "Les salutations de base : *Hola* (Bonjour), *Adiós* (Au revoir). Pour se présenter : *Me llamo...* (Je m'appelle...). Pour demander comment ça va : *¿Qué tal?* / *¿Cómo estás?*"
+            },
+            {
+                "titre": "Les Articles Définis",
+                "contenu": "Ils sont au nombre de quatre : **el** (le), **la** (la), **los** (les, masculin pluriel), **las** (les, féminin pluriel).\n\nExemple : *el perro*, *la casa*, *los libros*, *las mesas*."
+            },
+            {
+                "titre": "Les Couleurs",
+                "contenu": "Apprendre les couleurs de base. Attention à l'accord en genre et en nombre avec le nom.\n\nExemple : *rojo/a* (rouge), *azul* (bleu - invariable au féminin), *verde* (vert)."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Comment dit-on 'Au revoir' en espagnol ?",
+                "options": [
+                    "Gracias",
+                    "Adiós",
+                    "Buenos días"
+                ],
+                "reponse": "Adiós",
+                "explication": "Adiós signifie 'Au revoir' ou 'Adieu'."
+            },
+            {
+                "question": "Quel est l'article défini masculin pluriel ?",
+                "options": [
+                    "La",
+                    "Las",
+                    "Los"
+                ],
+                "reponse": "Los",
+                "explication": "Los est l'équivalent de 'les' au masculin."
+            },
+            {
+                "question": "Quelle est la traduction de 'Le chien rouge' ?",
+                "options": [
+                    "La perro roja",
+                    "El perro rojo",
+                    "Los perros rojos"
+                ],
+                "reponse": "El perro rojo",
+                "explication": "Perro est masculin singulier, il faut 'El' et 'rojo'."
+            }
+        ]
+    }
+}
