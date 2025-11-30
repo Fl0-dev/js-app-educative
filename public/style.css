@@ -136,6 +136,27 @@ button, .button {
 
 /* --- Styles Spécifiques (Générés par JavaScript) --- */
 
+/* --- Onglets actifs (même couleur que les boutons) --- */
+/* Applique la couleur personnalisée aux onglets qui utilisent la classe Bulma `is-active`. */
+.tabs.is-toggle ul li.is-active a,
+.tabs ul li.is-active a {
+    background-color: var(--couleur-bouton) !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Harmoniser l'apparence des ancres des onglets */
+.tabs.is-toggle ul li a {
+    border-radius: 4px;
+    transition: filter 0.12s, transform 0.08s;
+}
+
+.tabs.is-toggle ul li a:hover {
+    filter: brightness(0.95);
+}
+
+
 /* Carte de Notion (Cours) */
 .notion-card {
     /* Utilisation de la classe "box" de Bulma, avec surcharge de bordure */
@@ -148,8 +169,8 @@ button, .button {
 
 /* Styles pour le Quiz */
 #quiz-container .question-card {
-    background-color: #edbbf7;
-    border: 1px solid #d79ee2;
+    background-color: #bbeff7;
+    border: 1px solid #54dbf0;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 6px;

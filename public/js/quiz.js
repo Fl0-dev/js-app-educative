@@ -38,14 +38,14 @@ export function afficherQuestion(matiere, index) {
 
     if (index >= questions.length) {
         quizContainer.innerHTML = `
-            <div class="notification is-success has-text-centered">
+            <div class="notification is-primary has-text-centered">
                 <h2 class="title is-4">🎉 Quiz Terminé ! 🎉</h2>
                 <p class="subtitle is-5">Votre score final pour ${matiere} est : <strong>${store.score} / ${questions.length}</strong>.</p>
             </div>
         `;
         // add restart button separately so we can attach listener
         const btn = document.createElement('button');
-        btn.className = 'button is-link is-large mt-3';
+        btn.className = 'button is-custom is-large mt-3';
         btn.textContent = 'Recommencer le Quiz';
         btn.addEventListener('click', () => demarrerQuiz(matiere, store.lastQuizSize || undefined));
         quizContainer.querySelector('.notification').appendChild(btn);
@@ -67,7 +67,14 @@ export function afficherQuestion(matiere, index) {
     const optionsGroup = document.createElement('div');
     optionsGroup.className = 'options-group';
 
-    question.options.forEach(option => {
+    // Mélanger les options pour les afficher dans un ordre aléatoire
+    const shuffledOptions = (question.options || []).slice();
+    for (let i = shuffledOptions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+    }
+
+    shuffledOptions.forEach(option => {
         const btn = document.createElement('button');
         btn.className = 'option-button button is-light is-fullwidth mb-2';
         btn.innerHTML = parseContentMarkup(option);
@@ -81,7 +88,7 @@ export function afficherQuestion(matiere, index) {
     explicationDiv.id = 'explication-texte';
 
     const nextBtn = document.createElement('button');
-    nextBtn.className = 'button is-link mt-3';
+    nextBtn.className = 'button is-custom mt-3';
     nextBtn.style.display = 'none';
     nextBtn.textContent = (index === questions.length - 1) ? 'Voir le résultat' : 'Question suivante';
     nextBtn.addEventListener('click', () => {
@@ -130,7 +137,7 @@ export function verifierReponse(matiere, index, choix, boutonChoisi) {
         explicationDiv.style.display = 'block';
     }
 
-    const nextBtn = card.querySelector('button.button.is-link');
+    const nextBtn = card.querySelector('.button.is-custom');
     if (nextBtn) nextBtn.style.display = 'inline-block';
 
     if (estCorrect) {
@@ -195,7 +202,7 @@ export function showResults(matiere) {
         <p class="subtitle is-5">Votre score final pour ${matiere} est : <strong>${store.score} / ${questions.length}</strong>.</p>
     `;
     const restartBtn = document.createElement('button');
-    restartBtn.className = 'button is-link is-large mt-3';
+    restartBtn.className = 'button is-custom is-large mt-3';
     restartBtn.textContent = 'Recommencer le Quiz';
     restartBtn.addEventListener('click', () => demarrerQuiz(matiere, store.lastQuizSize || undefined));
     wrap.appendChild(restartBtn);
