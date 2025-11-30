@@ -9,7 +9,7 @@ export function renderMenuMatieres() {
     Object.keys(store.appData).forEach((matiere) => {
         const li = document.createElement('li');
         const btn = document.createElement('button');
-        btn.className = 'button is-link is-light is-fullwidth mb-2';
+        btn.className = 'button is-custom is-light is-fullwidth mb-2';
         btn.textContent = `${getEmojiForMatiere(matiere)} ${matiere}`;
         btn.setAttribute('data-matiere', matiere);
         btn.addEventListener('click', () => chargerMatiere(matiere));
@@ -17,6 +17,32 @@ export function renderMenuMatieres() {
         li.appendChild(btn);
         menu.appendChild(li);
     });
+}
+
+// Affiche des boutons pour choisir la taille du quiz (5 / 10 / 20)
+export function renderQuizSizeOptions(matiere) {
+    const quizContainer = document.getElementById('quiz-container');
+    if (!quizContainer) return;
+    quizContainer.innerHTML = '';
+
+    const wrap = document.createElement('div');
+    wrap.className = 'box has-text-centered';
+    wrap.innerHTML = `<p class="subtitle">Choisissez la taille du quiz pour <strong>${matiere}</strong> :</p>`;
+
+    const sizes = [5, 10, 20];
+    const btnGroup = document.createElement('div');
+    btnGroup.className = 'buttons is-centered';
+
+    sizes.forEach(n => {
+        const b = document.createElement('button');
+        b.className = 'button is-custom';
+        b.textContent = `${n} questions`;
+        b.addEventListener('click', () => demarrerQuiz(matiere, n));
+        btnGroup.appendChild(b);
+    });
+
+    wrap.appendChild(btnGroup);
+    quizContainer.appendChild(wrap);
 }
 
 export function afficherSection(sectionId) {
@@ -37,7 +63,8 @@ export function afficherSection(sectionId) {
             return;
         }
         if (quizNotif) quizNotif.style.display = 'none';
-        demarrerQuiz(store.currentMatiere);
+        // Proposer le choix du nombre de questions avant de démarrer
+        renderQuizSizeOptions(store.currentMatiere);
         return;
     }
 
@@ -60,7 +87,7 @@ export function chargerMatiere(matiere) {
         const quizNotif = document.querySelector('#section-quiz .notification');
         if (quizNotif) quizNotif.style.display = 'none';
         afficherSection('quiz');
-        demarrerQuiz(matiere);
+        renderQuizSizeOptions(matiere);
     } else {
         afficherCours(matiere);
         afficherSection('cours');
@@ -68,14 +95,20 @@ export function chargerMatiere(matiere) {
 
     const buttons = document.querySelectorAll('#menu-matieres button');
     buttons.forEach(btn => {
-        btn.classList.remove('is-active', 'is-link');
-        btn.classList.add('is-light');
+        btn.classList.remove('is-active');
+        // garantir que tous les boutons ont la classe `is-custom is-light` quand inactifs
+        if (!btn.classList.contains('is-custom')) btn.classList.add('is-custom');
+        if (!btn.classList.contains('is-light')) btn.classList.add('is-light');
+        // retirer d'anciennes classes Bulma si présentes
+        btn.classList.remove('is-link');
     });
 
     const activeBtn = document.querySelector(`button[data-matiere="${matiere}"]`);
     if (activeBtn) {
         activeBtn.classList.remove('is-light');
-        activeBtn.classList.add('is-active', 'is-link');
+        if (!activeBtn.classList.contains('is-custom')) activeBtn.classList.add('is-custom');
+        activeBtn.classList.add('is-active');
+        activeBtn.classList.remove('is-link');
     }
 }
 
@@ -97,8 +130,10 @@ export function deselectMatiere() {
 
     const buttons = document.querySelectorAll('#menu-matieres button');
     buttons.forEach(btn => {
-        btn.classList.remove('is-active', 'is-link');
-        btn.classList.add('is-light');
+        btn.classList.remove('is-active');
+        if (!btn.classList.contains('is-custom')) btn.classList.add('is-custom');
+        if (!btn.classList.contains('is-light')) btn.classList.add('is-light');
+        btn.classList.remove('is-link');
     });
 
     const liCours = document.getElementById('li-btn-cours');

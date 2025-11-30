@@ -22,7 +22,8 @@ export function getEmojiForMatiere(matiere) {
         'SVT': '🌱',
         'Physique-Chimie': '⚗️',
         'Technologie': '🛠️',
-        'Espagnol': '🌮'
+        'Espagnol': '🌮',
+        'Informatique': '💻'
     };
     return map[matiere] || '';
 }

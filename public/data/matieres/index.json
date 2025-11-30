@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Maths",
+    "file": "matieres/Maths.json"
+  },
+  {
+    "name": "Français",
+    "file": "matieres/Français.json"
+  },
+  {
+    "name": "Anglais",
+    "file": "matieres/Anglais.json"
+  },
+  {
+    "name": "Histoire",
+    "file": "matieres/Histoire.json"
+  },
+  {
+    "name": "Géographie",
+    "file": "matieres/Géographie.json"
+  },
+  {
+    "name": "SVT",
+    "file": "matieres/SVT.json"
+  },
+  {
+    "name": "Physique-Chimie",
+    "file": "matieres/Physique-Chimie.json"
+  },
+  {
+    "name": "Technologie",
+    "file": "matieres/Technologie.json"
+  },
+  {
+    "name": "Espagnol",
+    "file": "matieres/Espagnol.json"
+  },
+  {
+    "name": "Informatique",
+    "file": "matieres/Informatique.json"
+  }
+]

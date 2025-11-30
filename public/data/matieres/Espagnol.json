@@ -1,0 +1,766 @@
+{
+  "notions": [
+    {
+      "titre": "Salutations et Présentations",
+      "contenu": "Les salutations de base : *Hola* (Bonjour), *Adiós* (Au revoir). Pour se présenter : *Me llamo...* (Je m'appelle...). Pour demander comment ça va : *¿Qué tal?* / *¿Cómo estás?*"
+    },
+    {
+      "titre": "Les Articles Définis",
+      "contenu": "Ils sont au nombre de quatre : **el** (le), **la** (la), **los** (les, masculin pluriel), **las** (les, féminin pluriel).\n\nExemple : *el perro*, *la casa*, *los libros*, *las mesas*."
+    },
+    {
+      "titre": "Les Couleurs",
+      "contenu": "Apprendre les couleurs de base. Attention à l'accord en genre et en nombre avec le nom.\n\nExemple : *rojo/a* (rouge), *azul* (bleu - invariable au féminin), *verde* (vert)."
+    },
+    {
+      "titre": "L’alphabet espagnol",
+      "contenu": "L’alphabet espagnol compte 27 lettres. La lettre 'ñ' est spécifique. Ex : niño (enfant)."
+    },
+    {
+      "titre": "Les salutations",
+      "contenu": "Hola (Bonjour), Buenos días (Bonjour matin), Buenas tardes (Bonsoir), Adiós (Au revoir)."
+    },
+    {
+      "titre": "Se présenter",
+      "contenu": "Pour dire son nom : 'Me llamo Ana' (Je m’appelle Ana). Pour dire son âge : 'Tengo doce años' (J’ai douze ans)."
+    },
+    {
+      "titre": "Les nationalités",
+      "contenu": "Español (espagnol), francés (français), italiano (italien). Ex : 'Soy francés' (Je suis français)."
+    },
+    {
+      "titre": "Les nombres",
+      "contenu": "De 1 à 20 : uno, dos, tres... veinte. Ex : 'Tengo tres hermanos' (J’ai trois frères)."
+    },
+    {
+      "titre": "Les jours de la semaine",
+      "contenu": "Lunes, martes, miércoles, jueves, viernes, sábado, domingo."
+    },
+    {
+      "titre": "Les mois de l’année",
+      "contenu": "enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre."
+    },
+    {
+      "titre": "Les saisons",
+      "contenu": "primavera (printemps), verano (été), otoño (automne), invierno (hiver)."
+    },
+    {
+      "titre": "Le verbe 'ser' (être)",
+      "contenu": "Utilisé pour décrire l’identité, la profession ou la nationalité. Ex : 'Soy alumno' (Je suis élève)."
+    },
+    {
+      "titre": "Le verbe 'estar' (être)",
+      "contenu": "Utilisé pour la position ou l’état. Ex : 'Estoy cansado' (Je suis fatigué)."
+    },
+    {
+      "titre": "La différence entre 'ser' et 'estar'",
+      "contenu": "'Ser' = permanent, 'estar' = temporaire. Ex : 'Soy alto' (Je suis grand), 'Estoy feliz' (Je suis heureux)."
+    },
+    {
+      "titre": "Le verbe 'tener' (avoir)",
+      "contenu": "Ex : 'Tengo un perro' (J’ai un chien). Sert aussi pour l’âge : 'Tengo doce años'."
+    },
+    {
+      "titre": "Les articles définis",
+      "contenu": "'el' (le), 'la' (la), 'los' (les, masculin), 'las' (les, féminin)."
+    },
+    {
+      "titre": "Les articles indéfinis",
+      "contenu": "'un' (un), 'una' (une), 'unos/unas' (des). Ex : 'Un libro' (un livre)."
+    },
+    {
+      "titre": "Les adjectifs",
+      "contenu": "Ils s’accordent en genre et en nombre. Ex : 'un chico simpático', 'una chica simpática'."
+    },
+    {
+      "titre": "Les couleurs",
+      "contenu": "rojo (rouge), azul (bleu), verde (vert), negro (noir), blanco (blanc)."
+    },
+    {
+      "titre": "Le pluriel",
+      "contenu": "On ajoute -s ou -es. Ex : 'libro' → 'libros', 'papel' → 'papeles'."
+    },
+    {
+      "titre": "Les pronoms personnels",
+      "contenu": "yo, tú, él, ella, nosotros, vosotros, ellos."
+    },
+    {
+      "titre": "Les verbes réguliers en -ar",
+      "contenu": "Ex : hablar (parler) → hablo, hablas, habla, hablamos, habláis, hablan."
+    },
+    {
+      "titre": "Les verbes réguliers en -er",
+      "contenu": "Ex : comer (manger) → como, comes, come, comemos, coméis, comen."
+    },
+    {
+      "titre": "Les verbes réguliers en -ir",
+      "contenu": "Ex : vivir (vivre) → vivo, vives, vive, vivimos, vivís, viven."
+    },
+    {
+      "titre": "Le verbe 'ir' (aller)",
+      "contenu": "Ex : 'Voy al colegio' (Je vais à l’école)."
+    },
+    {
+      "titre": "Le verbe 'hacer' (faire)",
+      "contenu": "Ex : 'Hago mis deberes' (Je fais mes devoirs)."
+    },
+    {
+      "titre": "Le verbe 'gustar' (aimer)",
+      "contenu": "Ex : 'Me gusta el chocolate' (J’aime le chocolat). Attention à la forme !"
+    },
+    {
+      "titre": "Les goûts et préférences",
+      "contenu": "Me gusta (j’aime), No me gusta (je n’aime pas). Ex : 'Me gusta bailar'."
+    },
+    {
+      "titre": "La négation",
+      "contenu": "On met 'no' devant le verbe. Ex : 'No hablo inglés' (Je ne parle pas anglais)."
+    },
+    {
+      "titre": "Les prépositions de lieu",
+      "contenu": "en (dans), sobre (sur), debajo de (sous), entre (entre), delante de (devant)."
+    },
+    {
+      "titre": "Les prépositions de temps",
+      "contenu": "por la mañana (le matin), por la tarde (l’après-midi), por la noche (le soir)."
+    },
+    {
+      "titre": "Dire l’heure",
+      "contenu": "Ex : 'Son las tres' (Il est trois heures), 'Es la una' (Il est une heure)."
+    },
+    {
+      "titre": "Exprimer la possession",
+      "contenu": "mi (mon), tu (ton), su (son), nuestro (notre), vuestro (votre)."
+    },
+    {
+      "titre": "Les membres de la famille",
+      "contenu": "madre (mère), padre (père), hermano (frère), hermana (sœur)."
+    },
+    {
+      "titre": "Les vêtements",
+      "contenu": "camisa (chemise), pantalón (pantalon), zapatos (chaussures), vestido (robe)."
+    },
+    {
+      "titre": "Les parties du corps",
+      "contenu": "cabeza (tête), mano (main), pie (pied), ojo (œil)."
+    },
+    {
+      "titre": "Les animaux",
+      "contenu": "perro (chien), gato (chat), pájaro (oiseau), pez (poisson)."
+    },
+    {
+      "titre": "Les fruits",
+      "contenu": "manzana (pomme), plátano (banane), naranja (orange), uva (raisin)."
+    },
+    {
+      "titre": "Les aliments",
+      "contenu": "pan (pain), agua (eau), leche (lait), carne (viande)."
+    },
+    {
+      "titre": "Les couleurs de base",
+      "contenu": "rojo (rouge), verde (vert), azul (bleu), amarillo (jaune)."
+    },
+    {
+      "titre": "Les émotions",
+      "contenu": "feliz (heureux), triste (triste), cansado (fatigué), enfadado (fâché)."
+    },
+    {
+      "titre": "Exprimer la météo",
+      "contenu": "Hace sol (Il fait soleil), Llueve (Il pleut), Nieva (Il neige)."
+    },
+    {
+      "titre": "Parler du temps libre",
+      "contenu": "Ex : 'Me gusta leer y escuchar música' (J’aime lire et écouter de la musique)."
+    },
+    {
+      "titre": "Les moyens de transport",
+      "contenu": "a pie (à pied), en coche (en voiture), en autobús (en bus)."
+    },
+    {
+      "titre": "Les lieux de la ville",
+      "contenu": "escuela (école), parque (parc), tienda (magasin), iglesia (église)."
+    },
+    {
+      "titre": "Les saisons et la nature",
+      "contenu": "montaña (montagne), río (rivière), mar (mer), bosque (forêt)."
+    },
+    {
+      "titre": "Les expressions de politesse",
+      "contenu": "Por favor (s’il vous plaît), Gracias (merci), De nada (de rien), Perdón (pardon)."
+    },
+    {
+      "titre": "Les questions fréquentes",
+      "contenu": "¿Cómo estás? (Comment vas-tu ?), ¿Qué tal? (Ça va ?), ¿Dónde vives? (Où habites-tu ?)."
+    },
+    {
+      "titre": "La maison",
+      "contenu": "salón (salon), cocina (cuisine), baño (salle de bain), dormitorio (chambre)."
+    },
+    {
+      "titre": "Les professions",
+      "contenu": "profesor (professeur), médico (médecin), estudiante (étudiant), camarero (serveur)."
+    },
+    {
+      "titre": "Les jours et la routine",
+      "contenu": "Ex : 'Me levanto a las siete' (Je me lève à sept heures)."
+    },
+    {
+      "titre": "Les verbes pronominaux",
+      "contenu": "Ex : 'me llamo' (je m’appelle), 'se levanta' (il se lève)."
+    },
+    {
+      "titre": "Le verbe 'poder' (pouvoir)",
+      "contenu": "Ex : 'Puedo nadar' (Je peux nager)."
+    },
+    {
+      "titre": "Les fêtes espagnoles",
+      "contenu": "La Semana Santa (Pâques), La Tomatina (fête de la tomate), Los Reyes Magos (l’Épiphanie)."
+    },
+    {
+      "titre": "Les pays hispanophones",
+      "contenu": "L’Espagne, le Mexique, l’Argentine, la Colombie, etc."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Comment dit-on 'Au revoir' en espagnol ?",
+      "options": [
+        "Gracias",
+        "Adiós",
+        "Buenos días"
+      ],
+      "reponse": "Adiós",
+      "explication": "Adiós signifie 'Au revoir' ou 'Adieu'."
+    },
+    {
+      "question": "Quel est l'article défini masculin pluriel ?",
+      "options": [
+        "La",
+        "Las",
+        "Los"
+      ],
+      "reponse": "Los",
+      "explication": "Los est l'équivalent de 'les' au masculin."
+    },
+    {
+      "question": "Quelle est la traduction de 'Le chien rouge' ?",
+      "options": [
+        "La perro roja",
+        "El perro rojo",
+        "Los perros rojos"
+      ],
+      "reponse": "El perro rojo",
+      "explication": "Perro est masculin singulier, il faut 'El' et 'rojo'."
+    },
+    {
+      "question": "Que veut dire 'Hola' ?",
+      "options": [
+        "Au revoir",
+        "Bonjour",
+        "Merci"
+      ],
+      "reponse": "Bonjour",
+      "explication": "'Hola' signifie 'Bonjour'."
+    },
+    {
+      "question": "Comment dit-on 'Au revoir' en espagnol ?",
+      "options": [
+        "Adiós",
+        "Por favor",
+        "Gracias"
+      ],
+      "reponse": "Adiós",
+      "explication": "'Adiós' veut dire 'Au revoir'."
+    },
+    {
+      "question": "Que veut dire 'Gracias' ?",
+      "options": [
+        "Bonjour",
+        "Merci",
+        "S’il vous plaît"
+      ],
+      "reponse": "Merci",
+      "explication": "'Gracias' signifie 'Merci'."
+    },
+    {
+      "question": "Comment dit-on 'S’il te plaît' ?",
+      "options": [
+        "Perdón",
+        "Por favor",
+        "De nada"
+      ],
+      "reponse": "Por favor",
+      "explication": "'Por favor' signifie 'S’il te plaît'."
+    },
+    {
+      "question": "Que signifie 'Me llamo Pablo' ?",
+      "options": [
+        "Je m’appelle Pablo",
+        "J’habite à Pablo",
+        "Je suis Pablo"
+      ],
+      "reponse": "Je m’appelle Pablo",
+      "explication": "'Me llamo' signifie 'Je m’appelle'."
+    },
+    {
+      "question": "Comment dit-on 'Je suis français' ?",
+      "options": [
+        "Soy francés",
+        "Estoy francés",
+        "Tengo francés"
+      ],
+      "reponse": "Soy francés",
+      "explication": "On utilise 'ser' pour parler de la nationalité."
+    },
+    {
+      "question": "Que veut dire 'Tengo doce años' ?",
+      "options": [
+        "J’ai douze ans",
+        "Je suis âgé",
+        "J’ai deux frères"
+      ],
+      "reponse": "J’ai douze ans",
+      "explication": "Le verbe 'tener' s’utilise pour dire l’âge."
+    },
+    {
+      "question": "Quel jour vient après 'lunes' ?",
+      "options": [
+        "martes",
+        "miércoles",
+        "domingo"
+      ],
+      "reponse": "martes",
+      "explication": "L’ordre des jours : lunes, martes, miércoles..."
+    },
+    {
+      "question": "Que veut dire 'La primavera' ?",
+      "options": [
+        "L’été",
+        "Le printemps",
+        "L’hiver"
+      ],
+      "reponse": "Le printemps",
+      "explication": "'Primavera' = printemps."
+    },
+    {
+      "question": "Comment dit-on 'été' en espagnol ?",
+      "options": [
+        "Invierno",
+        "Verano",
+        "Otoño"
+      ],
+      "reponse": "Verano",
+      "explication": "'Verano' veut dire 'été'."
+    },
+    {
+      "question": "Que signifie 'Soy alumno' ?",
+      "options": [
+        "Je suis élève",
+        "Je suis fatigué",
+        "Je suis professeur"
+      ],
+      "reponse": "Je suis élève",
+      "explication": "'Alumno' = élève."
+    },
+    {
+      "question": "Quel verbe signifie 'être' pour un état temporaire ?",
+      "options": [
+        "ser",
+        "estar",
+        "tener"
+      ],
+      "reponse": "estar",
+      "explication": "'Estar' s’utilise pour l’état ou la position."
+    },
+    {
+      "question": "Quel verbe signifie 'avoir' ?",
+      "options": [
+        "ser",
+        "estar",
+        "tener"
+      ],
+      "reponse": "tener",
+      "explication": "'Tener' veut dire 'avoir'."
+    },
+    {
+      "question": "Que veut dire 'Estoy cansado' ?",
+      "options": [
+        "Je suis grand",
+        "Je suis fatigué",
+        "Je suis content"
+      ],
+      "reponse": "Je suis fatigué",
+      "explication": "'Cansado' signifie 'fatigué'."
+    },
+    {
+      "question": "Comment dit-on 'un livre' ?",
+      "options": [
+        "una mesa",
+        "un libro",
+        "una casa"
+      ],
+      "reponse": "un libro",
+      "explication": "'Libro' veut dire 'livre'."
+    },
+    {
+      "question": "Quel article défini correspond à 'la maison' ?",
+      "options": [
+        "el casa",
+        "la casa",
+        "los casa"
+      ],
+      "reponse": "la casa",
+      "explication": "Le mot 'casa' est féminin, donc 'la casa'."
+    },
+    {
+      "question": "Que veut dire 'los amigos' ?",
+      "options": [
+        "les amis",
+        "les enfants",
+        "les parents"
+      ],
+      "reponse": "les amis",
+      "explication": "'Amigos' signifie 'amis'."
+    },
+    {
+      "question": "Que veut dire 'comer' ?",
+      "options": [
+        "parler",
+        "manger",
+        "écouter"
+      ],
+      "reponse": "manger",
+      "explication": "'Comer' est le verbe 'manger'."
+    },
+    {
+      "question": "Comment dit-on 'vivre' en espagnol ?",
+      "options": [
+        "leer",
+        "vivir",
+        "ver"
+      ],
+      "reponse": "vivir",
+      "explication": "'Vivir' signifie 'vivre'."
+    },
+    {
+      "question": "Que veut dire 'hablar' ?",
+      "options": [
+        "marcher",
+        "parler",
+        "écouter"
+      ],
+      "reponse": "parler",
+      "explication": "'Hablar' veut dire 'parler'."
+    },
+    {
+      "question": "Comment dit-on 'je mange' ?",
+      "options": [
+        "Como",
+        "Hablo",
+        "Vivo"
+      ],
+      "reponse": "Como",
+      "explication": "'Comer' → 'Como' à la 1re personne."
+    },
+    {
+      "question": "Que veut dire 'Voy al colegio' ?",
+      "options": [
+        "Je vais à l’école",
+        "Je viens de l’école",
+        "J’habite à l’école"
+      ],
+      "reponse": "Je vais à l’école",
+      "explication": "'Ir' signifie 'aller'."
+    },
+    {
+      "question": "Que signifie 'Hace sol' ?",
+      "options": [
+        "Il pleut",
+        "Il fait froid",
+        "Il fait soleil"
+      ],
+      "reponse": "Il fait soleil",
+      "explication": "'Hace sol' = 'Il fait soleil'."
+    },
+    {
+      "question": "Que veut dire 'Llueve' ?",
+      "options": [
+        "Il pleut",
+        "Il neige",
+        "Il vente"
+      ],
+      "reponse": "Il pleut",
+      "explication": "'Llover' veut dire 'pleuvoir'."
+    },
+    {
+      "question": "Que veut dire 'una casa' ?",
+      "options": [
+        "une voiture",
+        "une maison",
+        "une table"
+      ],
+      "reponse": "une maison",
+      "explication": "'Casa' signifie 'maison'."
+    },
+    {
+      "question": "Que veut dire 'el perro' ?",
+      "options": [
+        "le chat",
+        "le chien",
+        "le poisson"
+      ],
+      "reponse": "le chien",
+      "explication": "'Perro' = chien."
+    },
+    {
+      "question": "Que veut dire 'el gato' ?",
+      "options": [
+        "le chien",
+        "le chat",
+        "l’oiseau"
+      ],
+      "reponse": "le chat",
+      "explication": "'Gato' = chat."
+    },
+    {
+      "question": "Comment dit-on 'le livre' ?",
+      "options": [
+        "el libro",
+        "la libro",
+        "los libros"
+      ],
+      "reponse": "el libro",
+      "explication": "Article masculin singulier : 'el'."
+    },
+    {
+      "question": "Que veut dire 'una manzana' ?",
+      "options": [
+        "une banane",
+        "une pomme",
+        "une orange"
+      ],
+      "reponse": "une pomme",
+      "explication": "'Manzana' signifie 'pomme'."
+    },
+    {
+      "question": "Que veut dire 'azul' ?",
+      "options": [
+        "bleu",
+        "vert",
+        "rouge"
+      ],
+      "reponse": "bleu",
+      "explication": "'Azul' signifie 'bleu'."
+    },
+    {
+      "question": "Comment dit-on 'rouge' ?",
+      "options": [
+        "rojo",
+        "verde",
+        "negro"
+      ],
+      "reponse": "rojo",
+      "explication": "'Rojo' veut dire 'rouge'."
+    },
+    {
+      "question": "Que veut dire 'Estoy feliz' ?",
+      "options": [
+        "Je suis heureux",
+        "Je suis triste",
+        "Je suis en colère"
+      ],
+      "reponse": "Je suis heureux",
+      "explication": "'Feliz' veut dire 'heureux'."
+    },
+    {
+      "question": "Comment dit-on 'Il fait froid' ?",
+      "options": [
+        "Hace frío",
+        "Hace calor",
+        "Llueve"
+      ],
+      "reponse": "Hace frío",
+      "explication": "'Hace frío' = Il fait froid."
+    },
+    {
+      "question": "Que veut dire 'Me gusta bailar' ?",
+      "options": [
+        "J’aime danser",
+        "Je danse",
+        "Je déteste danser"
+      ],
+      "reponse": "J’aime danser",
+      "explication": "'Gustar' exprime les goûts."
+    },
+    {
+      "question": "Comment dit-on 'Je n’aime pas' ?",
+      "options": [
+        "No me gusta",
+        "No gusta",
+        "No soy gusta"
+      ],
+      "reponse": "No me gusta",
+      "explication": "On met 'no' devant 'me gusta'."
+    },
+    {
+      "question": "Que veut dire 'padre' ?",
+      "options": [
+        "père",
+        "mère",
+        "frère"
+      ],
+      "reponse": "père",
+      "explication": "'Padre' signifie 'père'."
+    },
+    {
+      "question": "Que veut dire 'madre' ?",
+      "options": [
+        "père",
+        "mère",
+        "sœur"
+      ],
+      "reponse": "mère",
+      "explication": "'Madre' = mère."
+    },
+    {
+      "question": "Que veut dire 'hermano' ?",
+      "options": [
+        "frère",
+        "sœur",
+        "oncle"
+      ],
+      "reponse": "frère",
+      "explication": "'Hermano' signifie 'frère'."
+    },
+    {
+      "question": "Comment dit-on 'Je peux' ?",
+      "options": [
+        "Puedo",
+        "Soy",
+        "Estoy"
+      ],
+      "reponse": "Puedo",
+      "explication": "'Poder' → 'puedo' à la 1re personne."
+    },
+    {
+      "question": "Que veut dire 'profesor' ?",
+      "options": [
+        "professeur",
+        "élève",
+        "médecin"
+      ],
+      "reponse": "professeur",
+      "explication": "'Profesor' = professeur."
+    },
+    {
+      "question": "Que veut dire 'una escuela' ?",
+      "options": [
+        "une voiture",
+        "une école",
+        "une maison"
+      ],
+      "reponse": "une école",
+      "explication": "'Escuela' signifie 'école'."
+    },
+    {
+      "question": "Comment dit-on 'une voiture' ?",
+      "options": [
+        "un coche",
+        "una casa",
+        "un libro"
+      ],
+      "reponse": "un coche",
+      "explication": "'Coche' = voiture."
+    },
+    {
+      "question": "Que veut dire 'Estoy en casa' ?",
+      "options": [
+        "Je suis à la maison",
+        "Je vais à la maison",
+        "Je construis une maison"
+      ],
+      "reponse": "Je suis à la maison",
+      "explication": "'En casa' = à la maison."
+    },
+    {
+      "question": "Que signifie 'De nada' ?",
+      "options": [
+        "De rien",
+        "Merci",
+        "S’il te plaît"
+      ],
+      "reponse": "De rien",
+      "explication": "C’est la réponse à 'Gracias'."
+    },
+    {
+      "question": "Que veut dire 'Perdón' ?",
+      "options": [
+        "Pardon",
+        "Bonjour",
+        "Merci"
+      ],
+      "reponse": "Pardon",
+      "explication": "'Perdón' veut dire 'Pardon'."
+    },
+    {
+      "question": "Comment dit-on 'Bonne nuit' ?",
+      "options": [
+        "Buenas noches",
+        "Buenos días",
+        "Buenas tardes"
+      ],
+      "reponse": "Buenas noches",
+      "explication": "'Buenas noches' = Bonne nuit."
+    },
+    {
+      "question": "Que veut dire '¿Cómo estás?' ?",
+      "options": [
+        "Comment vas-tu ?",
+        "Où habites-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Comment vas-tu ?",
+      "explication": "'¿Cómo estás?' = Comment vas-tu ?"
+    },
+    {
+      "question": "Que veut dire 'Estoy bien' ?",
+      "options": [
+        "Je vais bien",
+        "Je vais mal",
+        "Je dors"
+      ],
+      "reponse": "Je vais bien",
+      "explication": "'Estoy bien' veut dire 'Je vais bien'."
+    },
+    {
+      "question": "Comment dit-on 'triste' ?",
+      "options": [
+        "feliz",
+        "triste",
+        "enfadado"
+      ],
+      "reponse": "triste",
+      "explication": "Le mot 'triste' est identique en français et en espagnol."
+    },
+    {
+      "question": "Que veut dire 'azul claro' ?",
+      "options": [
+        "bleu clair",
+        "vert foncé",
+        "rouge vif"
+      ],
+      "reponse": "bleu clair",
+      "explication": "'Claro' veut dire 'clair'."
+    },
+    {
+      "question": "Comment dit-on 'Merci beaucoup' ?",
+      "options": [
+        "Muchas gracias",
+        "Muy bien",
+        "Por favor"
+      ],
+      "reponse": "Muchas gracias",
+      "explication": "'Muchas gracias' = Merci beaucoup."
+    }
+  ]
+}

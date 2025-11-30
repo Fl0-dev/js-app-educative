@@ -5,5 +5,7 @@ export const store = {
     currentQuestionIndex: 0,
     score: 0,
     currentQuizQuestions: [],
-    jsConfetti: null
+    jsConfetti: null,
+    // Taille du dernier quiz lancé (5, 10, 20, ...). Permet de recommencer avec la même taille.
+    lastQuizSize: null
 };

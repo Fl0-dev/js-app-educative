@@ -1,0 +1,708 @@
+{
+  "notions": [
+    {
+      "titre": "La Civilisation Grecque (Histoire)",
+      "contenu": "La Grèce antique a inventé la **démocratie** (le pouvoir au peuple) à Athènes. Les cités les plus puissantes étaient Athènes et Sparte. Période clé : VIIIe siècle av. J.-C. au Ier siècle av. J.-C."
+    },
+    {
+      "titre": "L’Empire byzantin",
+      "contenu": "L’Empire byzantin est né de la division de l’Empire romain. Sa capitale est Constantinople. Il a duré plus de 1000 ans."
+    },
+    {
+      "titre": "Constantinople",
+      "contenu": "Capitale de l’Empire byzantin, fondée par Constantin. Elle est aujourd’hui appelée Istanbul."
+    },
+    {
+      "titre": "L’empereur byzantin",
+      "contenu": "L’empereur dirige l’État et l’Église. Il détient le pouvoir absolu et est considéré comme le représentant de Dieu sur Terre."
+    },
+    {
+      "titre": "L’art byzantin",
+      "contenu": "L’art byzantin est religieux, avec des mosaïques dorées et des icônes représentant des saints."
+    },
+    {
+      "titre": "L’Empire carolingien",
+      "contenu": "Empire fondé par Charlemagne au VIIIᵉ siècle. Il unit une grande partie de l’Europe occidentale."
+    },
+    {
+      "titre": "Charlemagne",
+      "contenu": "Roi des Francs devenu empereur en 800. Il a encouragé l’éducation et la diffusion du christianisme."
+    },
+    {
+      "titre": "Les missi dominici",
+      "contenu": "Des envoyés de Charlemagne chargés de contrôler les comtes et les évêques dans son empire."
+    },
+    {
+      "titre": "Les invasions barbares",
+      "contenu": "Aux Ve–Xe siècles, les peuples comme les Vikings, les Sarrasins et les Hongrois envahissent l’Europe."
+    },
+    {
+      "titre": "Les Vikings",
+      "contenu": "Peuple venu de Scandinavie, célèbre pour ses explorations et ses raids en Europe."
+    },
+    {
+      "titre": "La féodalité",
+      "contenu": "Organisation de la société médiévale basée sur les liens entre seigneurs et vassaux."
+    },
+    {
+      "titre": "Le fief",
+      "contenu": "Terre donnée par un seigneur à un vassal en échange de fidélité et de services militaires."
+    },
+    {
+      "titre": "Les paysans au Moyen Âge",
+      "contenu": "La majorité de la population est paysanne. Les serfs cultivent les terres du seigneur."
+    },
+    {
+      "titre": "Le château fort",
+      "contenu": "Lieu de défense et de résidence du seigneur. Il symbolise la puissance seigneuriale."
+    },
+    {
+      "titre": "Les chevaliers",
+      "contenu": "Guerriers au service d’un seigneur. Ils suivent un code d’honneur : la chevalerie."
+    },
+    {
+      "titre": "L’adoubement",
+      "contenu": "Cérémonie par laquelle un jeune homme devient chevalier."
+    },
+    {
+      "titre": "La seigneurie",
+      "contenu": "Territoire sur lequel un seigneur exerce son pouvoir sur les paysans."
+    },
+    {
+      "titre": "Les corvées",
+      "contenu": "Travaux gratuits effectués par les paysans pour le seigneur."
+    },
+    {
+      "titre": "L’Église au Moyen Âge",
+      "contenu": "L’Église encadre la vie des fidèles et possède de grandes richesses."
+    },
+    {
+      "titre": "Les moines",
+      "contenu": "Religieux vivant à l’écart dans les monastères pour prier et travailler."
+    },
+    {
+      "titre": "Les cathédrales",
+      "contenu": "Grands édifices religieux construits en pierre. L’art gothique permet de les rendre plus hautes et lumineuses."
+    },
+    {
+      "titre": "Les croisades",
+      "contenu": "Expéditions militaires chrétiennes pour reprendre Jérusalem aux musulmans entre le XIᵉ et le XIIIᵉ siècle."
+    },
+    {
+      "titre": "Jérusalem",
+      "contenu": "Ville sainte pour les chrétiens, les juifs et les musulmans. Lieu de nombreuses croisades."
+    },
+    {
+      "titre": "L’islam",
+      "contenu": "Religion fondée par Mahomet au VIIᵉ siècle en Arabie. Les croyants sont les musulmans."
+    },
+    {
+      "titre": "Mahomet",
+      "contenu": "Prophète fondateur de l’islam. Il prêche à La Mecque puis à Médine."
+    },
+    {
+      "titre": "Le Coran",
+      "contenu": "Livre sacré de l’islam, considéré comme la parole de Dieu transmise à Mahomet."
+    },
+    {
+      "titre": "Les cinq piliers de l’islam",
+      "contenu": "Profession de foi, prière, aumône, jeûne du Ramadan et pèlerinage à La Mecque."
+    },
+    {
+      "titre": "La mosquée",
+      "contenu": "Lieu de prière pour les musulmans. Ex : la mosquée de Cordoue en Espagne."
+    },
+    {
+      "titre": "L’Empire musulman",
+      "contenu": "Empire qui s’étend du Moyen-Orient à l’Espagne entre les VIIᵉ et XIIIᵉ siècles."
+    },
+    {
+      "titre": "Al-Andalus",
+      "contenu": "Nom de l’Espagne musulmane au Moyen Âge. Centre de culture et de tolérance."
+    },
+    {
+      "titre": "La Reconquista",
+      "contenu": "Reconquête chrétienne de l’Espagne musulmane, achevée en 1492."
+    },
+    {
+      "titre": "Les marchands et artisans",
+      "contenu": "Les villes médiévales voient le développement du commerce et des métiers manuels."
+    },
+    {
+      "titre": "Les foires et marchés",
+      "contenu": "Grands rassemblements commerciaux au Moyen Âge, comme à Champagne."
+    },
+    {
+      "titre": "Les communes",
+      "contenu": "Villes du Moyen Âge obtenant plus d’autonomie grâce à une charte."
+    },
+    {
+      "titre": "L’humanisme",
+      "contenu": "Mouvement intellectuel de la Renaissance qui place l’homme au centre de la réflexion."
+    },
+    {
+      "titre": "La Renaissance",
+      "contenu": "Période de renouveau artistique et scientifique inspirée de l’Antiquité."
+    },
+    {
+      "titre": "L’imprimerie",
+      "contenu": "Inventée par Gutenberg vers 1450, elle permet de diffuser les livres et les idées."
+    },
+    {
+      "titre": "Léonard de Vinci",
+      "contenu": "Artiste et savant de la Renaissance italienne. Auteur de la Joconde."
+    },
+    {
+      "titre": "Les grandes découvertes",
+      "contenu": "Période où les Européens explorent le monde. Ex : Christophe Colomb découvre l’Amérique en 1492."
+    },
+    {
+      "titre": "Christophe Colomb",
+      "contenu": "Navigateur génois parti d’Espagne. Il atteint l’Amérique en 1492."
+    },
+    {
+      "titre": "Vasco de Gama",
+      "contenu": "Explorateur portugais qui découvre la route des Indes en contournant l’Afrique."
+    },
+    {
+      "titre": "Magellan",
+      "contenu": "Premier à avoir fait le tour du monde entre 1519 et 1522."
+    },
+    {
+      "titre": "Les Amérindiens",
+      "contenu": "Peuples vivant en Amérique avant l’arrivée des Européens."
+    },
+    {
+      "titre": "La Réforme protestante",
+      "contenu": "Mouvement initié par Martin Luther au XVIᵉ siècle, qui critique l’Église catholique."
+    },
+    {
+      "titre": "Martin Luther",
+      "contenu": "Moine allemand à l’origine du protestantisme. Il traduit la Bible en allemand."
+    },
+    {
+      "titre": "La Contre-Réforme",
+      "contenu": "Réaction de l’Église catholique face au protestantisme pour réaffirmer son autorité."
+    },
+    {
+      "titre": "Les guerres de religion",
+      "contenu": "Conflits entre catholiques et protestants en Europe au XVIᵉ siècle."
+    },
+    {
+      "titre": "Henri IV",
+      "contenu": "Roi de France qui met fin aux guerres de religion avec l’édit de Nantes (1598)."
+    },
+    {
+      "titre": "L’édit de Nantes",
+      "contenu": "Texte de 1598 accordant la liberté de culte aux protestants en France."
+    },
+    {
+      "titre": "Les colonies",
+      "contenu": "Territoires conquis et exploités par les Européens dans le Nouveau Monde."
+    },
+    {
+      "titre": "Les esclaves africains",
+      "contenu": "Des millions d’Africains sont déportés pour travailler dans les colonies."
+    },
+    {
+      "titre": "Les monarchies absolues",
+      "contenu": "Régimes où le roi concentre tous les pouvoirs. Exemple : Louis XIV en France."
+    },
+    {
+      "titre": "Louis XIV",
+      "contenu": "Roi de France, appelé le Roi Soleil. Il règne seul et construit le château de Versailles."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle cité grecque est célèbre pour avoir inventé la démocratie ?",
+      "options": [
+        "Sparte",
+        "Mycènes",
+        "Athènes"
+      ],
+      "reponse": "Athènes",
+      "explication": "Athènes est historiquement connue pour avoir développé les institutions démocratiques dans l'Antiquité."
+    },
+    {
+      "question": "Quelle est la capitale de l’Empire byzantin ?",
+      "options": [
+        "Rome",
+        "Athènes",
+        "Constantinople"
+      ],
+      "reponse": "Constantinople",
+      "explication": "Constantinople, fondée par Constantin, est la capitale de l’Empire byzantin."
+    },
+    {
+      "question": "Qui est l’empereur byzantin considéré comme le représentant de Dieu sur Terre ?",
+      "options": [
+        "Charlemagne",
+        "Justinien",
+        "Mahomet"
+      ],
+      "reponse": "Justinien",
+      "explication": "Justinien fut l’un des plus grands empereurs byzantins au VIe siècle."
+    },
+    {
+      "question": "Quelle langue parle-t-on dans l’Empire byzantin ?",
+      "options": [
+        "Le latin",
+        "Le grec",
+        "L’arabe"
+      ],
+      "reponse": "Le grec",
+      "explication": "Le grec est la langue de culture et d’administration de l’Empire byzantin."
+    },
+    {
+      "question": "Qui fonde l’islam au VIIe siècle ?",
+      "options": [
+        "Jésus",
+        "Mahomet",
+        "Moïse"
+      ],
+      "reponse": "Mahomet",
+      "explication": "Mahomet fonde l’islam à La Mecque au VIIe siècle."
+    },
+    {
+      "question": "Quel est le livre sacré des musulmans ?",
+      "options": [
+        "La Bible",
+        "Le Coran",
+        "La Torah"
+      ],
+      "reponse": "Le Coran",
+      "explication": "Le Coran contient la parole de Dieu transmise à Mahomet."
+    },
+    {
+      "question": "Combien de piliers compte l’islam ?",
+      "options": [
+        "3",
+        "5",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "Les cinq piliers définissent la pratique religieuse musulmane."
+    },
+    {
+      "question": "Quel monument célèbre se trouve à Cordoue ?",
+      "options": [
+        "Une cathédrale gothique",
+        "Une mosquée",
+        "Un château fort"
+      ],
+      "reponse": "Une mosquée",
+      "explication": "La grande mosquée de Cordoue est un chef-d’œuvre de l’art islamique."
+    },
+    {
+      "question": "Quel roi fonde l’Empire carolingien ?",
+      "options": [
+        "Charlemagne",
+        "Clovis",
+        "Philippe II"
+      ],
+      "reponse": "Charlemagne",
+      "explication": "Charlemagne est sacré empereur en l’an 800 par le pape Léon III."
+    },
+    {
+      "question": "Que signifie 'Missi dominici' ?",
+      "options": [
+        "Messagers du roi",
+        "Envoyés de l’empereur",
+        "Soldats de l’armée"
+      ],
+      "reponse": "Envoyés de l’empereur",
+      "explication": "Les missi dominici contrôlent les comtes pour Charlemagne."
+    },
+    {
+      "question": "Quel peuple est connu pour ses raids en Europe ?",
+      "options": [
+        "Les Romains",
+        "Les Vikings",
+        "Les Gaulois"
+      ],
+      "reponse": "Les Vikings",
+      "explication": "Les Vikings, venus du Nord, ont attaqué les côtes européennes au IXe siècle."
+    },
+    {
+      "question": "Qu’est-ce qu’un fief ?",
+      "options": [
+        "Une église",
+        "Une terre donnée par un seigneur",
+        "Un château fort"
+      ],
+      "reponse": "Une terre donnée par un seigneur",
+      "explication": "Le fief est une terre donnée à un vassal en échange de fidélité."
+    },
+    {
+      "question": "Comment s’appelle la cérémonie où l’on devient chevalier ?",
+      "options": [
+        "Le baptême",
+        "L’adoubement",
+        "La croisade"
+      ],
+      "reponse": "L’adoubement",
+      "explication": "L’adoubement est la cérémonie où un jeune homme devient chevalier."
+    },
+    {
+      "question": "Qui travaille la terre au Moyen Âge ?",
+      "options": [
+        "Les bourgeois",
+        "Les chevaliers",
+        "Les paysans"
+      ],
+      "reponse": "Les paysans",
+      "explication": "Les paysans, souvent serfs, travaillent pour le seigneur."
+    },
+    {
+      "question": "Comment s’appelle la terre du seigneur ?",
+      "options": [
+        "Le duché",
+        "La seigneurie",
+        "La colonie"
+      ],
+      "reponse": "La seigneurie",
+      "explication": "La seigneurie est le territoire sur lequel un seigneur exerce son pouvoir."
+    },
+    {
+      "question": "À quoi servait un château fort ?",
+      "options": [
+        "Protéger les paysans",
+        "Faire du commerce",
+        "Célébrer des fêtes"
+      ],
+      "reponse": "Protéger les paysans",
+      "explication": "Le château fort protège les habitants et symbolise le pouvoir du seigneur."
+    },
+    {
+      "question": "Quel est le lieu principal de prière des chrétiens ?",
+      "options": [
+        "La mosquée",
+        "L’église",
+        "Le temple"
+      ],
+      "reponse": "L’église",
+      "explication": "L’église est au centre de la vie religieuse chrétienne."
+    },
+    {
+      "question": "Qui vit dans un monastère ?",
+      "options": [
+        "Les paysans",
+        "Les moines",
+        "Les soldats"
+      ],
+      "reponse": "Les moines",
+      "explication": "Les moines se consacrent à la prière et au travail manuel."
+    },
+    {
+      "question": "Comment s’appelle une grande église dirigée par un évêque ?",
+      "options": [
+        "Une basilique",
+        "Une cathédrale",
+        "Une chapelle"
+      ],
+      "reponse": "Une cathédrale",
+      "explication": "Les cathédrales gothiques représentent la puissance de l’Église."
+    },
+    {
+      "question": "Qu’est-ce qu’une croisade ?",
+      "options": [
+        "Une guerre sainte menée par les chrétiens",
+        "Une guerre civile",
+        "Une expédition commerciale"
+      ],
+      "reponse": "Une guerre sainte menée par les chrétiens",
+      "explication": "Les croisades visaient à reprendre Jérusalem aux musulmans."
+    },
+    {
+      "question": "Quelle ville est sainte pour les trois religions monothéistes ?",
+      "options": [
+        "Rome",
+        "Jérusalem",
+        "La Mecque"
+      ],
+      "reponse": "Jérusalem",
+      "explication": "Jérusalem est une ville sainte pour les juifs, chrétiens et musulmans."
+    },
+    {
+      "question": "Qu’est-ce que l’humanisme ?",
+      "options": [
+        "Une religion",
+        "Un courant de pensée qui met l’homme au centre",
+        "Une guerre"
+      ],
+      "reponse": "Un courant de pensée qui met l’homme au centre",
+      "explication": "L’humanisme valorise la raison et la connaissance de l’homme."
+    },
+    {
+      "question": "Quel inventeur a mis au point l’imprimerie ?",
+      "options": [
+        "Gutenberg",
+        "Léonard de Vinci",
+        "Magellan"
+      ],
+      "reponse": "Gutenberg",
+      "explication": "Gutenberg invente l’imprimerie vers 1450, facilitant la diffusion des idées."
+    },
+    {
+      "question": "Quel artiste a peint la Joconde ?",
+      "options": [
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Raphaël"
+      ],
+      "reponse": "Léonard de Vinci",
+      "explication": "Léonard de Vinci est un artiste de la Renaissance italienne."
+    },
+    {
+      "question": "En quelle année Christophe Colomb découvre-t-il l’Amérique ?",
+      "options": [
+        "1492",
+        "1519",
+        "800"
+      ],
+      "reponse": "1492",
+      "explication": "En 1492, Christophe Colomb atteint les Caraïbes en croyant arriver en Asie."
+    },
+    {
+      "question": "Quel explorateur a fait le tour du monde ?",
+      "options": [
+        "Vasco de Gama",
+        "Magellan",
+        "Marco Polo"
+      ],
+      "reponse": "Magellan",
+      "explication": "L’expédition de Magellan (1519-1522) réalise le premier tour du monde."
+    },
+    {
+      "question": "Quel moine allemand critique l’Église catholique au XVIᵉ siècle ?",
+      "options": [
+        "Saint Pierre",
+        "Martin Luther",
+        "Henri IV"
+      ],
+      "reponse": "Martin Luther",
+      "explication": "Martin Luther dénonce les abus de l’Église et fonde le protestantisme."
+    },
+    {
+      "question": "Comment s’appelle la réponse de l’Église catholique à la Réforme ?",
+      "options": [
+        "La Contre-Réforme",
+        "La Contre-Attaque",
+        "La Croisade"
+      ],
+      "reponse": "La Contre-Réforme",
+      "explication": "L’Église réforme ses pratiques pour réaffirmer son autorité."
+    },
+    {
+      "question": "Quel texte met fin aux guerres de religion en France ?",
+      "options": [
+        "La Bible",
+        "L’édit de Nantes",
+        "La déclaration des droits"
+      ],
+      "reponse": "L’édit de Nantes",
+      "explication": "Henri IV promulgue l’édit de Nantes en 1598 pour rétablir la paix."
+    },
+    {
+      "question": "Quel roi est appelé le Roi Soleil ?",
+      "options": [
+        "Louis XIV",
+        "François Ier",
+        "Henri IV"
+      ],
+      "reponse": "Louis XIV",
+      "explication": "Louis XIV règne seul et symbolise le pouvoir absolu du roi."
+    },
+    {
+      "question": "Où Louis XIV fait-il construire son palais ?",
+      "options": [
+        "Versailles",
+        "Paris",
+        "Reims"
+      ],
+      "reponse": "Versailles",
+      "explication": "Le château de Versailles représente la grandeur et la puissance du roi."
+    },
+    {
+      "question": "Quelle est la devise de la monarchie absolue ?",
+      "options": [
+        "Un roi, une foi, une loi",
+        "Liberté, égalité, fraternité",
+        "Paix et justice"
+      ],
+      "reponse": "Un roi, une foi, une loi",
+      "explication": "Cette devise montre la concentration du pouvoir entre les mains du roi."
+    },
+    {
+      "question": "Que découvre Vasco de Gama ?",
+      "options": [
+        "L’Amérique",
+        "La route des Indes",
+        "L’Australie"
+      ],
+      "reponse": "La route des Indes",
+      "explication": "En 1498, Vasco de Gama atteint l’Inde en contournant l’Afrique."
+    },
+    {
+      "question": "Quel peuple a été réduit en esclavage dans les colonies ?",
+      "options": [
+        "Les Européens",
+        "Les Africains",
+        "Les Asiatiques"
+      ],
+      "reponse": "Les Africains",
+      "explication": "Des millions d’Africains ont été déportés vers les Amériques pour travailler."
+    },
+    {
+      "question": "Comment s’appelle l’échange entre l’Europe, l’Afrique et l’Amérique ?",
+      "options": [
+        "Le commerce triangulaire",
+        "Le troc colonial",
+        "Le grand commerce"
+      ],
+      "reponse": "Le commerce triangulaire",
+      "explication": "Le commerce triangulaire relie les trois continents par l’esclavage et le commerce."
+    },
+    {
+      "question": "Qui était le pape qui a couronné Charlemagne ?",
+      "options": [
+        "Léon III",
+        "Grégoire VII",
+        "Urbain II"
+      ],
+      "reponse": "Léon III",
+      "explication": "Le pape Léon III sacre Charlemagne empereur en 800."
+    },
+    {
+      "question": "Quelle est la religion principale de l’Europe médiévale ?",
+      "options": [
+        "L’islam",
+        "Le christianisme",
+        "Le judaïsme"
+      ],
+      "reponse": "Le christianisme",
+      "explication": "L’Église catholique encadre toute la société médiévale."
+    },
+    {
+      "question": "Qui appelle à la première croisade ?",
+      "options": [
+        "Le pape Urbain II",
+        "Charlemagne",
+        "Henri IV"
+      ],
+      "reponse": "Le pape Urbain II",
+      "explication": "En 1095, Urbain II lance la première croisade pour libérer Jérusalem."
+    },
+    {
+      "question": "Que symbolise la cathédrale ?",
+      "options": [
+        "La puissance de Dieu",
+        "La richesse du seigneur",
+        "La force militaire"
+      ],
+      "reponse": "La puissance de Dieu",
+      "explication": "Les cathédrales sont des monuments religieux dédiés à Dieu."
+    },
+    {
+      "question": "Quel pays d’Europe est majoritairement musulman au Moyen Âge ?",
+      "options": [
+        "L’Espagne",
+        "La France",
+        "L’Allemagne"
+      ],
+      "reponse": "L’Espagne",
+      "explication": "L’Espagne est en partie musulmane sous le nom d’Al-Andalus."
+    },
+    {
+      "question": "Quelle invention permet la diffusion des livres ?",
+      "options": [
+        "L’imprimerie",
+        "La machine à vapeur",
+        "Le papier"
+      ],
+      "reponse": "L’imprimerie",
+      "explication": "L’imprimerie de Gutenberg révolutionne la diffusion du savoir."
+    },
+    {
+      "question": "Quel artiste a peint le plafond de la chapelle Sixtine ?",
+      "options": [
+        "Raphaël",
+        "Michel-Ange",
+        "Léonard de Vinci"
+      ],
+      "reponse": "Michel-Ange",
+      "explication": "Michel-Ange peint le plafond de la chapelle Sixtine à Rome."
+    },
+    {
+      "question": "Quel royaume découvre l’Amérique ?",
+      "options": [
+        "Le Portugal",
+        "L’Espagne",
+        "L’Angleterre"
+      ],
+      "reponse": "L’Espagne",
+      "explication": "Christophe Colomb part sous le drapeau espagnol."
+    },
+    {
+      "question": "Comment s’appelle la politique où le roi détient tous les pouvoirs ?",
+      "options": [
+        "La démocratie",
+        "La monarchie absolue",
+        "La république"
+      ],
+      "reponse": "La monarchie absolue",
+      "explication": "Le roi concentre le pouvoir législatif, exécutif et judiciaire."
+    },
+    {
+      "question": "Quel roi met fin aux guerres de religion en France ?",
+      "options": [
+        "Louis XIV",
+        "Henri IV",
+        "François Ier"
+      ],
+      "reponse": "Henri IV",
+      "explication": "Henri IV signe l’édit de Nantes pour apaiser les conflits religieux."
+    },
+    {
+      "question": "Quel monument symbolise la puissance de Louis XIV ?",
+      "options": [
+        "Le Louvre",
+        "Versailles",
+        "Notre-Dame"
+      ],
+      "reponse": "Versailles",
+      "explication": "Versailles montre la richesse et le pouvoir de Louis XIV."
+    },
+    {
+      "question": "Qui est Léonard de Vinci ?",
+      "options": [
+        "Un explorateur",
+        "Un artiste et savant de la Renaissance",
+        "Un empereur"
+      ],
+      "reponse": "Un artiste et savant de la Renaissance",
+      "explication": "Léonard de Vinci est peintre, inventeur et savant."
+    },
+    {
+      "question": "Quel roi de France est appelé le 'Roi Soleil' ?",
+      "options": [
+        "Louis XIV",
+        "Henri III",
+        "François Ier"
+      ],
+      "reponse": "Louis XIV",
+      "explication": "Louis XIV choisit le soleil comme symbole de son pouvoir."
+    },
+    {
+      "question": "Que représente la Renaissance ?",
+      "options": [
+        "Une période de renouveau artistique et scientifique",
+        "Une guerre religieuse",
+        "Une ère de conquêtes"
+      ],
+      "reponse": "Une période de renouveau artistique et scientifique",
+      "explication": "La Renaissance s’inspire de l’Antiquité pour redécouvrir les arts et les sciences."
+    }
+  ]
+}

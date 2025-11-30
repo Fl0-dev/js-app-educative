@@ -1,0 +1,848 @@
+{
+  "notions": [
+    {
+      "titre": "Le Discours Direct et Indirect",
+      "contenu": "Le **Discours Direct** rapporte les paroles telles qu'elles ont été prononcées (utilisation de guillemets, tirets, deux points). Le **Discours Indirect** les intègre à la narration (utilisation de conjonctions comme 'que', 'si', et changement des temps verbaux).\n\nExemple Direct : Il dit : 'Je viendrai demain.'\nExemple Indirect : Il dit qu'il viendrait le lendemain."
+    },
+    {
+      "titre": "L'accord du participe passé avec 'avoir'",
+      "contenu": "Le participe passé conjugué avec l'auxiliaire **avoir** ne s'accorde jamais avec le sujet. Il s'accorde avec le **Complément d'Objet Direct (COD)** si et seulement si celui-ci est placé **avant** l'auxiliaire.\n\nExemple : *Les fleurs* qu'elle a **achetées** (Le COD 'que' mis pour 'les fleurs' est placé avant)."
+    },
+    {
+      "titre": "Le passé simple",
+      "contenu": "Le **Passé Simple** est le temps des actions achevées dans le passé, typiquement utilisé dans le récit littéraire (contes, romans). On le trouve souvent avec les pronoms 'il/elle/on' : il *mangea*, elle *prit*, on *alla*."
+    },
+    {
+      "titre": "Les types de phrases",
+      "contenu": "Il existe quatre types de phrases : déclarative (informe), interrogative (pose une question), injonctive (donne un ordre ou un conseil) et exclamative (exprime un sentiment)."
+    },
+    {
+      "titre": "Les formes de phrases",
+      "contenu": "Une phrase peut être affirmative ou négative. Ex : 'Je viens.' / 'Je ne viens pas.' La négation s'exprime avec 'ne... pas', 'ne... jamais', 'ne... plus', etc."
+    },
+    {
+      "titre": "Les classes grammaticales",
+      "contenu": "On distingue les mots variables (nom, adjectif, pronom, verbe, déterminant) et les mots invariables (adverbe, préposition, conjonction, interjection)."
+    },
+    {
+      "titre": "Les fonctions dans la phrase",
+      "contenu": "Les fonctions précisent le rôle des mots : sujet, verbe, complément, attribut, complément du nom, complément circonstanciel, etc."
+    },
+    {
+      "titre": "Le groupe nominal",
+      "contenu": "Le groupe nominal est formé d’un nom et de ses déterminants et adjectifs. Ex : 'le petit chat gris'. Le nom est le noyau du groupe."
+    },
+    {
+      "titre": "Le verbe et son sujet",
+      "contenu": "Le verbe s’accorde avec son sujet en personne et en nombre. Ex : 'Les enfants jouent.' ('enfants' → pluriel)."
+    },
+    {
+      "titre": "Les temps simples et composés",
+      "contenu": "Les temps simples comportent un seul mot (il mangeait), les temps composés se forment avec un auxiliaire et un participe passé (il a mangé)."
+    },
+    {
+      "titre": "Le présent de l’indicatif",
+      "contenu": "Il exprime une action actuelle ou une vérité générale. Ex : 'Je lis un livre.' / 'L’eau bout à 100°C.'"
+    },
+    {
+      "titre": "L’imparfait",
+      "contenu": "Temps du passé qui décrit une action longue, répétée ou inachevée. Ex : 'Il neigeait souvent en hiver.'"
+    },
+    {
+      "titre": "Le passé simple",
+      "contenu": "Temps littéraire du récit, exprimant une action brève et achevée. Ex : 'Il entra, s’assit et parla.'"
+    },
+    {
+      "titre": "Le futur simple",
+      "contenu": "Exprime une action à venir. Ex : 'Demain, je partirai tôt.'"
+    },
+    {
+      "titre": "Le passé composé",
+      "contenu": "Exprime une action passée terminée avec un lien au présent. Ex : 'J’ai mangé.'"
+    },
+    {
+      "titre": "Le plus-que-parfait",
+      "contenu": "Exprime une action antérieure à une autre action passée. Ex : 'J’avais fini avant son arrivée.'"
+    },
+    {
+      "titre": "Les compléments circonstanciels",
+      "contenu": "Ils précisent les circonstances de l’action (temps, lieu, manière, cause, but). Ex : 'Il travaille avec soin.'"
+    },
+    {
+      "titre": "Les propositions subordonnées relatives",
+      "contenu": "Introduites par un pronom relatif (qui, que, dont, où), elles complètent un nom. Ex : 'Le livre que j’ai lu.'"
+    },
+    {
+      "titre": "Les pronoms personnels",
+      "contenu": "Ils remplacent un nom pour éviter la répétition. Ex : 'Marie lit un livre.' → 'Elle le lit.'"
+    },
+    {
+      "titre": "Les adjectifs qualificatifs",
+      "contenu": "Ils précisent une qualité du nom et s’accordent en genre et en nombre. Ex : 'Une robe rouge', 'des fleurs rouges'."
+    },
+    {
+      "titre": "Les déterminants",
+      "contenu": "Ils accompagnent le nom et indiquent le genre et le nombre : articles, possessifs, démonstratifs. Ex : 'le', 'mon', 'ce'."
+    },
+    {
+      "titre": "Les adverbes",
+      "contenu": "Ils modifient le sens d’un verbe, adjectif ou autre adverbe. Ex : 'Il parle doucement.'"
+    },
+    {
+      "titre": "Les conjonctions de coordination",
+      "contenu": "Elles relient deux mots ou propositions : mais, ou, et, donc, or, ni, car."
+    },
+    {
+      "titre": "Les conjonctions de subordination",
+      "contenu": "Elles introduisent une subordonnée : que, quand, si, parce que, lorsque, puisque…"
+    },
+    {
+      "titre": "Les prépositions",
+      "contenu": "Elles introduisent un complément : à, de, pour, avec, sans, chez, vers, etc."
+    },
+    {
+      "titre": "Les valeurs du présent",
+      "contenu": "Le présent peut exprimer une action actuelle, une habitude, une vérité générale ou un futur proche."
+    },
+    {
+      "titre": "Le discours direct",
+      "contenu": "Rapporte les paroles telles qu’elles sont prononcées avec guillemets ou tirets. Ex : Il dit : 'Je pars demain.'"
+    },
+    {
+      "titre": "Le discours indirect",
+      "contenu": "Rapporte les paroles intégrées au récit. Ex : Il dit qu’il partait le lendemain."
+    },
+    {
+      "titre": "Les expansions du nom",
+      "contenu": "Elles précisent le nom : adjectif, complément du nom, proposition subordonnée relative."
+    },
+    {
+      "titre": "L’accord du participe passé avec être",
+      "contenu": "Avec l’auxiliaire être, le participe passé s’accorde avec le sujet. Ex : 'Elles sont parties.'"
+    },
+    {
+      "titre": "L’accord du participe passé avec avoir",
+      "contenu": "Avec avoir, il s’accorde avec le COD si celui-ci est placé avant. Ex : 'Les fleurs qu’elle a achetées.'"
+    },
+    {
+      "titre": "Les homophones grammaticaux",
+      "contenu": "À distinguer : a/à, et/est, son/sont, ce/se, ou/où, on/ont, leur/leurs."
+    },
+    {
+      "titre": "Le champ lexical",
+      "contenu": "Ensemble de mots liés à un même thème. Ex : 'mer' → vague, océan, sable, marin…"
+    },
+    {
+      "titre": "Le sens propre et figuré",
+      "contenu": "Le sens propre est le sens premier, le sens figuré est imagé. Ex : 'avoir du cœur' (être courageux)."
+    },
+    {
+      "titre": "Les synonymes et antonymes",
+      "contenu": "Les synonymes ont un sens proche, les antonymes un sens contraire. Ex : 'joie/tristesse'."
+    },
+    {
+      "titre": "Le nom et ses genres",
+      "contenu": "Les noms peuvent être masculins ou féminins. Certains changent de sens selon le genre : 'le livre / la livre'."
+    },
+    {
+      "titre": "Le pluriel des noms composés",
+      "contenu": "Il dépend de la nature des mots. Ex : 'des coffres-forts', 'des arcs-en-ciel'."
+    },
+    {
+      "titre": "Les connecteurs logiques",
+      "contenu": "Ils organisent le texte : cause (car), conséquence (donc), opposition (mais), addition (et)."
+    },
+    {
+      "titre": "Les types de narration",
+      "contenu": "On distingue narration à la 1ʳᵉ personne (je) et à la 3ᵉ personne (il)."
+    },
+    {
+      "titre": "Le point de vue",
+      "contenu": "Interne (on connaît les pensées), externe (on décrit sans juger), omniscient (on sait tout)."
+    },
+    {
+      "titre": "Le champ sémantique",
+      "contenu": "C’est l’ensemble des sens d’un mot selon le contexte. Ex : 'bouche' d’un fleuve ou d’un visage."
+    },
+    {
+      "titre": "Le rythme du vers",
+      "contenu": "En poésie, le rythme dépend du nombre de syllabes et des coupes dans le vers."
+    },
+    {
+      "titre": "La rime",
+      "contenu": "Répétition de sons en fin de vers : plates (AABB), croisées (ABAB), embrassées (ABBA)."
+    },
+    {
+      "titre": "Les figures de style",
+      "contenu": "Images ou effets de langage : comparaison, métaphore, hyperbole, personnification."
+    },
+    {
+      "titre": "La fable",
+      "contenu": "Court récit souvent en vers, avec une morale, mettant en scène des animaux symboliques."
+    },
+    {
+      "titre": "Le conte",
+      "contenu": "Récit merveilleux, souvent intemporel, avec une morale implicite et des personnages stéréotypés."
+    },
+    {
+      "titre": "Le théâtre",
+      "contenu": "Texte destiné à être joué. Il comporte des répliques et des didascalies."
+    },
+    {
+      "titre": "La poésie",
+      "contenu": "Genre jouant sur les sons, les rythmes et les images pour exprimer des émotions."
+    },
+    {
+      "titre": "Le roman d’aventures",
+      "contenu": "Récit mettant en scène des péripéties et des voyages, souvent un héros courageux."
+    },
+    {
+      "titre": "Les connecteurs temporels",
+      "contenu": "Ils situent l’action dans le temps : puis, ensuite, avant, après, pendant, lorsque."
+    },
+    {
+      "titre": "Les registres de langue",
+      "contenu": "Langue familière, courante, soutenue. Ex : 'bouffer' (familier), 'manger' (courant), 'se restaurer' (soutenu)."
+    },
+    {
+      "titre": "Le sujet implicite",
+      "contenu": "Dans les verbes à l’impératif, le sujet n’est pas exprimé. Ex : 'Ferme la porte !' → (tu)."
+    },
+    {
+      "titre": "Le champ lexical de l’émotion",
+      "contenu": "Il regroupe des mots exprimant un même sentiment : peur, joie, colère, tristesse."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle ponctuation utilise-t-on dans le Discours Direct ?",
+      "options": [
+        "Virgules et points-virgules",
+        "Guillemets et tirets",
+        "Parenthèses"
+      ],
+      "reponse": "Guillemets et tirets",
+      "explication": "Le discours direct rapporte les paroles telles qu'elles ont été prononcées : on utilise souvent des guillemets ou des tirets pour isoler la parole."
+    },
+    {
+      "question": "Dans 'La voiture qu'il a acheté', où est l'erreur ?",
+      "options": [
+        "Il n'y a pas d'erreur",
+        "Acheté doit prendre un 'e'",
+        "La voiture doit être au pluriel"
+      ],
+      "reponse": "Acheté doit prendre un 'e'",
+      "explication": "Le COD 'la voiture' est placé avant l'auxiliaire (remplacé par 'que'), donc le participe passé s'accorde : 'achetée'."
+    },
+    {
+      "question": "Quelle est la terminaison du verbe 'lire' au Passé Simple pour 'ils' ?",
+      "options": [
+        "irent",
+        "urent",
+        "aient"
+      ],
+      "reponse": "urent",
+      "explication": "Le Passé Simple de 'ils lirent' est 'ils lurent'."
+    },
+    {
+      "question": "Quelle phrase est de type interrogatif ?",
+      "options": [
+        "Ferme la porte.",
+        "Où vas-tu ?",
+        "Il dort.",
+        "C’est magnifique !"
+      ],
+      "reponse": "Où vas-tu ?",
+      "explication": "Une phrase interrogative pose une question et se termine par un point d’interrogation."
+    },
+    {
+      "question": "Quelle est la forme de la phrase : 'Je ne sais pas.' ?",
+      "options": [
+        "Affirmative",
+        "Exclamative",
+        "Négative"
+      ],
+      "reponse": "Négative",
+      "explication": "La présence de 'ne... pas' indique la négation."
+    },
+    {
+      "question": "Quel mot est invariable ?",
+      "options": [
+        "Beau",
+        "Rapidement",
+        "Chien"
+      ],
+      "reponse": "Rapidement",
+      "explication": "Les adverbes sont invariables."
+    },
+    {
+      "question": "Quel est le noyau du groupe nominal 'le petit garçon blond' ?",
+      "options": [
+        "le",
+        "petit",
+        "garçon",
+        "blond"
+      ],
+      "reponse": "garçon",
+      "explication": "Le nom est le noyau du groupe nominal."
+    },
+    {
+      "question": "Quel est le sujet dans 'Les oiseaux chantent' ?",
+      "options": [
+        "chantent",
+        "Les",
+        "oiseaux"
+      ],
+      "reponse": "oiseaux",
+      "explication": "Le groupe nominal 'Les oiseaux' est le sujet."
+    },
+    {
+      "question": "Quelle phrase est au passé composé ?",
+      "options": [
+        "Il chante.",
+        "Il chantait.",
+        "Il a chanté."
+      ],
+      "reponse": "Il a chanté.",
+      "explication": "Le passé composé = auxiliaire + participe passé."
+    },
+    {
+      "question": "Quel temps exprime une action habituelle dans le passé ?",
+      "options": [
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "reponse": "Imparfait",
+      "explication": "L’imparfait exprime les habitudes."
+    },
+    {
+      "question": "Quelle est la nature du mot 'vite' dans 'Il court vite' ?",
+      "options": [
+        "Nom",
+        "Adverbe",
+        "Adjectif",
+        "Verbe"
+      ],
+      "reponse": "Adverbe",
+      "explication": "'Vite' précise le verbe 'court' : c’est un adverbe."
+    },
+    {
+      "question": "Quel mot est un déterminant ?",
+      "options": [
+        "Belle",
+        "Maison",
+        "La",
+        "Rapidement"
+      ],
+      "reponse": "La",
+      "explication": "Le déterminant 'la' accompagne le nom 'maison'."
+    },
+    {
+      "question": "Quel est le groupe verbal dans 'Les enfants jouent dans le parc' ?",
+      "options": [
+        "Les enfants",
+        "jouent",
+        "dans le parc",
+        "Les enfants jouent"
+      ],
+      "reponse": "jouent",
+      "explication": "Le groupe verbal contient le verbe conjugué : 'jouent'."
+    },
+    {
+      "question": "Quel est le complément circonstanciel dans 'Il travaille avec soin' ?",
+      "options": [
+        "Il",
+        "travaille",
+        "avec soin",
+        "soin"
+      ],
+      "reponse": "avec soin",
+      "explication": "'Avec soin' précise la manière de l’action : c’est un complément circonstanciel de manière."
+    },
+    {
+      "question": "Quel temps est employé dans 'Il chantait tous les jours' ?",
+      "options": [
+        "Présent",
+        "Imparfait",
+        "Passé composé",
+        "Futur simple"
+      ],
+      "reponse": "Imparfait",
+      "explication": "L’imparfait exprime une action habituelle dans le passé."
+    },
+    {
+      "question": "Quel auxiliaire utilise-t-on avec le verbe 'venir' au passé composé ?",
+      "options": [
+        "Avoir",
+        "Être",
+        "Faire",
+        "Venir"
+      ],
+      "reponse": "Être",
+      "explication": "Les verbes de mouvement comme 'venir' se conjuguent avec l’auxiliaire 'être'."
+    },
+    {
+      "question": "Dans 'Il a pris la clé que tu avais posée', avec quoi s’accorde 'posée' ?",
+      "options": [
+        "le sujet",
+        "le COD",
+        "l’auxiliaire",
+        "le complément circonstanciel"
+      ],
+      "reponse": "le COD",
+      "explication": "Le participe passé avec 'avoir' s’accorde avec le COD s’il est placé avant."
+    },
+    {
+      "question": "Quelle phrase est à la voix passive ?",
+      "options": [
+        "Le chat mange la souris.",
+        "La souris est mangée par le chat.",
+        "Le chat a mangé.",
+        "La souris mange."
+      ],
+      "reponse": "La souris est mangée par le chat.",
+      "explication": "La voix passive fait du complément d’objet le sujet de la phrase."
+    },
+    {
+      "question": "Quel mot introduit une proposition subordonnée relative ?",
+      "options": [
+        "et",
+        "mais",
+        "qui",
+        "donc"
+      ],
+      "reponse": "qui",
+      "explication": "Les pronoms relatifs comme 'qui', 'que', 'dont', 'où' introduisent les relatives."
+    },
+    {
+      "question": "Quel est le sujet dans 'Il pleut' ?",
+      "options": [
+        "Il",
+        "pleut",
+        "aucun sujet",
+        "le ciel"
+      ],
+      "reponse": "Il",
+      "explication": "Le 'il' est un sujet apparent, dit impersonnel."
+    },
+    {
+      "question": "Quel est le genre du nom 'travail' ?",
+      "options": [
+        "Féminin",
+        "Masculin",
+        "Neutre",
+        "Invariable"
+      ],
+      "reponse": "Masculin",
+      "explication": "'Travail' est un nom masculin : 'le travail'."
+    },
+    {
+      "question": "Quel mot est un adjectif qualificatif ?",
+      "options": [
+        "Vite",
+        "Beau",
+        "Chien",
+        "Demain"
+      ],
+      "reponse": "Beau",
+      "explication": "'Beau' qualifie un nom : c’est un adjectif qualificatif."
+    },
+    {
+      "question": "Quel est le verbe dans 'Paul regarde la télévision' ?",
+      "options": [
+        "Paul",
+        "regarde",
+        "télévision",
+        "la télévision"
+      ],
+      "reponse": "regarde",
+      "explication": "Le verbe indique l’action : 'regarde'."
+    },
+    {
+      "question": "Quelle phrase est une injonction ?",
+      "options": [
+        "Il dort.",
+        "Ne parle pas !",
+        "Parle-t-il ?",
+        "C’est beau !"
+      ],
+      "reponse": "Ne parle pas !",
+      "explication": "Une phrase injonctive donne un ordre ou un conseil."
+    },
+    {
+      "question": "Quelle phrase contient un complément du nom ?",
+      "options": [
+        "Une tasse de café",
+        "Il boit du café",
+        "La tasse est pleine",
+        "C’est une tasse"
+      ],
+      "reponse": "Une tasse de café",
+      "explication": "'de café' complète le nom 'tasse' : c’est un complément du nom."
+    },
+    {
+      "question": "Quel est le champ lexical du mot 'mer' ?",
+      "options": [
+        "sable, vague, océan",
+        "montagne, forêt, rivière",
+        "livre, page, lecture",
+        "ciel, étoile, nuage"
+      ],
+      "reponse": "sable, vague, océan",
+      "explication": "Les mots appartiennent au même domaine d’idées : celui de la mer."
+    },
+    {
+      "question": "Quel est l’antonyme de 'joie' ?",
+      "options": [
+        "Peur",
+        "Tristesse",
+        "Bonheur",
+        "Rire"
+      ],
+      "reponse": "Tristesse",
+      "explication": "Un antonyme a un sens contraire : 'joie' ↔ 'tristesse'."
+    },
+    {
+      "question": "Quelle est la fonction de 'à Paris' dans 'Il vit à Paris' ?",
+      "options": [
+        "COD",
+        "COI",
+        "CC de lieu",
+        "Attribut"
+      ],
+      "reponse": "CC de lieu",
+      "explication": "'à Paris' précise le lieu de l’action : complément circonstanciel de lieu."
+    },
+    {
+      "question": "Quel mot est un pronom personnel ?",
+      "options": [
+        "Marie",
+        "Elle",
+        "Maison",
+        "Belle"
+      ],
+      "reponse": "Elle",
+      "explication": "'Elle' remplace un nom : c’est un pronom personnel."
+    },
+    {
+      "question": "Quelle est la terminaison du verbe 'parler' au futur simple (il) ?",
+      "options": [
+        "-a",
+        "-ait",
+        "-ait",
+        "-er"
+      ],
+      "reponse": "-a",
+      "explication": "Au futur simple, 'il parlera' se termine par -a."
+    },
+    {
+      "question": "Quel est le contraire de 'ancien' ?",
+      "options": [
+        "vieux",
+        "jeune",
+        "neuf",
+        "grand"
+      ],
+      "reponse": "neuf",
+      "explication": "'Ancien' s’oppose à 'neuf'."
+    },
+    {
+      "question": "Quelle est la fonction de 'heureux' dans 'Il semble heureux' ?",
+      "options": [
+        "Attribut du sujet",
+        "COD",
+        "COI",
+        "CC de manière"
+      ],
+      "reponse": "Attribut du sujet",
+      "explication": "L’adjectif 'heureux' qualifie le sujet par l’intermédiaire du verbe 'sembler'."
+    },
+    {
+      "question": "Quel mot est un verbe d’état ?",
+      "options": [
+        "Aller",
+        "Être",
+        "Manger",
+        "Prendre"
+      ],
+      "reponse": "Être",
+      "explication": "Les verbes d’état (être, paraître, sembler...) décrivent un état, pas une action."
+    },
+    {
+      "question": "Quelle phrase contient un participe passé ?",
+      "options": [
+        "Il mange une pomme.",
+        "Il a mangé une pomme.",
+        "Il mangeait une pomme.",
+        "Il mangera une pomme."
+      ],
+      "reponse": "Il a mangé une pomme.",
+      "explication": "Le verbe 'mangé' est un participe passé utilisé avec 'avoir'."
+    },
+    {
+      "question": "Quelle est la terminaison du participe passé des verbes en -er ?",
+      "options": [
+        "-é",
+        "-u",
+        "-i",
+        "-ait"
+      ],
+      "reponse": "-é",
+      "explication": "Les verbes du premier groupe ont un participe passé en -é (ex : chanter → chanté)."
+    },
+    {
+      "question": "Quel mot est un synonyme de 'rapide' ?",
+      "options": [
+        "Lent",
+        "Vif",
+        "Dur",
+        "Fort"
+      ],
+      "reponse": "Vif",
+      "explication": "'Vif' est un synonyme de 'rapide'."
+    },
+    {
+      "question": "Quelle phrase contient une comparaison ?",
+      "options": [
+        "Il est fort.",
+        "Il est fort comme un lion.",
+        "Il est un lion.",
+        "Il est courageux."
+      ],
+      "reponse": "Il est fort comme un lion.",
+      "explication": "La comparaison est introduite par un outil comme 'comme'."
+    },
+    {
+      "question": "Quelle est la rime du poème : 'jour / amour' ?",
+      "options": [
+        "Croisée",
+        "Plate",
+        "Embrassée",
+        "Aucune"
+      ],
+      "reponse": "Plate",
+      "explication": "Rime plate : deux vers qui se suivent (AABB)."
+    },
+    {
+      "question": "Quel mot relie deux propositions dans 'Je pars parce qu’il pleut' ?",
+      "options": [
+        "Je",
+        "pars",
+        "parce que",
+        "pleut"
+      ],
+      "reponse": "parce que",
+      "explication": "C’est une conjonction de subordination qui exprime la cause."
+    },
+    {
+      "question": "Quelle figure de style rapproche deux éléments avec un mot-outil ?",
+      "options": [
+        "Métaphore",
+        "Comparaison",
+        "Hyperbole",
+        "Personnification"
+      ],
+      "reponse": "Comparaison",
+      "explication": "La comparaison utilise un mot-outil : comme, tel, pareil à."
+    },
+    {
+      "question": "Dans 'Il semble heureux', quel est le verbe d’état ?",
+      "options": [
+        "Il",
+        "semble",
+        "heureux",
+        "aucun"
+      ],
+      "reponse": "semble",
+      "explication": "'Semble' est un verbe d’état reliant le sujet à son attribut."
+    },
+    {
+      "question": "Quelle est la terminaison du verbe 'faire' au passé simple (il) ?",
+      "options": [
+        "-it",
+        "-a",
+        "-it",
+        "-ut"
+      ],
+      "reponse": "-it",
+      "explication": "Il fit → terminaison en -it."
+    },
+    {
+      "question": "Quel mot indique une opposition ?",
+      "options": [
+        "car",
+        "mais",
+        "donc",
+        "ainsi"
+      ],
+      "reponse": "mais",
+      "explication": "Le connecteur 'mais' introduit une opposition."
+    },
+    {
+      "question": "Quelle phrase est au discours direct ?",
+      "options": [
+        "Il dit qu’il viendra.",
+        "Il dit : 'Je viendrai.'",
+        "Il viendra.",
+        "Il viendrait."
+      ],
+      "reponse": "Il dit : 'Je viendrai.'",
+      "explication": "Le discours direct rapporte les paroles exactes, souvent avec des guillemets."
+    },
+    {
+      "question": "Quel est le contraire de 'faux' ?",
+      "options": [
+        "mauvais",
+        "vrai",
+        "mensonge",
+        "illogique"
+      ],
+      "reponse": "vrai",
+      "explication": "'Faux' s’oppose à 'vrai'."
+    },
+    {
+      "question": "Quelle phrase contient une hyperbole ?",
+      "options": [
+        "Il est grand.",
+        "Il est plus grand que toi.",
+        "Il est immense !",
+        "Il est de taille moyenne."
+      ],
+      "reponse": "Il est immense !",
+      "explication": "L’hyperbole exagère pour insister sur une idée."
+    },
+    {
+      "question": "Quelle est la bonne orthographe ?",
+      "options": [
+        "Ils chantent",
+        "Ils chantes",
+        "Ils chant",
+        "Ils chantons"
+      ],
+      "reponse": "Ils chantent",
+      "explication": "Les verbes au présent, 3ᵉ personne du pluriel, prennent -ent."
+    },
+    {
+      "question": "Quel mot est une interjection ?",
+      "options": [
+        "Oh !",
+        "Parler",
+        "Rouge",
+        "Lentement"
+      ],
+      "reponse": "Oh !",
+      "explication": "Les interjections expriment une émotion ou un sentiment."
+    },
+    {
+      "question": "Quelle est la terminaison du futur simple (nous) ?",
+      "options": [
+        "-ons",
+        "-ez",
+        "-a",
+        "-ai"
+      ],
+      "reponse": "-ons",
+      "explication": "Au futur simple, 'nous parlerons' → terminaison -ons."
+    },
+    {
+      "question": "Quel est le sujet dans 'L’enfant court vite' ?",
+      "options": [
+        "court",
+        "vite",
+        "L’enfant",
+        "aucun"
+      ],
+      "reponse": "L’enfant",
+      "explication": "Le sujet est 'L’enfant', celui qui fait l’action."
+    },
+    {
+      "question": "Quel est le complément d’objet direct dans 'Paul mange une pomme' ?",
+      "options": [
+        "Paul",
+        "mange",
+        "une pomme",
+        "aucun"
+      ],
+      "reponse": "une pomme",
+      "explication": "'Une pomme' reçoit directement l’action du verbe : COD."
+    },
+    {
+      "question": "Quel est le contraire de 'calme' ?",
+      "options": [
+        "tranquille",
+        "serein",
+        "agité",
+        "paisible"
+      ],
+      "reponse": "agité",
+      "explication": "'Calme' ↔ 'agité'."
+    },
+    {
+      "question": "Quel mot appartient au champ lexical de la peur ?",
+      "options": [
+        "Courage",
+        "Terreur",
+        "Joie",
+        "Sourire"
+      ],
+      "reponse": "Terreur",
+      "explication": "La 'terreur' exprime la peur."
+    },
+    {
+      "question": "Quelle est la fonction du mot 'professeur' dans 'C’est un professeur.' ?",
+      "options": [
+        "Sujet",
+        "Attribut du sujet",
+        "COD",
+        "CC de lieu"
+      ],
+      "reponse": "Attribut du sujet",
+      "explication": "'Professeur' qualifie le sujet 'C’' par le verbe 'être'."
+    },
+    {
+      "question": "Quel mot est une conjonction de coordination ?",
+      "options": [
+        "mais",
+        "comme",
+        "lorsque",
+        "puisque"
+      ],
+      "reponse": "mais",
+      "explication": "Les conjonctions de coordination : mais, ou, et, donc, or, ni, car."
+    },
+    {
+      "question": "Quelle est la valeur du présent dans 'Chaque matin, il court.' ?",
+      "options": [
+        "présent de narration",
+        "présent de vérité générale",
+        "présent d’habitude",
+        "présent de futur proche"
+      ],
+      "reponse": "présent d’habitude",
+      "explication": "L’action se répète régulièrement : présent d’habitude."
+    },
+    {
+      "question": "Quelle phrase contient une métaphore ?",
+      "options": [
+        "Il est comme un lion.",
+        "C’est un lion au combat.",
+        "Il ressemble à un lion.",
+        "Il a la force d’un lion."
+      ],
+      "reponse": "C’est un lion au combat.",
+      "explication": "La métaphore remplace directement un terme sans outil de comparaison."
+    },
+    {
+      "question": "Quel est le synonyme de 'regarder' ?",
+      "options": [
+        "voir",
+        "entendre",
+        "écouter",
+        "parler"
+      ],
+      "reponse": "voir",
+      "explication": "'Voir' est un synonyme de 'regarder'."
+    }
+  ]
+}

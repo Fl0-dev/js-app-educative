@@ -1,0 +1,731 @@
+{
+  "notions": [
+    {
+      "titre": "Matière et États",
+      "contenu": "La **matière** peut exister sous trois états principaux : **solide** (forme et volume propres), **liquide** (volume propre, forme variable), et **gazeux** (forme et volume variables). Les changements d'état sont dus à la température."
+    },
+    {
+      "titre": "La Masse et le Volume",
+      "contenu": "La **masse** ($m$, en kg ou g) est la quantité de matière d'un corps. Le **volume** ($V$, en $m^3$ ou $L$) est l'espace qu'occupe ce corps. Ils sont mesurés par des instruments (balance, éprouvette graduée)."
+    },
+    {
+      "titre": "Le Courant Électrique",
+      "contenu": "Le **courant électrique** se mesure en **Ampères (A)**. Il circule dans un **circuit fermé**. Un circuit en série n'a qu'un seul chemin. Un circuit en dérivation offre plusieurs chemins."
+    },
+    {
+      "titre": "Les trois états de la matière",
+      "contenu": "La matière existe sous trois états : solide, liquide et gazeux. Chaque état a ses propriétés propres."
+    },
+    {
+      "titre": "Les changements d’état",
+      "contenu": "La matière peut changer d’état : fusion, solidification, vaporisation, liquéfaction, sublimation."
+    },
+    {
+      "titre": "La fusion",
+      "contenu": "C’est le passage de l’état solide à l’état liquide. Exemple : la glace fond à 0°C."
+    },
+    {
+      "titre": "La solidification",
+      "contenu": "C’est le passage de l’état liquide à l’état solide. Exemple : l’eau devient glace à 0°C."
+    },
+    {
+      "titre": "La vaporisation",
+      "contenu": "C’est le passage de l’état liquide à l’état gazeux. Exemple : l’eau bout à 100°C."
+    },
+    {
+      "titre": "La condensation",
+      "contenu": "C’est le passage de l’état gazeux à l’état liquide. Exemple : la buée sur une vitre."
+    },
+    {
+      "titre": "La sublimation",
+      "contenu": "C’est le passage direct de l’état solide à l’état gazeux. Exemple : la neige sèche."
+    },
+    {
+      "titre": "La masse",
+      "contenu": "La masse mesure la quantité de matière. Elle s’exprime en kilogrammes (kg)."
+    },
+    {
+      "titre": "Le volume",
+      "contenu": "Le volume mesure l’espace occupé par un objet. Il s’exprime en litres (L) ou en mètres cubes (m³)."
+    },
+    {
+      "titre": "La densité",
+      "contenu": "La densité compare la masse d’une substance à celle de l’eau. Elle indique si un objet flotte ou coule."
+    },
+    {
+      "titre": "Les mélanges",
+      "contenu": "Un mélange contient plusieurs substances. Il peut être homogène (transparent) ou hétérogène."
+    },
+    {
+      "titre": "Un corps pur",
+      "contenu": "Un corps pur ne contient qu’une seule substance. Exemple : l’eau distillée."
+    },
+    {
+      "titre": "Les solutions",
+      "contenu": "Une solution est un mélange homogène d’un soluté dissous dans un solvant. Exemple : le sel dans l’eau."
+    },
+    {
+      "titre": "Le soluté et le solvant",
+      "contenu": "Le soluté se dissout dans le solvant. Exemple : le sucre (soluté) dans l’eau (solvant)."
+    },
+    {
+      "titre": "La filtration",
+      "contenu": "Méthode de séparation d’un mélange hétérogène grâce à un filtre qui retient les solides."
+    },
+    {
+      "titre": "La décantation",
+      "contenu": "Méthode de séparation par repos : les solides se déposent au fond du récipient."
+    },
+    {
+      "titre": "La distillation",
+      "contenu": "Méthode de séparation basée sur la différence de température d’ébullition des liquides."
+    },
+    {
+      "titre": "L’évaporation",
+      "contenu": "Permet de séparer un solide dissous d’un liquide en le chauffant."
+    },
+    {
+      "titre": "L’air",
+      "contenu": "L’air est un mélange de gaz : environ 78% d’azote, 21% d’oxygène et 1% d’autres gaz."
+    },
+    {
+      "titre": "L’eau",
+      "contenu": "L’eau pure est un corps transparent, incolore, inodore. Elle bout à 100°C et gèle à 0°C."
+    },
+    {
+      "titre": "L’eau potable",
+      "contenu": "L’eau potable est une eau propre à la consommation humaine après traitement."
+    },
+    {
+      "titre": "La pollution de l’eau",
+      "contenu": "L’eau peut être polluée par les produits chimiques, les déchets et les eaux usées."
+    },
+    {
+      "titre": "Les états de l’eau",
+      "contenu": "L’eau peut être solide (glace), liquide (eau) ou gazeuse (vapeur)."
+    },
+    {
+      "titre": "Les propriétés de l’air",
+      "contenu": "L’air occupe un volume, a une masse et peut être comprimé."
+    },
+    {
+      "titre": "Le dioxygène",
+      "contenu": "Gaz essentiel à la respiration et à la combustion. Il représente 21 % de l’air."
+    },
+    {
+      "titre": "La combustion",
+      "contenu": "Réaction chimique entre un combustible et le dioxygène qui libère de la chaleur."
+    },
+    {
+      "titre": "Le dioxyde de carbone",
+      "contenu": "Gaz produit lors de la respiration et des combustions, responsable de l’effet de serre."
+    },
+    {
+      "titre": "La vitesse",
+      "contenu": "La vitesse se calcule avec la distance et le temps : v = d / t."
+    },
+    {
+      "titre": "La trajectoire",
+      "contenu": "La trajectoire est la ligne décrite par un objet en mouvement."
+    },
+    {
+      "titre": "Le mouvement rectiligne",
+      "contenu": "Mouvement en ligne droite, comme une voiture sur une route droite."
+    },
+    {
+      "titre": "Le mouvement circulaire",
+      "contenu": "Mouvement suivant une trajectoire en cercle. Exemple : la Terre autour du Soleil."
+    },
+    {
+      "titre": "Les forces",
+      "contenu": "Une force peut déformer un objet ou modifier son mouvement."
+    },
+    {
+      "titre": "La gravité",
+      "contenu": "Force d’attraction exercée par la Terre sur tous les objets. Elle donne le poids."
+    },
+    {
+      "titre": "Le poids",
+      "contenu": "Force exercée par la Terre sur un objet. Il s’exprime en newtons (N)."
+    },
+    {
+      "titre": "La masse et le poids",
+      "contenu": "La masse est constante, le poids dépend de la gravité. Sur la Lune, le poids est plus faible."
+    },
+    {
+      "titre": "Les conducteurs électriques",
+      "contenu": "Les métaux laissent passer le courant électrique. Ex : cuivre, aluminium."
+    },
+    {
+      "titre": "Les isolants électriques",
+      "contenu": "Les plastiques, le verre et le bois ne laissent pas passer le courant."
+    },
+    {
+      "titre": "Le circuit électrique simple",
+      "contenu": "Un circuit comprend une pile, des fils, un interrupteur et un récepteur (ampoule)."
+    },
+    {
+      "titre": "Le courant électrique",
+      "contenu": "Le courant est un déplacement d’électrons dans un circuit fermé."
+    },
+    {
+      "titre": "Les sources d’énergie",
+      "contenu": "Le Soleil, le vent, l’eau et les combustibles sont des sources d’énergie."
+    },
+    {
+      "titre": "Les énergies renouvelables",
+      "contenu": "Elles se renouvellent naturellement : vent, soleil, eau, géothermie."
+    },
+    {
+      "titre": "Les énergies non renouvelables",
+      "contenu": "Elles s’épuisent : pétrole, charbon, gaz, uranium."
+    },
+    {
+      "titre": "La lumière",
+      "contenu": "La lumière se propage en ligne droite et permet de voir les objets."
+    },
+    {
+      "titre": "Les sources de lumière",
+      "contenu": "Les sources primaires (Soleil, lampe) émettent leur propre lumière."
+    },
+    {
+      "titre": "Les objets diffusants",
+      "contenu": "Ils renvoient la lumière reçue sans la produire. Exemple : la Lune."
+    },
+    {
+      "titre": "Les ombres",
+      "contenu": "Elles se forment quand un objet opaque bloque la lumière."
+    },
+    {
+      "titre": "La réflexion de la lumière",
+      "contenu": "La lumière se réfléchit sur les surfaces lisses, comme un miroir."
+    },
+    {
+      "titre": "La transparence",
+      "contenu": "Un matériau est transparent s’il laisse passer la lumière. Ex : le verre."
+    },
+    {
+      "titre": "La réfraction",
+      "contenu": "C’est le changement de direction de la lumière quand elle traverse deux milieux différents."
+    },
+    {
+      "titre": "Les dangers de l’électricité",
+      "contenu": "Un courant trop fort peut provoquer des brûlures ou des électrocutions."
+    },
+    {
+      "titre": "Les économies d’énergie",
+      "contenu": "Réduire la consommation d’énergie permet de protéger l’environnement."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle unité utilise-t-on pour mesurer l'intensité du courant électrique ?",
+      "options": [
+        "Volts (V)",
+        "Ampères (A)",
+        "Watts (W)"
+      ],
+      "reponse": "Ampères (A)",
+      "explication": "L'intensité du courant se mesure en Ampères (A) à l'aide d'un ampèremètre."
+    },
+    {
+      "question": "Quel état de la matière n'a ni forme propre ni volume propre ?",
+      "options": [
+        "Liquide",
+        "Solide",
+        "Gazeux"
+      ],
+      "reponse": "Gazeux",
+      "explication": "Les gaz prennent la forme et le volume du récipient qui les contient."
+    },
+    {
+      "question": "Quel instrument sert à mesurer la masse ?",
+      "options": [
+        "Éprouvette graduée",
+        "Thermomètre",
+        "Balance"
+      ],
+      "reponse": "Balance",
+      "explication": "La balance est l'instrument utilisé pour mesurer la masse (quantité de matière)."
+    },
+    {
+      "question": "Quels sont les trois états de la matière ?",
+      "options": [
+        "Solide, liquide, gazeux",
+        "Dur, mou, fluide",
+        "Chaud, froid, tiède"
+      ],
+      "reponse": "Solide, liquide, gazeux",
+      "explication": "Toute matière peut exister sous trois états : solide, liquide ou gazeux."
+    },
+    {
+      "question": "Quel changement d’état correspond à la transformation de la glace en eau ?",
+      "options": [
+        "Vaporisation",
+        "Fusion",
+        "Solidification"
+      ],
+      "reponse": "Fusion",
+      "explication": "La fusion est le passage de l’état solide à liquide."
+    },
+    {
+      "question": "Quel changement d’état se produit quand l’eau bout ?",
+      "options": [
+        "Condensation",
+        "Vaporisation",
+        "Solidification"
+      ],
+      "reponse": "Vaporisation",
+      "explication": "La vaporisation est le passage de l’état liquide à gazeux."
+    },
+    {
+      "question": "À quelle température l’eau pure bout-elle ?",
+      "options": [
+        "0°C",
+        "50°C",
+        "100°C"
+      ],
+      "reponse": "100°C",
+      "explication": "L’eau bout à 100°C à la pression atmosphérique normale."
+    },
+    {
+      "question": "Quelle est la température de fusion de la glace ?",
+      "options": [
+        "0°C",
+        "10°C",
+        "100°C"
+      ],
+      "reponse": "0°C",
+      "explication": "La glace fond à 0°C, c’est sa température de fusion."
+    },
+    {
+      "question": "Qu’est-ce qu’une solution ?",
+      "options": [
+        "Un mélange homogène",
+        "Un gaz pur",
+        "Un mélange hétérogène"
+      ],
+      "reponse": "Un mélange homogène",
+      "explication": "Une solution est un mélange homogène d’un soluté et d’un solvant."
+    },
+    {
+      "question": "Quel est le solvant le plus courant ?",
+      "options": [
+        "Le pétrole",
+        "L’eau",
+        "Le vinaigre"
+      ],
+      "reponse": "L’eau",
+      "explication": "L’eau est appelée le 'solvant universel' car elle dissout de nombreuses substances."
+    },
+    {
+      "question": "Comment sépare-t-on un mélange d’eau et de sable ?",
+      "options": [
+        "Filtration",
+        "Distillation",
+        "Vaporisation"
+      ],
+      "reponse": "Filtration",
+      "explication": "La filtration retient le sable dans le filtre et laisse passer l’eau."
+    },
+    {
+      "question": "Comment sépare-t-on un mélange de deux liquides ?",
+      "options": [
+        "Distillation",
+        "Décantation",
+        "Filtration"
+      ],
+      "reponse": "Distillation",
+      "explication": "La distillation sépare les liquides selon leur température d’ébullition."
+    },
+    {
+      "question": "De quoi est composé l’air ?",
+      "options": [
+        "Oxygène et dioxyde de carbone",
+        "Azote et oxygène",
+        "Hydrogène et carbone"
+      ],
+      "reponse": "Azote et oxygène",
+      "explication": "L’air contient environ 78 % d’azote et 21 % d’oxygène."
+    },
+    {
+      "question": "Quel gaz est indispensable à la respiration ?",
+      "options": [
+        "Dioxyde de carbone",
+        "Dioxygène",
+        "Azote"
+      ],
+      "reponse": "Dioxygène",
+      "explication": "Le dioxygène est essentiel pour la respiration des êtres vivants."
+    },
+    {
+      "question": "Comment s’appelle le gaz produit lors d’une combustion ?",
+      "options": [
+        "Dioxygène",
+        "Dioxyde de carbone",
+        "Hydrogène"
+      ],
+      "reponse": "Dioxyde de carbone",
+      "explication": "Lors d’une combustion, le dioxyde de carbone (CO₂) est libéré."
+    },
+    {
+      "question": "Qu’est-ce qu’un corps pur ?",
+      "options": [
+        "Un mélange",
+        "Une seule substance",
+        "Une solution"
+      ],
+      "reponse": "Une seule substance",
+      "explication": "Un corps pur ne contient qu’une seule espèce chimique."
+    },
+    {
+      "question": "Que mesure-t-on avec une balance ?",
+      "options": [
+        "La masse",
+        "Le volume",
+        "La température"
+      ],
+      "reponse": "La masse",
+      "explication": "La masse se mesure en kilogrammes à l’aide d’une balance."
+    },
+    {
+      "question": "Que mesure-t-on avec une éprouvette graduée ?",
+      "options": [
+        "Le volume",
+        "La masse",
+        "La longueur"
+      ],
+      "reponse": "Le volume",
+      "explication": "L’éprouvette graduée permet de mesurer le volume des liquides."
+    },
+    {
+      "question": "Quelle est l’unité de la masse ?",
+      "options": [
+        "Le mètre",
+        "Le litre",
+        "Le kilogramme"
+      ],
+      "reponse": "Le kilogramme",
+      "explication": "La masse s’exprime en kilogrammes (kg)."
+    },
+    {
+      "question": "Quelle est l’unité du volume ?",
+      "options": [
+        "Le mètre",
+        "Le litre",
+        "Le kilogramme"
+      ],
+      "reponse": "Le litre",
+      "explication": "Le volume d’un liquide se mesure en litres (L)."
+    },
+    {
+      "question": "Quel instrument mesure la température ?",
+      "options": [
+        "Thermomètre",
+        "Balance",
+        "Chronomètre"
+      ],
+      "reponse": "Thermomètre",
+      "explication": "Le thermomètre permet de mesurer la température d’un corps."
+    },
+    {
+      "question": "Quelle force nous attire vers le sol ?",
+      "options": [
+        "La gravité",
+        "La poussée d’Archimède",
+        "La friction"
+      ],
+      "reponse": "La gravité",
+      "explication": "La gravité attire tous les objets vers le centre de la Terre."
+    },
+    {
+      "question": "Comment appelle-t-on la force exercée par la Terre sur un objet ?",
+      "options": [
+        "Le poids",
+        "La masse",
+        "La pression"
+      ],
+      "reponse": "Le poids",
+      "explication": "Le poids est la force exercée par la gravité sur un objet."
+    },
+    {
+      "question": "Quelle est l’unité du poids ?",
+      "options": [
+        "Le kilogramme",
+        "Le newton",
+        "Le gramme"
+      ],
+      "reponse": "Le newton",
+      "explication": "Le poids s’exprime en newtons (N)."
+    },
+    {
+      "question": "La masse d’un objet change-t-elle sur la Lune ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "reponse": "Non",
+      "explication": "La masse reste la même, mais le poids change car la gravité est plus faible."
+    },
+    {
+      "question": "Que fait une force sur un objet ?",
+      "options": [
+        "Elle peut le déformer ou le mettre en mouvement",
+        "Elle le colore",
+        "Elle le refroidit"
+      ],
+      "reponse": "Elle peut le déformer ou le mettre en mouvement",
+      "explication": "Une force peut modifier la forme ou le mouvement d’un objet."
+    },
+    {
+      "question": "Quel métal conduit bien l’électricité ?",
+      "options": [
+        "Le cuivre",
+        "Le plastique",
+        "Le bois"
+      ],
+      "reponse": "Le cuivre",
+      "explication": "Le cuivre est un excellent conducteur électrique."
+    },
+    {
+      "question": "Quel matériau est un isolant électrique ?",
+      "options": [
+        "Le métal",
+        "Le plastique",
+        "L’eau salée"
+      ],
+      "reponse": "Le plastique",
+      "explication": "Les isolants ne laissent pas passer le courant, comme le plastique."
+    },
+    {
+      "question": "Quel élément permet d’ouvrir ou de fermer un circuit ?",
+      "options": [
+        "Une ampoule",
+        "Un interrupteur",
+        "Une pile"
+      ],
+      "reponse": "Un interrupteur",
+      "explication": "L’interrupteur commande le passage du courant électrique."
+    },
+    {
+      "question": "Que se passe-t-il si un circuit est ouvert ?",
+      "options": [
+        "Le courant circule",
+        "Le courant ne circule pas",
+        "L’ampoule brille plus fort"
+      ],
+      "reponse": "Le courant ne circule pas",
+      "explication": "Le courant ne peut passer que dans un circuit fermé."
+    },
+    {
+      "question": "Comment appelle-t-on un matériau qui laisse passer la lumière ?",
+      "options": [
+        "Opaque",
+        "Transparent",
+        "Réfléchissant"
+      ],
+      "reponse": "Transparent",
+      "explication": "Un matériau transparent laisse passer la lumière, comme le verre."
+    },
+    {
+      "question": "Qu’est-ce qui produit une ombre ?",
+      "options": [
+        "Un objet transparent",
+        "Un objet opaque",
+        "Une lumière"
+      ],
+      "reponse": "Un objet opaque",
+      "explication": "Un objet opaque bloque la lumière et crée une ombre."
+    },
+    {
+      "question": "Comment se propage la lumière ?",
+      "options": [
+        "En ligne droite",
+        "En zigzag",
+        "En cercle"
+      ],
+      "reponse": "En ligne droite",
+      "explication": "La lumière se propage toujours en ligne droite dans un milieu homogène."
+    },
+    {
+      "question": "Quel appareil transforme l’énergie électrique en lumière ?",
+      "options": [
+        "Une pile",
+        "Une ampoule",
+        "Un interrupteur"
+      ],
+      "reponse": "Une ampoule",
+      "explication": "L’ampoule convertit l’énergie électrique en énergie lumineuse."
+    },
+    {
+      "question": "Que produit une combustion ?",
+      "options": [
+        "De la chaleur et de la lumière",
+        "Du froid",
+        "Du vent"
+      ],
+      "reponse": "De la chaleur et de la lumière",
+      "explication": "Une combustion dégage de l’énergie sous forme de chaleur et de lumière."
+    },
+    {
+      "question": "Quelle est l’énergie fournie par le Soleil ?",
+      "options": [
+        "Mécanique",
+        "Thermique et lumineuse",
+        "Chimique"
+      ],
+      "reponse": "Thermique et lumineuse",
+      "explication": "Le Soleil fournit de la chaleur et de la lumière à la Terre."
+    },
+    {
+      "question": "Que signifie 'énergie renouvelable' ?",
+      "options": [
+        "Qui se renouvelle naturellement",
+        "Qui s’épuise",
+        "Qui pollue"
+      ],
+      "reponse": "Qui se renouvelle naturellement",
+      "explication": "Les énergies renouvelables proviennent de sources inépuisables comme le vent."
+    },
+    {
+      "question": "Que mesure un voltmètre ?",
+      "options": [
+        "La tension électrique",
+        "L’intensité du courant",
+        "La résistance"
+      ],
+      "reponse": "La tension électrique",
+      "explication": "Le voltmètre mesure la différence de potentiel en volts."
+    },
+    {
+      "question": "Que mesure un ampèremètre ?",
+      "options": [
+        "La température",
+        "La tension",
+        "L’intensité du courant"
+      ],
+      "reponse": "L’intensité du courant",
+      "explication": "L’intensité du courant se mesure en ampères avec un ampèremètre."
+    },
+    {
+      "question": "Quel gaz produit la respiration humaine ?",
+      "options": [
+        "Oxygène",
+        "Hydrogène",
+        "Dioxyde de carbone"
+      ],
+      "reponse": "Dioxyde de carbone",
+      "explication": "Nous expirons du dioxyde de carbone après avoir utilisé le dioxygène."
+    },
+    {
+      "question": "Quel gaz favorise la combustion ?",
+      "options": [
+        "L’azote",
+        "Le dioxygène",
+        "Le dioxyde de carbone"
+      ],
+      "reponse": "Le dioxygène",
+      "explication": "Sans dioxygène, une flamme s’éteint."
+    },
+    {
+      "question": "Que faut-il pour qu’une lampe brille ?",
+      "options": [
+        "Un circuit fermé",
+        "Un circuit ouvert",
+        "Aucune pile"
+      ],
+      "reponse": "Un circuit fermé",
+      "explication": "Un circuit fermé permet le passage du courant qui allume la lampe."
+    },
+    {
+      "question": "Que se passe-t-il quand on chauffe un gaz ?",
+      "options": [
+        "Il se contracte",
+        "Il se dilate",
+        "Il se solidifie"
+      ],
+      "reponse": "Il se dilate",
+      "explication": "En chauffant, les particules d’un gaz s’écartent : il se dilate."
+    },
+    {
+      "question": "Qu’est-ce qu’une ombre portée ?",
+      "options": [
+        "Une lumière réfléchie",
+        "Une zone sans lumière",
+        "Une image colorée"
+      ],
+      "reponse": "Une zone sans lumière",
+      "explication": "C’est la zone où la lumière est bloquée par un objet."
+    },
+    {
+      "question": "Pourquoi l’eau est-elle essentielle à la vie ?",
+      "options": [
+        "Elle sert à respirer",
+        "Elle est nécessaire à tous les êtres vivants",
+        "Elle ne sert à rien"
+      ],
+      "reponse": "Elle est nécessaire à tous les êtres vivants",
+      "explication": "L’eau est indispensable pour la survie de tous les organismes."
+    },
+    {
+      "question": "Qu’est-ce qu’une source primaire de lumière ?",
+      "options": [
+        "Un objet qui émet de la lumière",
+        "Un objet qui réfléchit la lumière",
+        "Une surface opaque"
+      ],
+      "reponse": "Un objet qui émet de la lumière",
+      "explication": "Le Soleil ou une lampe sont des sources primaires de lumière."
+    },
+    {
+      "question": "Que se passe-t-il si on retire une pile d’un circuit ?",
+      "options": [
+        "Le courant s’arrête",
+        "L’ampoule brille plus",
+        "La tension augmente"
+      ],
+      "reponse": "Le courant s’arrête",
+      "explication": "La pile est la source d’énergie du circuit."
+    },
+    {
+      "question": "Pourquoi doit-on économiser l’énergie ?",
+      "options": [
+        "Pour protéger l’environnement",
+        "Pour gaspiller moins d’argent",
+        "Pour augmenter la pollution"
+      ],
+      "reponse": "Pour protéger l’environnement",
+      "explication": "Économiser l’énergie réduit la pollution et les émissions de CO₂."
+    },
+    {
+      "question": "Que contient une pile électrique ?",
+      "options": [
+        "Des liquides acides",
+        "De l’énergie chimique",
+        "De l’air"
+      ],
+      "reponse": "De l’énergie chimique",
+      "explication": "La pile transforme l’énergie chimique en énergie électrique."
+    },
+    {
+      "question": "Quel phénomène explique la formation d’un arc-en-ciel ?",
+      "options": [
+        "Réflexion et réfraction",
+        "Absorption",
+        "Condensation"
+      ],
+      "reponse": "Réflexion et réfraction",
+      "explication": "La lumière est décomposée par les gouttes d’eau en plusieurs couleurs."
+    },
+    {
+      "question": "Quel gaz est responsable de l’effet de serre ?",
+      "options": [
+        "Dioxyde de carbone",
+        "Oxygène",
+        "Azote"
+      ],
+      "reponse": "Dioxyde de carbone",
+      "explication": "Le CO₂ retient la chaleur dans l’atmosphère."
+    }
+  ]
+}

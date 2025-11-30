@@ -2,7 +2,7 @@ import { store } from './store.js';
 import { parseContentMarkup, updateMascotteImage } from './utils.js';
 
 // Quiz: demarrerQuiz, afficherQuestion, verifierReponse, showResults
-export function demarrerQuiz(matiere) {
+export function demarrerQuiz(matiere, size = null) {
     store.currentQuestionIndex = 0;
     store.score = 0;
 
@@ -12,6 +12,15 @@ export function demarrerQuiz(matiere) {
     for (let i = store.currentQuizQuestions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [store.currentQuizQuestions[i], store.currentQuizQuestions[j]] = [store.currentQuizQuestions[j], store.currentQuizQuestions[i]];
+    }
+
+    // Si un paramètre size est fourni, tronquer la liste aux N premières questions
+    if (size && Number.isInteger(size) && size > 0) {
+        const n = Math.min(size, store.currentQuizQuestions.length);
+        store.currentQuizQuestions = store.currentQuizQuestions.slice(0, n);
+        store.lastQuizSize = n;
+    } else {
+        store.lastQuizSize = store.currentQuizQuestions.length;
     }
 
     afficherQuestion(matiere, store.currentQuestionIndex);
@@ -38,7 +47,7 @@ export function afficherQuestion(matiere, index) {
         const btn = document.createElement('button');
         btn.className = 'button is-link is-large mt-3';
         btn.textContent = 'Recommencer le Quiz';
-        btn.addEventListener('click', () => demarrerQuiz(matiere));
+        btn.addEventListener('click', () => demarrerQuiz(matiere, store.lastQuizSize || undefined));
         quizContainer.querySelector('.notification').appendChild(btn);
         return;
     }
@@ -188,7 +197,7 @@ export function showResults(matiere) {
     const restartBtn = document.createElement('button');
     restartBtn.className = 'button is-link is-large mt-3';
     restartBtn.textContent = 'Recommencer le Quiz';
-    restartBtn.addEventListener('click', () => demarrerQuiz(matiere));
+    restartBtn.addEventListener('click', () => demarrerQuiz(matiere, store.lastQuizSize || undefined));
     wrap.appendChild(restartBtn);
     quizContainer.appendChild(wrap);
 }

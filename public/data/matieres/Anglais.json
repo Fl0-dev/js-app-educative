@@ -1,0 +1,763 @@
+{
+  "notions": [
+    {
+      "titre": "Le Présent Simple (Present Simple)",
+      "contenu": "On l'utilise pour les habitudes et les vérités générales. À la 3ème personne du singulier (he, she, it), on ajoute un **-s** au verbe.\n\nExemple : I **play**, you **play**, he **plays**, we **play**, they **play**."
+    },
+    {
+      "titre": "Le Génitif Saxon ('s)",
+      "contenu": "On utilise l'apostrophe **'s** pour indiquer l'appartenance. Si le nom est au pluriel et se termine déjà par 's', on ajoute seulement l'apostrophe (e.g., *the students' books*).\n\nExemple : **John's** car (La voiture de John)."
+    },
+    {
+      "titre": "Les Nombres Ordinaux",
+      "contenu": "Ils indiquent l'ordre (premier, deuxième, etc.). Ils se forment en ajoutant **-th** à la fin du nombre (ex : *fourth*). Exceptions : *first* (1st), *second* (2nd), *third* (3rd)."
+    },
+    {
+      "titre": "L'alphabet anglais",
+      "contenu": "L'alphabet anglais compte 26 lettres, comme en français, mais certaines se prononcent différemment. Exemple : 'A' se dit 'é', 'J' se dit 'djeï'."
+    },
+    {
+      "titre": "Les salutations",
+      "contenu": "Pour dire bonjour : 'Hello', 'Hi', 'Good morning'. Pour dire au revoir : 'Goodbye', 'See you soon' (à bientôt)."
+    },
+    {
+      "titre": "Se présenter",
+      "contenu": "Pour dire son nom : 'My name is Paul' (Je m'appelle Paul). Pour dire son âge : 'I am twelve years old' (J’ai douze ans)."
+    },
+    {
+      "titre": "Les pays et nationalités",
+      "contenu": "Exemples : France → French, Spain → Spanish, England → English, Italy → Italian."
+    },
+    {
+      "titre": "Les nombres",
+      "contenu": "De 1 à 20 : one, two, three... twenty. Exemple : 'I have two brothers' (J’ai deux frères)."
+    },
+    {
+      "titre": "Les jours de la semaine",
+      "contenu": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+    },
+    {
+      "titre": "Les mois de l'année",
+      "contenu": "January, February, March... jusqu’à December. Exemple : 'My birthday is in July.' (Mon anniversaire est en juillet)."
+    },
+    {
+      "titre": "Les saisons",
+      "contenu": "Spring (printemps), Summer (été), Autumn (automne), Winter (hiver)."
+    },
+    {
+      "titre": "Le verbe 'to be'",
+      "contenu": "'To be' signifie 'être'. Ex : 'I am happy' (Je suis heureux), 'They are students' (Ils sont élèves)."
+    },
+    {
+      "titre": "Le verbe 'to have'",
+      "contenu": "'To have' signifie 'avoir'. Ex : 'I have a dog' (J’ai un chien), 'She has a cat' (Elle a un chat)."
+    },
+    {
+      "titre": "There is / There are",
+      "contenu": "'There is' = il y a (singulier), 'There are' = il y a (pluriel). Ex : 'There is a book', 'There are two pens'."
+    },
+    {
+      "titre": "Les articles a, an, the",
+      "contenu": "'A' devant une consonne, 'an' devant une voyelle, 'the' pour quelque chose de connu. Ex : 'a cat', 'an apple', 'the sun'."
+    },
+    {
+      "titre": "Le présent simple",
+      "contenu": "Il sert à parler d’habitudes : 'I play football' (Je joue au foot). À la 3e personne : 'He plays' (+s)."
+    },
+    {
+      "titre": "Le présent en -ing",
+      "contenu": "Le présent continu décrit une action en cours : 'She is reading' (Elle est en train de lire)."
+    },
+    {
+      "titre": "Le passé simple (prétérit)",
+      "contenu": "On l’utilise pour parler d’actions terminées : 'I visited London last year' (J’ai visité Londres l’an dernier)."
+    },
+    {
+      "titre": "Le futur avec 'will'",
+      "contenu": "On l’utilise pour parler d’un futur certain : 'I will study tomorrow' (J’étudierai demain)."
+    },
+    {
+      "titre": "Can et can't",
+      "contenu": "'Can' = pouvoir/savoir faire. 'I can swim' (Je sais nager). 'Can't' = ne pas pouvoir. 'I can't come' (Je ne peux pas venir)."
+    },
+    {
+      "titre": "Must et mustn't",
+      "contenu": "'Must' exprime une obligation : 'You must study' (Tu dois étudier). 'Mustn't' exprime une interdiction."
+    },
+    {
+      "titre": "Have to / don’t have to",
+      "contenu": "'Have to' = être obligé. 'Don’t have to' = ce n’est pas nécessaire. Ex : 'I have to go now'."
+    },
+    {
+      "titre": "Les adjectifs",
+      "contenu": "Ils décrivent les personnes ou les choses : tall (grand), short (petit), happy (heureux), sad (triste)."
+    },
+    {
+      "titre": "Les comparatifs",
+      "contenu": "Pour comparer : 'bigger' (plus grand), 'more beautiful' (plus beau)."
+    },
+    {
+      "titre": "Les superlatifs",
+      "contenu": "Pour dire 'le plus' : 'the tallest' (le plus grand), 'the most interesting' (le plus intéressant)."
+    },
+    {
+      "titre": "Le 's' possessif",
+      "contenu": "Indique la possession : 'John’s book' (le livre de John)."
+    },
+    {
+      "titre": "Les adjectifs possessifs",
+      "contenu": "my (mon), your (ton), his/her (son/sa), our (notre), their (leur)."
+    },
+    {
+      "titre": "Les démonstratifs",
+      "contenu": "this (ceci), that (cela), these (ceux-ci), those (ceux-là). Ex : 'This car is fast' (Cette voiture est rapide)."
+    },
+    {
+      "titre": "Les mots interrogatifs",
+      "contenu": "who (qui), what (quoi), where (où), when (quand), why (pourquoi), how (comment)."
+    },
+    {
+      "titre": "Le verbe 'to like'",
+      "contenu": "'Like' = aimer. 'I like pizza' (J’aime la pizza). 'I don’t like spinach' (Je n’aime pas les épinards)."
+    },
+    {
+      "titre": "Les routines quotidiennes",
+      "contenu": "Ex : wake up (se réveiller), have breakfast (prendre le petit-déjeuner), go to school (aller à l’école)."
+    },
+    {
+      "titre": "Dire l'heure",
+      "contenu": "'It’s two o’clock' (Il est deux heures), 'It’s half past three' (Il est trois heures et demie)."
+    },
+    {
+      "titre": "La météo",
+      "contenu": "It’s sunny (Il fait beau), It’s raining (Il pleut), It’s cold (Il fait froid)."
+    },
+    {
+      "titre": "Les vêtements",
+      "contenu": "T-shirt, trousers (pantalon), shoes (chaussures), dress (robe), hat (chapeau)."
+    },
+    {
+      "titre": "La famille",
+      "contenu": "father (père), mother (mère), brother (frère), sister (sœur), grandparents (grands-parents)."
+    },
+    {
+      "titre": "L’école",
+      "contenu": "Subjects: English (anglais), Maths (maths), History (histoire), PE (sport)."
+    },
+    {
+      "titre": "La maison",
+      "contenu": "kitchen (cuisine), bedroom (chambre), bathroom (salle de bain), living room (salon)."
+    },
+    {
+      "titre": "Les aliments",
+      "contenu": "apple (pomme), bread (pain), milk (lait), water (eau), meat (viande)."
+    },
+    {
+      "titre": "Les parties du corps",
+      "contenu": "head (tête), hand (main), leg (jambe), eye (œil), mouth (bouche)."
+    },
+    {
+      "titre": "Les sports",
+      "contenu": "football (foot), tennis, swimming (natation), running (course), basketball."
+    },
+    {
+      "titre": "Les moyens de transport",
+      "contenu": "car (voiture), bus, train, bike (vélo), plane (avion), boat (bateau)."
+    },
+    {
+      "titre": "Les prépositions de lieu",
+      "contenu": "in (dans), on (sur), under (sous), next to (à côté de), between (entre)."
+    },
+    {
+      "titre": "Les prépositions de temps",
+      "contenu": "in (mois/années), on (jours/dates), at (heures). Ex : at 8 o’clock."
+    },
+    {
+      "titre": "Les noms dénombrables",
+      "contenu": "apple, car : on peut les compter. Les indénombrables : water, rice, sugar."
+    },
+    {
+      "titre": "Some et any",
+      "contenu": "'Some' pour les phrases affirmatives, 'any' pour les questions et les négations."
+    },
+    {
+      "titre": "There was / there were",
+      "contenu": "Pour parler du passé : 'There was a cat' (Il y avait un chat)."
+    },
+    {
+      "titre": "Le verbe 'should'",
+      "contenu": "'Should' sert à donner un conseil : 'You should rest' (Tu devrais te reposer)."
+    },
+    {
+      "titre": "Les impératifs",
+      "contenu": "Pour donner un ordre : 'Open your book!' (Ouvre ton livre !), 'Don’t run!' (Ne cours pas !)."
+    },
+    {
+      "titre": "Les adverbes de fréquence",
+      "contenu": "always (toujours), often (souvent), sometimes (parfois), never (jamais)."
+    },
+    {
+      "titre": "Le pluriel des noms",
+      "contenu": "On ajoute -s : cat → cats, box → boxes, baby → babies."
+    },
+    {
+      "titre": "Whose",
+      "contenu": "Pour demander à qui est quelque chose : 'Whose bag is this?' (À qui est ce sac ?)."
+    },
+    {
+      "titre": "Le verbe 'may'",
+      "contenu": "'May' permet de demander poliment : 'May I go out?' (Puis-je sortir ?)."
+    },
+    {
+      "titre": "Le verbe 'to want'",
+      "contenu": "'Want' signifie 'vouloir'. Ex : 'I want an ice cream' (Je veux une glace)."
+    },
+    {
+      "titre": "Les goûts et loisirs",
+      "contenu": "Ex : I like dancing (J’aime danser), reading (lire), listening to music (écouter de la musique)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez la phrase : She ___ (to walk) to school every day.",
+      "options": [
+        "walk",
+        "walks",
+        "walking"
+      ],
+      "reponse": "walks",
+      "explication": "À la 3ème personne du singulier en Present Simple, on ajoute -s : 'She walks'."
+    },
+    {
+      "question": "Comment traduit-on 'Le livre de mon père' ?",
+      "options": [
+        "The book of my father",
+        "My father's book",
+        "My fathers book"
+      ],
+      "reponse": "My father's book",
+      "explication": "Le génitif saxon s'emploie pour indiquer l'appartenance : 'My father's book' == 'Le livre de mon père'."
+    },
+    {
+      "question": "Comment écrit-on 5th en toutes lettres ?",
+      "options": [
+        "fiveth",
+        "fifth",
+        "fift"
+      ],
+      "reponse": "fifth",
+      "explication": "Les nombres ordinaux suivent des règles d'orthographe (5th devient 'fifth')."
+    },
+    {
+      "question": "Comment dit-on 'bonjour' en anglais ?",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Thank you",
+        "Please"
+      ],
+      "reponse": "Hello",
+      "explication": "'Hello' est la manière la plus courante de dire bonjour en anglais."
+    },
+    {
+      "question": "Que signifie 'Goodbye' ?",
+      "options": [
+        "Bonjour",
+        "Merci",
+        "Au revoir"
+      ],
+      "reponse": "Au revoir",
+      "explication": "'Goodbye' veut dire 'au revoir'."
+    },
+    {
+      "question": "Comment dit-on 'Je m'appelle Marie' ?",
+      "options": [
+        "I am Marie",
+        "My name is Marie",
+        "Me Marie"
+      ],
+      "reponse": "My name is Marie",
+      "explication": "On dit 'My name is...' pour se présenter."
+    },
+    {
+      "question": "Que veut dire 'I am twelve' ?",
+      "options": [
+        "J’ai douze ans",
+        "Je suis douze",
+        "Je suis né douze"
+      ],
+      "reponse": "J’ai douze ans",
+      "explication": "'I am twelve' se traduit par 'J’ai douze ans'."
+    },
+    {
+      "question": "Quel mot signifie 'merci' ?",
+      "options": [
+        "Sorry",
+        "Thank you",
+        "Please"
+      ],
+      "reponse": "Thank you",
+      "explication": "'Thank you' veut dire 'merci'."
+    },
+    {
+      "question": "Que veut dire 'Please' ?",
+      "options": [
+        "S’il te plaît",
+        "Merci",
+        "Bonjour"
+      ],
+      "reponse": "S’il te plaît",
+      "explication": "'Please' signifie 's’il te plaît' ou 's’il vous plaît'."
+    },
+    {
+      "question": "Quel est le pluriel de 'cat' ?",
+      "options": [
+        "cats",
+        "catz",
+        "cates"
+      ],
+      "reponse": "cats",
+      "explication": "On ajoute simplement un -s pour former le pluriel : cat → cats."
+    },
+    {
+      "question": "Comment dit-on 'une pomme' ?",
+      "options": [
+        "a banana",
+        "an apple",
+        "a pear"
+      ],
+      "reponse": "an apple",
+      "explication": "On utilise 'an' devant une voyelle : 'an apple'."
+    },
+    {
+      "question": "Que signifie 'I like music' ?",
+      "options": [
+        "J’aime la musique",
+        "Je joue de la musique",
+        "Je déteste la musique"
+      ],
+      "reponse": "J’aime la musique",
+      "explication": "'Like' signifie 'aimer'."
+    },
+    {
+      "question": "Que veut dire 'I don’t like spinach' ?",
+      "options": [
+        "J’aime les épinards",
+        "Je n’aime pas les épinards",
+        "Je mange des épinards"
+      ],
+      "reponse": "Je n’aime pas les épinards",
+      "explication": "La forme négative 'don’t' indique que l’on n’aime pas quelque chose."
+    },
+    {
+      "question": "Quel pronom remplace 'John' ?",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "reponse": "He",
+      "explication": "'He' remplace un nom masculin singulier."
+    },
+    {
+      "question": "Quel pronom remplace 'Anna' ?",
+      "options": [
+        "He",
+        "She",
+        "They"
+      ],
+      "reponse": "She",
+      "explication": "'She' remplace un nom féminin singulier."
+    },
+    {
+      "question": "Que signifie 'It is sunny' ?",
+      "options": [
+        "Il pleut",
+        "Il neige",
+        "Il fait beau"
+      ],
+      "reponse": "Il fait beau",
+      "explication": "'Sunny' vient de 'sun' (soleil) → 'Il fait beau'."
+    },
+    {
+      "question": "Comment dit-on 'Il pleut' ?",
+      "options": [
+        "It’s sunny",
+        "It’s raining",
+        "It’s cold"
+      ],
+      "reponse": "It’s raining",
+      "explication": "'Raining' vient du verbe 'to rain' : pleuvoir."
+    },
+    {
+      "question": "Que veut dire 'a book' ?",
+      "options": [
+        "un sac",
+        "un livre",
+        "une table"
+      ],
+      "reponse": "un livre",
+      "explication": "'Book' signifie 'livre'."
+    },
+    {
+      "question": "Que veut dire 'a dog' ?",
+      "options": [
+        "un chat",
+        "un chien",
+        "un poisson"
+      ],
+      "reponse": "un chien",
+      "explication": "'Dog' signifie 'chien'."
+    },
+    {
+      "question": "Que veut dire 'Where do you live?' ?",
+      "options": [
+        "Où habites-tu ?",
+        "Comment vas-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Où habites-tu ?",
+      "explication": "'Where' veut dire 'où', donc la question signifie 'Où habites-tu ?'."
+    },
+    {
+      "question": "Comment dit-on 'une maison' ?",
+      "options": [
+        "a car",
+        "a house",
+        "a school"
+      ],
+      "reponse": "a house",
+      "explication": "'House' signifie 'maison'."
+    },
+    {
+      "question": "Que veut dire 'school' ?",
+      "options": [
+        "école",
+        "maison",
+        "livre"
+      ],
+      "reponse": "école",
+      "explication": "'School' signifie 'école'."
+    },
+    {
+      "question": "Quel jour vient après Monday ?",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Friday"
+      ],
+      "reponse": "Tuesday",
+      "explication": "Les jours de la semaine : Monday, Tuesday, Wednesday..."
+    },
+    {
+      "question": "Que veut dire 'My mother' ?",
+      "options": [
+        "Mon père",
+        "Ma mère",
+        "Mon frère"
+      ],
+      "reponse": "Ma mère",
+      "explication": "'Mother' signifie 'mère'."
+    },
+    {
+      "question": "Que veut dire 'My father' ?",
+      "options": [
+        "Ma mère",
+        "Mon père",
+        "Mon oncle"
+      ],
+      "reponse": "Mon père",
+      "explication": "'Father' signifie 'père'."
+    },
+    {
+      "question": "Que signifie 'I have a brother' ?",
+      "options": [
+        "J’ai un frère",
+        "J’ai une sœur",
+        "Je suis un frère"
+      ],
+      "reponse": "J’ai un frère",
+      "explication": "'I have' = j’ai ; 'brother' = frère."
+    },
+    {
+      "question": "Quel est le contraire de 'hot' ?",
+      "options": [
+        "cold",
+        "big",
+        "slow"
+      ],
+      "reponse": "cold",
+      "explication": "'Hot' signifie 'chaud', et son contraire est 'cold' (froid)."
+    },
+    {
+      "question": "Que signifie 'tall' ?",
+      "options": [
+        "grand",
+        "petit",
+        "jeune"
+      ],
+      "reponse": "grand",
+      "explication": "'Tall' veut dire 'grand'."
+    },
+    {
+      "question": "Comment dit-on 'Elle est grande' ?",
+      "options": [
+        "She is tall",
+        "He is tall",
+        "She tall"
+      ],
+      "reponse": "She is tall",
+      "explication": "'She' pour une fille, 'is' pour le verbe être."
+    },
+    {
+      "question": "Que veut dire 'He is happy' ?",
+      "options": [
+        "Il est triste",
+        "Il est heureux",
+        "Il est fatigué"
+      ],
+      "reponse": "Il est heureux",
+      "explication": "'Happy' signifie 'heureux'."
+    },
+    {
+      "question": "Comment dit-on 'Je ne peux pas venir' ?",
+      "options": [
+        "I can’t come",
+        "I don’t come",
+        "I am not come"
+      ],
+      "reponse": "I can’t come",
+      "explication": "'Can’t' est la forme négative de 'can'."
+    },
+    {
+      "question": "Que veut dire 'You must study' ?",
+      "options": [
+        "Tu dois étudier",
+        "Tu peux étudier",
+        "Tu veux étudier"
+      ],
+      "reponse": "Tu dois étudier",
+      "explication": "'Must' indique une obligation."
+    },
+    {
+      "question": "Que signifie 'Don’t run!' ?",
+      "options": [
+        "Cours !",
+        "Ne cours pas !",
+        "Marche !"
+      ],
+      "reponse": "Ne cours pas !",
+      "explication": "L’impératif négatif 'don’t' interdit l’action."
+    },
+    {
+      "question": "Que veut dire 'It’s cold' ?",
+      "options": [
+        "Il fait chaud",
+        "Il fait froid",
+        "Il neige"
+      ],
+      "reponse": "Il fait froid",
+      "explication": "'Cold' signifie 'froid'."
+    },
+    {
+      "question": "Que veut dire 'It’s snowing' ?",
+      "options": [
+        "Il pleut",
+        "Il neige",
+        "Il vente"
+      ],
+      "reponse": "Il neige",
+      "explication": "'Snowing' vient du verbe 'to snow' : neiger."
+    },
+    {
+      "question": "Comment dit-on 'une table' ?",
+      "options": [
+        "a table",
+        "a chair",
+        "a bed"
+      ],
+      "reponse": "a table",
+      "explication": "'Table' se dit de la même manière en anglais et en français."
+    },
+    {
+      "question": "Que signifie 'I am French' ?",
+      "options": [
+        "Je suis anglais",
+        "Je suis français",
+        "Je suis américain"
+      ],
+      "reponse": "Je suis français",
+      "explication": "'French' = français."
+    },
+    {
+      "question": "Que veut dire 'They are students' ?",
+      "options": [
+        "Ils sont élèves",
+        "Ils ont des élèves",
+        "Ils étudient"
+      ],
+      "reponse": "Ils sont élèves",
+      "explication": "'They are' = ils sont, 'students' = élèves."
+    },
+    {
+      "question": "Que veut dire 'I’m hungry' ?",
+      "options": [
+        "J’ai faim",
+        "J’ai soif",
+        "Je suis fatigué"
+      ],
+      "reponse": "J’ai faim",
+      "explication": "'Hungry' signifie 'affamé'."
+    },
+    {
+      "question": "Que signifie 'I’m thirsty' ?",
+      "options": [
+        "J’ai faim",
+        "J’ai soif",
+        "Je suis triste"
+      ],
+      "reponse": "J’ai soif",
+      "explication": "'Thirsty' veut dire 'assoiffé'."
+    },
+    {
+      "question": "Que veut dire 'This is my book' ?",
+      "options": [
+        "C’est mon livre",
+        "C’est ton livre",
+        "C’est un livre"
+      ],
+      "reponse": "C’est mon livre",
+      "explication": "'This is' = c’est ; 'my book' = mon livre."
+    },
+    {
+      "question": "Que veut dire 'That’s my pen' ?",
+      "options": [
+        "C’est mon stylo",
+        "C’est une règle",
+        "C’est mon crayon"
+      ],
+      "reponse": "C’est mon stylo",
+      "explication": "'Pen' signifie 'stylo'."
+    },
+    {
+      "question": "Que signifie 'How are you?' ?",
+      "options": [
+        "Comment t’appelles-tu ?",
+        "Comment vas-tu ?",
+        "Où habites-tu ?"
+      ],
+      "reponse": "Comment vas-tu ?",
+      "explication": "C’est la façon habituelle de demander des nouvelles."
+    },
+    {
+      "question": "Comment répond-on à 'How are you?' ?",
+      "options": [
+        "I am fine",
+        "I am twelve",
+        "I am French"
+      ],
+      "reponse": "I am fine",
+      "explication": "La réponse courante est 'I am fine' (Je vais bien)."
+    },
+    {
+      "question": "Que veut dire 'Thank you very much' ?",
+      "options": [
+        "Merci beaucoup",
+        "De rien",
+        "S’il vous plaît"
+      ],
+      "reponse": "Merci beaucoup",
+      "explication": "'Thank you very much' = merci beaucoup."
+    },
+    {
+      "question": "Que veut dire 'See you tomorrow' ?",
+      "options": [
+        "À demain",
+        "Bonne nuit",
+        "À bientôt"
+      ],
+      "reponse": "À demain",
+      "explication": "'See you tomorrow' = à demain."
+    },
+    {
+      "question": "Que veut dire 'Good night' ?",
+      "options": [
+        "Bonne nuit",
+        "Bonsoir",
+        "Bonjour"
+      ],
+      "reponse": "Bonne nuit",
+      "explication": "'Good night' = bonne nuit."
+    },
+    {
+      "question": "Que signifie 'My favorite color is blue' ?",
+      "options": [
+        "Ma couleur préférée est le bleu",
+        "J’aime le rouge",
+        "Je déteste le bleu"
+      ],
+      "reponse": "Ma couleur préférée est le bleu",
+      "explication": "'Favorite color' = couleur préférée."
+    },
+    {
+      "question": "Comment dit-on 'un vélo' ?",
+      "options": [
+        "a car",
+        "a bike",
+        "a bus"
+      ],
+      "reponse": "a bike",
+      "explication": "'Bike' signifie 'vélo'."
+    },
+    {
+      "question": "Que veut dire 'I can swim' ?",
+      "options": [
+        "Je peux nager",
+        "Je nage mal",
+        "Je ne sais pas nager"
+      ],
+      "reponse": "Je peux nager",
+      "explication": "'Can' exprime la capacité à faire quelque chose."
+    },
+    {
+      "question": "Que signifie 'Let’s go!' ?",
+      "options": [
+        "Restons ici",
+        "Allons-y !",
+        "Attends !"
+      ],
+      "reponse": "Allons-y !",
+      "explication": "'Let’s go!' = Allons-y !"
+    },
+    {
+      "question": "Comment dit-on 'Merci' de façon polie ?",
+      "options": [
+        "Please",
+        "Goodbye",
+        "Thank you"
+      ],
+      "reponse": "Thank you",
+      "explication": "'Thank you' est une manière polie de remercier quelqu’un."
+    },
+    {
+      "question": "Que veut dire 'I’m late' ?",
+      "options": [
+        "Je suis en retard",
+        "Je suis fatigué",
+        "Je suis à l’heure"
+      ],
+      "reponse": "Je suis en retard",
+      "explication": "'Late' signifie 'en retard'."
+    },
+    {
+      "question": "Que signifie 'I’m tired' ?",
+      "options": [
+        "Je suis fatigué",
+        "Je suis malade",
+        "Je suis heureux"
+      ],
+      "reponse": "Je suis fatigué",
+      "explication": "'Tired' veut dire 'fatigué'."
+    }
+  ]
+}

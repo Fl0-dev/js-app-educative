@@ -1,0 +1,732 @@
+{
+  "notions": [
+    {
+      "titre": "La Respiration chez l'Homme",
+      "contenu": "La respiration est un échange gazeux : nous **inspirons** du **dioxygène (O₂)** et nous **expirons** du **dioxyde de carbone (CO₂) et de la vapeur d'eau**. Les échanges se font au niveau des alvéoles pulmonaires."
+    },
+    {
+      "titre": "Les Aliments et les Nutriments",
+      "contenu": "Les **aliments** sont composés de **nutriments** (glucides, lipides, protéines, vitamines). La transformation des aliments en nutriments se fait par la **digestion**, principalement dans l'intestin grêle."
+    },
+    {
+      "titre": "La Volcanologie",
+      "contenu": "Un volcan est une structure géologique libérant du magma, des gaz et des cendres. On distingue les **volcans effusifs** (coulées de lave fluides, peu explosifs) des **volcans explosifs** (lave visqueuse, explosions violentes)."
+    },
+    {
+      "titre": "La cellule",
+      "contenu": "La cellule est l’unité de base du vivant. Elle contient un noyau, un cytoplasme et une membrane. Toutes les cellules vivantes partagent cette structure."
+    },
+    {
+      "titre": "Les êtres vivants",
+      "contenu": "Les êtres vivants naissent, grandissent, se nourrissent, se reproduisent et meurent. Ils diffèrent des objets inertes."
+    },
+    {
+      "titre": "Les niveaux d’organisation du vivant",
+      "contenu": "Les cellules forment des tissus, qui forment des organes, qui composent des systèmes, puis un organisme entier."
+    },
+    {
+      "titre": "La photosynthèse",
+      "contenu": "Les plantes fabriquent leur matière à partir de l’eau, du dioxyde de carbone et de la lumière : c’est la photosynthèse."
+    },
+    {
+      "titre": "La respiration des êtres vivants",
+      "contenu": "Tous les êtres vivants respirent. La respiration libère de l’énergie à partir du dioxygène et des nutriments."
+    },
+    {
+      "titre": "La reproduction animale",
+      "contenu": "Les animaux se reproduisent grâce à des cellules reproductrices : spermatozoïdes et ovules."
+    },
+    {
+      "titre": "La reproduction végétale",
+      "contenu": "Les plantes à fleurs se reproduisent grâce à la pollinisation, la fécondation et la formation des graines."
+    },
+    {
+      "titre": "La puberté",
+      "contenu": "La puberté est la période où le corps change et devient capable de se reproduire."
+    },
+    {
+      "titre": "Le cycle de vie de l’Homme",
+      "contenu": "L’être humain passe par différentes étapes : naissance, enfance, adolescence, âge adulte et vieillesse."
+    },
+    {
+      "titre": "Les besoins nutritionnels",
+      "contenu": "Les aliments apportent des nutriments (glucides, lipides, protides, vitamines, sels minéraux) nécessaires au fonctionnement du corps."
+    },
+    {
+      "titre": "La digestion",
+      "contenu": "La digestion transforme les aliments en nutriments absorbables par le sang dans l’intestin grêle."
+    },
+    {
+      "titre": "Le rôle du sang",
+      "contenu": "Le sang transporte le dioxygène, les nutriments et les déchets dans tout le corps."
+    },
+    {
+      "titre": "La respiration humaine",
+      "contenu": "Les poumons assurent les échanges gazeux entre le sang et l’air : entrée d’O₂, sortie de CO₂."
+    },
+    {
+      "titre": "La circulation sanguine",
+      "contenu": "Le cœur pompe le sang dans les artères et les veines pour alimenter tout le corps."
+    },
+    {
+      "titre": "Le système nerveux",
+      "contenu": "Le cerveau reçoit des informations (stimuli) et envoie des ordres aux muscles via les nerfs."
+    },
+    {
+      "titre": "Les volcans",
+      "contenu": "Les volcans se forment à la surface de la Terre lors d’éruptions de magma venu du manteau."
+    },
+    {
+      "titre": "Les séismes",
+      "contenu": "Les séismes résultent de la rupture brutale de roches en profondeur. Ils libèrent de l’énergie sous forme d’ondes."
+    },
+    {
+      "titre": "Les plaques tectoniques",
+      "contenu": "La Terre est constituée de grandes plaques rigides qui bougent lentement sur le manteau terrestre."
+    },
+    {
+      "titre": "Les frontières de plaques",
+      "contenu": "Les volcans et séismes se concentrent souvent aux frontières entre plaques tectoniques."
+    },
+    {
+      "titre": "Le relief terrestre",
+      "contenu": "Le relief de la Terre se forme par des mouvements internes (tectoniques) et par l’érosion."
+    },
+    {
+      "titre": "L’érosion",
+      "contenu": "Le vent, l’eau et la glace usent les roches et transportent les débris vers les plaines ou la mer."
+    },
+    {
+      "titre": "Le cycle des roches",
+      "contenu": "Les roches se transforment au fil du temps : fusion, solidification, érosion et sédimentation."
+    },
+    {
+      "titre": "Les roches volcaniques",
+      "contenu": "Elles proviennent du refroidissement du magma à la surface. Exemple : le basalte."
+    },
+    {
+      "titre": "Les roches sédimentaires",
+      "contenu": "Elles se forment par accumulation de débris ou d’organismes au fond des mers. Exemple : le calcaire."
+    },
+    {
+      "titre": "Les roches métamorphiques",
+      "contenu": "Elles résultent de la transformation de roches existantes sous pression et chaleur."
+    },
+    {
+      "titre": "Les fossiles",
+      "contenu": "Les fossiles sont les restes ou traces d’anciens êtres vivants conservés dans les roches."
+    },
+    {
+      "titre": "L’eau sur Terre",
+      "contenu": "L’eau existe sous trois états : solide, liquide, gazeux. Elle circule sans cesse dans le cycle de l’eau."
+    },
+    {
+      "titre": "Le cycle de l’eau",
+      "contenu": "L’eau s’évapore, forme des nuages, retombe en pluie et retourne dans les rivières et les océans."
+    },
+    {
+      "titre": "Les écosystèmes",
+      "contenu": "Un écosystème comprend un milieu de vie et les êtres vivants qui y vivent en interaction."
+    },
+    {
+      "titre": "La chaîne alimentaire",
+      "contenu": "Une chaîne alimentaire montre les relations alimentaires entre les êtres vivants."
+    },
+    {
+      "titre": "Les producteurs",
+      "contenu": "Les plantes vertes sont des producteurs : elles fabriquent leur propre nourriture par photosynthèse."
+    },
+    {
+      "titre": "Les consommateurs",
+      "contenu": "Les animaux qui se nourrissent d’autres êtres vivants sont des consommateurs."
+    },
+    {
+      "titre": "Les décomposeurs",
+      "contenu": "Les champignons et bactéries décomposent les déchets et recyclent la matière."
+    },
+    {
+      "titre": "La biodiversité",
+      "contenu": "La biodiversité désigne la variété des êtres vivants sur Terre et dans les écosystèmes."
+    },
+    {
+      "titre": "L’adaptation des êtres vivants",
+      "contenu": "Les êtres vivants possèdent des caractéristiques qui leur permettent de vivre dans leur milieu."
+    },
+    {
+      "titre": "Les relations dans un écosystème",
+      "contenu": "Les êtres vivants dépendent les uns des autres : prédation, coopération, compétition."
+    },
+    {
+      "titre": "L’équilibre d’un écosystème",
+      "contenu": "Un écosystème est équilibré lorsque les besoins de chaque espèce sont satisfaits."
+    },
+    {
+      "titre": "Les ressources naturelles",
+      "contenu": "L’eau, le sol, le pétrole ou les forêts sont des ressources naturelles limitées."
+    },
+    {
+      "titre": "Les risques naturels",
+      "contenu": "Certains phénomènes naturels (séismes, volcans, inondations) peuvent être dangereux."
+    },
+    {
+      "titre": "L’origine du pétrole",
+      "contenu": "Le pétrole provient de la décomposition d’organismes marins sur des millions d’années."
+    },
+    {
+      "titre": "La protection de l’environnement",
+      "contenu": "Recycler, économiser l’eau et l’énergie aide à préserver les ressources naturelles."
+    },
+    {
+      "titre": "Le recyclage",
+      "contenu": "Recycler permet de transformer des déchets en nouveaux objets, limitant la pollution."
+    },
+    {
+      "titre": "Les gaz à effet de serre",
+      "contenu": "Le dioxyde de carbone (CO₂) et le méthane (CH₄) retiennent la chaleur et participent au réchauffement climatique."
+    },
+    {
+      "titre": "Le changement climatique",
+      "contenu": "L’activité humaine provoque une hausse de la température mondiale et des perturbations climatiques."
+    },
+    {
+      "titre": "La nutrition des plantes",
+      "contenu": "Les plantes absorbent l’eau et les sels minéraux par les racines, et le CO₂ par les feuilles."
+    },
+    {
+      "titre": "La reproduction des plantes sans fleurs",
+      "contenu": "Les fougères et mousses se reproduisent grâce à des spores et non à des graines."
+    },
+    {
+      "titre": "Les circuits sanguins",
+      "contenu": "Le petit circuit (cœur-poumons) oxygène le sang ; le grand circuit distribue le sang dans tout le corps."
+    },
+    {
+      "titre": "Les organes reproducteurs",
+      "contenu": "Chez l’homme : testicules. Chez la femme : ovaires. Ils produisent les cellules reproductrices."
+    },
+    {
+      "titre": "La fécondation",
+      "contenu": "C’est la rencontre d’un spermatozoïde et d’un ovule formant une cellule œuf."
+    },
+    {
+      "titre": "Le développement de l’embryon",
+      "contenu": "L’embryon se développe dans l’utérus et devient un fœtus avant la naissance."
+    },
+    {
+      "titre": "L’importance de l’eau pour la vie",
+      "contenu": "Tous les êtres vivants ont besoin d’eau pour vivre, se nourrir et se développer."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel gaz inspirons-nous principalement lors de la respiration ?",
+      "options": [
+        "Dioxyde de carbone (CO₂)",
+        "Azote",
+        "Dioxygène (O₂)"
+      ],
+      "reponse": "Dioxygène (O₂)",
+      "explication": "Nous inspirons principalement du dioxygène (O₂), nécessaire au métabolisme cellulaire."
+    },
+    {
+      "question": "Comment se nomme la transformation des aliments en nutriments ?",
+      "options": [
+        "La photosynthèse",
+        "La respiration",
+        "La digestion"
+      ],
+      "reponse": "La digestion",
+      "explication": "La digestion est le processus qui transforme les aliments en nutriments assimilables par l'organisme."
+    },
+    {
+      "question": "Quel type de volcan est caractérisé par des coulées de lave fluides ?",
+      "options": [
+        "Explosif",
+        "Effusif",
+        "Gris"
+      ],
+      "reponse": "Effusif",
+      "explication": "Les volcans effusifs ont des laves peu visqueuses, formant de grandes coulées."
+    },
+    {
+      "question": "Quelle est l’unité de base du vivant ?",
+      "options": [
+        "L’atome",
+        "La cellule",
+        "L’organe"
+      ],
+      "reponse": "La cellule",
+      "explication": "Tous les êtres vivants sont constitués de cellules."
+    },
+    {
+      "question": "Quel organite contient l’ADN ?",
+      "options": [
+        "Le cytoplasme",
+        "Le noyau",
+        "La membrane"
+      ],
+      "reponse": "Le noyau",
+      "explication": "L’ADN est contenu dans le noyau de la cellule."
+    },
+    {
+      "question": "Quel est le rôle de la membrane cellulaire ?",
+      "options": [
+        "Donner de l’énergie",
+        "Protéger et délimiter la cellule",
+        "Fabriquer les protéines"
+      ],
+      "reponse": "Protéger et délimiter la cellule",
+      "explication": "La membrane entoure la cellule et régule les échanges."
+    },
+    {
+      "question": "Que fabriquent les plantes grâce à la photosynthèse ?",
+      "options": [
+        "Du dioxyde de carbone",
+        "De la matière organique",
+        "De la chaleur"
+      ],
+      "reponse": "De la matière organique",
+      "explication": "Les plantes produisent leur propre nourriture à partir de la lumière."
+    },
+    {
+      "question": "Quel gaz est absorbé par les plantes ?",
+      "options": [
+        "Le dioxygène",
+        "Le dioxyde de carbone",
+        "Le méthane"
+      ],
+      "reponse": "Le dioxyde de carbone",
+      "explication": "Les plantes utilisent le CO₂ pour fabriquer du glucose."
+    },
+    {
+      "question": "Que libère la respiration ?",
+      "options": [
+        "Du dioxygène",
+        "Du dioxyde de carbone",
+        "De l’eau liquide"
+      ],
+      "reponse": "Du dioxyde de carbone",
+      "explication": "La respiration consomme du dioxygène et rejette du CO₂."
+    },
+    {
+      "question": "Où se produit la digestion des aliments ?",
+      "options": [
+        "Dans les poumons",
+        "Dans l’intestin grêle",
+        "Dans le cœur"
+      ],
+      "reponse": "Dans l’intestin grêle",
+      "explication": "C’est dans l’intestin grêle que les nutriments passent dans le sang."
+    },
+    {
+      "question": "Quel est le rôle du sang ?",
+      "options": [
+        "Transporter les nutriments et le dioxygène",
+        "Refroidir le corps",
+        "Fabriquer des hormones"
+      ],
+      "reponse": "Transporter les nutriments et le dioxygène",
+      "explication": "Le sang distribue les substances utiles aux organes."
+    },
+    {
+      "question": "Quel organe pompe le sang ?",
+      "options": [
+        "Les poumons",
+        "Le cœur",
+        "Le foie"
+      ],
+      "reponse": "Le cœur",
+      "explication": "Le cœur est un muscle qui fait circuler le sang dans tout le corps."
+    },
+    {
+      "question": "Où ont lieu les échanges gazeux ?",
+      "options": [
+        "Dans les reins",
+        "Dans les alvéoles pulmonaires",
+        "Dans le foie"
+      ],
+      "reponse": "Dans les alvéoles pulmonaires",
+      "explication": "Les alvéoles permettent les échanges entre l’air et le sang."
+    },
+    {
+      "question": "Quelle cellule reproductrice est produite par les testicules ?",
+      "options": [
+        "Les ovules",
+        "Les spermatozoïdes",
+        "Les globules rouges"
+      ],
+      "reponse": "Les spermatozoïdes",
+      "explication": "Les testicules produisent les spermatozoïdes."
+    },
+    {
+      "question": "Que se passe-t-il à la puberté ?",
+      "options": [
+        "Le corps grandit et devient capable de se reproduire",
+        "Le corps vieillit",
+        "Les cellules se divisent plus lentement"
+      ],
+      "reponse": "Le corps grandit et devient capable de se reproduire",
+      "explication": "La puberté marque la maturité sexuelle."
+    },
+    {
+      "question": "Comment se forme un volcan ?",
+      "options": [
+        "Par accumulation de sable",
+        "Par éruption de magma",
+        "Par glissement de terrain"
+      ],
+      "reponse": "Par éruption de magma",
+      "explication": "Le magma remonte à la surface et forme un volcan."
+    },
+    {
+      "question": "Qu’est-ce qu’un séisme ?",
+      "options": [
+        "Un orage",
+        "Une rupture des roches en profondeur",
+        "Une éruption volcanique"
+      ],
+      "reponse": "Une rupture des roches en profondeur",
+      "explication": "Un séisme libère brutalement de l’énergie sous forme d’ondes."
+    },
+    {
+      "question": "Les volcans et séismes se trouvent souvent :",
+      "options": [
+        "Au centre des continents",
+        "Aux frontières des plaques",
+        "Au pôle Nord"
+      ],
+      "reponse": "Aux frontières des plaques",
+      "explication": "Les plaques tectoniques se frottent ou s’écartent à ces zones."
+    },
+    {
+      "question": "Comment s’appelle la couche rigide de la Terre ?",
+      "options": [
+        "La croûte terrestre",
+        "Le noyau",
+        "L’atmosphère"
+      ],
+      "reponse": "La croûte terrestre",
+      "explication": "La croûte fait partie de la lithosphère, couche externe rigide."
+    },
+    {
+      "question": "Quelle roche provient d’une éruption volcanique ?",
+      "options": [
+        "Le basalte",
+        "Le calcaire",
+        "Le grès"
+      ],
+      "reponse": "Le basalte",
+      "explication": "Le basalte se forme quand le magma se refroidit rapidement."
+    },
+    {
+      "question": "Que transportent les rivières ?",
+      "options": [
+        "Des sédiments",
+        "Des gaz",
+        "Du pétrole brut"
+      ],
+      "reponse": "Des sédiments",
+      "explication": "Les rivières transportent des débris de roches vers les mers."
+    },
+    {
+      "question": "Comment se forment les roches sédimentaires ?",
+      "options": [
+        "Par refroidissement du magma",
+        "Par accumulation de débris",
+        "Par fusion des métaux"
+      ],
+      "reponse": "Par accumulation de débris",
+      "explication": "Elles résultent de la sédimentation de particules au fond de l’eau."
+    },
+    {
+      "question": "Que sont les fossiles ?",
+      "options": [
+        "Des traces d’anciens êtres vivants",
+        "Des pierres précieuses",
+        "Des cristaux"
+      ],
+      "reponse": "Des traces d’anciens êtres vivants",
+      "explication": "Les fossiles renseignent sur la vie ancienne sur Terre."
+    },
+    {
+      "question": "Quelle est la somme des angles d’un triangle ?",
+      "options": [
+        "100°",
+        "180°",
+        "360°"
+      ],
+      "reponse": "180°",
+      "explication": "Tous les triangles ont une somme d’angles de 180°."
+    },
+    {
+      "question": "Quel est l’état naturel de l’eau dans les rivières ?",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux"
+      ],
+      "reponse": "Liquide",
+      "explication": "L’eau est liquide dans les rivières et les océans."
+    },
+    {
+      "question": "Comment s’appelle le passage de l’eau liquide à la vapeur ?",
+      "options": [
+        "Condensation",
+        "Évaporation",
+        "Précipitation"
+      ],
+      "reponse": "Évaporation",
+      "explication": "L’eau s’évapore sous l’effet de la chaleur."
+    },
+    {
+      "question": "Comment s’appelle le retour de la pluie à la surface ?",
+      "options": [
+        "Infiltration",
+        "Précipitation",
+        "Condensation"
+      ],
+      "reponse": "Précipitation",
+      "explication": "Les nuages libèrent l’eau sous forme de pluie."
+    },
+    {
+      "question": "Qu’est-ce qu’un écosystème ?",
+      "options": [
+        "Un groupe d’animaux",
+        "Un milieu de vie et ses êtres vivants",
+        "Une seule espèce végétale"
+      ],
+      "reponse": "Un milieu de vie et ses êtres vivants",
+      "explication": "Un écosystème comprend le biotope et la biocénose."
+    },
+    {
+      "question": "Que montre une chaîne alimentaire ?",
+      "options": [
+        "Les relations alimentaires",
+        "Les saisons",
+        "Les migrations"
+      ],
+      "reponse": "Les relations alimentaires",
+      "explication": "Elle montre qui mange qui dans un milieu."
+    },
+    {
+      "question": "Qui sont les producteurs dans une chaîne alimentaire ?",
+      "options": [
+        "Les animaux",
+        "Les plantes vertes",
+        "Les champignons"
+      ],
+      "reponse": "Les plantes vertes",
+      "explication": "Elles produisent leur nourriture par photosynthèse."
+    },
+    {
+      "question": "Que mangent les herbivores ?",
+      "options": [
+        "Des animaux",
+        "Des plantes",
+        "Des champignons"
+      ],
+      "reponse": "Des plantes",
+      "explication": "Les herbivores se nourrissent de végétaux."
+    },
+    {
+      "question": "Quel est le rôle des décomposeurs ?",
+      "options": [
+        "Créer de l’énergie",
+        "Recycler la matière",
+        "Produire de l’oxygène"
+      ],
+      "reponse": "Recycler la matière",
+      "explication": "Les décomposeurs transforment les déchets organiques en nutriments."
+    },
+    {
+      "question": "Qu’est-ce que la biodiversité ?",
+      "options": [
+        "La variété des êtres vivants",
+        "La taille des animaux",
+        "Le climat d’une région"
+      ],
+      "reponse": "La variété des êtres vivants",
+      "explication": "Elle représente la diversité des espèces sur Terre."
+    },
+    {
+      "question": "Pourquoi l’eau est-elle indispensable ?",
+      "options": [
+        "Elle sert à respirer",
+        "Elle permet les réactions vitales",
+        "Elle remplace le sang"
+      ],
+      "reponse": "Elle permet les réactions vitales",
+      "explication": "L’eau est nécessaire à toutes les réactions chimiques du vivant."
+    },
+    {
+      "question": "Que signifie 'prédation' ?",
+      "options": [
+        "Quand un animal mange un autre",
+        "Quand deux animaux coopèrent",
+        "Quand un animal fuit"
+      ],
+      "reponse": "Quand un animal mange un autre",
+      "explication": "La prédation est une relation entre un prédateur et sa proie."
+    },
+    {
+      "question": "Que se passe-t-il si une espèce disparaît ?",
+      "options": [
+        "Aucune conséquence",
+        "L’équilibre de l’écosystème change",
+        "Les volcans se forment"
+      ],
+      "reponse": "L’équilibre de l’écosystème change",
+      "explication": "Chaque espèce joue un rôle dans son milieu."
+    },
+    {
+      "question": "Que libèrent les volcans lors d’une éruption ?",
+      "options": [
+        "De la lave et des gaz",
+        "De la pluie",
+        "Des roches sédimentaires"
+      ],
+      "reponse": "De la lave et des gaz",
+      "explication": "Les volcans rejettent du magma devenu lave et des gaz."
+    },
+    {
+      "question": "Que provoque l’érosion ?",
+      "options": [
+        "La formation de montagnes",
+        "L’usure des roches",
+        "La création de magma"
+      ],
+      "reponse": "L’usure des roches",
+      "explication": "L’érosion use les reliefs et déplace les débris."
+    },
+    {
+      "question": "De quoi dépend la température sur Terre ?",
+      "options": [
+        "Des volcans",
+        "De l’atmosphère et du soleil",
+        "Des marées"
+      ],
+      "reponse": "De l’atmosphère et du soleil",
+      "explication": "Le soleil chauffe la Terre et l’atmosphère retient une partie de cette chaleur."
+    },
+    {
+      "question": "Que sont les gaz à effet de serre ?",
+      "options": [
+        "Des gaz inoffensifs",
+        "Des gaz retenant la chaleur",
+        "Des gaz de volcan"
+      ],
+      "reponse": "Des gaz retenant la chaleur",
+      "explication": "Ils piègent la chaleur dans l’atmosphère."
+    },
+    {
+      "question": "Quelles sont les principales sources d’énergie renouvelable ?",
+      "options": [
+        "Charbon et pétrole",
+        "Soleil et vent",
+        "Gaz naturel"
+      ],
+      "reponse": "Soleil et vent",
+      "explication": "Ces sources d’énergie se renouvellent naturellement."
+    },
+    {
+      "question": "De quoi est formé le pétrole ?",
+      "options": [
+        "De roches volcaniques",
+        "D’anciens organismes marins",
+        "De sable compacté"
+      ],
+      "reponse": "D’anciens organismes marins",
+      "explication": "Le pétrole provient de la décomposition d’êtres vivants marins."
+    },
+    {
+      "question": "Pourquoi faut-il recycler ?",
+      "options": [
+        "Pour économiser les ressources",
+        "Pour produire plus de déchets",
+        "Pour créer du pétrole"
+      ],
+      "reponse": "Pour économiser les ressources",
+      "explication": "Recycler permet de limiter la pollution et l’utilisation de matières premières."
+    },
+    {
+      "question": "Quel est le rôle des reins ?",
+      "options": [
+        "Filtrer le sang",
+        "Pomper le sang",
+        "Stocker l’oxygène"
+      ],
+      "reponse": "Filtrer le sang",
+      "explication": "Les reins éliminent les déchets du sang sous forme d’urine."
+    },
+    {
+      "question": "Où se développe le fœtus ?",
+      "options": [
+        "Dans les poumons",
+        "Dans l’utérus",
+        "Dans le foie"
+      ],
+      "reponse": "Dans l’utérus",
+      "explication": "Le fœtus se développe dans l’utérus maternel."
+    },
+    {
+      "question": "Comment s’appelle la rencontre entre un ovule et un spermatozoïde ?",
+      "options": [
+        "La division",
+        "La fécondation",
+        "La fusion des gènes"
+      ],
+      "reponse": "La fécondation",
+      "explication": "La fécondation crée une cellule œuf à l’origine d’un nouvel être."
+    },
+    {
+      "question": "Quel gaz respirons-nous ?",
+      "options": [
+        "Le dioxygène",
+        "Le dioxyde de carbone",
+        "Le méthane"
+      ],
+      "reponse": "Le dioxygène",
+      "explication": "Les cellules ont besoin de dioxygène pour produire de l’énergie."
+    },
+    {
+      "question": "Que transportent les artères ?",
+      "options": [
+        "Le sang du cœur vers les organes",
+        "Le sang vers les poumons",
+        "Les nutriments vers le foie"
+      ],
+      "reponse": "Le sang du cœur vers les organes",
+      "explication": "Les artères distribuent le sang pompé par le cœur."
+    },
+    {
+      "question": "Quelle est la source d’énergie principale sur Terre ?",
+      "options": [
+        "Le vent",
+        "Le Soleil",
+        "Le magma"
+      ],
+      "reponse": "Le Soleil",
+      "explication": "Le Soleil fournit la lumière et la chaleur nécessaires à la vie."
+    },
+    {
+      "question": "Comment les plantes absorbent-elles l’eau ?",
+      "options": [
+        "Par les feuilles",
+        "Par les racines",
+        "Par la tige"
+      ],
+      "reponse": "Par les racines",
+      "explication": "Les racines absorbent l’eau et les sels minéraux du sol."
+    },
+    {
+      "question": "Comment s’appelle la transformation de l’eau en glace ?",
+      "options": [
+        "Condensation",
+        "Solidification",
+        "Évaporation"
+      ],
+      "reponse": "Solidification",
+      "explication": "L’eau devient solide lorsqu’elle gèle."
+    }
+  ]
+}

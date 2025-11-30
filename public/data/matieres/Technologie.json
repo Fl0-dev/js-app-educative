@@ -1,0 +1,742 @@
+{
+  "notions": [
+    {
+      "titre": "Fonction d'un Objet Technique",
+      "contenu": "Un **objet technique** répond à un besoin. Sa **fonction d'usage** est ce à quoi il sert (ex: *téléphoner*). Sa **fonction d'estime** est ce qu'il apporte en termes de plaisir ou de design (ex: *être beau*). Le **cycle de vie** de l'objet est important."
+    },
+    {
+      "titre": "Matériaux et Recyclage",
+      "contenu": "Les matériaux sont classés par famille (métaux, polymères, bois, etc.). Le recyclage est essentiel. Le **tri sélectif** permet de récupérer et transformer les matériaux usagés pour réduire l'impact environnemental."
+    },
+    {
+      "titre": "Algorithmique et Programmation",
+      "contenu": "Un **algorithme** est une suite d'instructions précises pour résoudre un problème. La **programmation** consiste à traduire cet algorithme en un langage informatique (ex: Scratch, Python) pour être exécuté par un système."
+    },
+    {
+      "titre": "Les objets techniques",
+      "contenu": "Un objet technique est fabriqué par l’homme pour répondre à un besoin. Exemple : une lampe éclaire, un vélo permet de se déplacer."
+    },
+    {
+      "titre": "Les objets naturels",
+      "contenu": "Les objets naturels ne sont pas modifiés par l’homme. Exemple : une pierre, un arbre."
+    },
+    {
+      "titre": "Le besoin",
+      "contenu": "Un besoin est une attente ou un usage auquel un objet technique doit répondre."
+    },
+    {
+      "titre": "La fonction d’usage",
+      "contenu": "C’est le rôle principal de l’objet technique. Exemple : la fonction d’usage d’un crayon est d’écrire."
+    },
+    {
+      "titre": "La fonction technique",
+      "contenu": "C’est le rôle de chaque élément d’un objet. Exemple : les freins d’un vélo servent à ralentir."
+    },
+    {
+      "titre": "L’évolution des objets techniques",
+      "contenu": "Les objets évoluent selon les progrès technologiques et les besoins des utilisateurs."
+    },
+    {
+      "titre": "Les matériaux",
+      "contenu": "Les matériaux sont les substances utilisées pour fabriquer les objets. Exemple : bois, métal, plastique."
+    },
+    {
+      "titre": "Les matériaux naturels",
+      "contenu": "Issus de la nature : bois, pierre, coton."
+    },
+    {
+      "titre": "Les matériaux synthétiques",
+      "contenu": "Fabriqués par l’homme à partir de produits chimiques. Exemple : plastique, nylon."
+    },
+    {
+      "titre": "Les propriétés des matériaux",
+      "contenu": "Les matériaux ont des propriétés comme la dureté, la résistance, la conductivité ou la légèreté."
+    },
+    {
+      "titre": "Le recyclage",
+      "contenu": "C’est la réutilisation de matériaux pour fabriquer de nouveaux objets."
+    },
+    {
+      "titre": "L’énergie",
+      "contenu": "L’énergie permet de faire fonctionner un objet. Exemple : énergie électrique, solaire ou mécanique."
+    },
+    {
+      "titre": "Les sources d’énergie",
+      "contenu": "Elles peuvent être renouvelables (solaire, vent) ou non renouvelables (pétrole, charbon)."
+    },
+    {
+      "titre": "Les énergies renouvelables",
+      "contenu": "Elles se renouvellent naturellement : vent, soleil, eau, biomasse."
+    },
+    {
+      "titre": "Les énergies non renouvelables",
+      "contenu": "Elles s’épuisent : charbon, pétrole, gaz naturel, uranium."
+    },
+    {
+      "titre": "La transformation d’énergie",
+      "contenu": "Les objets transforment une forme d’énergie en une autre. Exemple : la lampe transforme l’électricité en lumière."
+    },
+    {
+      "titre": "Le stockage d’énergie",
+      "contenu": "L’énergie peut être stockée dans des piles, batteries ou réservoirs."
+    },
+    {
+      "titre": "Les circuits électriques",
+      "contenu": "Un circuit permet de faire circuler le courant entre la source et le récepteur."
+    },
+    {
+      "titre": "Les conducteurs et isolants",
+      "contenu": "Les métaux conduisent l’électricité, les plastiques isolent."
+    },
+    {
+      "titre": "L’habitat",
+      "contenu": "L’habitat est un espace de vie conçu pour abriter les humains et leurs activités."
+    },
+    {
+      "titre": "L’isolation d’une maison",
+      "contenu": "L’isolation thermique permet de conserver la chaleur en hiver et la fraîcheur en été."
+    },
+    {
+      "titre": "Les matériaux de construction",
+      "contenu": "Les maisons sont construites avec du béton, du bois, de la brique, du verre ou de l’acier."
+    },
+    {
+      "titre": "La structure d’un bâtiment",
+      "contenu": "La structure supporte le poids de la construction : murs porteurs, poutres, planchers."
+    },
+    {
+      "titre": "Les plans et schémas",
+      "contenu": "Les plans permettent de représenter un objet ou un bâtiment à l’échelle."
+    },
+    {
+      "titre": "L’énergie dans l’habitat",
+      "contenu": "L’énergie sert à chauffer, éclairer et faire fonctionner les appareils."
+    },
+    {
+      "titre": "Les systèmes automatisés",
+      "contenu": "Un système automatisé réalise des actions sans intervention humaine."
+    },
+    {
+      "titre": "Les capteurs",
+      "contenu": "Les capteurs détectent des informations (température, lumière, mouvement)."
+    },
+    {
+      "titre": "Les actionneurs",
+      "contenu": "Les actionneurs exécutent des actions : moteur, lampe, vérin."
+    },
+    {
+      "titre": "La chaîne d’information",
+      "contenu": "Elle comprend la détection, le traitement et la transmission d’informations."
+    },
+    {
+      "titre": "La chaîne d’énergie",
+      "contenu": "Elle comprend l’alimentation, la distribution, la transformation et l’action."
+    },
+    {
+      "titre": "Le robot",
+      "contenu": "Un robot est un système automatisé capable d’agir selon un programme."
+    },
+    {
+      "titre": "La programmation",
+      "contenu": "La programmation consiste à écrire des instructions pour qu’un système réalise une tâche."
+    },
+    {
+      "titre": "L’algorithme",
+      "contenu": "C’est la suite d’étapes logiques permettant de résoudre un problème."
+    },
+    {
+      "titre": "Les objets connectés",
+      "contenu": "Ils communiquent via Internet pour échanger des informations. Exemple : montre connectée."
+    },
+    {
+      "titre": "Le réseau Internet",
+      "contenu": "Internet relie des milliards d’appareils pour partager des données partout dans le monde."
+    },
+    {
+      "titre": "Le cloud",
+      "contenu": "Le cloud permet de stocker des données à distance sur des serveurs accessibles en ligne."
+    },
+    {
+      "titre": "La sécurité numérique",
+      "contenu": "Protéger ses mots de passe et ses données personnelles est essentiel pour éviter les piratages."
+    },
+    {
+      "titre": "Le développement durable",
+      "contenu": "C’est un développement qui respecte l’environnement, l’économie et la société."
+    },
+    {
+      "titre": "L’éco-conception",
+      "contenu": "Concevoir un objet en limitant son impact sur l’environnement tout au long de sa vie."
+    },
+    {
+      "titre": "L’empreinte carbone",
+      "contenu": "C’est la quantité de gaz à effet de serre produite par une activité ou un objet."
+    },
+    {
+      "titre": "Les transports intelligents",
+      "contenu": "Ils utilisent des capteurs et logiciels pour améliorer la sécurité et la fluidité du trafic."
+    },
+    {
+      "titre": "Le recyclage des déchets électroniques",
+      "contenu": "Les appareils usagés contiennent des métaux rares qu’il faut récupérer et recycler."
+    },
+    {
+      "titre": "Les énergies dans les transports",
+      "contenu": "Les véhicules utilisent différentes énergies : essence, électricité, hydrogène."
+    },
+    {
+      "titre": "Les imprimantes 3D",
+      "contenu": "Elles fabriquent des objets en ajoutant de la matière couche par couche."
+    },
+    {
+      "titre": "Le design d’un objet",
+      "contenu": "Le design combine esthétique et fonctionnalité pour rendre un objet utile et agréable."
+    },
+    {
+      "titre": "Les prototypes",
+      "contenu": "Un prototype est un modèle de test avant la fabrication finale d’un objet."
+    },
+    {
+      "titre": "La domotique",
+      "contenu": "C’est l’ensemble des technologies qui automatisent et contrôlent une maison."
+    },
+    {
+      "titre": "Les capteurs de mouvement",
+      "contenu": "Ils détectent la présence ou le déplacement d’une personne ou d’un objet."
+    },
+    {
+      "titre": "Les énergies dans la maison",
+      "contenu": "L’électricité, le gaz et le solaire alimentent les appareils domestiques."
+    },
+    {
+      "titre": "Les objets du futur",
+      "contenu": "Les innovations technologiques créent des objets plus connectés, écologiques et intelligents."
+    },
+    {
+      "titre": "La maintenance",
+      "contenu": "C’est l’entretien régulier d’un objet pour garantir son bon fonctionnement."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle fonction répond au design et à l'esthétique d'un objet ?",
+      "options": [
+        "Fonction d'usage",
+        "Fonction d'estime",
+        "Fonction technique"
+      ],
+      "reponse": "Fonction d'estime",
+      "explication": "La fonction d'estime concerne l'appréciation subjective (esthétique, plaisir) de l'objet."
+    },
+    {
+      "question": "Qu'est-ce qu'un algorithme ?",
+      "options": [
+        "Un logiciel de dessin",
+        "Une série d'instructions ordonnées",
+        "Un type de métal"
+      ],
+      "reponse": "Une série d'instructions ordonnées",
+      "explication": "Un algorithme est une séquence logique d'étapes pour atteindre un but."
+    },
+    {
+      "question": "À quelle famille appartient le PVC (Polychlorure de vinyle) ?",
+      "options": [
+        "Métaux",
+        "Polymères (Plastiques)",
+        "Composites"
+      ],
+      "reponse": "Polymères (Plastiques)",
+      "explication": "Le PVC est un plastique, donc un polymère."
+    },
+    {
+      "question": "Qu’est-ce qu’un objet technique ?",
+      "options": [
+        "Un objet naturel",
+        "Un objet fabriqué par l’homme",
+        "Un animal"
+      ],
+      "reponse": "Un objet fabriqué par l’homme",
+      "explication": "Un objet technique est créé par l’homme pour répondre à un besoin."
+    },
+    {
+      "question": "Quel est l’objectif principal d’un objet technique ?",
+      "options": [
+        "Décorer",
+        "Répondre à un besoin",
+        "Polluer"
+      ],
+      "reponse": "Répondre à un besoin",
+      "explication": "Un objet technique est conçu pour rendre un service précis à l’utilisateur."
+    },
+    {
+      "question": "Qu’est-ce qu’une fonction d’usage ?",
+      "options": [
+        "L’action de chaque pièce",
+        "Le rôle global de l’objet",
+        "La couleur de l’objet"
+      ],
+      "reponse": "Le rôle global de l’objet",
+      "explication": "La fonction d’usage décrit ce que l’objet permet de faire."
+    },
+    {
+      "question": "De quoi dépend l’évolution d’un objet technique ?",
+      "options": [
+        "Des besoins et des technologies",
+        "De la météo",
+        "Du hasard"
+      ],
+      "reponse": "Des besoins et des technologies",
+      "explication": "Les progrès techniques et les nouveaux besoins font évoluer les objets."
+    },
+    {
+      "question": "Quel matériau est conducteur d’électricité ?",
+      "options": [
+        "Le cuivre",
+        "Le plastique",
+        "Le bois"
+      ],
+      "reponse": "Le cuivre",
+      "explication": "Les métaux comme le cuivre laissent passer le courant électrique."
+    },
+    {
+      "question": "Quel matériau est isolant ?",
+      "options": [
+        "Le verre",
+        "L’aluminium",
+        "Le fer"
+      ],
+      "reponse": "Le verre",
+      "explication": "Les isolants comme le verre ne laissent pas passer le courant électrique."
+    },
+    {
+      "question": "Que signifie 'recycler' ?",
+      "options": [
+        "Jeter",
+        "Réutiliser",
+        "Cacher"
+      ],
+      "reponse": "Réutiliser",
+      "explication": "Recycler, c’est transformer un déchet pour fabriquer un nouvel objet."
+    },
+    {
+      "question": "Quelle est une énergie renouvelable ?",
+      "options": [
+        "Le vent",
+        "Le pétrole",
+        "Le charbon"
+      ],
+      "reponse": "Le vent",
+      "explication": "L’énergie éolienne provient du vent et se renouvelle naturellement."
+    },
+    {
+      "question": "Quelle est une énergie non renouvelable ?",
+      "options": [
+        "Le charbon",
+        "Le vent",
+        "Le soleil"
+      ],
+      "reponse": "Le charbon",
+      "explication": "Le charbon est une énergie fossile qui s’épuise."
+    },
+    {
+      "question": "À quoi sert une pile ?",
+      "options": [
+        "À produire du son",
+        "À stocker de l’énergie électrique",
+        "À chauffer"
+      ],
+      "reponse": "À stocker de l’énergie électrique",
+      "explication": "La pile transforme l’énergie chimique en énergie électrique."
+    },
+    {
+      "question": "Que fait un interrupteur ?",
+      "options": [
+        "Allume ou éteint un circuit",
+        "Stocke l’énergie",
+        "Mesure la tension"
+      ],
+      "reponse": "Allume ou éteint un circuit",
+      "explication": "L’interrupteur permet d’ouvrir ou de fermer un circuit électrique."
+    },
+    {
+      "question": "Que se passe-t-il quand un circuit est ouvert ?",
+      "options": [
+        "Le courant passe",
+        "Le courant ne passe pas",
+        "La lampe brille plus"
+      ],
+      "reponse": "Le courant ne passe pas",
+      "explication": "Le courant circule uniquement dans un circuit fermé."
+    },
+    {
+      "question": "Que mesure un multimètre ?",
+      "options": [
+        "Le poids",
+        "La tension et le courant",
+        "La vitesse"
+      ],
+      "reponse": "La tension et le courant",
+      "explication": "Le multimètre sert à mesurer la tension (volts) et l’intensité (ampères)."
+    },
+    {
+      "question": "Qu’est-ce qu’un capteur ?",
+      "options": [
+        "Un dispositif qui détecte une information",
+        "Un moteur",
+        "Une lampe"
+      ],
+      "reponse": "Un dispositif qui détecte une information",
+      "explication": "Les capteurs détectent des données comme la lumière ou la température."
+    },
+    {
+      "question": "Qu’est-ce qu’un actionneur ?",
+      "options": [
+        "Un capteur de lumière",
+        "Un élément qui agit",
+        "Une batterie"
+      ],
+      "reponse": "Un élément qui agit",
+      "explication": "L’actionneur exécute une action, comme un moteur ou une LED."
+    },
+    {
+      "question": "Qu’est-ce qu’un robot ?",
+      "options": [
+        "Un objet animé par un programme",
+        "Un animal",
+        "Un jouet simple"
+      ],
+      "reponse": "Un objet animé par un programme",
+      "explication": "Un robot est un système automatisé qui agit selon un programme."
+    },
+    {
+      "question": "Qu’est-ce qu’un algorithme ?",
+      "options": [
+        "Un dessin",
+        "Une suite d’étapes logiques",
+        "Une matière"
+      ],
+      "reponse": "Une suite d’étapes logiques",
+      "explication": "Un algorithme est une suite d’instructions logiques pour résoudre un problème."
+    },
+    {
+      "question": "Que signifie 'domotique' ?",
+      "options": [
+        "L’automatisation du logement",
+        "Le nettoyage automatique",
+        "Le contrôle du climat"
+      ],
+      "reponse": "L’automatisation du logement",
+      "explication": "La domotique automatise les fonctions de la maison : lumière, chauffage, sécurité."
+    },
+    {
+      "question": "Que fait un capteur de mouvement ?",
+      "options": [
+        "Il capte le son",
+        "Il détecte un déplacement",
+        "Il mesure la lumière"
+      ],
+      "reponse": "Il détecte un déplacement",
+      "explication": "Le capteur de mouvement repère les déplacements dans une zone donnée."
+    },
+    {
+      "question": "Qu’est-ce qu’un matériau synthétique ?",
+      "options": [
+        "Un matériau naturel",
+        "Un matériau fabriqué par l’homme",
+        "Une plante"
+      ],
+      "reponse": "Un matériau fabriqué par l’homme",
+      "explication": "Les matériaux synthétiques sont créés artificiellement, comme le plastique."
+    },
+    {
+      "question": "Qu’est-ce qu’un matériau recyclable ?",
+      "options": [
+        "Un matériau qu’on peut réutiliser",
+        "Un matériau jetable",
+        "Un matériau toxique"
+      ],
+      "reponse": "Un matériau qu’on peut réutiliser",
+      "explication": "Les matériaux recyclables peuvent être transformés en nouveaux objets."
+    },
+    {
+      "question": "Que permet l’éco-conception ?",
+      "options": [
+        "De consommer plus",
+        "De limiter l’impact écologique",
+        "De fabriquer plus cher"
+      ],
+      "reponse": "De limiter l’impact écologique",
+      "explication": "L’éco-conception réduit la pollution dès la fabrication d’un objet."
+    },
+    {
+      "question": "Que signifie 'empreinte carbone' ?",
+      "options": [
+        "La quantité de CO₂ émise",
+        "Une trace de pas",
+        "Une énergie propre"
+      ],
+      "reponse": "La quantité de CO₂ émise",
+      "explication": "L’empreinte carbone mesure les émissions de gaz à effet de serre."
+    },
+    {
+      "question": "Que permet le développement durable ?",
+      "options": [
+        "Protéger la planète",
+        "Consommer plus d’énergie",
+        "Polluer plus"
+      ],
+      "reponse": "Protéger la planète",
+      "explication": "Le développement durable cherche à concilier écologie, économie et société."
+    },
+    {
+      "question": "Quel matériau est utilisé pour isoler une maison ?",
+      "options": [
+        "Le béton",
+        "La laine de verre",
+        "L’acier"
+      ],
+      "reponse": "La laine de verre",
+      "explication": "Les matériaux isolants comme la laine de verre limitent les pertes de chaleur."
+    },
+    {
+      "question": "Quel est le rôle des plans dans la construction ?",
+      "options": [
+        "Décorer la maison",
+        "Représenter le bâtiment à construire",
+        "Faire des calculs"
+      ],
+      "reponse": "Représenter le bâtiment à construire",
+      "explication": "Les plans servent à visualiser le projet avant la construction."
+    },
+    {
+      "question": "Quel est le rôle des fondations d’un bâtiment ?",
+      "options": [
+        "Décorer",
+        "Stabiliser le bâtiment",
+        "Isoler du bruit"
+      ],
+      "reponse": "Stabiliser le bâtiment",
+      "explication": "Les fondations assurent la stabilité du bâtiment sur le sol."
+    },
+    {
+      "question": "Que fait une imprimante 3D ?",
+      "options": [
+        "Elle imprime sur du papier",
+        "Elle fabrique des objets en volume",
+        "Elle découpe du métal"
+      ],
+      "reponse": "Elle fabrique des objets en volume",
+      "explication": "Une imprimante 3D crée des objets couche par couche à partir d’un modèle numérique."
+    },
+    {
+      "question": "Que contient un ordinateur ?",
+      "options": [
+        "Un moteur",
+        "Des composants électroniques",
+        "Des engrenages"
+      ],
+      "reponse": "Des composants électroniques",
+      "explication": "Un ordinateur fonctionne grâce à des composants électroniques reliés entre eux."
+    },
+    {
+      "question": "Qu’est-ce qu’un réseau informatique ?",
+      "options": [
+        "Un ensemble d’ordinateurs connectés",
+        "Une route",
+        "Une usine"
+      ],
+      "reponse": "Un ensemble d’ordinateurs connectés",
+      "explication": "Un réseau relie plusieurs appareils pour partager des données."
+    },
+    {
+      "question": "Qu’est-ce qu’un objet connecté ?",
+      "options": [
+        "Un objet qui communique via Internet",
+        "Un objet sans pile",
+        "Un objet ancien"
+      ],
+      "reponse": "Un objet qui communique via Internet",
+      "explication": "Les objets connectés échangent des données en ligne (montre, thermostat)."
+    },
+    {
+      "question": "Qu’est-ce que le cloud ?",
+      "options": [
+        "Un nuage",
+        "Un stockage à distance",
+        "Un logiciel"
+      ],
+      "reponse": "Un stockage à distance",
+      "explication": "Le cloud stocke des fichiers sur des serveurs accessibles via Internet."
+    },
+    {
+      "question": "Pourquoi économiser l’énergie ?",
+      "options": [
+        "Pour polluer",
+        "Pour protéger l’environnement",
+        "Pour gaspiller"
+      ],
+      "reponse": "Pour protéger l’environnement",
+      "explication": "Réduire la consommation d’énergie diminue les émissions de gaz à effet de serre."
+    },
+    {
+      "question": "Que fait une batterie ?",
+      "options": [
+        "Elle stocke de l’énergie",
+        "Elle mesure la tension",
+        "Elle fabrique de la lumière"
+      ],
+      "reponse": "Elle stocke de l’énergie",
+      "explication": "La batterie emmagasine de l’énergie pour alimenter les appareils."
+    },
+    {
+      "question": "Que fait un moteur électrique ?",
+      "options": [
+        "Il transforme l’énergie électrique en mouvement",
+        "Il chauffe l’air",
+        "Il éclaire"
+      ],
+      "reponse": "Il transforme l’énergie électrique en mouvement",
+      "explication": "Le moteur électrique convertit l’électricité en énergie mécanique."
+    },
+    {
+      "question": "Quelle énergie utilise une voiture électrique ?",
+      "options": [
+        "Essence",
+        "Électricité",
+        "Charbon"
+      ],
+      "reponse": "Électricité",
+      "explication": "Les voitures électriques fonctionnent grâce à l’énergie stockée dans des batteries."
+    },
+    {
+      "question": "Que permet un panneau solaire ?",
+      "options": [
+        "Produire de la lumière",
+        "Produire de l’électricité grâce au Soleil",
+        "Refroidir l’air"
+      ],
+      "reponse": "Produire de l’électricité grâce au Soleil",
+      "explication": "Les panneaux solaires transforment l’énergie solaire en électricité."
+    },
+    {
+      "question": "Qu’est-ce qu’un prototype ?",
+      "options": [
+        "Un modèle de test",
+        "Un produit final",
+        "Un dessin"
+      ],
+      "reponse": "Un modèle de test",
+      "explication": "Un prototype est un modèle réalisé avant la production d’un objet."
+    },
+    {
+      "question": "Pourquoi utilise-t-on la domotique ?",
+      "options": [
+        "Pour automatiser les tâches du logement",
+        "Pour décorer",
+        "Pour consommer plus d’énergie"
+      ],
+      "reponse": "Pour automatiser les tâches du logement",
+      "explication": "La domotique rend les maisons plus confortables et économes en énergie."
+    },
+    {
+      "question": "Quel appareil mesure la consommation électrique ?",
+      "options": [
+        "Un compteur",
+        "Un thermomètre",
+        "Un voltmètre"
+      ],
+      "reponse": "Un compteur",
+      "explication": "Le compteur enregistre la quantité d’électricité consommée."
+    },
+    {
+      "question": "Qu’est-ce qu’un plan en technologie ?",
+      "options": [
+        "Une recette",
+        "Une représentation à l’échelle",
+        "Un schéma électrique"
+      ],
+      "reponse": "Une représentation à l’échelle",
+      "explication": "Un plan représente un objet ou une construction en respectant les proportions."
+    },
+    {
+      "question": "Qu’est-ce qu’un logiciel de CAO ?",
+      "options": [
+        "Un outil de dessin numérique",
+        "Un jeu vidéo",
+        "Un robot"
+      ],
+      "reponse": "Un outil de dessin numérique",
+      "explication": "La CAO (Conception Assistée par Ordinateur) permet de modéliser des objets."
+    },
+    {
+      "question": "Quel est le rôle du design ?",
+      "options": [
+        "Rendre un objet utile et esthétique",
+        "Décorer uniquement",
+        "Simplifier les circuits"
+      ],
+      "reponse": "Rendre un objet utile et esthétique",
+      "explication": "Le design allie esthétique, ergonomie et fonctionnalité."
+    },
+    {
+      "question": "Que permet l’impression 3D à l’école ?",
+      "options": [
+        "Créer des objets prototypes",
+        "Dessiner sur papier",
+        "Jouer"
+      ],
+      "reponse": "Créer des objets prototypes",
+      "explication": "L’impression 3D aide à concevoir et tester des projets techniques."
+    },
+    {
+      "question": "Pourquoi faut-il protéger ses données ?",
+      "options": [
+        "Pour éviter le vol ou la perte",
+        "Pour tout partager",
+        "Pour effacer les fichiers"
+      ],
+      "reponse": "Pour éviter le vol ou la perte",
+      "explication": "La cybersécurité protège les données contre les piratages et suppressions."
+    },
+    {
+      "question": "Quel est le rôle d’un serveur ?",
+      "options": [
+        "Stocker et partager des données",
+        "Afficher des images",
+        "Calculer des notes"
+      ],
+      "reponse": "Stocker et partager des données",
+      "explication": "Un serveur héberge des informations accessibles via un réseau."
+    },
+    {
+      "question": "Qu’est-ce qu’une innovation technologique ?",
+      "options": [
+        "Une nouveauté qui améliore un objet",
+        "Un objet ancien",
+        "Une panne"
+      ],
+      "reponse": "Une nouveauté qui améliore un objet",
+      "explication": "L’innovation apporte un progrès ou une amélioration technique."
+    },
+    {
+      "question": "Pourquoi utilise-t-on différents matériaux ?",
+      "options": [
+        "Pour réduire le coût et améliorer la performance",
+        "Pour décorer",
+        "Pour polluer"
+      ],
+      "reponse": "Pour réduire le coût et améliorer la performance",
+      "explication": "Chaque matériau a des propriétés adaptées à un usage précis."
+    },
+    {
+      "question": "Que fait un système automatisé ?",
+      "options": [
+        "Il agit sans intervention humaine",
+        "Il fonctionne manuellement",
+        "Il ne sert à rien"
+      ],
+      "reponse": "Il agit sans intervention humaine",
+      "explication": "Les systèmes automatisés exécutent des tâches programmées seuls."
+    }
+  ]
+}

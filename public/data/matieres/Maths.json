@@ -1,0 +1,779 @@
+{
+  "notions": [
+    {
+      "titre": "Les Fractions Irréductibles",
+      "contenu": "Une **fraction irréductible** est une fraction que l'on ne peut plus simplifier. Pour la rendre irréductible, on divise le numérateur et le dénominateur par leur **Plus Grand Commun Diviseur (PGCD)**.\n\nExemple : $\\frac{12}{18}$. Le PGCD de 12 et 18 est 6. $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$. $\\frac{2}{3}$ est irréductible."
+    },
+    {
+      "titre": "Calculer des pourcentages",
+      "contenu": "Pour calculer $x$ % d'une quantité, on multiplie la quantité par $\\frac{x}{100}$.\n\nExemple : $10\\%$ de $80$ euros = $80 \\times \\frac{10}{100} = 8$ euros."
+    },
+    {
+      "titre": "Aires et Périmètres",
+      "contenu": "L'**aire** est la surface occupée ($m^2$). Le **périmètre** est la longueur du contour ($m$). \n\nAire Rectangle : L × l. Périmètre Rectangle : 2 × (L + l). \nAire Disque : $\\pi \\times R^2$. Périmètre (circonférence) Disque : $2 \\times \\pi \\times R$."
+    },
+    {
+      "titre": "Additionner des Nombres Relatifs",
+      "contenu": "Pour additionner deux nombres relatifs :\n- S'ils ont le **même signe**, on additionne les distances à zéro et on garde leur signe commun.\n- S'ils ont des **signes différents**, on soustrait les distances et on prend le signe du nombre qui a la plus grande distance à zéro.\nEx : $(-5) + (+2) = -3$."
+    },
+    {
+      "titre": "Soustraire des Nombres Relatifs",
+      "contenu": "Soustraire un nombre relatif revient à **ajouter son opposé**.\n\n$A - B = A + (-B)$.\n\nEx : $(+7) - (-3)$ devient $(+7) + (+3) = 10$. Et $(-4) - (+5)$ devient $(-4) + (-5) = -9$."
+    },
+    {
+      "titre": "Les nombres relatifs",
+      "contenu": "Les nombres relatifs permettent d'exprimer des quantités positives ou négatives. Exemple : -5 représente 5 en moins que 0."
+    },
+    {
+      "titre": "Comparer des nombres relatifs",
+      "contenu": "Sur une droite graduée, plus un nombre est à droite, plus il est grand. Exemple : -2 < 3 car -2 est à gauche de 3."
+    },
+    {
+      "titre": "Addition de nombres relatifs",
+      "contenu": "Si les signes sont identiques, on additionne les valeurs. Si les signes sont différents, on soustrait la plus petite valeur à la plus grande."
+    },
+    {
+      "titre": "Soustraction de nombres relatifs",
+      "contenu": "Soustraire un nombre revient à ajouter son opposé. Exemple : 4 - (-2) = 4 + 2 = 6."
+    },
+    {
+      "titre": "Multiplication de nombres relatifs",
+      "contenu": "Le produit de deux nombres de même signe est positif, de signes différents est négatif."
+    },
+    {
+      "titre": "Division de nombres relatifs",
+      "contenu": "Même règle que la multiplication : deux signes identiques donnent un résultat positif."
+    },
+    {
+      "titre": "Priorités de calcul",
+      "contenu": "Les priorités sont : 1. Parenthèses 2. Multiplications/divisions 3. Additions/soustractions."
+    },
+    {
+      "titre": "Les fractions",
+      "contenu": "Une fraction représente une division. Exemple : 3/4 = 3 ÷ 4."
+    },
+    {
+      "titre": "Simplifier une fraction",
+      "contenu": "On divise le numérateur et le dénominateur par un même nombre. Exemple : 6/8 = 3/4."
+    },
+    {
+      "titre": "Comparer deux fractions",
+      "contenu": "On les met au même dénominateur avant de comparer les numérateurs."
+    },
+    {
+      "titre": "Addition de fractions",
+      "contenu": "On met les fractions au même dénominateur avant d’additionner les numérateurs."
+    },
+    {
+      "titre": "Soustraction de fractions",
+      "contenu": "Même règle que pour l’addition : on met au même dénominateur avant de soustraire."
+    },
+    {
+      "titre": "Multiplier une fraction par un nombre",
+      "contenu": "On multiplie le numérateur par ce nombre. Exemple : 3 × 2/5 = 6/5."
+    },
+    {
+      "titre": "Diviser par une fraction",
+      "contenu": "Diviser par une fraction revient à multiplier par son inverse. Exemple : 2 ÷ (3/4) = 2 × (4/3)."
+    },
+    {
+      "titre": "Les puissances",
+      "contenu": "Une puissance représente une multiplication répétée. Exemple : 3² = 3 × 3 = 9."
+    },
+    {
+      "titre": "Le carré d’un nombre",
+      "contenu": "C’est le produit du nombre par lui-même. Exemple : 5² = 25."
+    },
+    {
+      "titre": "Le cube d’un nombre",
+      "contenu": "C’est le produit du nombre par lui-même trois fois. Exemple : 2³ = 8."
+    },
+    {
+      "titre": "Les expressions littérales",
+      "contenu": "Elles contiennent des lettres représentant des nombres. Exemple : A = 2x + 3."
+    },
+    {
+      "titre": "Remplacer une variable",
+      "contenu": "On remplace la lettre par une valeur donnée. Exemple : si x=4, alors 2x+3 = 11."
+    },
+    {
+      "titre": "Réduire une expression",
+      "contenu": "On regroupe les termes semblables. Exemple : 2x + 3x = 5x."
+    },
+    {
+      "titre": "Développer une expression",
+      "contenu": "On enlève les parenthèses en distribuant. Exemple : 3(x + 2) = 3x + 6."
+    },
+    {
+      "titre": "Factoriser une expression",
+      "contenu": "On met en évidence un facteur commun. Exemple : 4x + 8 = 4(x + 2)."
+    },
+    {
+      "titre": "Les égalités et équations",
+      "contenu": "Une équation est une égalité contenant une inconnue à trouver."
+    },
+    {
+      "titre": "Résoudre une équation simple",
+      "contenu": "On isole l’inconnue en effectuant les mêmes opérations de part et d’autre du signe =."
+    },
+    {
+      "titre": "Les pourcentages",
+      "contenu": "Un pourcentage est une proportion sur 100. Exemple : 20 % de 50 = 10."
+    },
+    {
+      "titre": "Calculer une proportion",
+      "contenu": "On multiplie la quantité par le pourcentage et on divise par 100."
+    },
+    {
+      "titre": "Les angles",
+      "contenu": "Un angle se mesure en degrés. Un angle droit vaut 90°, aigu < 90°, obtus > 90°."
+    },
+    {
+      "titre": "Le triangle",
+      "contenu": "Un triangle a trois côtés et trois angles. La somme de ses angles vaut 180°."
+    },
+    {
+      "titre": "Triangle isocèle",
+      "contenu": "Deux côtés égaux, deux angles égaux."
+    },
+    {
+      "titre": "Triangle équilatéral",
+      "contenu": "Trois côtés égaux, trois angles de 60°."
+    },
+    {
+      "titre": "Triangle rectangle",
+      "contenu": "Il possède un angle droit."
+    },
+    {
+      "titre": "Le théorème de Pythagore",
+      "contenu": "Dans un triangle rectangle, le carré de l’hypoténuse = somme des carrés des deux autres côtés."
+    },
+    {
+      "titre": "Les quadrilatères",
+      "contenu": "Polygones à quatre côtés : carré, rectangle, losange, parallélogramme, trapèze."
+    },
+    {
+      "titre": "Le carré",
+      "contenu": "Quatre côtés égaux et quatre angles droits."
+    },
+    {
+      "titre": "Le rectangle",
+      "contenu": "Côtés opposés égaux et quatre angles droits."
+    },
+    {
+      "titre": "Le parallélogramme",
+      "contenu": "Côtés opposés parallèles et égaux."
+    },
+    {
+      "titre": "Le losange",
+      "contenu": "Quatre côtés égaux, diagonales perpendiculaires."
+    },
+    {
+      "titre": "Le trapèze",
+      "contenu": "Une seule paire de côtés parallèles."
+    },
+    {
+      "titre": "Le cercle",
+      "contenu": "Ensemble des points situés à la même distance d’un centre."
+    },
+    {
+      "titre": "Le rayon et le diamètre",
+      "contenu": "Le rayon relie le centre à un point du cercle, le diamètre est le double du rayon."
+    },
+    {
+      "titre": "La proportionnalité",
+      "contenu": "Deux grandeurs sont proportionnelles si l’une est obtenue en multipliant l’autre par un même nombre."
+    },
+    {
+      "titre": "Utiliser un tableau de proportionnalité",
+      "contenu": "Les quotients des valeurs correspondantes sont égaux."
+    },
+    {
+      "titre": "Les échelles",
+      "contenu": "Une échelle indique le rapport entre la distance réelle et la distance sur le plan."
+    },
+    {
+      "titre": "Les pourcentages d’évolution",
+      "contenu": "Augmentation : (valeur finale - initiale) ÷ initiale × 100. Diminution : même formule."
+    },
+    {
+      "titre": "Les solides",
+      "contenu": "Cubes, pavés, cylindres, cônes, sphères : formes en trois dimensions avec volume."
+    },
+    {
+      "titre": "Le volume du cube",
+      "contenu": "Côté × côté × côté."
+    },
+    {
+      "titre": "Le volume du pavé droit",
+      "contenu": "Longueur × largeur × hauteur."
+    },
+    {
+      "titre": "Le périmètre d’un cercle",
+      "contenu": "P = 2 × π × rayon."
+    },
+    {
+      "titre": "L’aire du disque",
+      "contenu": "A = π × rayon²."
+    },
+    {
+      "titre": "Les symétries",
+      "contenu": "Une figure peut avoir une symétrie axiale ou centrale selon son axe ou son centre."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la fraction irréductible de $\\frac{15}{20}$ ?",
+      "options": [
+        "$\\frac{5}{10}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "On divise numérateur et dénominateur par leur PGCD (5) : $15\\div5 = 3$ et $20\\div5 = 4$ → $\\frac{3}{4}$."
+    },
+    {
+      "question": "Combien font $50\\%$ de $60$ ?",
+      "options": [
+        "10",
+        "30",
+        "50"
+      ],
+      "reponse": "30",
+      "explication": "$50%$ signifie la moitié : $60 \\times 0.5 = 30$."
+    },
+    {
+      "question": "Quelle est l'aire d'un carré de côté 4 cm ?",
+      "options": [
+        "16 cm",
+        "8 cm²",
+        "16 cm²",
+        "4 cm²"
+      ],
+      "reponse": "16 cm²",
+      "explication": "L'aire d'un carré est $côté \\times côté$. $4 \\times 4 = 16$."
+    },
+    {
+      "question": "Calculez : $(-8) + (+3)$",
+      "options": [
+        "-11",
+        "+5",
+        "-5"
+      ],
+      "reponse": "-5",
+      "explication": "Les signes sont différents, on soustrait $(8-3=5)$ et on garde le signe de 8 (le plus grand) : $-5$."
+    },
+    {
+      "question": "Calculez : $(+4) - (-6)$",
+      "options": [
+        "-2",
+        "+2",
+        "+10",
+        "-10"
+      ],
+      "reponse": "+10",
+      "explication": "Soustraire $(-6)$ revient à ajouter $(+6)$. $4+6 = 10$."
+    },
+    {
+      "question": "Quel est l'opposé de $-12,5$ ?",
+      "options": [
+        "$12,5$",
+        "$12$",
+        "$-12,5$"
+      ],
+      "reponse": "$12,5$",
+      "explication": "L'opposé d'un nombre est le même nombre avec le signe inversé."
+    },
+    {
+      "question": "Quel est le contraire de +7 ?",
+      "options": [
+        "-7",
+        "+7",
+        "0"
+      ],
+      "reponse": "-7",
+      "explication": "L’opposé d’un nombre est celui qui a le signe contraire."
+    },
+    {
+      "question": "Quel est le résultat de -3 + 5 ?",
+      "options": [
+        "8",
+        "-2",
+        "2",
+        "-8"
+      ],
+      "reponse": "2",
+      "explication": "On soustrait 3 à 5, le résultat est 2."
+    },
+    {
+      "question": "Le produit de (-4) × (-3) est :",
+      "options": [
+        "12",
+        "-12",
+        "7"
+      ],
+      "reponse": "12",
+      "explication": "Deux nombres négatifs donnent un produit positif."
+    },
+    {
+      "question": "Quel est le résultat de 5 - (-2) ?",
+      "options": [
+        "3",
+        "7",
+        "-7"
+      ],
+      "reponse": "7",
+      "explication": "Soustraire un nombre négatif revient à ajouter son opposé."
+    },
+    {
+      "question": "Quelle opération effectue-t-on en premier dans 3 + 4 × 2 ?",
+      "options": [
+        "3 + 4",
+        "4 × 2",
+        "2 + 3"
+      ],
+      "reponse": "4 × 2",
+      "explication": "Les multiplications se font avant les additions."
+    },
+    {
+      "question": "La fraction 4/8 est égale à :",
+      "options": [
+        "2/4",
+        "1/2",
+        "3/4"
+      ],
+      "reponse": "1/2",
+      "explication": "On simplifie par 4 : 4 ÷ 4 / 8 ÷ 4 = 1/2."
+    },
+    {
+      "question": "Quelle fraction est égale à 0,25 ?",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4"
+      ],
+      "reponse": "1/4",
+      "explication": "0,25 = 25/100 = 1/4."
+    },
+    {
+      "question": "3/5 + 1/5 =",
+      "options": [
+        "4/10",
+        "4/5",
+        "3/6"
+      ],
+      "reponse": "4/5",
+      "explication": "Les dénominateurs sont égaux, on additionne les numérateurs : 3+1=4."
+    },
+    {
+      "question": "2 ÷ (3/4) =",
+      "options": [
+        "8/3",
+        "3/8",
+        "1/6"
+      ],
+      "reponse": "8/3",
+      "explication": "Diviser par 3/4 revient à multiplier par 4/3 : 2 × 4/3 = 8/3."
+    },
+    {
+      "question": "3² =",
+      "options": [
+        "6",
+        "9",
+        "12"
+      ],
+      "reponse": "9",
+      "explication": "3² = 3 × 3 = 9."
+    },
+    {
+      "question": "2³ =",
+      "options": [
+        "6",
+        "8",
+        "4"
+      ],
+      "reponse": "8",
+      "explication": "2³ = 2 × 2 × 2 = 8."
+    },
+    {
+      "question": "Réduis : 2x + 3x =",
+      "options": [
+        "6x",
+        "5x",
+        "x"
+      ],
+      "reponse": "5x",
+      "explication": "2x + 3x = 5x car on additionne les coefficients."
+    },
+    {
+      "question": "Développe : 4(x + 2) =",
+      "options": [
+        "4x + 8",
+        "x + 8",
+        "4x + 2"
+      ],
+      "reponse": "4x + 8",
+      "explication": "On distribue 4 à chaque terme dans la parenthèse."
+    },
+    {
+      "question": "Factorise : 6x + 12 =",
+      "options": [
+        "6(x + 2)",
+        "3(x + 4)",
+        "12(x + 0.5)"
+      ],
+      "reponse": "6(x + 2)",
+      "explication": "Le facteur commun est 6."
+    },
+    {
+      "question": "Si x = 2, calcule 3x + 1 :",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "reponse": "7",
+      "explication": "3×2 + 1 = 6 + 1 = 7."
+    },
+    {
+      "question": "Résous : x + 5 = 9",
+      "options": [
+        "x=14",
+        "x=4",
+        "x=5"
+      ],
+      "reponse": "x=4",
+      "explication": "On soustrait 5 des deux côtés : x=9−5=4."
+    },
+    {
+      "question": "Quel est 20 % de 50 ?",
+      "options": [
+        "5",
+        "10",
+        "20"
+      ],
+      "reponse": "10",
+      "explication": "20 % = 20/100, donc 50×0,2=10."
+    },
+    {
+      "question": "Un angle droit mesure :",
+      "options": [
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "reponse": "90°",
+      "explication": "Un angle droit mesure toujours 90°."
+    },
+    {
+      "question": "La somme des angles d’un triangle est :",
+      "options": [
+        "180°",
+        "90°",
+        "360°"
+      ],
+      "reponse": "180°",
+      "explication": "Tous les triangles ont une somme des angles égale à 180°."
+    },
+    {
+      "question": "Dans un triangle isocèle, deux côtés sont :",
+      "options": [
+        "différents",
+        "égaux",
+        "parallèles"
+      ],
+      "reponse": "égaux",
+      "explication": "Un triangle isocèle a deux côtés égaux et deux angles égaux."
+    },
+    {
+      "question": "Un triangle équilatéral a :",
+      "options": [
+        "3 côtés égaux",
+        "2 côtés égaux",
+        "aucun côté égal"
+      ],
+      "reponse": "3 côtés égaux",
+      "explication": "Équilatéral signifie que les trois côtés sont égaux."
+    },
+    {
+      "question": "Le carré de 6 est :",
+      "options": [
+        "12",
+        "36",
+        "18"
+      ],
+      "reponse": "36",
+      "explication": "6² = 6 × 6 = 36."
+    },
+    {
+      "question": "Dans un triangle rectangle, le côté opposé à l’angle droit s’appelle :",
+      "options": [
+        "côté adjacent",
+        "hypoténuse",
+        "base"
+      ],
+      "reponse": "hypoténuse",
+      "explication": "L’hypoténuse est le plus long côté du triangle rectangle."
+    },
+    {
+      "question": "Le théorème de Pythagore s’applique :",
+      "options": [
+        "à tous les triangles",
+        "aux triangles rectangles",
+        "aux carrés"
+      ],
+      "reponse": "aux triangles rectangles",
+      "explication": "Le théorème de Pythagore ne s’applique que dans les triangles rectangles."
+    },
+    {
+      "question": "La somme des angles d’un quadrilatère est :",
+      "options": [
+        "180°",
+        "360°",
+        "90°"
+      ],
+      "reponse": "360°",
+      "explication": "Un quadrilatère peut être décomposé en deux triangles : 2 × 180° = 360°."
+    },
+    {
+      "question": "Le périmètre d’un carré de côté 5 cm est :",
+      "options": [
+        "20 cm",
+        "25 cm",
+        "10 cm"
+      ],
+      "reponse": "20 cm",
+      "explication": "P = 4 × côté = 4 × 5 = 20 cm."
+    },
+    {
+      "question": "Le volume d’un cube de côté 3 cm est :",
+      "options": [
+        "9 cm³",
+        "27 cm³",
+        "18 cm³"
+      ],
+      "reponse": "27 cm³",
+      "explication": "V = côté³ = 3³ = 27 cm³."
+    },
+    {
+      "question": "Un rectangle de 4 cm sur 6 cm a une aire de :",
+      "options": [
+        "10 cm²",
+        "24 cm²",
+        "20 cm²"
+      ],
+      "reponse": "24 cm²",
+      "explication": "A = longueur × largeur = 6 × 4 = 24 cm²."
+    },
+    {
+      "question": "L’aire d’un disque de rayon 3 cm est :",
+      "options": [
+        "6π cm²",
+        "9π cm²",
+        "12π cm²"
+      ],
+      "reponse": "9π cm²",
+      "explication": "A = π × r² = π × 3² = 9π cm²."
+    },
+    {
+      "question": "Le périmètre d’un cercle de rayon 2 cm est :",
+      "options": [
+        "2π cm",
+        "4π cm",
+        "8π cm"
+      ],
+      "reponse": "4π cm",
+      "explication": "P = 2πr = 2 × π × 2 = 4π cm."
+    },
+    {
+      "question": "Le parallélogramme a :",
+      "options": [
+        "côtés opposés parallèles",
+        "4 côtés égaux",
+        "aucun angle droit"
+      ],
+      "reponse": "côtés opposés parallèles",
+      "explication": "Les côtés opposés d’un parallélogramme sont parallèles et égaux."
+    },
+    {
+      "question": "Un carré est :",
+      "options": [
+        "un rectangle particulier",
+        "un trapèze",
+        "un losange"
+      ],
+      "reponse": "un rectangle particulier",
+      "explication": "Le carré est un rectangle dont les côtés sont égaux."
+    },
+    {
+      "question": "Le volume d’un pavé droit de 2×3×4 cm est :",
+      "options": [
+        "24 cm³",
+        "12 cm³",
+        "18 cm³"
+      ],
+      "reponse": "24 cm³",
+      "explication": "V = L × l × h = 2×3×4=24 cm³."
+    },
+    {
+      "question": "Deux grandeurs sont proportionnelles si :",
+      "options": [
+        "elles ont le même total",
+        "leurs rapports sont égaux",
+        "elles sont égales"
+      ],
+      "reponse": "leurs rapports sont égaux",
+      "explication": "Dans une situation de proportionnalité, le rapport entre les valeurs est constant."
+    },
+    {
+      "question": "Si 3 kg coûtent 9 €, combien coûtent 5 kg ?",
+      "options": [
+        "12 €",
+        "15 €",
+        "18 €"
+      ],
+      "reponse": "15 €",
+      "explication": "9 ÷ 3 = 3 €, donc 5 × 3 = 15 €."
+    },
+    {
+      "question": "Une échelle de 1:100 signifie :",
+      "options": [
+        "1 cm représente 100 cm",
+        "1 m représente 1 cm",
+        "1 cm représente 10 cm"
+      ],
+      "reponse": "1 cm représente 100 cm",
+      "explication": "L’échelle 1:100 veut dire que 1 cm sur le plan = 100 cm en réalité."
+    },
+    {
+      "question": "Un cube a combien de sommets ?",
+      "options": [
+        "6",
+        "8",
+        "12"
+      ],
+      "reponse": "8",
+      "explication": "Un cube possède 8 sommets, 12 arêtes et 6 faces."
+    },
+    {
+      "question": "Le double de 7 est :",
+      "options": [
+        "14",
+        "21",
+        "10"
+      ],
+      "reponse": "14",
+      "explication": "Le double d’un nombre est ce nombre multiplié par 2."
+    },
+    {
+      "question": "La moitié de 18 est :",
+      "options": [
+        "9",
+        "8",
+        "6"
+      ],
+      "reponse": "9",
+      "explication": "La moitié correspond à diviser par 2 : 18 ÷ 2 = 9."
+    },
+    {
+      "question": "Quelle est la racine carrée de 49 ?",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "√49 = 7 car 7² = 49."
+    },
+    {
+      "question": "Le triple de 9 est :",
+      "options": [
+        "18",
+        "27",
+        "30"
+      ],
+      "reponse": "27",
+      "explication": "9 × 3 = 27."
+    },
+    {
+      "question": "Quel nombre est pair ?",
+      "options": [
+        "13",
+        "17",
+        "24"
+      ],
+      "reponse": "24",
+      "explication": "Les nombres pairs sont divisibles par 2."
+    },
+    {
+      "question": "Quelle est la valeur absolue de -8 ?",
+      "options": [
+        "8",
+        "-8",
+        "0"
+      ],
+      "reponse": "8",
+      "explication": "La valeur absolue est toujours positive."
+    },
+    {
+      "question": "Quel angle mesure 180° ?",
+      "options": [
+        "Droit",
+        "Plat",
+        "Aigu"
+      ],
+      "reponse": "Plat",
+      "explication": "Un angle plat mesure 180°."
+    },
+    {
+      "question": "Un cercle complet correspond à :",
+      "options": [
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "reponse": "360°",
+      "explication": "Un tour complet fait 360°."
+    },
+    {
+      "question": "Quelle unité mesure une aire ?",
+      "options": [
+        "cm",
+        "cm²",
+        "cm³"
+      ],
+      "reponse": "cm²",
+      "explication": "Les aires s’expriment en unités au carré."
+    },
+    {
+      "question": "Quelle unité mesure un volume ?",
+      "options": [
+        "cm",
+        "cm²",
+        "cm³"
+      ],
+      "reponse": "cm³",
+      "explication": "Les volumes s’expriment en unités au cube."
+    },
+    {
+      "question": "Un solide de révolution est :",
+      "options": [
+        "un carré",
+        "un cylindre",
+        "un triangle"
+      ],
+      "reponse": "un cylindre",
+      "explication": "Les solides de révolution sont obtenus par rotation : cylindre, cône, sphère."
+    },
+    {
+      "question": "Dans un tableau de proportionnalité, le coefficient de proportionnalité est :",
+      "options": [
+        "variable",
+        "constant",
+        "nul"
+      ],
+      "reponse": "constant",
+      "explication": "Le rapport entre les valeurs correspondantes est toujours le même."
+    }
+  ]
+}

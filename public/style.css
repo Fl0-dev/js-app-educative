@@ -4,6 +4,7 @@
 :root {
     --couleur-primaire: #4CAF50; /* Vert éducatif */
     --couleur-secondaire: #2196F3; /* Bleu */
+    --couleur-bouton: #e994ec; /* Couleur personnalisée par défaut pour les boutons */
     --couleur-fond: #f4f7f6;
     --couleur-texte: #333;
     /* Poids de police pour Nunito */
@@ -99,6 +100,38 @@ button, .button {
 
 /* Vous pouvez ajuster la couleur primaire de Bulma pour correspondre à votre vert initial */
 /* Exemple : .is-primary { background-color: var(--couleur-primaire) !important; } */
+
+
+/* --- Boutons personnalisés --- */
+/* Utilisez la classe `is-custom` sur les éléments avec la classe `button` pour
+   appliquer la couleur personnalisée définie dans `--couleur-bouton`. */
+.button.is-custom {
+    background-color: var(--couleur-bouton) !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Variante "light" : fond transparent, bord coloré */
+.button.is-custom.is-light {
+    background-color: transparent !important;
+    color: var(--couleur-bouton) !important;
+    border: 1px solid var(--couleur-bouton) !important;
+}
+
+.button.is-custom:hover,
+.button.is-custom:focus {
+    filter: brightness(0.95);
+    transform: translateY(-1px);
+}
+
+/* État actif (pour les boutons du menu) */
+.button.is-custom.is-active {
+    box-shadow: 0 2px 0 rgba(0,0,0,0.06) inset;
+}
+
+/* Petit utilitaire pour forcer la couleur des éléments Bulma qui utilisent des variantes */
+.button.is-custom.is-fullwidth { width: 100%; }
 
 
 /* --- Styles Spécifiques (Générés par JavaScript) --- */

@@ -1,0 +1,417 @@
+{
+    "notions": [
+        {
+            "titre": "🖥️ Découvrir l'Ordinateur",
+            "contenu": "Un **ordinateur** est une machine qui peut exécuter des tâches très variées grâce à des **programmes**. Il est composé de **matériel** (ce qu’on peut toucher : clavier, souris, écran) et de **logiciels** (les programmes qui disent à l’ordinateur quoi faire)."
+        },
+        {
+            "titre": "💾 Le Stockage des Données",
+            "contenu": "Les données sont enregistrées dans des **mémoires** : la **RAM** (mémoire rapide et temporaire) et le **disque dur** ou **SSD** (mémoire permanente)."
+        },
+        {
+            "titre": "⚙️ Le Système d’Exploitation",
+            "contenu": "Le **système d’exploitation** (comme Windows, macOS ou Linux) est le programme principal qui gère l’ordinateur et permet d’utiliser les autres logiciels."
+        },
+        {
+            "titre": "📁 Fichiers et Dossiers",
+            "contenu": "Un **fichier** contient des informations (texte, image, musique). Les **dossiers** servent à ranger les fichiers, comme des classeurs numériques 📂."
+        },
+        {
+            "titre": "⌨️ Utiliser le Clavier et la Souris",
+            "contenu": "Le **clavier** sert à écrire et à utiliser des raccourcis (**Ctrl+C** pour copier, **Ctrl+V** pour coller). La **souris** permet de cliquer, glisser et sélectionner."
+        },
+        {
+            "titre": "🌐 Comprendre Internet",
+            "contenu": "Internet est un **réseau mondial** qui relie des millions d’ordinateurs. Il permet d’échanger des informations, de regarder des vidéos ou de jouer en ligne."
+        },
+        {
+            "titre": "🔍 Moteurs de Recherche",
+            "contenu": "Un **moteur de recherche** (comme Google ou Qwant) aide à trouver des sites web en tapant des **mots-clés**."
+        },
+        {
+            "titre": "💡 Identifier un Site Fiable",
+            "contenu": "Un site fiable a souvent une **adresse claire**, un **HTTPS** sécurisé et ne cherche pas à obtenir d’informations personnelles."
+        },
+        {
+            "titre": "📧 Les Emails",
+            "contenu": "Un **email** est un message électronique. Il faut être poli, ne pas répondre aux messages suspects et ne pas cliquer sur des liens étranges."
+        },
+        {
+            "titre": "📱 Les Appareils Connectés",
+            "contenu": "Les **tablettes**, **téléphones** et **ordinateurs** sont tous connectés à Internet et peuvent partager des informations entre eux."
+        },
+        {
+            "titre": "🔒 La Sécurité Numérique",
+            "contenu": "Toujours utiliser des **mots de passe forts**, garder ses informations privées et éviter les liens douteux 🔑."
+        },
+        {
+            "titre": "🚫 Les Virus Informatiques",
+            "contenu": "Un **virus** est un programme dangereux qui peut endommager ton ordinateur. Un **antivirus** permet de s’en protéger."
+        },
+        {
+            "titre": "🎮 Les Jeux Vidéo",
+            "contenu": "Les jeux vidéo sont des programmes interactifs 🎮. Il faut faire attention au **temps d’écran** et au **contenu** des jeux."
+        },
+        {
+            "titre": "🧠 L’Esprit Critique",
+            "contenu": "Sur Internet, tout n’est pas vrai. Il faut **vérifier les sources** avant de croire une information."
+        },
+        {
+            "titre": "📸 Le Droit à l’Image",
+            "contenu": "On ne peut pas publier la photo de quelqu’un sans son **autorisation**. C’est la règle du **droit à l’image**."
+        },
+        {
+            "titre": "📚 Les Logiciels Utiles",
+            "contenu": "Un **traitement de texte** sert à écrire, un **tableur** à faire des calculs, et un **logiciel de présentation** à créer des diaporamas."
+        },
+        {
+            "titre": "🗑️ Gérer les Fichiers",
+            "contenu": "Supprimer, renommer, copier et ranger ses fichiers permet de garder un ordinateur bien organisé."
+        },
+        {
+            "titre": "🧩 Les Périphériques",
+            "contenu": "Les **périphériques d’entrée** (clavier, souris, micro) servent à donner des ordres à l’ordinateur, et les **périphériques de sortie** (écran, imprimante) à afficher les résultats."
+        },
+        {
+            "titre": "📡 Le Wi-Fi et la Connexion",
+            "contenu": "Le **Wi-Fi** permet à ton appareil de se connecter à Internet sans fil. Il faut utiliser un **réseau sécurisé** 🔐."
+        },
+        {
+            "titre": "🕵️‍♂️ L’Hameçonnage (Phishing)",
+            "contenu": "L’hameçonnage est une **arnaque** par email ou message qui tente de voler tes données personnelles."
+        },
+        {
+            "titre": "🧮 Les Nombres Binaires",
+            "contenu": "L’ordinateur comprend uniquement le **langage binaire**, composé de 0 et de 1. Chaque 0 ou 1 s’appelle un **bit**, et ensemble ils représentent toutes les informations."
+        },
+        {
+            "titre": "🧩 Le Code et les Instructions",
+            "contenu": "Le **code informatique** est une série d’instructions écrites dans un langage que l’ordinateur comprend. C’est grâce à lui que les programmes fonctionnent."
+        },
+        {
+            "titre": "🕹️ Le Matériel Interactif",
+            "contenu": "Les manettes, écrans tactiles et capteurs permettent de **communiquer avec les programmes** de manière plus amusante et intuitive."
+        },
+        {
+            "titre": "📊 Les Tableurs",
+            "contenu": "Un **tableur** comme Excel ou Google Sheets permet de faire des calculs et des graphiques à partir de données numériques."
+        },
+        {
+            "titre": "📄 Les Traitements de Texte",
+            "contenu": "Les logiciels comme Word ou Docs servent à **rédiger et mettre en forme des documents**, ajouter des images et enregistrer son travail."
+        },
+        {
+            "titre": "🗣️ Les Assistants Vocaux",
+            "contenu": "Des outils comme **Siri**, **Alexa** ou **Google Assistant** écoutent nos demandes et y répondent grâce à l’intelligence artificielle 🧠."
+        },
+        {
+            "titre": "🎨 La Création Numérique",
+            "contenu": "On peut créer des **dessins, musiques ou vidéos** grâce à des logiciels créatifs (Paint, Canva, Audacity, etc.)."
+        },
+        {
+            "titre": "📷 Les Médias Numériques",
+            "contenu": "Les images, sons et vidéos sont appelés **médias numériques**. Ils sont faits de données que l’ordinateur sait afficher ou lire."
+        },
+        {
+            "titre": "💡 L’Intelligence Artificielle",
+            "contenu": "L’**IA** apprend à partir de données et peut **reconnaître des formes, traduire des langues ou répondre à des questions** comme le ferait un humain."
+        },
+        {
+            "titre": "📶 Le Cloud",
+            "contenu": "Le **cloud** (ou nuage) permet de **stocker ses fichiers sur Internet** pour les retrouver depuis n’importe quel appareil."
+        },
+        {
+            "titre": "🛠️ Les Mises à Jour",
+            "contenu": "Mettre à jour un logiciel permet de **corriger des erreurs** et **améliorer la sécurité** de ton ordinateur ou téléphone."
+        },
+        {
+            "titre": "🧱 Les Données et Bases de Données",
+            "contenu": "Les **données** sont des informations brutes (textes, chiffres…). Elles sont souvent rangées dans des **bases de données** pour être facilement retrouvées."
+        },
+        {
+            "titre": "📜 L’Histoire de l’Informatique",
+            "contenu": "Les premiers ordinateurs étaient énormes 🧮 ! Aujourd’hui, ils tiennent dans la main. L’informatique a beaucoup évolué depuis les années 1950."
+        },
+        {
+            "titre": "🚀 Les Robots",
+            "contenu": "Un **robot** est une machine qui exécute automatiquement des instructions. Certains robots peuvent même apprendre et s’adapter à leur environnement 🤖."
+        },
+        {
+            "titre": "🎧 Le Son Numérique",
+            "contenu": "Le son est enregistré sous forme de **données** (des 0 et 1). Un **microphone** transforme le son en signal numérique que l’ordinateur peut traiter."
+        },
+        {
+            "titre": "🖼️ Les Images Numériques",
+            "contenu": "Une image numérique est composée de **pixels** (petits carrés de couleur). Plus il y a de pixels, plus l’image est nette 📸."
+        },
+        {
+            "titre": "📺 L’Affichage à l’Écran",
+            "contenu": "L’écran affiche des images très rapidement (souvent 60 par seconde), ce qui donne l’illusion du mouvement, comme au cinéma 🎬."
+        },
+        {
+            "titre": "🕰️ La Mémoire Temporaire et Permanente",
+            "contenu": "La **RAM** garde les données temporairement pendant l’utilisation, tandis que le **disque dur** conserve tout même après avoir éteint l’ordinateur."
+        },
+        {
+            "titre": "🔌 L’Énergie et les Appareils",
+            "contenu": "Les ordinateurs et tablettes ont besoin d’**électricité** pour fonctionner. Les **batteries** stockent cette énergie pour une utilisation mobile ⚡."
+        },
+        {
+            "titre": "📶 Les Réseaux Locaux",
+            "contenu": "Un **réseau local (LAN)** relie plusieurs appareils proches (comme à la maison ou à l’école) pour partager Internet et des fichiers."
+        },
+        {
+            "titre": "📢 Les Réseaux Sociaux",
+            "contenu": "Les **réseaux sociaux** (Instagram, TikTok…) permettent de partager des messages ou photos, mais il faut faire attention à **ce qu’on publie**."
+        },
+        {
+            "titre": "📬 Les Boîtes Mail",
+            "contenu": "Une **boîte mail** reçoit et envoie des messages électroniques. Il faut ranger ses mails et supprimer les spams ✉️."
+        },
+        {
+            "titre": "💬 Les Messageries Instantanées",
+            "contenu": "Des outils comme **WhatsApp** ou **Discord** permettent d’échanger rapidement des messages, images ou vidéos avec ses amis."
+        },
+        {
+            "titre": "📈 Les Graphiques et Données",
+            "contenu": "Les **graphiques** permettent de représenter visuellement des chiffres, ce qui aide à comprendre plus facilement les informations."
+        },
+        {
+            "titre": "🌍 Les Adresses IP et DNS",
+            "contenu": "Chaque appareil connecté a une **adresse IP**, et les **DNS** traduisent les noms de sites (comme google.com) en adresses numériques."
+        },
+        {
+            "titre": "🧑‍💻 Les Métiers du Numérique",
+            "contenu": "Il existe beaucoup de métiers : **développeur**, **designer**, **technicien réseau**, **analyste de données**, etc. 👩‍💻"
+        },
+        {
+            "titre": "🎓 L’Éducation Numérique",
+            "contenu": "Apprendre à utiliser les outils numériques aide à devenir plus **autonome et responsable** sur Internet."
+        },
+        {
+            "titre": "📊 La Cybersécurité",
+            "contenu": "La **cybersécurité** regroupe toutes les techniques pour **protéger les systèmes et les données** contre les attaques."
+        },
+        {
+            "titre": "⚖️ Le Droit Numérique",
+            "contenu": "Les lois protègent les **données personnelles**, interdisent la **cyberviolence** et garantissent le **respect de la vie privée**."
+        },
+        {
+            "titre": "🌱 L’Informatique Durable",
+            "contenu": "L’informatique durable vise à réduire l’impact environnemental des technologies, en recyclant les appareils et en optimisant la consommation d’énergie 🌍."
+        }
+    ],
+    "quiz": [
+        {
+            "question": "Quel élément d’un ordinateur exécute les instructions et fait les calculs ?",
+            "options": [
+                "Le microprocesseur",
+                "L’écran",
+                "La souris",
+                "Le clavier"
+            ],
+            "reponse": "Le microprocesseur",
+            "explication": "Le microprocesseur, ou processeur, est le 'cerveau' de l’ordinateur : il exécute les instructions des programmes."
+        },
+        {
+            "question": "Quel type de mémoire garde les données seulement pendant que l’ordinateur est allumé ?",
+            "options": [
+                "La RAM",
+                "Le disque dur",
+                "La clé USB"
+            ],
+            "reponse": "La RAM",
+            "explication": "La mémoire vive (RAM) stocke temporairement les données nécessaires pendant l’utilisation de l’ordinateur."
+        },
+        {
+            "question": "Quel est le rôle du système d’exploitation ?",
+            "options": [
+                "Gérer l’ordinateur et ses programmes",
+                "Afficher les images",
+                "Faire fonctionner la souris"
+            ],
+            "reponse": "Gérer l’ordinateur et ses programmes",
+            "explication": "Le système d’exploitation est le logiciel principal qui gère l’ensemble des ressources et des applications de l’ordinateur."
+        },
+        {
+            "question": "Que contient un fichier ?",
+            "options": [
+                "Des informations",
+                "Des périphériques",
+                "Des logiciels"
+            ],
+            "reponse": "Des informations",
+            "explication": "Un fichier contient des données comme du texte, des images ou des sons que l’ordinateur peut lire."
+        },
+        {
+            "question": "Quelle combinaison permet de copier un texte ?",
+            "options": [
+                "Ctrl + C",
+                "Ctrl + V",
+                "Alt + F4"
+            ],
+            "reponse": "Ctrl + C",
+            "explication": "Le raccourci Ctrl + C permet de copier un texte ou un élément sélectionné."
+        },
+        {
+            "question": "Que permet Internet ?",
+            "options": [
+                "De relier des ordinateurs entre eux",
+                "D’éteindre l’ordinateur",
+                "De créer des fichiers locaux"
+            ],
+            "reponse": "De relier des ordinateurs entre eux",
+            "explication": "Internet est un grand réseau mondial qui connecte des millions d’ordinateurs pour échanger des informations."
+        },
+        {
+            "question": "Quel outil aide à trouver des informations sur le Web ?",
+            "options": [
+                "Un moteur de recherche",
+                "Un antivirus",
+                "Un clavier"
+            ],
+            "reponse": "Un moteur de recherche",
+            "explication": "Les moteurs de recherche comme Google ou Qwant permettent de trouver des sites à partir de mots-clés."
+        },
+        {
+            "question": "Comment reconnaître un site web sécurisé ?",
+            "options": [
+                "Il commence par HTTPS",
+                "Il contient beaucoup de publicités",
+                "Il n’a pas d’adresse"
+            ],
+            "reponse": "Il commence par HTTPS",
+            "explication": "Les sites sécurisés utilisent le protocole HTTPS, indiquant une connexion chiffrée."
+        },
+        {
+            "question": "Que faut-il éviter de faire avec un email suspect ?",
+            "options": [
+                "Cliquer sur les liens",
+                "Le supprimer",
+                "Le signaler"
+            ],
+            "reponse": "Cliquer sur les liens",
+            "explication": "Les emails suspects peuvent contenir des liens dangereux pour voler des informations personnelles."
+        },
+        {
+            "question": "Quel appareil permet de se connecter à Internet sans fil ?",
+            "options": [
+                "Le Wi-Fi",
+                "Le clavier",
+                "La clé USB"
+            ],
+            "reponse": "Le Wi-Fi",
+            "explication": "Le Wi-Fi est une technologie sans fil qui permet la connexion à Internet via un routeur."
+        },
+        {
+            "question": "Qu'est qu'un virus informatique ?",
+            "options": [
+                "Un programme malveillant",
+                "Un fichier texte",
+                "Un jeu en ligne"
+            ],
+            "reponse": "Un programme malveillant",
+            "explication": "Un virus est un programme qui peut endommager les fichiers ou voler des données."
+        },
+        {
+            "question": "Quel raccourci permet d'annuler la dernière action effectuée ?",
+            "options": [
+                "Ctrl + Z",
+                "Ctrl + A",
+                "Shift + Z"
+            ],
+            "reponse": "Ctrl + Z",
+            "explication": "Ctrl + Z annule la dernière action dans la majorité des logiciels."
+        },
+        {
+            "question": "Quel raccourci permet de sélectionner tout le contenu d'une page ou d'un document ?",
+            "options": [
+                "Ctrl + A",
+                "Ctrl + T",
+                "Ctrl + S"
+            ],
+            "reponse": "Ctrl + A",
+            "explication": "Ctrl + A sélectionne tout le texte ou les éléments d’une page."
+        },
+        {
+            "question": "Quel raccourci permet de sauvegarder rapidement un document ?",
+            "options": [
+                "Ctrl + S",
+                "Ctrl + D",
+                "Alt + S"
+            ],
+            "reponse": "Ctrl + S",
+            "explication": "Ctrl + S enregistre le fichier en cours dans la plupart des logiciels."
+        },
+        {
+            "question": "Quelle combinaison permet de rechercher un mot ou une phrase dans une page web ?",
+            "options": [
+                "Ctrl + F",
+                "Ctrl + R",
+                "Ctrl + W"
+            ],
+            "reponse": "Ctrl + F",
+            "explication": "Ctrl + F ouvre une barre de recherche pour trouver un mot dans une page."
+        },
+        {
+            "question": "Quel raccourci permet de fermer un onglet dans un navigateur ?",
+            "options": [
+                "Ctrl + W",
+                "Ctrl + Tab",
+                "Alt + F4"
+            ],
+            "reponse": "Ctrl + W",
+            "explication": "Ctrl + W ferme l’onglet actif du navigateur."
+        },
+        {
+            "question": "Quelle opération permet d’ouvrir le gestionnaire des tâches sous Windows ?",
+            "options": [
+                "Ctrl + Alt + Suppr",
+                "Ctrl + Shift + Esc",
+                "Les deux"
+            ],
+            "reponse": "Les deux",
+            "explication": "Ctrl + Alt + Suppr ou Ctrl + Shift + Esc permettent d’accéder au gestionnaire des tâches."
+        },
+        {
+            "question": "Quel raccourci permet de faire une capture d'écran de tout l'écran ?",
+            "options": [
+                "Impr. écran",
+                "Ctrl + Print Screen",
+                "Alt + Print Screen"
+            ],
+            "reponse": "Impr. écran",
+            "explication": "La touche Impr. écran capture l’intégralité de l’écran."
+        },
+        {
+            "question": "Quel raccourci permet de verrouiller rapidement une session Windows ?",
+            "options": [
+                "Windows + L",
+                "Windows + E",
+                "Ctrl + L"
+            ],
+            "reponse": "Windows + L",
+            "explication": "Windows + L verrouille immédiatement l’ordinateur."
+        },
+        {
+            "question": "Quelle combinaison permet d’ouvrir l’explorateur de fichiers ?",
+            "options": [
+                "Windows + E",
+                "Ctrl + E",
+                "Alt + E"
+            ],
+            "reponse": "Windows + E",
+            "explication": "Windows + E ouvre instantanément l'explorateur de fichiers."
+        },
+        {
+            "question": "Quel raccourci permet de passer rapidement d'une fenêtre ouverte à une autre ?",
+            "options": [
+                "Alt + Tab",
+                "Ctrl + Tab",
+                "Shift + Tab"
+            ],
+            "reponse": "Alt + Tab",
+            "explication": "Alt + Tab permet de naviguer entre toutes les fenêtres ouvertes sur le PC."
+        }
+    ]
+}

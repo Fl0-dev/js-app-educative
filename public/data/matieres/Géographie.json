@@ -1,0 +1,742 @@
+{
+  "notions": [
+    {
+      "titre": "Les DROM-COM",
+      "contenu": "Les DROM-COM (Départements et Régions d'Outre-Mer - Collectivités d'Outre-Mer) sont des territoires français situés en dehors de l'Europe. Ils comprennent des îles et des régions avec des statuts administratifs variés."
+    },
+    {
+      "titre": "Les Fleuves de France",
+      "contenu": "Les principaux fleuves de France incluent la Seine, la Loire, le Rhône, la Garonne et le Rhin. Ils jouent un rôle crucial dans le transport, l'agriculture et l'industrie."
+    },
+    {
+      "titre": "Les Montagnes de France",
+      "contenu": "La France possède plusieurs chaînes de montagnes importantes, telles que les Alpes, les Pyrénées, le Massif Central, le Jura et les Vosges. Elles influencent le climat et les activités économiques locales."
+    },
+    {
+      "titre": "La population mondiale",
+      "contenu": "La population mondiale dépasse 8 milliards d’habitants. Elle est inégalement répartie sur la planète."
+    },
+    {
+      "titre": "La croissance démographique",
+      "contenu": "La population mondiale augmente rapidement dans certains pays, surtout en Afrique et en Asie."
+    },
+    {
+      "titre": "La répartition de la population",
+      "contenu": "Les populations sont concentrées sur les littoraux, les plaines et les zones tempérées."
+    },
+    {
+      "titre": "Les espaces peu peuplés",
+      "contenu": "Les déserts, les montagnes et les zones polaires comptent peu d’habitants à cause des conditions difficiles."
+    },
+    {
+      "titre": "L’urbanisation",
+      "contenu": "De plus en plus de gens vivent en ville : c’est l’urbanisation, un phénomène mondial."
+    },
+    {
+      "titre": "Les mégapoles",
+      "contenu": "Les mégapoles sont de très grandes villes de plus de 10 millions d’habitants comme Tokyo ou Mexico."
+    },
+    {
+      "titre": "Les bidonvilles",
+      "contenu": "Les bidonvilles sont des quartiers pauvres construits sans autorisation, souvent autour des grandes villes."
+    },
+    {
+      "titre": "La transition démographique",
+      "contenu": "C’est le passage d’un régime de forte natalité et mortalité à un régime faible des deux taux."
+    },
+    {
+      "titre": "Les pays développés",
+      "contenu": "Ce sont des pays riches où la population vit mieux et plus longtemps grâce à de bonnes conditions de vie."
+    },
+    {
+      "titre": "Les pays en développement",
+      "contenu": "Ce sont des pays où la population est souvent jeune et plus pauvre, avec un accès limité à l’éducation et à la santé."
+    },
+    {
+      "titre": "Les inégalités de richesse",
+      "contenu": "Les richesses sont mal réparties dans le monde : certains vivent dans le confort, d’autres dans la pauvreté."
+    },
+    {
+      "titre": "L’espérance de vie",
+      "contenu": "C’est le nombre moyen d’années que peut espérer vivre une personne selon son pays."
+    },
+    {
+      "titre": "Le taux de natalité",
+      "contenu": "C’est le nombre de naissances pour 1000 habitants dans un pays chaque année."
+    },
+    {
+      "titre": "Le taux de mortalité",
+      "contenu": "C’est le nombre de décès pour 1000 habitants dans un pays chaque année."
+    },
+    {
+      "titre": "Les migrations",
+      "contenu": "Les migrations sont les déplacements de population d’un pays à un autre, souvent pour trouver du travail ou fuir un danger."
+    },
+    {
+      "titre": "Les réfugiés",
+      "contenu": "Les réfugiés quittent leur pays à cause de la guerre, de la pauvreté ou du climat."
+    },
+    {
+      "titre": "Les villes",
+      "contenu": "Les villes regroupent la majorité de la population mondiale. Elles concentrent activités, emplois et services."
+    },
+    {
+      "titre": "Les métropoles",
+      "contenu": "Les métropoles sont des grandes villes qui concentrent le pouvoir économique, politique et culturel."
+    },
+    {
+      "titre": "La mondialisation",
+      "contenu": "C’est l’interconnexion des pays par les échanges économiques, culturels et humains."
+    },
+    {
+      "titre": "Les transports mondiaux",
+      "contenu": "Les routes, ports et aéroports permettent la circulation rapide des marchandises et des personnes."
+    },
+    {
+      "titre": "Les littoraux",
+      "contenu": "Les littoraux sont des zones attractives pour le commerce, le tourisme et la pêche."
+    },
+    {
+      "titre": "Les ports mondiaux",
+      "contenu": "Les ports comme Shanghai ou Rotterdam sont des lieux essentiels du commerce international."
+    },
+    {
+      "titre": "Les espaces ruraux",
+      "contenu": "Les campagnes regroupent des zones agricoles où la population est souvent dispersée."
+    },
+    {
+      "titre": "L’agriculture",
+      "contenu": "Activité principale dans les campagnes, elle peut être vivrière (pour se nourrir) ou commerciale (pour vendre)."
+    },
+    {
+      "titre": "L’agriculture intensive",
+      "contenu": "Elle produit beaucoup sur de grandes surfaces avec des machines et des engrais."
+    },
+    {
+      "titre": "L’agriculture vivrière",
+      "contenu": "Elle consiste à cultiver pour nourrir sa famille, souvent pratiquée dans les pays pauvres."
+    },
+    {
+      "titre": "L’eau douce",
+      "contenu": "L’eau douce représente moins de 3 % de l’eau sur Terre. Son accès est inégal selon les régions."
+    },
+    {
+      "titre": "Les ressources naturelles",
+      "contenu": "Les ressources comme le pétrole, l’eau ou le bois sont limitées et doivent être gérées durablement."
+    },
+    {
+      "titre": "Les énergies renouvelables",
+      "contenu": "Ce sont des énergies inépuisables : solaire, éolienne, hydraulique ou géothermique."
+    },
+    {
+      "titre": "Le développement durable",
+      "contenu": "C’est un développement qui répond aux besoins d’aujourd’hui sans compromettre ceux de demain."
+    },
+    {
+      "titre": "Le changement climatique",
+      "contenu": "L’augmentation des gaz à effet de serre réchauffe la planète et modifie le climat."
+    },
+    {
+      "titre": "Les risques naturels",
+      "contenu": "Ce sont les séismes, volcans, inondations ou tempêtes pouvant menacer les populations."
+    },
+    {
+      "titre": "Les risques technologiques",
+      "contenu": "Ils sont liés à l’activité humaine : accidents industriels, pollutions, marées noires."
+    },
+    {
+      "titre": "La déforestation",
+      "contenu": "C’est la destruction des forêts pour l’agriculture ou l’industrie, ce qui menace la biodiversité."
+    },
+    {
+      "titre": "La pollution",
+      "contenu": "Les activités humaines polluent l’air, l’eau et les sols, affectant la santé et la nature."
+    },
+    {
+      "titre": "L’urbanisation durable",
+      "contenu": "Elle vise à construire des villes plus écologiques avec moins de pollution et plus d’espaces verts."
+    },
+    {
+      "titre": "Les océans",
+      "contenu": "Ils couvrent plus de 70 % de la Terre et sont essentiels pour le climat et la vie."
+    },
+    {
+      "titre": "La surpêche",
+      "contenu": "La pêche excessive vide les mers et met en danger certaines espèces."
+    },
+    {
+      "titre": "Les aires protégées",
+      "contenu": "Ce sont des zones naturelles où la faune et la flore sont préservées."
+    },
+    {
+      "titre": "Les montagnes",
+      "contenu": "Espaces de faible densité, souvent consacrés au tourisme, à l’élevage ou à la forêt."
+    },
+    {
+      "titre": "Les déserts",
+      "contenu": "Espaces très secs et peu habités à cause du manque d’eau."
+    },
+    {
+      "titre": "Les forêts",
+      "contenu": "Elles abritent une grande biodiversité et fournissent du bois et de l’oxygène."
+    },
+    {
+      "titre": "Les zones polaires",
+      "contenu": "Espaces très froids et peu peuplés, où vivent des peuples autochtones et des chercheurs."
+    },
+    {
+      "titre": "Les inégalités d’accès à l’eau",
+      "contenu": "Certains pays manquent d’eau potable, ce qui pose des problèmes de santé et d’agriculture."
+    },
+    {
+      "titre": "Les migrations climatiques",
+      "contenu": "Des populations quittent leur région à cause des sécheresses ou des inondations."
+    },
+    {
+      "titre": "La ville durable",
+      "contenu": "C’est une ville qui respecte l’environnement et favorise les transports doux comme le vélo."
+    },
+    {
+      "titre": "La métropolisation",
+      "contenu": "C’est la concentration de la population et des activités dans les grandes villes."
+    },
+    {
+      "titre": "Les inégalités urbaines",
+      "contenu": "Les villes présentent des quartiers riches et des quartiers pauvres."
+    },
+    {
+      "titre": "Les territoires ultramarins français",
+      "contenu": "La France possède des territoires dans les océans : Guadeloupe, Réunion, Polynésie."
+    },
+    {
+      "titre": "Les échanges mondiaux",
+      "contenu": "Les échanges de marchandises, de capitaux et d’informations relient les pays du monde entier."
+    },
+    {
+      "titre": "Les cartes géographiques",
+      "contenu": "Elles permettent de représenter le monde et de comprendre la répartition des populations et des activités."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel est le plus long fleuve de France ?",
+      "options": [
+        "La Seine",
+        "La Loire",
+        "Le Rhône"
+      ],
+      "reponse": "La Loire",
+      "explication": "La Loire est le plus long fleuve de France, s'étendant sur environ 1 006 kilomètres."
+    },
+    {
+      "question": "Quelle chaîne de montagnes se trouve à la frontière entre la France et l'Espagne ?",
+      "options": [
+        "Les Alpes",
+        "Les Pyrénées",
+        "Le Massif Central"
+      ],
+      "reponse": "Les Pyrénées",
+      "explication": "Les Pyrénées forment une frontière naturelle entre la France et l'Espagne."
+    },
+    {
+      "question": "Quel est le statut administratif des DROM-COM ?",
+      "options": [
+        "Régions métropolitaines",
+        "Territoires indépendants",
+        "Départements et Régions d'Outre-Mer"
+      ],
+      "reponse": "Départements et Régions d'Outre-Mer",
+      "explication": "Les DROM-COM sont des territoires français situés en dehors de l'Europe avec des statuts administratifs variés."
+    },
+    {
+      "question": "Combien d’habitants compte la planète ?",
+      "options": [
+        "5 milliards",
+        "8 milliards",
+        "10 milliards"
+      ],
+      "reponse": "8 milliards",
+      "explication": "La population mondiale a dépassé les 8 milliards d’habitants en 2022."
+    },
+    {
+      "question": "Où vit la majorité de la population mondiale ?",
+      "options": [
+        "En Afrique",
+        "En Asie",
+        "En Europe"
+      ],
+      "reponse": "En Asie",
+      "explication": "L’Asie abrite plus de la moitié de la population mondiale."
+    },
+    {
+      "question": "Que signifie 'urbanisation' ?",
+      "options": [
+        "L’augmentation du nombre de villes",
+        "La diminution des campagnes",
+        "La destruction des forêts"
+      ],
+      "reponse": "L’augmentation du nombre de villes",
+      "explication": "L’urbanisation est la croissance des villes et de leur population."
+    },
+    {
+      "question": "Qu’est-ce qu’une mégapole ?",
+      "options": [
+        "Une très grande ville",
+        "Un petit village",
+        "Une montagne"
+      ],
+      "reponse": "Une très grande ville",
+      "explication": "Une mégapole compte plus de 10 millions d’habitants."
+    },
+    {
+      "question": "Quel continent connaît la plus forte croissance démographique ?",
+      "options": [
+        "L’Europe",
+        "L’Afrique",
+        "L’Amérique"
+      ],
+      "reponse": "L’Afrique",
+      "explication": "L’Afrique connaît une croissance rapide de sa population."
+    },
+    {
+      "question": "Que sont les bidonvilles ?",
+      "options": [
+        "Des villages anciens",
+        "Des quartiers pauvres",
+        "Des villes industrielles"
+      ],
+      "reponse": "Des quartiers pauvres",
+      "explication": "Les bidonvilles sont des zones précaires construites sans autorisation."
+    },
+    {
+      "question": "Que veut dire 'densité de population' ?",
+      "options": [
+        "Le nombre d’habitants par km²",
+        "La taille des villes",
+        "La superficie d’un pays"
+      ],
+      "reponse": "Le nombre d’habitants par km²",
+      "explication": "C’est la mesure du nombre de personnes vivant sur une surface donnée."
+    },
+    {
+      "question": "Qu’est-ce qu’un pays développé ?",
+      "options": [
+        "Un pays pauvre",
+        "Un pays riche",
+        "Un pays sans agriculture"
+      ],
+      "reponse": "Un pays riche",
+      "explication": "Les pays développés ont un haut niveau de vie et de technologie."
+    },
+    {
+      "question": "Quelle est la principale activité dans les campagnes ?",
+      "options": [
+        "L’agriculture",
+        "Le commerce",
+        "L’industrie"
+      ],
+      "reponse": "L’agriculture",
+      "explication": "Les campagnes sont majoritairement consacrées à l’agriculture."
+    },
+    {
+      "question": "Qu’est-ce qu’une métropole ?",
+      "options": [
+        "Un village",
+        "Une grande ville influente",
+        "Un port"
+      ],
+      "reponse": "Une grande ville influente",
+      "explication": "Une métropole concentre la population et les activités économiques."
+    },
+    {
+      "question": "Que signifie 'mondialisation' ?",
+      "options": [
+        "L’isolement des pays",
+        "Les échanges entre pays",
+        "La disparition des frontières"
+      ],
+      "reponse": "Les échanges entre pays",
+      "explication": "La mondialisation relie les pays par le commerce et la communication."
+    },
+    {
+      "question": "Qu’est-ce qu’un littoral ?",
+      "options": [
+        "Une montagne",
+        "Une zone près de la mer",
+        "Une forêt"
+      ],
+      "reponse": "Une zone près de la mer",
+      "explication": "Les littoraux sont des espaces entre terre et mer très peuplés."
+    },
+    {
+      "question": "Pourquoi les littoraux sont-ils importants ?",
+      "options": [
+        "Pour les échanges",
+        "Pour les volcans",
+        "Pour la pêche uniquement"
+      ],
+      "reponse": "Pour les échanges",
+      "explication": "Les ports et le commerce maritime rendent les littoraux essentiels."
+    },
+    {
+      "question": "Que produit l’agriculture intensive ?",
+      "options": [
+        "Peu de nourriture",
+        "Beaucoup de nourriture",
+        "Rien du tout"
+      ],
+      "reponse": "Beaucoup de nourriture",
+      "explication": "Elle utilise des machines et des engrais pour produire plus."
+    },
+    {
+      "question": "Qu’est-ce qu’une ressource naturelle ?",
+      "options": [
+        "Un produit industriel",
+        "Un élément fourni par la nature",
+        "Une invention humaine"
+      ],
+      "reponse": "Un élément fourni par la nature",
+      "explication": "L’eau, le pétrole, les forêts sont des ressources naturelles."
+    },
+    {
+      "question": "Que veut dire 'énergie renouvelable' ?",
+      "options": [
+        "Une énergie infinie",
+        "Une énergie polluante",
+        "Une énergie épuisable"
+      ],
+      "reponse": "Une énergie infinie",
+      "explication": "Le vent, le soleil et l’eau sont des énergies renouvelables."
+    },
+    {
+      "question": "Quel gaz contribue au réchauffement climatique ?",
+      "options": [
+        "Le dioxygène",
+        "Le dioxyde de carbone",
+        "L’hydrogène"
+      ],
+      "reponse": "Le dioxyde de carbone",
+      "explication": "Le CO₂ retient la chaleur dans l’atmosphère."
+    },
+    {
+      "question": "Qu’est-ce que le développement durable ?",
+      "options": [
+        "Un développement qui pollue",
+        "Un développement respectueux de la planète",
+        "Un développement temporaire"
+      ],
+      "reponse": "Un développement respectueux de la planète",
+      "explication": "Le développement durable protège la Terre pour les générations futures."
+    },
+    {
+      "question": "Que désigne 'la pollution' ?",
+      "options": [
+        "Un air pur",
+        "La dégradation de l’environnement",
+        "Une culture biologique"
+      ],
+      "reponse": "La dégradation de l’environnement",
+      "explication": "La pollution affecte l’air, l’eau et les sols."
+    },
+    {
+      "question": "Que signifie 'déforestation' ?",
+      "options": [
+        "Planter des arbres",
+        "Détruire des forêts",
+        "Protéger la nature"
+      ],
+      "reponse": "Détruire des forêts",
+      "explication": "La déforestation menace la biodiversité et le climat."
+    },
+    {
+      "question": "Quel est l’océan le plus vaste ?",
+      "options": [
+        "Atlantique",
+        "Pacifique",
+        "Indien"
+      ],
+      "reponse": "Pacifique",
+      "explication": "L’océan Pacifique couvre plus du tiers de la surface terrestre."
+    },
+    {
+      "question": "Que représente la Terre sur une carte ?",
+      "options": [
+        "Un globe",
+        "Une carte du monde",
+        "Un planisphère"
+      ],
+      "reponse": "Un planisphère",
+      "explication": "Un planisphère est une carte représentant la Terre entière."
+    },
+    {
+      "question": "Qu’est-ce qu’un risque naturel ?",
+      "options": [
+        "Un danger lié à la nature",
+        "Un accident d’usine",
+        "Une invention humaine"
+      ],
+      "reponse": "Un danger lié à la nature",
+      "explication": "Les séismes, les tempêtes et les volcans sont des risques naturels."
+    },
+    {
+      "question": "Quel pays est le plus peuplé du monde ?",
+      "options": [
+        "Inde",
+        "Chine",
+        "États-Unis"
+      ],
+      "reponse": "Inde",
+      "explication": "L’Inde est devenue le pays le plus peuplé devant la Chine."
+    },
+    {
+      "question": "Qu’est-ce qu’une migration ?",
+      "options": [
+        "Un déplacement de population",
+        "Une guerre",
+        "Une élection"
+      ],
+      "reponse": "Un déplacement de population",
+      "explication": "Les migrations sont des mouvements de personnes vers un autre lieu."
+    },
+    {
+      "question": "Pourquoi les gens migrent-ils ?",
+      "options": [
+        "Pour changer de religion",
+        "Pour chercher de meilleures conditions de vie",
+        "Pour coloniser"
+      ],
+      "reponse": "Pour chercher de meilleures conditions de vie",
+      "explication": "Les migrations sont souvent économiques ou climatiques."
+    },
+    {
+      "question": "Que signifie 'espérance de vie' ?",
+      "options": [
+        "Durée moyenne de vie",
+        "Âge de la retraite",
+        "Nombre d’enfants"
+      ],
+      "reponse": "Durée moyenne de vie",
+      "explication": "C’est l’âge moyen jusqu’auquel une personne peut espérer vivre."
+    },
+    {
+      "question": "Que trouve-t-on dans les montagnes ?",
+      "options": [
+        "Des volcans",
+        "Des forêts, des villages et du tourisme",
+        "Des mers"
+      ],
+      "reponse": "Des forêts, des villages et du tourisme",
+      "explication": "Les montagnes accueillent l’agriculture et le tourisme."
+    },
+    {
+      "question": "Quels sont les continents ?",
+      "options": [
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "6",
+      "explication": "On compte six continents : Afrique, Amérique, Asie, Europe, Océanie, Antarctique."
+    },
+    {
+      "question": "Quel est le principal gaz responsable de l’effet de serre ?",
+      "options": [
+        "Oxygène",
+        "Dioxyde de carbone",
+        "Azote"
+      ],
+      "reponse": "Dioxyde de carbone",
+      "explication": "Le CO₂ est le principal gaz à effet de serre produit par l’homme."
+    },
+    {
+      "question": "Que signifie 'métropolisation' ?",
+      "options": [
+        "Développement des grandes villes",
+        "Ruralisation",
+        "Industrialisation"
+      ],
+      "reponse": "Développement des grandes villes",
+      "explication": "La métropolisation renforce l’importance des grandes villes."
+    },
+    {
+      "question": "Quel pays est une grande puissance économique ?",
+      "options": [
+        "Niger",
+        "Japon",
+        "Haïti"
+      ],
+      "reponse": "Japon",
+      "explication": "Le Japon est une des puissances économiques mondiales."
+    },
+    {
+      "question": "Qu’est-ce qu’un désert ?",
+      "options": [
+        "Un lieu froid",
+        "Un lieu où il pleut très peu",
+        "Un lieu sans vie"
+      ],
+      "reponse": "Un lieu où il pleut très peu",
+      "explication": "Les déserts sont des zones sèches et peu habitées."
+    },
+    {
+      "question": "Quel est l’océan entre l’Europe et l’Amérique ?",
+      "options": [
+        "Indien",
+        "Atlantique",
+        "Pacifique"
+      ],
+      "reponse": "Atlantique",
+      "explication": "L’océan Atlantique sépare l’Europe de l’Amérique."
+    },
+    {
+      "question": "Que fait une carte géographique ?",
+      "options": [
+        "Elle représente un espace",
+        "Elle donne la météo",
+        "Elle calcule des distances"
+      ],
+      "reponse": "Elle représente un espace",
+      "explication": "Une carte sert à localiser et comprendre un territoire."
+    },
+    {
+      "question": "Quel est le plus grand continent ?",
+      "options": [
+        "Asie",
+        "Afrique",
+        "Amérique"
+      ],
+      "reponse": "Asie",
+      "explication": "L’Asie est le plus vaste et le plus peuplé des continents."
+    },
+    {
+      "question": "Que veut dire 'ressource épuisable' ?",
+      "options": [
+        "Qui se renouvelle",
+        "Qui disparaît avec le temps",
+        "Qui est naturelle"
+      ],
+      "reponse": "Qui disparaît avec le temps",
+      "explication": "Le pétrole et le charbon sont des ressources épuisables."
+    },
+    {
+      "question": "Qu’est-ce que la biodiversité ?",
+      "options": [
+        "La variété des êtres vivants",
+        "Les forêts tropicales",
+        "Les énergies vertes"
+      ],
+      "reponse": "La variété des êtres vivants",
+      "explication": "La biodiversité regroupe toutes les espèces animales et végétales."
+    },
+    {
+      "question": "Que signifie 'pollution de l’air' ?",
+      "options": [
+        "Présence d’air pur",
+        "Présence de gaz et de particules nocives",
+        "Présence d’oxygène"
+      ],
+      "reponse": "Présence de gaz et de particules nocives",
+      "explication": "Les usines et les voitures polluent l’air que nous respirons."
+    },
+    {
+      "question": "Quelle activité humaine provoque la déforestation ?",
+      "options": [
+        "L’agriculture",
+        "L’éducation",
+        "La pêche"
+      ],
+      "reponse": "L’agriculture",
+      "explication": "Les forêts sont coupées pour faire place aux cultures ou à l’élevage."
+    },
+    {
+      "question": "Pourquoi protège-t-on certaines zones naturelles ?",
+      "options": [
+        "Pour construire plus",
+        "Pour préserver la nature",
+        "Pour exploiter les minerais"
+      ],
+      "reponse": "Pour préserver la nature",
+      "explication": "Les aires protégées visent à sauvegarder les animaux et les plantes."
+    },
+    {
+      "question": "Quel est le principal défi pour les pays pauvres ?",
+      "options": [
+        "Le chômage",
+        "L’accès à l’eau et à la santé",
+        "La pollution sonore"
+      ],
+      "reponse": "L’accès à l’eau et à la santé",
+      "explication": "Les besoins vitaux sont souvent difficiles à satisfaire."
+    },
+    {
+      "question": "Que veut dire 'migration climatique' ?",
+      "options": [
+        "Un voyage de vacances",
+        "Un départ à cause du climat",
+        "Un déplacement d’animaux"
+      ],
+      "reponse": "Un départ à cause du climat",
+      "explication": "Les sécheresses et inondations forcent certaines populations à partir."
+    },
+    {
+      "question": "Qu’est-ce qu’une énergie fossile ?",
+      "options": [
+        "Une énergie renouvelable",
+        "Une énergie issue du pétrole ou du charbon",
+        "Une énergie solaire"
+      ],
+      "reponse": "Une énergie issue du pétrole ou du charbon",
+      "explication": "Les énergies fossiles sont limitées et polluantes."
+    },
+    {
+      "question": "Quel est le continent le moins peuplé ?",
+      "options": [
+        "Europe",
+        "Océanie",
+        "Antarctique"
+      ],
+      "reponse": "Antarctique",
+      "explication": "L’Antarctique est presque inhabité à cause du froid extrême."
+    },
+    {
+      "question": "Que fait une carte de densité ?",
+      "options": [
+        "Montre la population",
+        "Montre le relief",
+        "Montre les frontières"
+      ],
+      "reponse": "Montre la population",
+      "explication": "Elle montre les zones très ou peu peuplées."
+    },
+    {
+      "question": "Quel est l’enjeu principal du développement durable ?",
+      "options": [
+        "Faire croître l’économie",
+        "Protéger l’environnement et les hommes",
+        "Vendre des produits"
+      ],
+      "reponse": "Protéger l’environnement et les hommes",
+      "explication": "Le développement durable vise à préserver la planète et la justice sociale."
+    },
+    {
+      "question": "Que signifie 'aire urbaine' ?",
+      "options": [
+        "Une zone rurale",
+        "Une grande ville et ses alentours",
+        "Une montagne"
+      ],
+      "reponse": "Une grande ville et ses alentours",
+      "explication": "Une aire urbaine regroupe une ville centre et sa banlieue."
+    },
+    {
+      "question": "Pourquoi les villes grandissent-elles ?",
+      "options": [
+        "À cause des naissances et des migrations",
+        "À cause du froid",
+        "À cause des volcans"
+      ],
+      "reponse": "À cause des naissances et des migrations",
+      "explication": "Les gens viennent en ville pour le travail et les services."
+    }
+  ]
+}
