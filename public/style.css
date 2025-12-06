@@ -288,4 +288,21 @@ button, .button {
     /* Simple spacing for items in the dropdown */
     #menu-matieres-mobile li { margin-bottom: 0.45rem; }
     #menu-matieres-mobile button.button { width: 100%; text-align: left; }
+
+    /* Simple spacing for items in the dropdown */
+    #menu-matieres-mobile li { margin-bottom: 0.45rem; }
+    #menu-matieres-mobile button.button { width: 100%; text-align: left; }
+
+    /* Décalage léger de la mascotte vers la gauche sur mobile pour mieux centrer la zone principale */
+    #mascotte-img {
+        transform: translateX(-8px);
+        transition: transform 160ms ease;
+    }
+
+    /* Appliquer un margin négatif à la figure contenant la mascotte uniquement sur mobile */
+    figure.image.is-128x128 {
+        margin: -9px;
+    }
+
+    
 }
