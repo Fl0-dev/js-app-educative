@@ -42,17 +42,28 @@
                                 <ul>
                                     <li id="li-btn-cours" class="is-active">
                                         <a id="btn-cours" onclick="afficherSection('cours')">
-                                            <span class="icon is-small"><i class="fas fa-book"></i></span>
                                             <span>Cours 📘</span>
                                         </a>
                                     </li>
                                     <li id="li-btn-quiz">
                                         <a id="btn-quiz" onclick="afficherSection('quiz')">
-                                            <span class="icon is-small"><i class="fas fa-question-circle"></i></span>
                                             <span>Quiz ❓</span>
                                         </a>
                                     </li>
                                 </ul>
+                            </div>
+
+                            <!-- Bouton dropdown mobile pour les Matières (visible uniquement sur petits écrans) -->
+                            <div class="mobile-matieres-wrapper">
+                                <button id="mobile-matieres-btn" class="button is-custom mobile-matieres-btn"
+                                    aria-expanded="false">Matières ▾</button>
+                                <div id="mobile-matieres-overlay" class="mobile-matieres-overlay" aria-hidden="true">
+                                </div>
+                                <div id="mobile-matieres-dropdown" class="mobile-matieres-dropdown" aria-hidden="true">
+                                    <ul id="menu-matieres-mobile" class="menu-list">
+                                        <!-- rempli dynamiquement -->
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 

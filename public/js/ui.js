@@ -1,10 +1,46 @@
 import { store } from './store.js';
 import { parseContentMarkup, getEmojiForMatiere, updateMascotteImage } from './utils.js';
 import { demarrerQuiz } from './quiz.js';
+// État du dropdown mobile
+let _mobileMatieresOpen = false;
+
+export function isMobileMatieresOpen() { return _mobileMatieresOpen; }
+
+export function openMobileMatieres() {
+    const dd = document.getElementById('mobile-matieres-dropdown');
+    const overlay = document.getElementById('mobile-matieres-overlay');
+    const btn = document.getElementById('mobile-matieres-btn');
+    if (dd && overlay) {
+        dd.classList.add('is-open');
+        overlay.classList.add('is-active');
+        if (btn) btn.setAttribute('aria-expanded', 'true');
+        _mobileMatieresOpen = true;
+    }
+}
+
+export function closeMobileMatieres() {
+    const dd = document.getElementById('mobile-matieres-dropdown');
+    const overlay = document.getElementById('mobile-matieres-overlay');
+    const btn = document.getElementById('mobile-matieres-btn');
+    if (dd && overlay) {
+        dd.classList.remove('is-open');
+        overlay.classList.remove('is-active');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+        _mobileMatieresOpen = false;
+    }
+}
+
+export function toggleMobileMatieres() {
+    if (_mobileMatieresOpen) closeMobileMatieres(); else openMobileMatieres();
+}
 
 export function renderMenuMatieres() {
     const menu = document.getElementById('menu-matieres');
-    menu.innerHTML = '';
+    if (menu) menu.innerHTML = '';
+
+    // mobile slot
+    const menuMobile = document.getElementById('menu-matieres-mobile');
+    if (menuMobile) menuMobile.innerHTML = '';
 
     Object.keys(store.appData).forEach((matiere) => {
         const li = document.createElement('li');
@@ -12,10 +48,24 @@ export function renderMenuMatieres() {
         btn.className = 'button is-custom is-light is-fullwidth mb-2';
         btn.textContent = `${getEmojiForMatiere(matiere)} ${matiere}`;
         btn.setAttribute('data-matiere', matiere);
-        btn.addEventListener('click', () => chargerMatiere(matiere));
+        btn.addEventListener('click', () => {
+            chargerMatiere(matiere);
+        });
 
         li.appendChild(btn);
-        menu.appendChild(li);
+        if (menu) menu.appendChild(li);
+
+        if (menuMobile) {
+            const li2 = document.createElement('li');
+            const btn2 = btn.cloneNode(true);
+            // ensure click closes dropdown after selecting
+            btn2.addEventListener('click', () => {
+                chargerMatiere(matiere);
+                closeMobileMatieres();
+            });
+            li2.appendChild(btn2);
+            menuMobile.appendChild(li2);
+        }
     });
 }
 

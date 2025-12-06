@@ -211,3 +211,81 @@ button, .button {
 
 /* Bulma utilise la classe "is-hidden" pour cacher, mais si vous utilisez votre ancienne classe "hidden", elle fonctionnera toujours. */
 /* .hidden { display: none; } */
+
+/* --- Dropdown mobile pour les Matières --- */
+/* Par défaut, masquer l'UI mobile (affichée seulement sur petits écrans) */
+.mobile-matieres-wrapper,
+.mobile-matieres-btn,
+.mobile-matieres-dropdown,
+.mobile-matieres-overlay {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    /* Cacher la colonne de navigation gauche pour libérer l'espace */
+    nav.column.is-one-quarter { display: none; }
+
+    /* Afficher le wrapper contenant le bouton et le dropdown */
+    .mobile-matieres-wrapper { display: block; position: relative; }
+
+    .mobile-matieres-btn {
+        display: inline-block;
+        background: var(--couleur-bouton);
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-weight: var(--fw-semibold);
+        cursor: pointer;
+    }
+
+    /* Overlay sombre couvrant le contenu quand le dropdown est ouvert */
+    .mobile-matieres-overlay {
+        display: block;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.25);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 180ms ease, visibility 180ms ease;
+        z-index: 900;
+    }
+
+    /* Dropdown centré horizontalement par rapport à la fenêtre */
+    .mobile-matieres-dropdown {
+        display: block;
+        position: fixed;
+        left: 50%;
+        top: calc(var(--header-height, 140px) + 8px);
+        right: auto;
+        width: min(92vw, 360px);
+        max-width: 95vw;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        border-radius: 8px;
+        padding: 0.8rem;
+        box-sizing: border-box;
+        transform-origin: top center;
+        transform: translateX(-50%) scaleY(0);
+        opacity: 0;
+        visibility: hidden;
+        transition: transform 190ms cubic-bezier(.2,.9,.2,1), opacity 160ms ease, visibility 160ms ease;
+        z-index: 950;
+    }
+
+    /* State when open */
+    .mobile-matieres-dropdown.is-open {
+        transform: translateX(-50%) scaleY(1);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mobile-matieres-overlay.is-active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Simple spacing for items in the dropdown */
+    #menu-matieres-mobile li { margin-bottom: 0.45rem; }
+    #menu-matieres-mobile button.button { width: 100%; text-align: left; }
+}

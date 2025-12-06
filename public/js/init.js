@@ -1,6 +1,6 @@
 import { store } from './store.js';
 import { initJSConfettiIfAvailable } from './utils.js';
-import { renderMenuMatieres, deselectMatiere, afficherSection } from './ui.js';
+import { renderMenuMatieres, deselectMatiere, afficherSection, toggleMobileMatieres, closeMobileMatieres } from './ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Chargement des matières : nouvelle méthode (index + fichiers par matière).
@@ -45,6 +45,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Exposer la fonction d'affichage pour les handlers inline dans HTML
             window.afficherSection = afficherSection;
+
+            // Lier le bouton dropdown mobile et l'overlay
+            const mobileBtn = document.getElementById('mobile-matieres-btn');
+            const mobileOverlay = document.getElementById('mobile-matieres-overlay');
+            if (mobileBtn) mobileBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleMobileMatieres(); });
+            if (mobileOverlay) mobileOverlay.addEventListener('click', () => { closeMobileMatieres(); });
+
+            // Fermer le dropdown si l'utilisateur clique ailleurs (au cas où overlay n'est pas utilisé)
+            document.addEventListener('click', (e) => {
+                const dd = document.getElementById('mobile-matieres-dropdown');
+                const btn = document.getElementById('mobile-matieres-btn');
+                if (!dd || !btn) return;
+                if (!dd.contains(e.target) && !btn.contains(e.target)) {
+                    closeMobileMatieres();
+                }
+            });
 
             // Ajuster la variable CSS --header-height
             function updateHeaderHeightVar() {
