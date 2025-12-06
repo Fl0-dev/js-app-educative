@@ -38,5 +38,9 @@
   {
     "name": "Informatique",
     "file": "matieres/Informatique.json"
+  },
+  {
+    "name": "Gossip Girl",
+    "file": "matieres/Gossip.json"
   }
 ]

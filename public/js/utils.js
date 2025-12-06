@@ -23,7 +23,8 @@ export function getEmojiForMatiere(matiere) {
         'Physique-Chimie': '⚗️',
         'Technologie': '🛠️',
         'Espagnol': '🌮',
-        'Informatique': '💻'
+        'Informatique': '💻',
+        'Gossip Girl': '📰'
     };
     return map[matiere] || '';
 }
