@@ -181,7 +181,7 @@ button, .button {
     /* Remplacer par des classes Bulma comme "button is-fullwidth" */
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 28px;
     margin-top: 8px;
     /* On garde les couleurs par défaut pour que les classes correct/incorrect les surchargent */
     background-color: #fff;
@@ -190,6 +190,15 @@ button, .button {
     text-align: left;
     cursor: pointer;
     transition: background-color 0.2s;
+    text-align: center;
+
+    /* Empêcher le débordement des longues réponses */
+    box-sizing: border-box;
+    white-space: normal;         /* autorise le retour à la ligne */
+    overflow-wrap: anywhere;     /* casse les mots longs si nécessaire */
+    word-break: break-word;      /* fallback pour certains navigateurs */
+    hyphens: auto;               /* autorise la césure quand disponible */
+    min-width: 0;                /* utile en contextes flex pour éviter débordement */
 }
 
 .option-button:hover {
