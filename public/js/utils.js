@@ -24,7 +24,8 @@ export function getEmojiForMatiere(matiere) {
         'Technologie': '🛠️',
         'Espagnol': '🌮',
         'Informatique': '💻',
-        'Gossip Girl': '📰'
+        'Gossip Girl': '📰',
+        'Gymnastique': '🤸‍♀️'
     };
     return map[matiere] || '';
 }

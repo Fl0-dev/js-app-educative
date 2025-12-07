@@ -1,0 +1,21 @@
+{
+    "notions": [
+        {
+            "titre": "xxxxxx",
+            "contenu": "xxxxx"
+        }
+    ],
+    "quiz": [
+        {
+            "question": "xxxxx",
+            "options": [
+                "xxxxx",
+                "xxxxx",
+                "xxxxx",
+                "xxxxx"
+            ],
+            "reponse": "xxxxx",
+            "explication": "xxxxxx"
+        }
+    ]
+}

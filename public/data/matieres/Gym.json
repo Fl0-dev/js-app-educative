@@ -1,0 +1,606 @@
+{
+    "notions": [
+        {
+            "titre": "🥇 Les Bases du Système de Pointage GAF",
+            "contenu": "Le score total est la somme de la **Note D** (Difficulté) et de la **Note E** (Exécution).\n- **Note D :** Elle est illimitée ! Elle compte la valeur des 8 figures les plus difficiles + les bonus de connexion (éléments liés) + la validation des Exigences de Composition (un mouvement obligatoire par appareil).\n- **Note E :** Elle commence à 10.00 et les juges soustraient les pénalités pour les erreurs d'exécution (jambes fléchies, manque de pointes, manque de hauteur) et les fautes artistiques.\n- **Pénalité de Chute :** Toute chute (poutre, barres) entraîne une déduction de **1.00 point** sur la Note E."
+        },
+        {
+            "titre": "🤸‍♀️ Le Saut de Cheval : La Puissance",
+            "contenu": "Le saut de cheval est le seul appareil où l'on réalise un seul geste. L'élément de base le plus courant est le **Yurchenko**, qui se décompose en trois phases :\n1. **Rondade** (sur le tremplin).\n2. **Flic-Flac** (ou impulsion des mains) sur la table.\n3. **Salto** ou **Vrille** dans les airs.\nSi la rondade ou le flic-flac ne sont pas réalisés correctement, la valeur du saut peut être fortement réduite car la base du Yurchenko n'est pas validée."
+        },
+        {
+            "titre": "✨ La Poutre : L'Équilibre sur 10 cm",
+            "contenu": "La poutre mesure seulement **10 centimètres** de large et se situe à **1.25 mètre** de hauteur. L'exercice ne doit pas dépasser **1 minute 30 secondes**.\n- Les figures les plus difficiles sont les **séries acrobatiques** (ex : flic-flac + salto arrière) car elles exigent une réception millimétrée.\n- L'exercice doit obligatoirement inclure un **maintien de position** (élément de souplesse statique), comme un équilibre sur une jambe ou un grand écart maintenu."
+        },
+        {
+            "titre": "🔄 Les Barres Asymétriques : Le Rythme",
+            "contenu": "Les Barres exigent des **éléments de Vol** (lâcher/rattraper) et des **transitions** (passage d'une barre à l'autre).\n- **Tkatchev :** Lâcher de barre arrière avec rotation du corps (figure de Vol).\n- **Shaposhnikova (Shapo) :** Transition de la barre basse à la barre haute, souvent réalisée à la fin d'un grand cercle.\n- La routine doit être fluide et ne présenter aucun arrêt pour ne pas pénaliser la Note E."
+        },
+        {
+            "titre": "🎶 Le Sol : Acrobatie et Chorégraphie",
+            "contenu": "L'exercice au Sol doit durer au maximum **1 minute 30 secondes** et doit contenir au moins **trois lignes acrobatiques** (ou diagonales).\n- L'élément acrobatique le plus courant avec une seule vrille et deux rotations (double salto) est le **Full-In**.\n- **Musique :** Depuis le cycle 2017-2020, les gymnastes peuvent utiliser de la musique **avec ou sans paroles** (vocale ou instrumentale), pour renforcer l'expression artistique. L'harmonie entre les pas de danse, la gestuelle et la musique est cruciale pour la Note Artistique."
+        },
+        {
+            "titre": "👑 Anecdote : Simone Biles et ses Éléments",
+            "contenu": "Simone Biles est la gymnaste avec le plus grand nombre d'éléments nommés après elle dans le Code de Pointage (cinq éléments différents, dont certains sont tellement difficiles que peu d'autres gymnastes tentent de les réaliser !). L'élément **'The Biles'** au Sol est un double salto arrière tendu avec demi-vrille (ou 360°)."
+        },
+        {
+            "titre": "🇫🇷 Faits Actuels : L'Équipe de France",
+            "contenu": "L'équipe de France (surnommée les 'Bleues') est de plus en plus performante ! **Mélanie de Jesus dos Santos (MDJDS)** est une figure de proue, ayant remporté plusieurs médailles européennes et mondiales (notamment au Sol en 2019). **Marine Boyer** est quant à elle une spécialiste de la Poutre. Elles sont essentielles pour l'équipe qui se prépare pour les Jeux Olympiques à venir."
+        },
+        {
+            "titre": "⏳ Histoire : La Note Parfaite",
+            "contenu": "Avant 2006, le système de notation maximal était de 10.00. La gymnaste roumaine **Nadia Comăneci** a été la première à obtenir ce score parfait aux **Barres asymétriques** lors des Jeux Olympiques de Montréal en 1976. Aujourd'hui, la Note D étant illimitée, on voit des scores totaux dépassant les 15 ou 16 points pour les meilleures routines !"
+        },
+        {
+            "titre": "🤝 Format de Compétition : Le CGI",
+            "contenu": "Le **Concours Général Individuel (CGI)** est l'épreuve la plus prestigieuse après la médaille par équipe. Il demande à la gymnaste de réaliser un exercice sur les **quatre appareils** de la GAF (Saut, Barres, Poutre, Sol). Seules les 24 meilleures gymnastes y participent, ce qui fait du CGI le vrai test de polyvalence en gymnastique."
+        },
+        {
+            "titre": "🎯 Détail Technique : Le Saut de Biche",
+            "contenu": "Le **Saut de Biche** (ou 'Stag Leap') est un saut chorégraphique courant au Sol et à la Poutre. Pour qu'il soit compté dans la Note D, l'écart doit être de **180°** (grand écart) et les pointes des pieds tendues. Les juges enlèvent des pénalités sur la Note E si l'écart n'est pas total."
+        },
+        {
+            "titre": "📏 Détail Technique : Le 'Grand Écart'",
+            "contenu": "Pour qu'un saut chorégraphique (comme un saut de biche ou un saut écarté) soit compté en valeur D, le grand écart de la gymnaste doit être de **180 degrés** (c'est-à-dire un écart parfait). Si l'écart manque même légèrement, les juges appliquent une pénalité de **0.10 point** ou ne comptent pas la valeur de l'élément."
+        },
+        {
+            "titre": "🕰️ Déduction de Temps à la Poutre/Sol",
+            "contenu": "Si la gymnaste dépasse le temps imparti (1 minute 30 secondes) à la Poutre ou au Sol, elle reçoit une déduction de **0.10 point**. Par contre, si l'exercice est trop court (moins de 1 minute 10 secondes au Sol), la pénalité peut être beaucoup plus lourde."
+        },
+        {
+            "titre": "🌪️ Les Vrilles : La Vitesse de Rotation",
+            "contenu": "Une **vrille** est une rotation du corps sur son axe vertical. La gymnaste doit maîtriser des vrilles simples (360°), doubles (720°), triples (1080°) ou même quadruples lors de ses saltos au Sol. Plus elle fait de tours en l'air, plus l'élément a une valeur D élevée !"
+        },
+        {
+            "titre": "🚫 L'Interdiction du Double-Salto Tendu",
+            "contenu": "Il est désormais interdit d'exécuter un simple **double-salto tendu** au Sol (sans vrille). Pourquoi ? Car il est considéré comme **trop dangereux** en cas de réception ratée. Les gymnastes doivent ajouter au moins une demi-vrille (180°) pour le rendre plus difficile et moins risqué à la réception."
+        },
+        {
+            "titre": "🇫🇷 Fun Fact : Émilie Le Pennec (JO 2004)",
+            "contenu": "La française **Émilie Le Pennec** a créé la surprise en 2004 en remportant l'or olympique aux **Barres asymétriques**. C'était la première et unique médaille d'or olympique en Gymnastique Artistique Féminine pour la France ! Elle a remporté sa médaille avec une routine parfaite, sans le moindre pas à la réception."
+        },
+        {
+            "titre": "🔗 Les Connexions aux Barres Asymétriques",
+            "contenu": "Aux Barres, la difficulté maximale s'obtient en liant des éléments de Vol difficiles (comme un Tkatchev) avec d'autres figures (comme un Gienger ou un Pak Salto). Ces **connexions** rapportent des **bonus D** qui peuvent faire la différence au classement."
+        },
+        {
+            "titre": "🛑 La Pénalité du Petit Pas",
+            "contenu": "Lors de la réception d'un salto au Sol, d'un saut de cheval ou d'un *dismount* (sortie), le moindre mouvement des pieds est pénalisé. Un **petit pas** de stabilisation coûte **0.10 point**, tandis qu'un pas plus grand ou un saut coûte **0.30 point**."
+        },
+        {
+            "titre": "🇷🇴 Anecdote : La Poutre et Nadia Comăneci",
+            "contenu": "Nadia Comăneci a non seulement obtenu le premier 10 aux barres, mais elle est aussi la première à avoir popularisé les **salto arrière** à la **Poutre** au lieu des simples enchaînements de bonds et de pas de danse. Elle a révolutionné cet appareil !"
+        },
+        {
+            "titre": "⬆️ L'Importance de la Hauteur",
+            "contenu": "Dans la Note E, l'une des déductions les plus courantes est le manque d'amplitude ou de hauteur. Aux Barres, les gymnastes doivent monter très haut pour faire les lâchers de barre. Au Saut, l'envol doit être important. Ce **manque de hauteur** est pénalisé jusqu'à **0.30 point** par élément."
+        },
+        {
+            "titre": "🥇 Championne Actuelle : Rebeca Andrade",
+            "contenu": "La Brésilienne **Rebeca Andrade** est l'une des figures actuelles. Elle est la première championne olympique brésilienne en gymnastique (médaille d'or au Saut aux JO de Tokyo 2020) et la seule gymnaste sud-américaine championne du monde du Concours Général."
+        },
+        {
+            "titre": "🔄 Le Rôle de l'Entraîneur",
+            "contenu": "En compétition, l'entraîneur n'a pas le droit de parler à la gymnaste ou d'interférer avec son exercice. Il peut seulement rester près d'elle à la **Poutre** (pour la sécurité) et au **Saut** (pour le tremplin). Si l'entraîneur parle pendant l'exercice, il y a pénalité."
+        },
+        {
+            "titre": "⚠️ Le 'Salto Raté' à la Poutre",
+            "contenu": "Si une gymnaste commence un salto à la poutre mais n'a pas assez de hauteur ou se rattrape au dernier moment (sans tomber), les juges lui enlèvent **0.50 point** pour 'contrôle insuffisant et perte d'équilibre importante', en plus de ne pas valider la valeur D de l'élément."
+        },
+        {
+            "titre": "🇺🇸 Fun Fact : Mary Lou Retton (JO 1984)",
+            "contenu": "**Mary Lou Retton** a été la première Américaine à remporter le titre olympique du Concours Général Individuel (CGI) aux Jeux de 1984. Sa performance a déclenché le 'boom' de la gymnastique aux États-Unis, ouvrant la voie à toutes les championnes américaines qui ont suivi."
+        },
+        {
+            "titre": "🤸‍♂️ L'Élément Incontournable du Sol",
+            "contenu": "Même si les acrobaties sont reines au Sol, la gymnaste doit obligatoirement inclure un certain nombre de **sauts chorégraphiques** (sauts écartés, de biche, etc.) dans sa routine pour valider ses Exigences de Composition. Une routine sans sauts de danse ne peut pas obtenir une Note D complète."
+        },
+        {
+            "titre": "⚖️ Le Cas Simone Biles : La Sécurité Avant Tout",
+            "contenu": "Certains éléments inventés par Simone Biles ont reçu des valeurs de Difficulté (Note D) inférieures à ce que les fans attendaient. La FIG l'a fait pour décourager les autres gymnastes moins expérimentées de tenter ces figures très dangereuses. La sécurité passe avant la difficulté ! Un signe de respect pour son niveau exceptionnel."
+        },
+        {
+            "titre": "📏 Les Dimensions du Sol",
+            "contenu": "Le carré au Sol, où la gymnaste exécute sa routine, mesure **12 mètres par 12 mètres**. La gymnaste doit utiliser toute cette surface, et des pénalités sont appliquées si elle sort de la ligne blanche avec un pied (**0.10 point**) ou avec les deux pieds/tout le corps (**0.30 point**)."
+        },
+        {
+            "titre": "🌪️ L'élément le plus difficile au Saut",
+            "contenu": "L'un des sauts les plus difficiles et les plus cotés du monde est le **Cheng** (ou **Amanar** pour sa variante plus simple) réalisé par Simone Biles. Il s'agit d'un rondade, flic-flac sur la table, suivi d'un double salto arrière tendu avec **2.5 vrilles** (900°)."
+        },
+        {
+            "titre": "🤝 La Règle des Huit Meilleurs Éléments",
+            "contenu": "Pour construire sa Note D, la gymnaste doit lister jusqu'à **huit éléments** de la plus haute difficulté. Seuls ces huit éléments sont comptés, en plus des bonus de connexion et des exigences de composition. Cela signifie qu'elle peut ajouter des éléments plus faciles pour lier la chorégraphie, mais seuls les huit meilleurs comptent pour le score D."
+        },
+        {
+            "titre": "🇫🇷 Fun Fact : Marine Boyer et la Poutre",
+            "contenu": "La française **Marine Boyer** est très reconnue pour sa maîtrise de la Poutre. Elle a réussi à se hisser à la 4e place aux Jeux Olympiques de Rio en 2016, manquant le podium de très peu. Elle est une des rares à pouvoir rivaliser régulièrement avec les meilleures mondiales sur cet appareil stressant."
+        },
+        {
+            "titre": "🤸‍♀️ Le Concept d'Exigence de Composition",
+            "contenu": "Pour obtenir la Note D maximale, la gymnaste doit valider des **Exigences de Composition** (EC) qui garantissent que l'exercice est complet. Par exemple, aux Barres, une EC est de réaliser un élément de Vol. Au Sol, c'est d'avoir des mouvements de danse et des acrobaties."
+        },
+        {
+            "titre": "🤸‍♀️ L'Importance du 'Blocage' au Saut",
+            "contenu": "Le **'Blocage'** est la phase essentielle au Saut de cheval où les mains de la gymnaste poussent fortement sur la table pour se projeter en l'air. Un bon blocage assure la hauteur et la distance nécessaires. Si le blocage est trop court ou mal fait, la déduction sur la Note E peut aller jusqu'à **0.50 point**."
+        },
+        {
+            "titre": "👑 Fun Fact : Svetlana Khorkina",
+            "contenu": "La Russe **Svetlana Khorkina** (surnommée 'La Reine des Barres') a dominé la GAF dans les années 90 et 2000. Elle a la particularité d'être très grande pour une gymnaste (1,64 m), ce qui rendait ses lignes aux Barres asymétriques absolument spectaculaires. Beaucoup de ses figures portent son nom."
+        },
+        {
+            "titre": "⏱️ L'Attente à la Poutre",
+            "contenu": "Si une gymnaste interrompt son exercice à la Poutre sans tomber (par exemple, pour hésiter avant un saut), les juges lui accordent seulement **10 secondes** pour reprendre son mouvement. Si elle ne repart pas après 10 secondes, elle est pénalisée pour 'temps de pause excessif'."
+        },
+        {
+            "titre": "🤸‍♀️ La Position Carpée (Poutre et Sol)",
+            "contenu": "La position **carpée** (où le corps est plié à 90° au niveau des hanches, jambes tendues) est souvent utilisée dans les saltos et les pirouettes. Elle est considérée comme plus difficile que la position **groupée** (où les genoux sont repliés vers la poitrine), et donc mieux notée dans la Note D."
+        },
+        {
+            "titre": "🔗 Bonus de Connexion à la Poutre",
+            "contenu": "Le plus haut **Bonus de Connexion** (qui s'ajoute à la Note D) à la Poutre est généralement accordé pour une série de **trois éléments de difficulté ou plus** liés entre eux. Par exemple : Saut chorégraphique + Élément acrobatique + Salto arrière, le tout sans pas intermédiaires."
+        },
+        {
+            "titre": "🥇 Championne Actuelle : Nina Derwael",
+            "contenu": "La Belge **Nina Derwael** est une grande spécialiste des Barres asymétriques. Elle est devenue la première championne olympique et championne du monde belge de gymnastique, prouvant que même les petits pays peuvent dominer les agrès grâce à une technique parfaite et des figures uniques."
+        },
+        {
+            "titre": "⚠️ L'Oubli de Saluer",
+            "contenu": "Le salut à l'arbitre en début et fin d'exercice est obligatoire. Si la gymnaste oublie de saluer l'arbitre principal au début de sa routine, la déduction est de **0.10 point**."
+        },
+        {
+            "titre": "🇺🇸 Fun Fact : Gabby Douglas",
+            "contenu": "**Gabby Douglas** est devenue la première femme afro-américaine à remporter la médaille d'or du Concours Général Individuel aux Jeux Olympiques (Londres 2012). Elle a également remporté l'or par équipe aux JO de 2012 et 2016, ce qui est un exploit historique !"
+        },
+        {
+            "titre": "🤸‍♀️ La Différence 'Full-In' vs 'Double-Double'",
+            "contenu": "Le **Full-In** (double salto, une vrille) est un élément D ou E au Sol. Le **Double-Double** (double salto, deux vrilles) est un élément **G ou H**, réservé aux gymnastes de très haut niveau (comme Simone Biles), et apporte un énorme avantage en Note D."
+        },
+        {
+            "titre": "🎶 Musique au Sol : Le Rôle du Tempo",
+            "contenu": "Le **tempo** et les changements de rythme de la musique sont essentiels au Sol. La gymnaste est jugée sur la manière dont ses mouvements (acrobaties, sauts et danse) s'accordent avec le rythme et l'ambiance de la musique. Un mauvais accord mène à des déductions artistiques sur la Note E."
+        }
+    ],
+    "quiz": [
+        {
+            "question": "Quelle gymnaste est célèbre pour avoir été la première à réaliser un salto arrière tendu avec un tour complet (360°) à la poutre, qui porte désormais son nom ?",
+            "options": [
+                "Svetlana Khorkina",
+                "Nadia Comăneci",
+                "Simone Biles",
+                "Cătălina Ponor"
+            ],
+            "reponse": "Simone Biles",
+            "explication": "Il s'agit du 'Biles' à la poutre, exécuté pour la première fois par Simone Biles en 2019 et valorisé comme un élément G (difficile). Elle a aussi d'autres éléments qui portent son nom !"
+        },
+        {
+            "question": "En Gymnastique Artistique Masculine (GAM), quel appareil n'a pas son équivalent chez les femmes (GAF) ?",
+            "options": [
+                "Le Saut de cheval",
+                "La Barre fixe",
+                "Les Barres parallèles",
+                "Les Anneaux"
+            ],
+            "reponse": "Les Anneaux",
+            "explication": "La GAM se compose du Sol, du Cheval d'arçons, des Anneaux, du Saut de cheval, des Barres parallèles et de la Barre fixe. Seuls les Anneaux et le Cheval d'arçons n'ont pas d'équivalent en GAF (qui utilise les Barres asymétriques et la Poutre)."
+        },
+        {
+            "question": "Lors des Jeux Olympiques de Montréal en 1976, Nadia Comăneci a marqué l'histoire en obtenant la toute première note de 10.00. À quel appareil a-t-elle réalisé cet exploit ?",
+            "options": [
+                "La Poutre",
+                "Le Sol",
+                "Les Barres asymétriques",
+                "Le Saut de cheval"
+            ],
+            "reponse": "Les Barres asymétriques",
+            "explication": "Nadia Comăneci a reçu son 10 historique aux Barres asymétriques. Le tableau d'affichage, non prévu pour une note aussi élevée, a affiché '1.00'."
+        },
+        {
+            "question": "En Gymnastique Rythmique (GR), quel engin doit être constamment en mouvement et ne peut jamais s'arrêter de bouger pour que l'exécution soit parfaite ?",
+            "options": [
+                "Le Cerceau",
+                "Le Ballon",
+                "Le Ruban",
+                "Les Massues"
+            ],
+            "reponse": "Le Ruban",
+            "explication": "Le Ruban doit dessiner des figures (serpentins, spirales) sans jamais toucher le sol ni cesser de bouger, sinon c'est une pénalité. C'est l'engin le plus difficile à maîtriser !"
+        },
+        {
+            "question": "Depuis les Jeux Olympiques de Sydney en 2000, quel est l'âge minimum requis (dans l'année de la compétition) pour participer aux épreuves de Gymnastique Artistique Seniors ?",
+            "options": [
+                "14 ans",
+                "15 ans",
+                "16 ans",
+                "18 ans"
+            ],
+            "reponse": "16 ans",
+            "explication": "Cette règle a été mise en place pour protéger la santé des athlètes. Pour les Jeux de Paris 2024, les athlètes doivent avoir 16 ans en 2024."
+        },
+        {
+            "question": "Quel est l'appareil en GAF qui demande le plus de vitesse et de puissance pour réaliser un blocage parfait et une envolée spectaculaire ?",
+            "options": [
+                "Les Barres asymétriques",
+                "La Poutre",
+                "Le Saut de cheval",
+                "Le Sol"
+            ],
+            "reponse": "Le Saut de cheval",
+            "explication": "Pour réussir un saut (comme le **Yurchenko**), la gymnaste doit courir très vite, frapper le tremplin avec puissance et faire un 'blocage' parfait sur la table de saut pour s'envoler."
+        },
+        {
+            "question": "Comment s'appelle le recueil de règles et de valeurs qui détermine la difficulté et le score des exercices en gymnastique internationale ?",
+            "options": [
+                "Le Code de la Gym",
+                "Le Livre des Figures",
+                "Le Code de Pointage (ou Code of Points)",
+                "Le Manuel de l'Arbitre"
+            ],
+            "reponse": "Le Code de Pointage (ou Code of Points)",
+            "explication": "C'est le document officiel de la FIG (Fédération Internationale de Gymnastique) qui détaille la valeur de chaque figure (la 'note D' ou Difficulté) et les pénalités (la 'note E' ou Exécution)."
+        },
+        {
+            "question": "Quelle gymnaste française, spécialiste des barres asymétriques, a remporté une médaille d'or olympique en Gymnastique Artistique pour la France ?",
+            "options": [
+                "Isabelle Severino",
+                "Émilie Le Pennec",
+                "Marine Boyer",
+                "Mélanie de Jesus dos Santos"
+            ],
+            "reponse": "Émilie Le Pennec",
+            "explication": "Émilie Le Pennec a remporté la médaille d'or aux Barres asymétriques aux Jeux Olympiques d'Athènes en 2004. C'est la seule médaille d'or française en GAF jusqu'à présent."
+        },
+        {
+            "question": "L'élément 'Biles' (double salto arrière groupé avec demi-tour) est souvent réalisé par la gymnaste Simone Biles. À quel appareil exécute-t-elle le plus souvent cet élément ?",
+            "options": [
+                "La Poutre",
+                "Les Barres asymétriques",
+                "Le Sol",
+                "Le Saut de cheval"
+            ],
+            "reponse": "Le Sol",
+            "explication": "Simone Biles est célèbre pour ses passages au Sol, où elle enchaîne des acrobaties extrêmement difficiles. C'est là qu'elle exécute son double salto arrière tendu avec demi-tour (*The Biles I*)."
+        },
+        {
+            "question": "En GAF, comment appelle-t-on le mouvement spectaculaire et très difficile qui termine une routine (au sol, à la poutre ou aux barres) ?",
+            "options": [
+                "La Clôture",
+                "Le Dismount (La Sortie)",
+                "Le Finisher",
+                "L'Enchaînement Final"
+            ],
+            "reponse": "Le Dismount (La Sortie)",
+            "explication": "Le 'dismount' est le saut final pour quitter l'appareil (barres ou poutre) ou la dernière ligne acrobatique au Sol. Il est souvent le mouvement le plus coté en difficulté de la routine. "
+        },
+        {
+            "question": "Quel mouvement aux Barres asymétriques consiste à lâcher la barre haute, effectuer une rotation arrière groupée ou carpée, puis la rattraper ? C'est une figure de Vol.",
+            "options": [
+                "Le Gienger",
+                "Le Tkatchev",
+                "Le Jaeger",
+                "Le Salto tendu"
+            ],
+            "reponse": "Le Tkatchev",
+            "explication": "Le Tkatchev est l'élément qui implique un lâcher de barre haute avec rotation arrière avant de la rattraper, souvent réalisé en position carpée ou groupée. C'est l'un des lâchers de barre les plus courants."
+        },
+        {
+            "question": "En Gymnastique Artistique Féminine (GAF), quelle est la durée maximale autorisée pour un exercice à la Poutre ?",
+            "options": [
+                "1 minute 00 seconde",
+                "1 minute 10 secondes",
+                "1 minute 30 secondes",
+                "2 minutes 00 secondes"
+            ],
+            "reponse": "1 minute 30 secondes",
+            "explication": "La durée maximale autorisée pour les routines à la poutre et au sol est de 90 secondes. Dépasser cette limite entraîne une pénalité de temps."
+        },
+        {
+            "question": "Quel type de saut de cheval est caractérisé par un rondade suivi d'un flic-flac arrière (flip) sur le tremplin, menant à une poussée sur la table ?",
+            "options": [
+                "Le Saut Yamashita",
+                "Le Saut Yurchenko",
+                "Le Saut Tsukahara",
+                "Le Saut Podkopayeva"
+            ],
+            "reponse": "Le Saut Yurchenko",
+            "explication": "Le Yurchenko est la base de nombreux sauts modernes. Il commence par la séquence rondade-flic-flac sur le tremplin avant d'atteindre la table de saut."
+        },
+        {
+            "question": "Au Sol en GAF, quel type d'accompagnement musical est désormais autorisé par le Code de Pointage (depuis le cycle 2017-2020) ?",
+            "options": [
+                "Un silence total",
+                "Une musique sans paroles, uniquement instrumentale",
+                "Une musique vocale avec des paroles",
+                "Une musique instrumentale ou vocale"
+            ],
+            "reponse": "Une musique instrumentale ou vocale",
+            "explication": "La FIG a assoupli les règles pour permettre aux gymnastes d'utiliser de la musique avec des paroles (vocale), offrant ainsi une plus grande liberté d'expression."
+        },
+        {
+            "question": "Dans le système de notation actuel (Note D + Note E), que représente exactement la Note D (Difficulté) ?",
+            "options": [
+                "Les pénalités pour les fautes d'exécution",
+                "Le niveau artistique et chorégraphique de la routine",
+                "La valeur des éléments et les exigences de composition",
+                "Le temps passé sur l'appareil"
+            ],
+            "reponse": "La valeur des éléments et les exigences de composition",
+            "explication": "La Note D est le score objectif qui quantifie la difficulté des figures réalisées et le respect des critères de construction de la routine."
+        },
+        {
+            "question": "Quelle gymnaste américaine est célèbre pour avoir remporté quatre médailles d'or aux Jeux Olympiques de Rio en 2016 (Équipe, Individuel, Sol, Saut) ?",
+            "options": [
+                "Aly Raisman",
+                "Gabby Douglas",
+                "Simone Biles",
+                "Nastia Liukin"
+            ],
+            "reponse": "Simone Biles",
+            "explication": "Simone Biles a réalisé un exploit historique à Rio 2016 en remportant la médaille d'or dans quatre des six épreuves disponibles (y compris le Concours Général Individuel)."
+        },
+        {
+            "question": "Aux Barres asymétriques, quelle exigence de composition est essentielle pour obtenir la note maximale en difficulté ?",
+            "options": [
+                "Réaliser au moins 5 figures au-dessus de la barre haute",
+                "Effectuer uniquement des éléments de Vol",
+                "Utiliser la barre basse et la barre haute avec des transitions",
+                "Faire au moins 3 figures d'un niveau de difficulté D ou supérieur"
+            ],
+            "reponse": "Utiliser la barre basse et la barre haute avec des transitions",
+            "explication": "Une routine complète doit inclure des changements de barres (transitions) pour démontrer la maîtrise des deux niveaux de l'appareil."
+        },
+        {
+            "question": "Comment appelle-t-on le mouvement au Sol ou à la Poutre où la gymnaste réalise une rotation sur un pied, souvent avec la jambe en position haute (penchée ou grand écart) ?",
+            "options": [
+                "Le Saut",
+                "L'Acrobatie",
+                "La Pirouette (ou Tour)",
+                "Le Blocage"
+            ],
+            "reponse": "La Pirouette (ou Tour)",
+            "explication": "Les pirouettes sont des éléments de danse et de souplesse, cotés dans la note D au même titre que les acrobaties et les sauts chorégraphiques."
+        },
+        {
+            "question": "Pour une poutre réglementaire en compétition internationale (GAF), quelle est sa largeur ?",
+            "options": [
+                "5 centimètres",
+                "10 centimètres",
+                "15 centimètres",
+                "20 centimètres"
+            ],
+            "reponse": "10 centimètres",
+            "explication": "La poutre standard a une largeur de seulement 10 cm, ce qui exige une précision et un équilibre extrêmes pour réaliser les figures acrobatiques."
+        },
+        {
+            "question": "Lors du Concours Général Individuel (CGI) en GAF, les gymnastes effectuent une routine sur combien d'appareils ?",
+            "options": [
+                "Deux appareils (les plus forts)",
+                "Trois appareils (au choix)",
+                "Quatre appareils (tous les appareils GAF)",
+                "Six appareils (comme les hommes)"
+            ],
+            "reponse": "Quatre appareils (tous les appareils GAF)",
+            "explication": "Le CGI vise à déterminer la meilleure gymnaste polyvalente en concourant aux quatre appareils de la GAF : Saut, Barres asymétriques, Poutre et Sol."
+        },
+        {
+            "question": "En GAF, lors d'une routine à la Poutre, quel type de mouvement doit obligatoirement être inclus dans un enchaînement pour obtenir la valeur de connexion maximale ?",
+            "options": [
+                "Un salto avant ou arrière avec un tour complet",
+                "Un saut chorégraphique suivi d'une pirouette",
+                "Deux éléments acrobatiques consécutifs sans pas intermédiaires",
+                "Une série de trois pirouettes sur un même pied"
+            ],
+            "reponse": "Deux éléments acrobatiques consécutifs sans pas intermédiaires",
+            "explication": "Pour obtenir les plus hautes valeurs de connexion (ou de série) à la poutre, la gymnaste doit lier des éléments acrobatiques difficiles (comme un flic-flac suivi d'un salto) sans marquer d'arrêt ni faire de pas. C'est le cœur de la difficulté de cet appareil."
+        },
+        {
+            "question": "Quelle est la pénalité standard pour une chute d'appareil (Poutre ou Barres asymétriques) en compétition internationale ?",
+            "options": [
+                "0.50 point",
+                "1.00 point",
+                "1.50 point",
+                "0.30 point"
+            ],
+            "reponse": "1.00 point",
+            "explication": "Toute chute de la Poutre ou des Barres asymétriques est sanctionnée par une déduction de 1.00 point (soustraite de la Note E, ou Exécution)."
+        },
+        {
+            "question": "Quel est le nom de l'élément au Sol où la gymnaste réalise un double salto arrière carpé ou groupé avec une seule vrille (360°) ?",
+            "options": [
+                "Le Full-In",
+                "Le Double-Double",
+                "Le Silivas",
+                "Le Laid-Out"
+            ],
+            "reponse": "Le Full-In",
+            "explication": "Le Full-In (ou Full-Twist In, Tuck Out) est une diagonale acrobatique courante : deux rotations arrière (double salto) avec une seule vrille. Le Double-Double implique deux vrilles, et le Laid-Out est un salto tendu simple."
+        },
+        {
+            "question": "Aux Barres asymétriques, quelle figure consiste à relâcher la barre haute pour la rattraper juste après avoir fait un grand cercle autour de la barre basse ?",
+            "options": [
+                "Le Lâcher Kovacs",
+                "Le Pak Salto",
+                "Le Shaposhnikova (Shapo)",
+                "Le Tkatchev"
+            ],
+            "reponse": "Le Shaposhnikova (Shapo)",
+            "explication": "Le Shaposhnikova est un élément de transition qui débute souvent sur la barre basse, un grand cercle et un lâcher-rattraper de la barre haute. Le Pak Salto est un salto entre les barres, souvent réalisé après un Shapo."
+        },
+        {
+            "question": "L'exercice au Sol doit contenir obligatoirement un certain nombre de lignes acrobatiques (ou diagonales). Quel est ce nombre minimum pour valider les exigences de composition ?",
+            "options": [
+                "Deux lignes acrobatiques",
+                "Trois lignes acrobatiques",
+                "Quatre lignes acrobatiques",
+                "Cinq lignes acrobatiques"
+            ],
+            "reponse": "Trois lignes acrobatiques",
+            "explication": "Les gymnastes doivent présenter au moins trois lignes acrobatiques distinctes dans leur routine au sol pour obtenir la pleine valeur de la Note D."
+        },
+        {
+            "question": "Lors d'un saut de cheval de type Yurchenko (rondade/flic-flac), quelle est la déduction appliquée si la gymnaste ne réussit pas à faire la rondade correcte sur le tremplin (manque de rotation) ?",
+            "options": [
+                "C'est une pénalité mineure (0.10 - 0.30)",
+                "C'est une faute d'exécution (déduction de la Note E)",
+                "C'est une erreur technique, la valeur du saut n'est pas accordée (Note D réduite)",
+                "C'est une chute (1.00 point de pénalité)"
+            ],
+            "reponse": "C'est une erreur technique, la valeur du saut n'est pas accordée (Note D réduite)",
+            "explication": "Si le blocage (l'impulsion) et la rondade de base ne sont pas exécutés correctement, la commission d'arbitrage peut réduire la valeur de la figure réalisée car l'élément de base du Yurchenko n'est pas validé."
+        },
+        {
+            "question": "Quel est le seul appareil en GAF où la gymnaste est obligée de démontrer des éléments de souplesse statique (maintien de position) pour satisfaire une exigence de composition de base ?",
+            "options": [
+                "Le Saut de cheval",
+                "Les Barres asymétriques",
+                "La Poutre",
+                "Le Sol"
+            ],
+            "reponse": "La Poutre",
+            "explication": "La Poutre exige la démonstration d'un maintien de position de souplesse ou de force (par exemple, un équilibre, un grand écart maintenu ou une position corporelle complexe) pour valider une exigence de composition (Groupes d'éléments)."
+        },
+        {
+            "question": "Quelle gymnaste française a remporté l'une des rares médailles mondiales françaises en GAF dans les années 2000, spécialiste des Barres asymétriques ?",
+            "options": [
+                "Marine Boyer",
+                "Mélanie de Jesus dos Santos",
+                "Isabelle Severino",
+                "Émilie Le Pennec"
+            ],
+            "reponse": "Mélanie de Jesus dos Santos",
+            "explication": "Mélanie de Jesus dos Santos (MDJDS) a remporté la médaille de bronze aux championnats du monde en 2019 au Sol (en plus de plusieurs titres européens)."
+        },
+        {
+            "question": "Lors de la réception d'un élément au Sol ou d'un Dismount, quelle est la déduction si la gymnaste fait un pas de stabilisation (petit pas) à l'arrivée ?",
+            "options": [
+                "0.10 point",
+                "0.30 point",
+                "0.50 point",
+                "Aucune déduction si elle ne tombe pas"
+            ],
+            "reponse": "0.10 point",
+            "explication": "Un petit pas (ou saut léger) à la réception d'un élément est sanctionné par une déduction de 0.10 point. Un pas plus large ou un 'saut' est souvent 0.30 point, et une réception manquée peut aller jusqu'à 0.50 point (ou plus)."
+        },
+        {
+            "question": "En GAF, comment appelle-t-on le concours où les gymnastes s'affrontent sur tous les appareils (Saut, Barres, Poutre, Sol) pour un titre individuel ?",
+            "options": [
+                "La Finale par Appareil",
+                "Le Concours par Équipe",
+                "Le Concours Général Individuel (CGI)",
+                "Les Qualifications Techniques"
+            ],
+            "reponse": "Le Concours Général Individuel (CGI)",
+            "explication": "Le CGI est l'épreuve reine de la gymnastique, couronnant la gymnaste la plus polyvalente. Les Finales par Appareil sont des compétitions où elles ne présentent qu'un seul agrès."
+        },
+        {
+            "question": "En GAF, comment appelle-t-on le grand cercle arrière effectué aux Barres asymétriques pour passer de la barre haute à la barre basse, souvent utilisé pour une connexion rapide et fluide ?",
+            "options": [
+                "Le Kovacs",
+                "Le Tkatchev",
+                "Le Pak Salto",
+                "Le Stalder"
+            ],
+            "reponse": "Le Stalder",
+            "explication": "Le Stalder est un mouvement de pivot (grand cercle) réalisé en position carpée ou écartée autour de la barre, souvent utilisé pour remonter sur l'appareil ou changer de direction. Les autres options sont des figures de lâcher ou des saltos entre barres."
+        },
+        {
+            "question": "Au Sol, pour que les juges valident une diagonale acrobatique de très haute difficulté, celle-ci doit se terminer par un élément d'un niveau minimum. Quel est ce niveau ?",
+            "options": [
+                "Niveau C",
+                "Niveau D",
+                "Niveau E ou supérieur",
+                "Niveau F ou supérieur"
+            ],
+            "reponse": "Niveau C",
+            "explication": "Toute ligne acrobatique doit se terminer par un élément d'une valeur minimale de C pour être validée comme une ligne. La plupart des gymnastes de haut niveau terminent cependant par des éléments D, E ou F pour augmenter leur Note D."
+        },
+        {
+            "question": "À la Poutre, quel type de mouvement est considéré comme le plus risqué en raison de la surface étroite : un saut carpé, une pirouette, ou une série acrobatique ?",
+            "options": [
+                "Le Saut carpé",
+                "La Pirouette simple",
+                "La Série acrobatique",
+                "L'Élément de souplesse statique"
+            ],
+            "reponse": "La Série acrobatique",
+            "explication": "Les séries acrobatiques (ex: flic-flac + salto) sont considérées comme les plus risquées car elles exigent une précision parfaite de la réception sur la poutre (10 cm) et la moindre erreur d'alignement peut provoquer une chute (pénalité de 1.00 point)."
+        },
+        {
+            "question": "Quelle est la pénalité appliquée si la gymnaste ne réussit pas à se présenter à l'arbitre principal avant le début de son exercice ?",
+            "options": [
+                "0.10 point",
+                "0.30 point",
+                "0.50 point",
+                "La gymnaste est disqualifiée"
+            ],
+            "reponse": "0.10 point",
+            "explication": "La présentation à l'arbitre principal ('salut') est une exigence protocolaire. Son absence ou son oubli est sanctionné par une déduction de 0.10 point sur la Note E."
+        },
+        {
+            "question": "En GAF, quel appareil nécessite une double exécution lors du Concours Général Individuel et de la Finale par Équipe ?",
+            "options": [
+                "Le Sol",
+                "La Poutre",
+                "Le Saut de cheval",
+                "Les Barres asymétriques"
+            ],
+            "reponse": "Le Saut de cheval",
+            "explication": "Lors des finales, si une gymnaste réalise deux sauts, le meilleur est pris en compte pour la Note D. Pour la Finale par Appareil Saut, la moyenne des deux sauts est prise. Cependant, en qualification et CGI, on n'en fait qu'un seul. Cette question fait référence aux cas où DEUX sauts différents sont exigés pour la finale de l'appareil Saut, ce qui est unique en GAF."
+        },
+        {
+            "question": "Le célèbre 'Mustafina' aux Barres asymétriques (un Tkatchev avec une vrille ou demi-tour) est un exemple de quel type d'élément ?",
+            "options": [
+                "Un élément de Force statique",
+                "Un élément de Grand Cercle (Pivot)",
+                "Un élément de Vol (Lâcher de barre)",
+                "Un élément de Transition"
+            ],
+            "reponse": "Un élément de Vol (Lâcher de barre)",
+            "explication": "Le Tkatchev est un 'lâcher de barre'. Le 'Mustafina' est une variation de ce lâcher qui inclut une vrille, ce qui augmente sa valeur et le rend plus spectaculaire."
+        },
+        {
+            "question": "Quel est l'un des critères principaux évalués par les juges pour la composante 'Artistique et Chorégraphie' au Sol en GAF ?",
+            "options": [
+                "Le niveau de la musique (instrumentale ou vocale)",
+                "Le nombre de saltos effectués dans la routine",
+                "La connexion entre les pas de danse, la gestuelle et la musique",
+                "L'absence totale d'erreur de réception"
+            ],
+            "reponse": "La connexion entre les pas de danse, la gestuelle et la musique",
+            "explication": "La Note E (Exécution) comporte une partie dédiée à l'Artistique. Les juges évaluent la manière dont la gymnaste utilise la musique, ses expressions faciales et la qualité de ses mouvements de danse."
+        },
+        {
+            "question": "Quel est le nom de la championne olympique russe qui, malgré de graves blessures, a continué de dominer les Barres asymétriques et a donné son nom à de nombreux éléments difficiles ?",
+            "options": [
+                "Svetlana Khorkina",
+                "Aliya Mustafina",
+                "Elena Shushunova",
+                "Maria Paseka"
+            ],
+            "reponse": "Aliya Mustafina",
+            "explication": "Aliya Mustafina a été championne olympique et mondiale et est reconnue pour sa longévité et sa combativité, donnant son nom à des éléments aux barres et à la poutre."
+        },
+        {
+            "question": "Quelle est la hauteur réglementaire de la Poutre par rapport au sol en GAF ?",
+            "options": [
+                "0.80 mètre",
+                "1.00 mètre",
+                "1.25 mètre",
+                "1.50 mètre"
+            ],
+            "reponse": "1.25 mètre",
+            "explication": "La poutre est réglée à 1.25 mètre du sol, ce qui rend les chutes encore plus impressionnantes. Les autres appareils ont aussi des hauteurs réglementaires (ex: Barres asymétriques à 1.75 m et 2.50 m)."
+        },
+        {
+            "question": "Quel est l'élément souvent utilisé pour monter aux Barres asymétriques au début d'une routine ?",
+            "options": [
+                "Un Salto",
+                "Un Saut de biche (Leap)",
+                "Un Rondade",
+                "Un Elan d'entrée (ou KIP)"
+            ],
+            "reponse": "Un Elan d'entrée (ou KIP)",
+            "explication": "Le KIP (ou Élan d'entrée) est un mouvement qui permet à la gymnaste de passer de la position basse ou de l'arrêt, à un appui ou un grand cercle autour de la barre, pour commencer sa routine."
+        }
+    ]
+}
