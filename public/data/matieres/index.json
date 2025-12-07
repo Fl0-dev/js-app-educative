@@ -42,5 +42,9 @@
   {
     "name": "Gossip Girl",
     "file": "matieres/Gossip.json"
+  },
+  {
+    "name": "Gymnastique",
+    "file": "matieres/Gym.json"
   }
 ]
