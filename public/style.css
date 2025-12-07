@@ -48,7 +48,7 @@ body {
 main.column {
     display: flex;
     flex-direction: column;
-    min-height: 0; /* important pour que les enfants puissent se réduire et scroller */
+    min-height: 0;
 }
 
 /* La barre supérieure (tabs + mascotte) ne doit pas se développer */
@@ -97,10 +97,6 @@ h3.title.is-5, .subtitle.is-6 {
 button, .button {
     font-weight: var(--fw-semibold);
 }
-
-/* Vous pouvez ajuster la couleur primaire de Bulma pour correspondre à votre vert initial */
-/* Exemple : .is-primary { background-color: var(--couleur-primaire) !important; } */
-
 
 /* --- Boutons personnalisés --- */
 /* Utilisez la classe `is-custom` sur les éléments avec la classe `button` pour
@@ -164,7 +160,6 @@ button, .button {
     margin-bottom: 15px;
     padding: 20px;
 }
-/* Pour les notions, vous pouvez simplement utiliser la classe Bulma "box" */
 
 
 /* Styles pour le Quiz */
@@ -194,11 +189,11 @@ button, .button {
 
     /* Empêcher le débordement des longues réponses */
     box-sizing: border-box;
-    white-space: normal;         /* autorise le retour à la ligne */
-    overflow-wrap: anywhere;     /* casse les mots longs si nécessaire */
-    word-break: break-word;      /* fallback pour certains navigateurs */
-    hyphens: auto;               /* autorise la césure quand disponible */
-    min-width: 0;                /* utile en contextes flex pour éviter débordement */
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+    min-width: 0;
 }
 
 .option-button:hover {
@@ -217,9 +212,6 @@ button, .button {
     font-weight: bold;
     border-color: #F44336 !important;
 }
-
-/* Bulma utilise la classe "is-hidden" pour cacher, mais si vous utilisez votre ancienne classe "hidden", elle fonctionnera toujours. */
-/* .hidden { display: none; } */
 
 /* --- Dropdown mobile pour les Matières --- */
 /* Par défaut, masquer l'UI mobile (affichée seulement sur petits écrans) */

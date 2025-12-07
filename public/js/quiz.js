@@ -1,12 +1,12 @@
 import { store } from './store.js';
-import { parseContentMarkup, updateMascotteImage } from './utils.js';
+import { parseContentMarkup, updateMascotImage } from './utils.js';
 
-// Quiz: demarrerQuiz, afficherQuestion, verifierReponse, showResults
-export function demarrerQuiz(matiere, size = null) {
+// Quiz: startQuiz, showQuestion, checkAnswer, showResults
+export function startQuiz(subject, size = null) {
     store.currentQuestionIndex = 0;
     store.score = 0;
 
-    const source = (store.appData[matiere] && store.appData[matiere].quiz) ? store.appData[matiere].quiz.slice() : [];
+    const source = (store.appData[subject] && store.appData[subject].quiz) ? store.appData[subject].quiz.slice() : [];
     store.currentQuizQuestions = source;
     // Fisher-Yates shuffle
     for (let i = store.currentQuizQuestions.length - 1; i > 0; i--) {
@@ -23,31 +23,31 @@ export function demarrerQuiz(matiere, size = null) {
         store.lastQuizSize = store.currentQuizQuestions.length;
     }
 
-    afficherQuestion(matiere, store.currentQuestionIndex);
+    showQuestion(subject, store.currentQuestionIndex);
 }
 
-export function afficherQuestion(matiere, index) {
+export function showQuestion(subject, index) {
     const quizContainer = document.getElementById('quiz-container');
-    const questions = (store.currentQuizQuestions && store.currentQuizQuestions.length) ? store.currentQuizQuestions : ((store.appData[matiere] && store.appData[matiere].quiz) ? store.appData[matiere].quiz : []);
+    const questions = (store.currentQuizQuestions && store.currentQuizQuestions.length) ? store.currentQuizQuestions : ((store.appData[subject] && store.appData[subject].quiz) ? store.appData[subject].quiz : []);
     quizContainer.innerHTML = '';
 
     const quizNotif = document.querySelector('#section-quiz .notification');
     if (quizNotif) quizNotif.style.display = 'none';
 
-    updateMascotteImage('welcome.png');
+    updateMascotImage('welcome.png');
 
     if (index >= questions.length) {
         quizContainer.innerHTML = `
             <div class="notification is-primary has-text-centered">
                 <h2 class="title is-4">🎉 Quiz Terminé ! 🎉</h2>
-                <p class="subtitle is-5">Votre score final pour ${matiere} est : <strong>${store.score} / ${questions.length}</strong>.</p>
+                <p class="subtitle is-5">Votre score final pour ${subject} est : <strong>${store.score} / ${questions.length}</strong>.</p>
             </div>
         `;
         // add restart button separately so we can attach listener
         const btn = document.createElement('button');
         btn.className = 'button is-custom is-large mt-3';
         btn.textContent = 'Recommencer le Quiz';
-        btn.addEventListener('click', () => demarrerQuiz(matiere, store.lastQuizSize || undefined));
+        btn.addEventListener('click', () => startQuiz(subject, store.lastQuizSize || undefined));
         quizContainer.querySelector('.notification').appendChild(btn);
         return;
     }
@@ -78,14 +78,14 @@ export function afficherQuestion(matiere, index) {
         const btn = document.createElement('button');
         btn.className = 'option-button button is-light is-fullwidth mb-2';
         btn.innerHTML = parseContentMarkup(option);
-        btn.addEventListener('click', () => verifierReponse(matiere, index, option, btn));
+        btn.addEventListener('click', () => checkAnswer(subject, index, option, btn));
         optionsGroup.appendChild(btn);
     });
 
-    const explicationDiv = document.createElement('div');
-    explicationDiv.className = 'notification is-light mt-3';
-    explicationDiv.style.display = 'none';
-    explicationDiv.id = 'explication-texte';
+    const explanationDiv = document.createElement('div');
+    explanationDiv.className = 'notification is-light mt-3';
+    explanationDiv.style.display = 'none';
+    explanationDiv.id = 'explication-texte';
 
     const nextBtn = document.createElement('button');
     nextBtn.className = 'button is-custom mt-3';
@@ -93,55 +93,55 @@ export function afficherQuestion(matiere, index) {
     nextBtn.textContent = (index === questions.length - 1) ? 'Voir le résultat' : 'Question suivante';
     nextBtn.addEventListener('click', () => {
         if (index === questions.length - 1) {
-            showResults(matiere);
+            showResults(subject);
         } else {
-            afficherQuestion(matiere, index + 1);
+            showQuestion(subject, index + 1);
         }
     });
 
     card.appendChild(header);
     card.appendChild(qText);
     card.appendChild(optionsGroup);
-    card.appendChild(explicationDiv);
+    card.appendChild(explanationDiv);
     card.appendChild(nextBtn);
 
     quizContainer.appendChild(card);
 }
 
-export function verifierReponse(matiere, index, choix, boutonChoisi) {
-    const question = (store.currentQuizQuestions && store.currentQuizQuestions.length) ? store.currentQuizQuestions[index] : (store.appData[matiere] && store.appData[matiere].quiz ? store.appData[matiere].quiz[index] : null);
-    const card = boutonChoisi.closest('.question-card');
-    const boutons = card.querySelectorAll('.option-button');
-    const estCorrect = (choix === question.reponse);
+export function checkAnswer(subject, index, choice, chosenButton) {
+    const question = (store.currentQuizQuestions && store.currentQuizQuestions.length) ? store.currentQuizQuestions[index] : (store.appData[subject] && store.appData[subject].quiz ? store.appData[subject].quiz[index] : null);
+    const card = chosenButton.closest('.question-card');
+    const buttons = card.querySelectorAll('.option-button');
+    const isCorrect = (choice === question.reponse);
 
-    boutons.forEach(btn => btn.replaceWith(btn.cloneNode(true)));
+    buttons.forEach(btn => btn.replaceWith(btn.cloneNode(true)));
     // re-query after replace to remove listeners
-    const newBoutons = card.querySelectorAll('.option-button');
+    const newButtons = card.querySelectorAll('.option-button');
 
-    newBoutons.forEach(btn => {
+    newButtons.forEach(btn => {
         const text = btn.textContent.trim();
         if (text === question.reponse) {
             btn.classList.remove('is-light');
             btn.classList.add('correct', 'is-success');
-        } else if (btn.textContent.trim() === boutonChoisi.textContent.trim()) {
+        } else if (btn.textContent.trim() === chosenButton.textContent.trim()) {
             btn.classList.remove('is-light');
             btn.classList.add('incorrect', 'is-danger');
         }
     });
 
-    if (estCorrect) store.score++;
+    if (isCorrect) store.score++;
 
-    const explicationDiv = card.querySelector('#explication-texte');
-    if (explicationDiv) {
-        explicationDiv.innerHTML = parseContentMarkup(question.explication || '');
-        explicationDiv.style.display = 'block';
+    const explanationDivEl = card.querySelector('#explication-texte');
+    if (explanationDivEl) {
+        explanationDivEl.innerHTML = parseContentMarkup(question.explication || '');
+        explanationDivEl.style.display = 'block';
     }
 
     const nextBtn = card.querySelector('.button.is-custom');
     if (nextBtn) nextBtn.style.display = 'inline-block';
 
-    if (estCorrect) {
-        updateMascotteImage('bien.png');
+    if (isCorrect) {
+        updateMascotImage('bien.png');
         try {
             if (store.jsConfetti && typeof store.jsConfetti.addConfetti === 'function') {
                 store.jsConfetti.addConfetti({
@@ -152,13 +152,13 @@ export function verifierReponse(matiere, index, choix, boutonChoisi) {
             console.warn('Erreur confetti:', e);
         }
     } else {
-        updateMascotteImage('dommage.png');
+        updateMascotImage('dommage.png');
     }
 }
 
-export function showResults(matiere) {
+export function showResults(subject) {
     const quizContainer = document.getElementById('quiz-container');
-    const questions = (store.currentQuizQuestions && store.currentQuizQuestions.length) ? store.currentQuizQuestions : ((store.appData[matiere] && store.appData[matiere].quiz) ? store.appData[matiere].quiz : []);
+    const questions = (store.currentQuizQuestions && store.currentQuizQuestions.length) ? store.currentQuizQuestions : ((store.appData[subject] && store.appData[subject].quiz) ? store.appData[subject].quiz : []);
     const total = questions.length;
     const pct = total > 0 ? store.score / total : 0;
     let finalImg = 'welcome.png';
@@ -171,7 +171,7 @@ export function showResults(matiere) {
     } else {
         finalImg = 'dommage.png';
     }
-    updateMascotteImage(finalImg);
+    updateMascotImage(finalImg);
 
     try {
         if (store.jsConfetti && typeof store.jsConfetti.addConfetti === 'function') {
@@ -199,12 +199,12 @@ export function showResults(matiere) {
     wrap.className = 'notification is-success has-text-centered';
     wrap.innerHTML = `
         <h2 class="title is-4">🎉 Quiz Terminé ! 🎉</h2>
-        <p class="subtitle is-5">Votre score final pour ${matiere} est : <strong>${store.score} / ${questions.length}</strong>.</p>
+        <p class="subtitle is-5">Votre score final pour ${subject} est : <strong>${store.score} / ${questions.length}</strong>.</p>
     `;
     const restartBtn = document.createElement('button');
     restartBtn.className = 'button is-custom is-large mt-3';
     restartBtn.textContent = 'Recommencer le Quiz';
-    restartBtn.addEventListener('click', () => demarrerQuiz(matiere, store.lastQuizSize || undefined));
+    restartBtn.addEventListener('click', () => startQuiz(subject, store.lastQuizSize || undefined));
     wrap.appendChild(restartBtn);
     quizContainer.appendChild(wrap);
 }

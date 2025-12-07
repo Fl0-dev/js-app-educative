@@ -1,12 +1,12 @@
 import { store } from './store.js';
-import { parseContentMarkup, getEmojiForMatiere, updateMascotteImage } from './utils.js';
-import { demarrerQuiz } from './quiz.js';
+import { parseContentMarkup, getEmojiForSubject, updateMascotImage } from './utils.js';
+import { startQuiz } from './quiz.js';
 // État du dropdown mobile
-let _mobileMatieresOpen = false;
+let _mobileSubjectsOpen = false;
 
-export function isMobileMatieresOpen() { return _mobileMatieresOpen; }
+export function isMobileSubjectsOpen() { return _mobileSubjectsOpen; }
 
-export function openMobileMatieres() {
+export function openMobileSubjects() {
     const dd = document.getElementById('mobile-matieres-dropdown');
     const overlay = document.getElementById('mobile-matieres-overlay');
     const btn = document.getElementById('mobile-matieres-btn');
@@ -14,11 +14,11 @@ export function openMobileMatieres() {
         dd.classList.add('is-open');
         overlay.classList.add('is-active');
         if (btn) btn.setAttribute('aria-expanded', 'true');
-        _mobileMatieresOpen = true;
+        _mobileSubjectsOpen = true;
     }
 }
 
-export function closeMobileMatieres() {
+export function closeMobileSubjects() {
     const dd = document.getElementById('mobile-matieres-dropdown');
     const overlay = document.getElementById('mobile-matieres-overlay');
     const btn = document.getElementById('mobile-matieres-btn');
@@ -26,15 +26,15 @@ export function closeMobileMatieres() {
         dd.classList.remove('is-open');
         overlay.classList.remove('is-active');
         if (btn) btn.setAttribute('aria-expanded', 'false');
-        _mobileMatieresOpen = false;
+        _mobileSubjectsOpen = false;
     }
 }
 
-export function toggleMobileMatieres() {
-    if (_mobileMatieresOpen) closeMobileMatieres(); else openMobileMatieres();
+export function toggleMobileSubjects() {
+    if (_mobileSubjectsOpen) closeMobileSubjects(); else openMobileSubjects();
 }
 
-export function renderMenuMatieres() {
+export function renderSubjectMenu() {
     const menu = document.getElementById('menu-matieres');
     if (menu) menu.innerHTML = '';
 
@@ -42,15 +42,15 @@ export function renderMenuMatieres() {
     const menuMobile = document.getElementById('menu-matieres-mobile');
     if (menuMobile) menuMobile.innerHTML = '';
 
-    Object.keys(store.appData).forEach((matiere) => {
+    Object.keys(store.appData).forEach((subject) => {
         const li = document.createElement('li');
         const btn = document.createElement('button');
         btn.className = 'button is-custom is-light is-fullwidth mb-2';
-        const emoji = (store.appData[matiere] && store.appData[matiere].emoji) ? store.appData[matiere].emoji : getEmojiForMatiere(matiere);
-        btn.textContent = `${emoji} ${matiere}`;
-        btn.setAttribute('data-matiere', matiere);
+        const emoji = (store.appData[subject] && store.appData[subject].emoji) ? store.appData[subject].emoji : getEmojiForSubject(subject);
+        btn.textContent = `${emoji} ${subject}`;
+        btn.setAttribute('data-matiere', subject);
         btn.addEventListener('click', () => {
-            chargerMatiere(matiere);
+            loadSubject(subject);
         });
 
         li.appendChild(btn);
@@ -61,8 +61,8 @@ export function renderMenuMatieres() {
             const btn2 = btn.cloneNode(true);
             // ensure click closes dropdown after selecting
             btn2.addEventListener('click', () => {
-                chargerMatiere(matiere);
-                closeMobileMatieres();
+                loadSubject(subject);
+                closeMobileSubjects();
             });
             li2.appendChild(btn2);
             menuMobile.appendChild(li2);
@@ -71,14 +71,14 @@ export function renderMenuMatieres() {
 }
 
 // Affiche des boutons pour choisir la taille du quiz (5 / 10 / 20)
-export function renderQuizSizeOptions(matiere) {
+export function renderQuizSizeOptions(subject) {
     const quizContainer = document.getElementById('quiz-container');
     if (!quizContainer) return;
     quizContainer.innerHTML = '';
 
     const wrap = document.createElement('div');
     wrap.className = 'box has-text-centered';
-    wrap.innerHTML = `<p class="subtitle">Choisissez la taille du quiz pour <strong>${matiere}</strong> :</p>`;
+    wrap.innerHTML = `<p class="subtitle">Choisissez la taille du quiz pour <strong>${subject}</strong> :</p>`;
 
     const sizes = [5, 10, 20];
     const btnGroup = document.createElement('div');
@@ -88,7 +88,7 @@ export function renderQuizSizeOptions(matiere) {
         const b = document.createElement('button');
         b.className = 'button is-custom';
         b.textContent = `${n} questions`;
-        b.addEventListener('click', () => demarrerQuiz(matiere, n));
+        b.addEventListener('click', () => startQuiz(subject, n));
         btnGroup.appendChild(b);
     });
 
@@ -96,7 +96,7 @@ export function renderQuizSizeOptions(matiere) {
     quizContainer.appendChild(wrap);
 }
 
-export function afficherSection(sectionId) {
+export function showSection(sectionId) {
     document.getElementById('section-cours').classList.add('is-hidden');
     document.getElementById('section-quiz').classList.add('is-hidden');
     document.getElementById('section-' + sectionId).classList.remove('is-hidden');
@@ -108,28 +108,28 @@ export function afficherSection(sectionId) {
     if (sectionId === 'quiz') {
         const quizNotif = document.querySelector('#section-quiz .notification');
         const quizContainer = document.getElementById('quiz-container');
-        if (!store.currentMatiere) {
+        if (!store.currentSubject) {
             if (quizNotif) quizNotif.style.display = '';
             if (quizContainer) quizContainer.innerHTML = '';
             return;
         }
         if (quizNotif) quizNotif.style.display = 'none';
         // Proposer le choix du nombre de questions avant de démarrer
-        renderQuizSizeOptions(store.currentMatiere);
+        renderQuizSizeOptions(store.currentSubject);
         return;
     }
 
     if (sectionId === 'cours') {
-        if (store.currentMatiere) {
-            afficherCours(store.currentMatiere);
+        if (store.currentSubject) {
+            showLessons(store.currentSubject);
         }
     }
 }
 
-export function chargerMatiere(matiere) {
-    store.currentMatiere = matiere;
+export function loadSubject(subject) {
+    store.currentSubject = subject;
     const titre = document.getElementById('titre-matiere');
-    if (titre) titre.textContent = matiere;
+    if (titre) titre.textContent = subject;
 
     const liQuiz = document.getElementById('li-btn-quiz');
     const isQuizActive = liQuiz && liQuiz.classList.contains('is-active');
@@ -137,11 +137,11 @@ export function chargerMatiere(matiere) {
     if (isQuizActive) {
         const quizNotif = document.querySelector('#section-quiz .notification');
         if (quizNotif) quizNotif.style.display = 'none';
-        afficherSection('quiz');
-        renderQuizSizeOptions(matiere);
+        showSection('quiz');
+        renderQuizSizeOptions(subject);
     } else {
-        afficherCours(matiere);
-        afficherSection('cours');
+        showLessons(subject);
+        showSection('cours');
     }
 
     const buttons = document.querySelectorAll('#menu-matieres button');
@@ -154,7 +154,7 @@ export function chargerMatiere(matiere) {
         btn.classList.remove('is-link');
     });
 
-    const activeBtn = document.querySelector(`button[data-matiere="${matiere}"]`);
+    const activeBtn = document.querySelector(`button[data-matiere="${subject}"]`);
     if (activeBtn) {
         activeBtn.classList.remove('is-light');
         if (!activeBtn.classList.contains('is-custom')) activeBtn.classList.add('is-custom');
@@ -163,11 +163,11 @@ export function chargerMatiere(matiere) {
     }
 }
 
-export function deselectMatiere() {
-    store.currentMatiere = null;
+export function deselectSubject() {
+    store.currentSubject = null;
     const titre = document.getElementById('titre-matiere');
     if (titre) titre.textContent = 'Bienvenue ! Choisissez une matière.';
-    updateMascotteImage('welcome.png');
+    updateMascotImage('welcome.png');
 
     const coursSection = document.getElementById('section-cours');
     if (coursSection) {
@@ -193,12 +193,12 @@ export function deselectMatiere() {
     if (liQuiz) liQuiz.classList.remove('is-active');
 }
 
-export function afficherCours(matiere) {
-    const coursData = (store.appData[matiere] && store.appData[matiere].notions) || [];
+export function showLessons(subject) {
+    const lessons = (store.appData[subject] && store.appData[subject].notions) || [];
     const coursContainer = document.getElementById('section-cours');
     coursContainer.innerHTML = '';
 
-    const shuffled = coursData.slice();
+    const shuffled = lessons.slice();
     for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];

@@ -6,13 +6,13 @@ export function parseContentMarkup(text) {
     return withBold.replace(/\n/g, '<br>');
 }
 
-export function updateMascotteImage(filename) {
+export function updateMascotImage(filename) {
     const img = document.getElementById('mascotte-img');
     if (!img) return;
     img.src = `data/mascotte/${filename}`;
 }
 
-export function getEmojiForMatiere(matiere) {
+export function getEmojiForSubject(subject) {
     // Normalise le nom (supprime accents, espaces, tirets, et met en minuscule)
     function normalizeName(s) {
         if (!s) return '';
@@ -23,13 +23,13 @@ export function getEmojiForMatiere(matiere) {
             .toLowerCase();
     }
 
-    const norm = normalizeName(matiere);
+    const norm = normalizeName(subject);
 
     // Si l'objet de matière contient une propriété `emoji`, l'utiliser.
     try {
         if (store && store.appData) {
             // Tentative de correspondance exacte
-            if (store.appData[matiere] && store.appData[matiere].emoji) return store.appData[matiere].emoji;
+            if (store.appData[subject] && store.appData[subject].emoji) return store.appData[subject].emoji;
 
             // Cherche une clé normalisée dans appData
             for (const key of Object.keys(store.appData)) {
@@ -47,7 +47,7 @@ export function getEmojiForMatiere(matiere) {
     return '';
 }
 
-export function initJSConfettiIfAvailable() {
+export function initJSConfetti() {
     try {
         if (typeof JSConfetti !== 'undefined') {
             store.jsConfetti = new JSConfetti();

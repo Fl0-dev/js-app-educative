@@ -1,6 +1,6 @@
 import { store } from './store.js';
-import { initJSConfettiIfAvailable } from './utils.js';
-import { renderMenuMatieres, deselectMatiere, afficherSection, toggleMobileMatieres, closeMobileMatieres } from './ui.js';
+import { initJSConfetti } from './utils.js';
+import { renderSubjectMenu, deselectSubject, showSection, toggleMobileSubjects, closeMobileSubjects } from './ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Chargement des matières : nouvelle méthode (index + fichiers par matière).
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 assembled[item.name] = Object.assign({}, item.data, (item.emoji ? { emoji: item.emoji } : {}));
             });
             store.appData = assembled;
-            renderMenuMatieres();
+            renderSubjectMenu();
         })
         .catch(() => {
             // Fallback : charger l'ancien fichier monolithique
@@ -36,24 +36,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 .then(data => {
                     store.appData = data;
-                    renderMenuMatieres();
+                    renderSubjectMenu();
                 });
         })
         .then(() => {
 
             const heroTitle = document.getElementById('hero-title');
-            if (heroTitle) heroTitle.addEventListener('click', deselectMatiere);
+            if (heroTitle) heroTitle.addEventListener('click', deselectSubject);
 
-            initJSConfettiIfAvailable();
+            initJSConfetti();
 
             // Exposer la fonction d'affichage pour les handlers inline dans HTML
-            window.afficherSection = afficherSection;
+            window.showSection = showSection;
 
             // Lier le bouton dropdown mobile et l'overlay
             const mobileBtn = document.getElementById('mobile-matieres-btn');
             const mobileOverlay = document.getElementById('mobile-matieres-overlay');
-            if (mobileBtn) mobileBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleMobileMatieres(); });
-            if (mobileOverlay) mobileOverlay.addEventListener('click', () => { closeMobileMatieres(); });
+            if (mobileBtn) mobileBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleMobileSubjects(); });
+            if (mobileOverlay) mobileOverlay.addEventListener('click', () => { closeMobileSubjects(); });
 
             // Fermer le dropdown si l'utilisateur clique ailleurs (au cas où overlay n'est pas utilisé)
             document.addEventListener('click', (e) => {
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const btn = document.getElementById('mobile-matieres-btn');
                 if (!dd || !btn) return;
                 if (!dd.contains(e.target) && !btn.contains(e.target)) {
-                    closeMobileMatieres();
+                    closeMobileSubjects();
                 }
             });
 
