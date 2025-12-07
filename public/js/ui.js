@@ -46,7 +46,8 @@ export function renderMenuMatieres() {
         const li = document.createElement('li');
         const btn = document.createElement('button');
         btn.className = 'button is-custom is-light is-fullwidth mb-2';
-        btn.textContent = `${getEmojiForMatiere(matiere)} ${matiere}`;
+        const emoji = (store.appData[matiere] && store.appData[matiere].emoji) ? store.appData[matiere].emoji : getEmojiForMatiere(matiere);
+        btn.textContent = `${emoji} ${matiere}`;
         btn.setAttribute('data-matiere', matiere);
         btn.addEventListener('click', () => {
             chargerMatiere(matiere);

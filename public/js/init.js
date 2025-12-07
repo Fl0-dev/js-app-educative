@@ -11,16 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(index => {
-            // index est un tableau d'objets { name, file }
+            // index est un tableau d'objets { name, file, emoji }
             const fetches = index.map(entry => fetch('data/' + entry.file)
                 .then(r => { if (!r.ok) throw new Error('Impossible de charger ' + entry.file); return r.json(); })
-                .then(data => ({ name: entry.name, data }))
+                .then(data => ({ name: entry.name, data, emoji: entry.emoji }))
             );
             return Promise.all(fetches);
         })
         .then(arr => {
             const assembled = {};
-            arr.forEach(item => { assembled[item.name] = item.data; });
+            arr.forEach(item => {
+                // Merge the emoji from the index entry (if any) into the loaded data
+                assembled[item.name] = Object.assign({}, item.data, (item.emoji ? { emoji: item.emoji } : {}));
+            });
             store.appData = assembled;
             renderMenuMatieres();
         })

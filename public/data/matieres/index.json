@@ -1,50 +1,62 @@
 [
   {
     "name": "Maths",
-    "file": "matieres/Maths.json"
+    "file": "matieres/Maths.json",
+    "emoji": "🔢"
   },
   {
     "name": "Français",
-    "file": "matieres/Français.json"
+    "file": "matieres/Français.json",
+    "emoji": "🥖"
   },
   {
     "name": "Anglais",
-    "file": "matieres/Anglais.json"
+    "file": "matieres/Anglais.json",
+    "emoji": "💂"
   },
   {
     "name": "Histoire",
-    "file": "matieres/Histoire.json"
+    "file": "matieres/Histoire.json",
+    "emoji": "📜"
   },
   {
     "name": "Géographie",
-    "file": "matieres/Géographie.json"
+    "file": "matieres/Géographie.json",
+    "emoji": "🌍"
   },
   {
     "name": "SVT",
-    "file": "matieres/SVT.json"
+    "file": "matieres/SVT.json",
+    "emoji": "🌱"
   },
   {
     "name": "Physique-Chimie",
-    "file": "matieres/Physique-Chimie.json"
+    "file": "matieres/Physique-Chimie.json",
+    "emoji": "⚗️"
   },
   {
     "name": "Technologie",
-    "file": "matieres/Technologie.json"
+    "file": "matieres/Technologie.json",
+    "emoji": "🛠️"
   },
   {
     "name": "Espagnol",
-    "file": "matieres/Espagnol.json"
+    "file": "matieres/Espagnol.json",
+    "emoji": "🌮"
   },
   {
     "name": "Informatique",
-    "file": "matieres/Informatique.json"
+    "file": "matieres/Informatique.json",
+    "emoji": "💻"
   },
   {
     "name": "Gossip Girl",
-    "file": "matieres/Gossip.json"
+    "file": "matieres/Gossip.json",
+    "emoji": "📰"
   },
   {
     "name": "Gymnastique",
-    "file": "matieres/Gym.json"
+    "file": "matieres/Gym.json",
+    "emoji": "🤸‍♀️"
   }
 ]

@@ -13,21 +13,38 @@ export function updateMascotteImage(filename) {
 }
 
 export function getEmojiForMatiere(matiere) {
-    const map = {
-        'Maths': '🔢',
-        'Français': '🥖',
-        'Anglais': '💂',
-        'Histoire': '📜',
-        'Géographie': '🌍',
-        'SVT': '🌱',
-        'Physique-Chimie': '⚗️',
-        'Technologie': '🛠️',
-        'Espagnol': '🌮',
-        'Informatique': '💻',
-        'Gossip Girl': '📰',
-        'Gymnastique': '🤸‍♀️'
-    };
-    return map[matiere] || '';
+    // Normalise le nom (supprime accents, espaces, tirets, et met en minuscule)
+    function normalizeName(s) {
+        if (!s) return '';
+        return s
+            .normalize('NFD')
+            .replace(/\p{Diacritic}/gu, '')
+            .replace(/[^a-z0-9]/gi, '')
+            .toLowerCase();
+    }
+
+    const norm = normalizeName(matiere);
+
+    // Si l'objet de matière contient une propriété `emoji`, l'utiliser.
+    try {
+        if (store && store.appData) {
+            // Tentative de correspondance exacte
+            if (store.appData[matiere] && store.appData[matiere].emoji) return store.appData[matiere].emoji;
+
+            // Cherche une clé normalisée dans appData
+            for (const key of Object.keys(store.appData)) {
+                if (normalizeName(key) === norm) {
+                    if (store.appData[key] && store.appData[key].emoji) return store.appData[key].emoji;
+                    break;
+                }
+            }
+        }
+    } catch (e) {
+        // noop
+    }
+
+    // Plus de fallback statique : retourner chaîne vide si aucun emoji n'est trouvé.
+    return '';
 }
 
 export function initJSConfettiIfAvailable() {
