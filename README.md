@@ -2,6 +2,17 @@
 
 Cette application Web simple, développée en JavaScript Vanilla et servie par Node.js (Express), est conteneurisée à l'aide de Docker. Elle permet de consulter des cours et de faire des quiz pour plusieurs matières de niveau 5ème.
 
+## Fonctionnalités
+
+- Consultation de cours pour plusieurs matières de niveau 5ème.
+- Réalisation de quiz interactifs pour tester les connaissances.
+- Interface utilisateur simple et intuitive.
+- Conteneurisation avec Docker pour un déploiement facile.
+- Support du rechargement à chaud en mode développement.
+- Gestion des matières via un index JSON pour une meilleure modularité.
+- Utilisation de Bulma pour un design responsive et moderne.
+- Intégration d'une mascotte interactive pour une expérience utilisateur ludique.
+
 ## 🐳 Prérequis
 
 Assurez-vous d'avoir les outils suivants installés sur votre système (Windows avec WSL ou Linux) :
