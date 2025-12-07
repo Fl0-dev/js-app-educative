@@ -2,23 +2,23 @@
   "notions": [
     {
       "titre": "Les Fractions Irréductibles",
-      "contenu": "Une **fraction irréductible** est une fraction que l'on ne peut plus simplifier. Pour la rendre irréductible, on divise le numérateur et le dénominateur par leur **Plus Grand Commun Diviseur (PGCD)**.\n\nExemple : $\\frac{12}{18}$. Le PGCD de 12 et 18 est 6. $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$. $\\frac{2}{3}$ est irréductible."
+      "contenu": "Une **fraction irréductible** est une fraction que l'on ne peut plus simplifier. Pour la rendre irréductible, on divise le numérateur et le dénominateur par leur **Plus Grand Commun Diviseur (PGCD)**.\n\nExemple : 12/18. Le PGCD de 12 et 18 est 6. 12 ÷ 6 / 18 ÷ 6 = 2/3. 2/3 est irréductible."
     },
     {
       "titre": "Calculer des pourcentages",
-      "contenu": "Pour calculer $x$ % d'une quantité, on multiplie la quantité par $\\frac{x}{100}$.\n\nExemple : $10\\%$ de $80$ euros = $80 \\times \\frac{10}{100} = 8$ euros."
+      "contenu": "Pour calculer x % d'une quantité, on multiplie la quantité par 1/100.\n\nExemple : 10% de 80 euros = 80 * 10/100 = 8 euros."
     },
     {
       "titre": "Aires et Périmètres",
-      "contenu": "L'**aire** est la surface occupée ($m^2$). Le **périmètre** est la longueur du contour ($m$). \n\nAire Rectangle : L × l. Périmètre Rectangle : 2 × (L + l). \nAire Disque : $\\pi \\times R^2$. Périmètre (circonférence) Disque : $2 \\times \\pi \\times R$."
+      "contenu": "L'**aire** est la surface occupée (m). Le **périmètre** est la longueur du contour (m). \nAire Rectangle : L × l. \nPérimètre Rectangle : 2 × (L + l). \nAire Disque : π * R². Périmètre (circonférence) Disque : 2 * π * R."
     },
     {
       "titre": "Additionner des Nombres Relatifs",
-      "contenu": "Pour additionner deux nombres relatifs :\n- S'ils ont le **même signe**, on additionne les distances à zéro et on garde leur signe commun.\n- S'ils ont des **signes différents**, on soustrait les distances et on prend le signe du nombre qui a la plus grande distance à zéro.\nEx : $(-5) + (+2) = -3$."
+      "contenu": "Pour additionner deux nombres relatifs :\n- S'ils ont le **même signe**, on additionne les distances à zéro et on garde leur signe commun.\n- S'ils ont des **signes différents**, on soustrait les distances et on prend le signe du nombre qui a la plus grande distance à zéro.\nEx : (-5) + (+2) = -3."
     },
     {
       "titre": "Soustraire des Nombres Relatifs",
-      "contenu": "Soustraire un nombre relatif revient à **ajouter son opposé**.\n\n$A - B = A + (-B)$.\n\nEx : $(+7) - (-3)$ devient $(+7) + (+3) = 10$. Et $(-4) - (+5)$ devient $(-4) + (-5) = -9$."
+      "contenu": "Soustraire un nombre relatif revient à **ajouter son opposé**.\n\nA - B = A + (-B).\n\nEx : (+7) - (-3) devient (+7) + (+3) = 10. Et (-4) - (+5) devient (-4) + (-5) = -9."
     },
     {
       "titre": "Les nombres relatifs",
@@ -223,24 +223,24 @@
   ],
   "quiz": [
     {
-      "question": "Quelle est la fraction irréductible de $\\frac{15}{20}$ ?",
+      "question": "Quelle est la fraction irréductible de 15/20 ?",
       "options": [
-        "$\\frac{5}{10}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{2}$"
+        "5/10",
+        "3/4",
+        "1/2"
       ],
-      "reponse": "$\\frac{3}{4}$",
-      "explication": "On divise numérateur et dénominateur par leur PGCD (5) : $15\\div5 = 3$ et $20\\div5 = 4$ → $\\frac{3}{4}$."
+      "reponse": "3/4",
+      "explication": "On divise numérateur et dénominateur par leur PGCD (5) : 15/5 = 3 et 20/5 = 4 → 3/4."
     },
     {
-      "question": "Combien font $50\\%$ de $60$ ?",
+      "question": "Combien font 50% de 60 ?",
       "options": [
         "10",
         "30",
         "50"
       ],
       "reponse": "30",
-      "explication": "$50%$ signifie la moitié : $60 \\times 0.5 = 30$."
+      "explication": "50% signifie la moitié : 60 * 0.5 = 30."
     },
     {
       "question": "Quelle est l'aire d'un carré de côté 4 cm ?",
@@ -251,20 +251,20 @@
         "4 cm²"
       ],
       "reponse": "16 cm²",
-      "explication": "L'aire d'un carré est $côté \\times côté$. $4 \\times 4 = 16$."
+      "explication": "L'aire d'un carré est côté * côté. 4 * 4 = 16."
     },
     {
-      "question": "Calculez : $(-8) + (+3)$",
+      "question": "Calculez : (-8) + (+3)",
       "options": [
         "-11",
         "+5",
         "-5"
       ],
       "reponse": "-5",
-      "explication": "Les signes sont différents, on soustrait $(8-3=5)$ et on garde le signe de 8 (le plus grand) : $-5$."
+      "explication": "Les signes sont différents, on soustrait (8-3=5) et on garde le signe de 8 (le plus grand) : -5."
     },
     {
-      "question": "Calculez : $(+4) - (-6)$",
+      "question": "Calculez : (+4) - (-6)",
       "options": [
         "-2",
         "+2",
@@ -272,16 +272,16 @@
         "-10"
       ],
       "reponse": "+10",
-      "explication": "Soustraire $(-6)$ revient à ajouter $(+6)$. $4+6 = 10$."
+      "explication": "Soustraire (-6) revient à ajouter (+6). 4+6 = 10."
     },
     {
-      "question": "Quel est l'opposé de $-12,5$ ?",
+      "question": "Quel est l'opposé de -12,5 ?",
       "options": [
-        "$12,5$",
-        "$12$",
-        "$-12,5$"
+        "12,5",
+        "12",
+        "-12,5"
       ],
-      "reponse": "$12,5$",
+      "reponse": "12,5",
       "explication": "L'opposé d'un nombre est le même nombre avec le signe inversé."
     },
     {
