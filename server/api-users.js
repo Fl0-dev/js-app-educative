@@ -48,12 +48,12 @@ router.post('/register', async (req, res) => {
     try {
         const { username, password } = req.body || {};
         if (!username || !password) return res.status(400).json({ error: 'username and password required' });
-        if (typeof username !== 'string' || username.length < 3) return res.status(400).json({ error: 'username too short' });
-        if (typeof password !== 'string' || password.length < 6) return res.status(400).json({ error: 'password too short' });
+        if (typeof username !== 'string' || username.length < 3) return res.status(400).json({ error: 'Ton nom est trop court' });
+        if (typeof password !== 'string' || password.length < 6) return res.status(400).json({ error: 'Ton mot de passe est trop court' });
 
         const usersData = await readUsers();
         const exists = await findUserByUsername(usersData, username);
-        if (exists) return res.status(409).json({ error: 'username exists' });
+        if (exists) return res.status(409).json({ error: "Ce nom existe déjà" });
 
         const id = (crypto.randomUUID && crypto.randomUUID()) || crypto.randomBytes(16).toString('hex');
         const passwordHash = await bcrypt.hash(password, BCRYPT_ROUNDS);
