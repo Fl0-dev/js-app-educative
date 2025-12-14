@@ -20,7 +20,10 @@
                 <div id="auth-area" style="right:20px; top:18px;">
                     <button id="btn-login" class="button is-custom">Se connecter</button>
                     <button id="btn-register" class="button is-light">S'inscrire</button>
-                    <button id="btn-logout" class="button is-custom" style="display:none;">Déconnexion</button>
+                    <button id="btn-profile" class="button is-light"
+                        style="display:none; margin-left:6px;">Profil</button>
+                    <button id="btn-logout" class="button is-custom"
+                        style="display:none; margin-left:6px;">Déconnexion</button>
 
                     <div id="auth-form-wrapper"
                         style="display:none; margin-top:8px; background:rgba(255,255,255,0.95); padding:10px; border-radius:6px;">
@@ -55,6 +58,35 @@
                             </div>
                             <p id="auth-msg" style="margin:0; font-size:0.9em;"></p>
                         </form>
+                    </div>
+                </div>
+                <!-- Profile modal (Bulma) -->
+                <div id="profile-modal" class="modal">
+                    <div class="modal-background" id="profile-modal-bg"></div>
+                    <div class="modal-card">
+                        <header class="modal-card-head">
+                            <p class="modal-card-title">Bilan Utilisateur</p>
+                            <button class="delete" aria-label="close" id="profile-modal-close"></button>
+                        </header>
+                        <section class="modal-card-body">
+                            <div id="profile-content">
+                                <h3 id="profile-name" class="title is-4"></h3>
+                                <p id="profile-general" class="subtitle is-6"></p>
+
+                                <div class="box">
+                                    <h4 class="title is-6">Résultats par matière</h4>
+                                    <ul id="profile-totals"></ul>
+                                </div>
+
+                                <div class="box">
+                                    <h4 class="title is-6">5 derniers quiz</h4>
+                                    <div id="profile-results"></div>
+                                </div>
+                            </div>
+                        </section>
+                        <footer class="modal-card-foot">
+                            <button class="button" id="profile-modal-close-2">Fermer</button>
+                        </footer>
                     </div>
                 </div>
             </div>

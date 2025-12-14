@@ -44,6 +44,7 @@ export function updateAuthUI() {
     const userSpan = document.getElementById('auth-user');
     const btnLogin = document.getElementById('btn-login');
     const btnRegister = document.getElementById('btn-register');
+    const btnProfile = document.getElementById('btn-profile');
     const btnLogout = document.getElementById('btn-logout');
     const formWrapper = document.getElementById('auth-form-wrapper');
 
@@ -51,12 +52,14 @@ export function updateAuthUI() {
         if (userSpan) userSpan.textContent = store.currentUser.username;
         if (btnLogin) btnLogin.style.display = 'none';
         if (btnRegister) btnRegister.style.display = 'none';
+        if (btnProfile) btnProfile.style.display = '';
         if (btnLogout) btnLogout.style.display = '';
         if (formWrapper) formWrapper.style.display = 'none';
     } else {
         if (userSpan) userSpan.textContent = '';
         if (btnLogin) btnLogin.style.display = '';
         if (btnRegister) btnRegister.style.display = '';
+        if (btnProfile) btnProfile.style.display = 'none';
         if (btnLogout) btnLogout.style.display = 'none';
     }
 
@@ -95,6 +98,8 @@ export function initAuthUI() {
 
     if (btnLogin) btnLogin.addEventListener('click', () => toggleForm('login'));
     if (btnRegister) btnRegister.addEventListener('click', () => toggleForm('register'));
+    const btnProfile = document.getElementById('btn-profile');
+    if (btnProfile) btnProfile.addEventListener('click', () => showProfileModal());
     if (btnLogout) btnLogout.addEventListener('click', () => logout());
 
     if (form) {
@@ -175,6 +180,90 @@ export function initAuthUI() {
         });
     } else {
         updateAuthUI();
+    }
+}
+
+// Render profile modal: fetch /api/me and /api/results and populate modal
+export async function showProfileModal() {
+    const modal = document.getElementById('profile-modal');
+    const modalBg = document.getElementById('profile-modal-bg');
+    const modalClose = document.getElementById('profile-modal-close');
+    const modalClose2 = document.getElementById('profile-modal-close-2');
+    if (!modal) return;
+    // helper to hide
+    function hide() { modal.classList.remove('is-active'); }
+    function show() { modal.classList.add('is-active'); }
+
+    // Attach close handlers
+    if (modalBg) modalBg.addEventListener('click', hide, { once: true });
+    if (modalClose) modalClose.addEventListener('click', hide, { once: true });
+    if (modalClose2) modalClose2.addEventListener('click', hide, { once: true });
+
+    // Clear previous
+    const nameEl = document.getElementById('profile-name');
+    const generalEl = document.getElementById('profile-general');
+    const totalsEl = document.getElementById('profile-totals');
+    const resultsEl = document.getElementById('profile-results');
+    if (nameEl) nameEl.textContent = '';
+    if (generalEl) generalEl.textContent = '';
+    if (totalsEl) totalsEl.innerHTML = '';
+    if (resultsEl) resultsEl.innerHTML = '';
+
+    // Fetch profile and results
+    try {
+        const headers = authHeaders();
+        const meResp = await fetch('/api/me', { headers });
+        if (meResp.status === 401) { logout(); return; }
+        const me = await meResp.json();
+        const resultsResp = await fetch('/api/results', { headers });
+        const resultsJson = resultsResp.ok ? await resultsResp.json() : { results: [] };
+
+        const user = me.user || {};
+        if (nameEl) nameEl.textContent = user.username ? `Bienvenue, ${user.username}` : 'Bienvenue';
+
+        // general score computed from totals
+        const totals = user.totals || {};
+        let totalCorrect = 0, totalQuestions = 0;
+        for (const subj of Object.keys(totals)) {
+            const t = totals[subj];
+            totalCorrect += (t.correct || 0);
+            totalQuestions += (t.questions || 0);
+        }
+        if (generalEl) generalEl.textContent = `Score général : ${totalCorrect} / ${totalQuestions}`;
+
+        // per-subject list
+        if (totalsEl) {
+            if (Object.keys(totals).length === 0) {
+                totalsEl.innerHTML = '<li>Aucun résultat par matière.</li>';
+            } else {
+                for (const subj of Object.keys(totals)) {
+                    const t = totals[subj];
+                    const li = document.createElement('li');
+                    li.textContent = `${subj} : ${t.correct || 0} / ${t.questions || 0}`;
+                    totalsEl.appendChild(li);
+                }
+            }
+        }
+
+        // last 5 quizzes
+        const lastResults = (resultsJson.results || []).slice().reverse();
+        if (resultsEl) {
+            if (lastResults.length === 0) {
+                resultsEl.innerHTML = '<div>Aucun quiz enregistré.</div>';
+            } else {
+                lastResults.forEach(r => {
+                    const wrap = document.createElement('div');
+                    wrap.className = 'box';
+                    const d = new Date(r.date).toLocaleString();
+                    wrap.innerHTML = `<strong>${r.subject}</strong> — ${r.score} / ${r.total} (${r.size} questions) — <em>${d}</em>`;
+                    resultsEl.appendChild(wrap);
+                });
+            }
+        }
+
+        show();
+    } catch (e) {
+        console.error('profile fetch error', e);
     }
 }
 

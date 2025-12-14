@@ -113,7 +113,8 @@ router.get('/me', authMiddleware, async (req, res) => {
         const usersData = await readUsers();
         const user = usersData.users.find(u => u.id === req.user.id);
         if (!user) return res.status(404).json({ error: 'not found' });
-        return res.status(200).json({ user: { id: user.id, username: user.username } });
+        // include totals (aggregates per subject) to help the client render a profile summary
+        return res.status(200).json({ user: { id: user.id, username: user.username, totals: user.totals || {} } });
     } catch (e) {
         console.error('me error', e);
         return res.status(500).json({ error: 'internal' });
