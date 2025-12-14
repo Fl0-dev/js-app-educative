@@ -15,7 +15,48 @@
     <header class="hero is-success is-bold">
         <div class="hero-body">
             <div class="container">
-                <h1 id="hero-title" class="title is-4 is-bold has-text-white">🧠 Mon Coach 5ème</h1>
+                <h1 id="hero-title" class="title is-4 is-bold has-text-white">🧠 Mon Coach 5ème ou Gérard pour les
+                    intimes</h1>
+                <div id="auth-area" style="right:20px; top:18px;">
+                    <button id="btn-login" class="button is-custom">Se connecter</button>
+                    <button id="btn-register" class="button is-light">S'inscrire</button>
+                    <button id="btn-logout" class="button is-custom" style="display:none;">Déconnexion</button>
+
+                    <div id="auth-form-wrapper"
+                        style="display:none; margin-top:8px; background:rgba(255,255,255,0.95); padding:10px; border-radius:6px;">
+                        <div id="auth-form-title" class="subtitle is-6">Se connecter</div>
+                        <form id="auth-form">
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input id="auth-username" class="input" type="text" placeholder="Nom d'utilisateur"
+                                        required />
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input id="auth-password" class="input" type="password" placeholder="Mot de passe"
+                                        required />
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <button id="auth-form-submit" data-mode="login"
+                                        class="button is-primary">Connexion</button>
+                                </div>
+                                <div class="control">
+                                    <button type="button" id="auth-form-cancel" class="button">Annuler</button>
+                                </div>
+                            </div>
+                            <p id="auth-msg" style="margin:0; font-size:0.9em;"></p>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

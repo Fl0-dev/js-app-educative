@@ -1,6 +1,7 @@
 import { store } from './store.js';
 import { initJSConfetti } from './utils.js';
 import { renderSubjectMenu, deselectSubject, showSection, toggleMobileSubjects, closeMobileSubjects } from './ui.js';
+import { initAuthUI } from './auth.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Chargement des matières : nouvelle méthode (index + fichiers par matière).
@@ -45,6 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (heroTitle) heroTitle.addEventListener('click', deselectSubject);
 
             initJSConfetti();
+
+            // Initialiser l'UI d'authentification (login/register)
+            try { initAuthUI(); } catch (e) { console.warn('Auth UI init failed', e); }
 
             // Exposer la fonction d'affichage pour les handlers inline dans HTML
             window.showSection = showSection;

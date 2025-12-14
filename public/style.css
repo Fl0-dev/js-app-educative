@@ -307,3 +307,11 @@ button, .button {
 
     
 }
+
+    /* --- Auth area --- */
+    /* Limite la largeur de la zone d'auth (boutons + formulaire) pour éviter
+       qu'elle n'occupe toute la ligne. Utilise `fit-content` pour s'adapter
+       au contenu intrinsèque. */
+    #auth-area {
+        max-width: fit-content;
+    }
