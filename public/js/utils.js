@@ -57,3 +57,19 @@ export function initJSConfetti() {
         store.jsConfetti = null;
     }
 }
+
+export function formatFrenchDate(iso) {
+    try {
+        const d = new Date(iso);
+        if (isNaN(d)) return iso;
+        const day = d.getDate();
+        const month = d.toLocaleString('fr-FR', { month: 'long' });
+        const monthCap = month.charAt(0).toUpperCase() + month.slice(1);
+        const year = d.getFullYear();
+        const hh = String(d.getHours()).padStart(2, '0');
+        const mm = String(d.getMinutes()).padStart(2, '0');
+        return `${day} ${monthCap} ${year} à ${hh}h${mm}`;
+    } catch (e) {
+        return iso;
+    }
+}

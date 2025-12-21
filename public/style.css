@@ -308,10 +308,73 @@ button, .button {
     
 }
 
+/* Règles spécifiques pour petits écrans (smartphones) */
+@media (max-width: 600px) {
+    /* Rendre le hero moins haut et moins aéré */
+    .hero .hero-body {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+
+    /* Titres : titre principal de la matière plus compact */
+    #titre-matiere {
+        font-size: 1.25rem; /* environ 20px */
+        line-height: 1.15;
+        margin-bottom: 0.4rem;
+    }
+
+    /* Réduire la taille des boutons d'auth et des boutons génériques pour gagner de l'espace */
+    #auth-area .button,
+    .button,
+    .mobile-matieres-btn {
+        font-size: 0.85rem;
+        padding: 6px 8px;
+        border-radius: 6px;
+    }
+
+    /* Mascotte : légèrement agrandie sur mobile pour meilleure lisibilité */
+    figure.image.is-128x128 {
+        width: 96px;
+        height: 96px;
+        margin: -8px;
+    }
+    #mascotte-img {
+        width: 96px;
+        height: 96px;
+        object-fit: contain;
+        transform: none; /* neutraliser le translateX sur petits écrans */
+    }
+
+    /* Réduire l'espacement des onglets pour éviter les retours à la ligne */
+    .tabs.is-toggle ul li a {
+        padding: 6px 8px;
+        font-size: 0.92rem;
+    }
+
+    /* Ajustements pour le dropdown mobile afin qu'il n'empiète pas */
+    .mobile-matieres-dropdown {
+        top: calc(var(--header-height, 120px) + 4px);
+        width: min(96vw, 320px);
+    }
+
+    /* Notion cards: texte et padding réduits pour meilleure lisibilité sur petits écrans */
+    .notion-card {
+        padding: 20px;
+    }
+
+    .notion-card p,
+    .notion-card .content,
+    .notion-card h4 {
+        font-size: 16px;
+        line-height: 1.50;
+    }
+}
+
     /* --- Auth area --- */
     /* Limite la largeur de la zone d'auth (boutons + formulaire) pour éviter
        qu'elle n'occupe toute la ligne. Utilise `fit-content` pour s'adapter
        au contenu intrinsèque. */
     #auth-area {
         max-width: fit-content;
+        margin-bottom: 10px;
     }

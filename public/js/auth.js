@@ -1,4 +1,5 @@
 import { store } from './store.js';
+import { formatFrenchDate } from './utils.js';
 
 // Minimal client-side auth helper: register, login, logout, init UI
 const API_BASE = '/api';
@@ -183,6 +184,8 @@ export function initAuthUI() {
     }
 }
 
+// date formatting is provided by `utils.formatFrenchDate`
+
 // Render profile modal: fetch /api/me and /api/results and populate modal
 export async function showProfileModal() {
     const modal = document.getElementById('profile-modal');
@@ -254,8 +257,11 @@ export async function showProfileModal() {
                 lastResults.forEach(r => {
                     const wrap = document.createElement('div');
                     wrap.className = 'box';
-                    const d = new Date(r.date).toLocaleString();
-                    wrap.innerHTML = `<strong>${r.subject}</strong> — ${r.score} / ${r.total} (${r.size} questions) — <em>${d}</em>`;
+                    const d = formatFrenchDate(r.date);
+                    wrap.innerHTML = `
+                        <div><strong>${r.subject}</strong> — ${r.score} / ${r.total} (${r.size} questions)</div>
+                        <div class="has-text-grey is-size-7"><em>${d}</em></div>
+                    `;
                     resultsEl.appendChild(wrap);
                 });
             }
