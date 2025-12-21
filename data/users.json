@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "22cc8b64-6428-456d-b04a-9194d3757344",
+      "username": "Florian",
+      "passwordHash": "$2b$10$g37VoHFDtGJ2G/CBpsMP9eoOmY0PZ3aB.9UcbuEgx2Eb5TeShEFYC",
+      "createdAt": "2025-12-14T12:22:47.031Z",
+      "results": [
+        {
+          "id": "ac3ed948-01cc-4eb1-b527-8729d3b8510f",
+          "subject": "Français",
+          "date": "2025-12-14T12:23:16.014Z",
+          "score": 4,
+          "total": 5,
+          "size": 5
+        },
+        {
+          "id": "fc96ad3d-62ef-4c36-8ed7-aaaa50b13aea",
+          "subject": "Français",
+          "date": "2025-12-14T12:23:54.398Z",
+          "score": 4,
+          "total": 5,
+          "size": 5
+        }
+      ],
+      "totals": {
+        "Français": {
+          "correct": 8,
+          "questions": 10
+        }
+      }
+    }
+  ]
+}

@@ -209,7 +209,7 @@ export function showLessons(subject) {
         notionCard.className = 'notion-card box block';
         const contenuHTML = parseContentMarkup(notion.contenu);
         notionCard.innerHTML = `
-            <h3 class="title is-4">${notion.titre}</h3>
+            <h3 class="title is-6">${notion.titre}</h3>
             <p>${contenuHTML}</p>
         `;
         coursContainer.appendChild(notionCard);

@@ -9,3 +9,8 @@ export const store = {
     // Taille du dernier quiz lancé (5, 10, 20, ...). Permet de recommencer avec la même taille.
     lastQuizSize: null
 };
+
+// Auth state (client-side)
+store.authToken = null;
+store.currentUser = null;
+

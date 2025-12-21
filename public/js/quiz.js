@@ -1,5 +1,6 @@
 import { store } from './store.js';
 import { parseContentMarkup, updateMascotImage } from './utils.js';
+import { authHeaders, logout } from './auth.js';
 
 // Quiz: startQuiz, showQuestion, checkAnswer, showResults
 export function startQuiz(subject, size = null) {
@@ -172,6 +173,29 @@ export function showResults(subject) {
         finalImg = 'dommage.png';
     }
     updateMascotImage(finalImg);
+
+    // Attempt to persist the result to the server if the user is logged in
+    (async function persistResult() {
+        try {
+            const questionsCount = questions.length;
+            const headers = Object.assign({ 'Content-Type': 'application/json' }, authHeaders());
+            if (!headers.Authorization) return; // not logged in
+
+            const body = JSON.stringify({ subject, score: store.score, total: questionsCount, size: store.lastQuizSize || questionsCount });
+            const resp = await fetch('/api/results', { method: 'POST', headers, body });
+            if (resp.status === 401) {
+                // token invalid -> logout client
+                try { logout(); } catch (e) { console.warn('logout failed', e); }
+                return;
+            }
+            if (!resp.ok) {
+                const err = await resp.json().catch(() => ({}));
+                console.warn('Failed to save result:', resp.status, err);
+            }
+        } catch (e) {
+            console.warn('Error saving result:', e);
+        }
+    })();
 
     try {
         if (store.jsConfetti && typeof store.jsConfetti.addConfetti === 'function') {
