@@ -37,22 +37,6 @@ export function showQuestion(subject, index) {
 
     updateMascotImage('welcome.png');
 
-    if (index >= questions.length) {
-        quizContainer.innerHTML = `
-            <div class="notification is-primary has-text-centered">
-                <h2 class="title is-4">🎉 Quiz Terminé ! 🎉</h2>
-                <p class="subtitle is-5">Votre score final pour ${subject} est : <strong>${store.score} / ${questions.length}</strong>.</p>
-            </div>
-        `;
-        // add restart button separately so we can attach listener
-        const btn = document.createElement('button');
-        btn.className = 'button is-custom is-large mt-3';
-        btn.textContent = 'Recommencer le Quiz';
-        btn.addEventListener('click', () => startQuiz(subject, store.lastQuizSize || undefined));
-        quizContainer.querySelector('.notification').appendChild(btn);
-        return;
-    }
-
     const question = questions[index];
     const card = document.createElement('div');
     card.className = 'question-card box';

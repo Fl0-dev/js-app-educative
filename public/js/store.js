@@ -7,10 +7,9 @@ export const store = {
     currentQuizQuestions: [],
     jsConfetti: null,
     // Taille du dernier quiz lancé (5, 10, 20, ...). Permet de recommencer avec la même taille.
-    lastQuizSize: null
+    lastQuizSize: null,
+    // Auth state (client-side)
+    authToken: null,
+    currentUser: null,
 };
-
-// Auth state (client-side)
-store.authToken = null;
-store.currentUser = null;
 

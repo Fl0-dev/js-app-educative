@@ -257,11 +257,21 @@ export async function showProfileModal() {
                 lastResults.forEach(r => {
                     const wrap = document.createElement('div');
                     wrap.className = 'box';
-                    const d = formatFrenchDate(r.date);
-                    wrap.innerHTML = `
-                        <div><strong>${r.subject}</strong> — ${r.score} / ${r.total} (${r.size} questions)</div>
-                        <div class="has-text-grey is-size-7"><em>${d}</em></div>
-                    `;
+
+                    const line1 = document.createElement('div');
+                    const subjectStrong = document.createElement('strong');
+                    subjectStrong.textContent = r.subject;
+                    line1.appendChild(subjectStrong);
+                    line1.appendChild(document.createTextNode(` — ${r.score} / ${r.total} (${r.size} questions)`));
+
+                    const line2 = document.createElement('div');
+                    line2.className = 'has-text-grey is-size-7';
+                    const em = document.createElement('em');
+                    em.textContent = formatFrenchDate(r.date);
+                    line2.appendChild(em);
+
+                    wrap.appendChild(line1);
+                    wrap.appendChild(line2);
                     resultsEl.appendChild(wrap);
                 });
             }

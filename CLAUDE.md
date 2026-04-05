@@ -31,14 +31,16 @@ No test suite exists — manual testing via browser console.
 ### Subject data contract
 
 Each `public/data/matieres/<Subject>.json` must have:
+
 ```json
 {
   "notions": [{ "titre": "...", "contenu": "..." }],
-  "quiz":    [{ "question": "...", "options": [...], "reponse": 0, "explication": "..." }],
+  "quiz":    [{ "question": "...", "options": [...], "reponse": "texte de la bonne réponse", "explication": "..." }],
   "emoji":   "📘"
 }
 ```
-`reponse` is the 0-based index of the correct option.
+
+`reponse` est le **texte exact** d'une des options (pas un index). La comparaison dans `checkAnswer` utilise `choice === question.reponse` (égalité de chaînes).
 
 To add a subject: create the JSON file and register it in `public/data/matieres/index.json`.
 
